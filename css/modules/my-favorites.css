@@ -1,0 +1,38 @@
+.my-favorites {
+	padding-top: 10px;
+    padding-bottom: 12px;
+    background: #ffffff;
+}
+
+.my-favorites .title {
+    margin: 20px 0 15px;
+    font-family: 'StagSans-Bold';
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #2d2d2d;
+    letter-spacing: 1px;
+}
+
+.my-favorites .favorite-item {
+	line-height: 45px;
+    font-family: 'StagSans-Book';
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #2d2d2d;
+    letter-spacing: 1px;
+}
+
+.my-favorites .favorite-item:before {
+	content: "o";
+	font-family: primesport;
+	text-transform: none;
+	color: #d20000;
+	font-size: 21px;
+	line-height: 42px;
+	vertical-align: top;
+}
+
+.my-favorites .link {
+	text-decoration: none;
+	padding-left: 5px;
+}

@@ -1,0 +1,46 @@
+.log-in-alert {
+	display: none;
+	background: url('../../img/alert-icon.png') 34px 18px no-repeat;
+	background-color: #efa834;
+	padding-top: 2px;
+	padding-bottom: 1px;
+	box-sizing: border-box;
+}
+
+.log-in-alert.visible {
+	display: block;
+}
+
+.log-in-alert .title {
+	margin-bottom: 3px;
+	font-family: 'StagSans-Bold';
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #2d2d2d;
+	letter-spacing: 1px;
+	padding-left: 28px;
+	padding-right: 25px;
+}
+
+.log-in-alert .description {
+	font-family: 'StagSans-Book';
+    font-size: 12px;
+    color: #2d2d2d;
+    letter-spacing: 1px;
+    margin: 0 0 10px;
+    padding-left: 28px;
+	padding-right: 25px;
+}
+
+.log-in-alert .log-in-link,
+.log-in-alert .sign-up-link {
+    text-decoration: underline;
+    color: #2d2d2d;
+	font-family: StagSans-Book;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+
+.left-menu .create-account-link {
+    text-transform: uppercase;
+}

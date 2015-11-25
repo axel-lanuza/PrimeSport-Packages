@@ -1,0 +1,102 @@
+.tickets-section-wrapper .stadium-graphic {
+	float: right;
+}
+
+.tickets-section-wrapper .stadium-graphic .stadium {
+	display: block;
+	width: 100%;
+}
+
+.tickets-section-wrapper .stadium-graphic .sell-tickets {
+	display: inline-block;
+	border-radius: 5px;
+	line-height: 40px;
+	height: 40px;
+	padding: 0 18px;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	margin: 13px 0 0 17px;
+	box-sizing: border-box;
+	position: relative;
+	border: 0px;
+	background: #f49f15;
+	color: #fff;
+	font-family: 'StagSans-Bold';
+}
+
+.tickets-section-wrapper .tickets-section {
+	padding: 0;
+	float: left;
+}
+
+@media (max-width: 767px) {
+	.tickets-section-wrapper.expanded-table .tickets-section {
+        z-index: 2;
+    }
+
+    .tickets-section-wrapper .tickets-section {
+        float: none;
+        position: relative;
+        top: 0px;
+        -webkit-transition: 0.5s all;
+                transition: 0.5s all;
+    }
+
+    .show-full-info .tickets-section-wrapper .tickets-section,
+    .show-full-info .tickets-section-wrapper .stadium-graphic {
+        display: none;
+    }
+
+    .tickets-section-wrapper .see-more-wrapper {
+        height: 35px;
+        overflow: hidden;
+    }
+
+    .tickets-section-wrapper .see-more-tickets {
+        width: 160px;
+        height: 160px;
+        background: #3b3b3b;
+        border-radius: 50%;
+        margin: 0 auto;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .tickets-section-wrapper.expanded-table .see-more-tickets {
+        background: #024b78;
+    }
+
+    .tickets-section-wrapper.expanded-table .see-more-tickets .icon:before {
+        content: 'j';
+    }
+
+    .tickets-section-wrapper .see-more-tickets .icon:before {
+        color: #b3b3b3;
+        font-size: 18px;
+        vertical-align: middle;
+    }
+
+    .tickets-section-wrapper .stadium-graphic {
+        float: none;
+        padding-top: 10px;
+    }
+
+    .tickets-section-wrapper .stadium-graphic .see-full-size {
+        display: none;
+    }
+
+    .tickets-section-wrapper .stadium-graphic .sell-tickets {
+        display: block;
+        margin: 0 0 10px;
+    }
+
+    .tickets-section-wrapper .stadium-graphic .stadium {
+        width: auto;
+        max-height: 200px;
+        margin: 0 auto;
+    }
+
+    .tickets-section-wrapper.expanded-table .btn {
+        z-index: 2;
+    }
+}

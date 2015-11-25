@@ -1,0 +1,435 @@
+﻿/* Experience page */
+
+.experience-section {
+    position: relative;
+    min-height: 640px;
+    background-color: #000;
+    background-size: cover;
+    background-position: center center;
+}
+.experience-section-layer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    /*z-index: 0;*/
+    /* do not put z-index here. itÃ¢â‚¬â„¢ll break gallery left/right buttons */
+}
+.experience-section-copy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    min-height: 640px;
+    /* Allow large text vertically expand container */
+    padding-top: 75px;
+    padding-bottom: 60px;
+    text-align: center;
+    color: #fff;
+    /*z-index: 1;*/
+}
+.experience-section-copy > .container {
+    max-width: 840px;
+}
+.experience-section-copy p {
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.experience-section-copy h1 {
+    font-size: 58px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'GothamCondensed-Bold';
+    max-width: 600px;
+    letter-spacing: 2px;
+    margin: 0 auto;
+}
+.experience-hero-section .experience-section-copy {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.experience-hero-text {
+    padding-top: 180px;
+    /* space taken by buttons */
+}
+.experience-hero-text h1 {
+        font-size: 58px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'GothamCondensed-Bold';
+    max-width: 600px;
+    letter-spacing: 2px;
+    margin: 0 auto;
+}
+.experience-hero-controls {
+    margin-top: 126px;
+}
+.experience-hero-controls .btn {
+    width: 175px;
+    padding: 20px 0;
+    font-family: 'StagSans-Medium';
+}
+.experience-hero-controls .btn-white {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.experience-hero-controls .btn-white:hover {
+    background-color: #fff;
+}
+.experience-hero-controls .btn + .btn {
+    margin-left: 30px;
+}
+.experience-hero-gallery .container,
+.experience-hero-slider,
+.experience-hero-slide,
+.experience-hero-gallery .slick-list,
+.experience-hero-gallery .slick-track {
+    height: 100%;
+}
+.experience-hero-gallery .container {
+    /* space for next/prev arrows */
+    padding: 0 35px;
+}
+.experience-hero-gallery .slick-list {
+    overflow: visible;
+    margin: 0 -100%;
+}
+.experience-hero-slide {
+    position: relative;
+    overflow: hidden;
+}
+.experience-hero-slide:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.experience-hero-slide.slick-center:after {
+    display: none;
+}
+.experience-hero-slider .slick-arrow {
+    display: block;
+    position: absolute;
+    /* place arrows above copy layer */
+    z-index: 2;
+    top: 50%;
+    margin-top: -20px;
+    font-size: 32px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    color: white;
+}
+.experience-hero-slider .icon-primesport-left-arrow {
+    left: -35px;
+    text-align: right;
+}
+.experience-hero-slider .icon-primesport-right-arrow {
+    right: -35px;
+    text-align: left;
+}
+.experience-hero-slide > img {
+    position: absolute;
+    display: block;
+    left: -9999px;
+    right: -9999px;
+    top: -9999px;
+    bottom: -9999px;
+    margin: auto;
+    min-width: 100%;
+    min-height: 100%;
+}
+.experience-hero-section[data-mode="bg-video"] .experience-hero-gallery {
+    display: none;
+}
+.experience-hero-section[data-mode="gallery"] .experience-hero-text {
+    visibility: hidden;
+}
+.experience-hero-section[data-mode="video-play"] .experience-section-copy {
+    /* copy defines section height, do not hide it with `display: none` */
+    visibility: hidden;
+}
+.experience-hero-section[data-mode="video-play"] .experience-hero-gallery {
+    display: none;
+}
+.experience-hero-section[data-mode="video-end"] .experience-hero-text {
+    /*visibility: hidden;*/
+}
+.experience-hero-section[data-mode="video-end"] .experience-hero-gallery {
+    display: none;
+}
+.experience-section-bg-video {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.experience-section-bg-video > video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    z-index: 0;
+}
+.experience-slider-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    z-index: 0;
+    opacity: 0;
+    -webkit-transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -ms-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+    transition: opacity .5s ease-out;
+}
+.experience-gallery-slider img {
+    height: 640px;
+}
+.experience-gallery-video {
+    position: relative;
+    /*padding-bottom: 33.25%;*/
+    padding-bottom: 640px;
+    height: 0;
+    overflow: hidden;
+}
+.experience-gallery-video h1 {
+    letter-spacing: 2px;
+}
+.experience-gallery-video video {}
+.experience-gallery .cover-container {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    text-align: center;
+    margin-left: -400px;
+    margin-top: 200px;
+    width: 800px;
+    z-index: 40;
+}
+.experience-gallery .cover-container .inner {
+    opacity: 0;
+}
+.experience-gallery .cover-container p {
+    margin-top: 30px;
+    font-size: 18px;
+    color: white;
+    line-height: 30px;
+}
+.experience-gallery .buttons-block {
+    margin-top: 110px;
+}
+.experience-gallery .buttons-block .btn {
+    width: 175px;
+    padding: 20px 0;
+    margin: 0 30px;
+}
+.experience-gallery[data-mode="gallery"] .experience-slider-wrapper {
+    opacity: 1;
+    z-index: 20;
+}
+.experience-gallery[data-mode="loop-video"] .cover-container .inner,
+.experience-gallery[data-mode="pause"] .cover-container .inner {
+    opacity: 1;
+}
+
+/*  END experience*/
+
+.business-section {
+    padding: 10px 0 20px 0;
+}
+.business-section div {
+    text-align: center;
+}
+.business-section h3 {
+    margin: 40px 0 10px 0;
+}
+.business-section p {
+    margin-bottom: 40px;
+}
+.social-feed {
+    padding: 0 0 40px 0;
+}
+.social-feed h3 {
+    margin: 40px 0 20px 0;
+}
+.social-feed p {
+    margin-bottom: 25px;
+}
+.social-elements {
+    font-size: 0;
+}
+.social-elements * {
+    font-size: 14px;
+}
+.social-feed .social-item.column {
+    display: inline-block;
+    vertical-align: top;
+}
+.social-feed .social-item.column-38 {
+    width: 38%;
+}
+.social-feed .social-item.column-48 {
+    width: 48%;
+}
+.social-feed .social-item.column-58 {
+    width: 58%;
+}
+.social-feed .social-item {
+    border-radius: 15px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    position: relative;
+}
+.social-feed .social-item img.preview {
+    width: 100%;
+    height: 325px;
+    border-radius: 15px 15px 0 0;
+}
+.social-feed .social-item .content {
+    padding: 20px;
+}
+.social-feed .social-item .prime-logo {
+    float: left;
+}
+.social-feed .social-item .prime-logo img {
+    border-radius: 2px;
+}
+.social-feed .social-item .prime-logo .prime-details {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5px;
+}
+.social-feed .social-item .prime-logo .prime-details h6 {
+    margin: 0;
+    color: #024b78;
+    font-family: 'StagSans-Bold';
+}
+.social-feed .social-item .prime-logo .prime-details p {
+    margin: 10px 0 0 0;
+    color: #b3b3b3;
+    font-size: 10px;
+}
+.social-feed .social-item .options {
+    float: right;
+}
+.social-feed .social-item .options .sharing li {
+    display: inline-block;
+    margin-left: 10px;
+}
+.social-feed .social-item .options .sharing li .icon {
+    font-size: 14px;
+    color: #024b78;
+}
+.social-feed .social-item .options .date {
+    color: #b3b3b3;
+    font-size: 10px;
+    text-align: right;
+    margin: 5px 0 0 0;
+}
+.social-feed .social-item .social-icons .social-icon {
+    width: auto !important; 
+    height: auto !important;
+    margin-top: 10px;
+}
+.social-feed .social-item .icon-primesport-twitter:before,
+.social-feed .social-item .icon-primesport-facebook:before,
+.social-feed .social-item .icon-primesport-instagram:before {
+    font-size: 16px;
+    line-height: 1;
+}
+.social-feed .social-item .icon-primesport-youtube {
+    font-size: 0;
+}
+.social-feed .social-item .social-icon.youtube {
+    padding: 3px 10px 0px 10px;
+}
+.social-feed .social-item .icon-primesport-youtube:before {
+    font-size: 40px;
+    line-height: 0.6
+}
+.social-feed .social-item p.description {
+    margin: 10px 0 0 0;
+    border-top: 1px solid #e2e2e2;
+    padding-top: 10px;
+    font-size: 14px;
+}
+.social-feed .social-item p.description a {
+    color: #024b78;
+    text-decoration: underline;
+}
+.quote-gallery-section {
+    background: url("images/Experience/quote-bg.png") no-repeat;
+    background-size: cover;
+    min-height: 635px;
+}
+.quote-gallery-section .gallery-wrapper {
+    width: 100%;
+    max-width: 745px;
+    margin: 0 auto;
+    padding-top: 145px;
+    text-align: center;
+    color: #fff;
+}
+.quote-gallery-section .person {
+    width: 140px;
+    height: 140px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.quote-gallery-section p {
+    max-width: 320px;
+    text-align: center;
+    font-size: 20px;
+    margin: 50px auto 0 auto;
+    font-family: 'StagSans-Light';
+}
+.quote-gallery-section p.author {
+    text-align: center;
+    font-size: 12px;
+    margin: 30px auto 0 auto;
+    font-family: 'StagSans-Bold';
+}
+.quote-gallery-section2 {
+    background: url("../img/experience/quote-bg.png") no-repeat;
+    background-size: cover;
+    min-height: 635px;
+}
+.quote-gallery-section2 p {
+    color: white;
+}
+.slick-slide.slick-current.slick-active:focus {
+    outline: 0;
+}
+.quote-gallery-section .slick-prev,
+.quote-gallery-section .slick-next {
+    width: 25px;
+    height: 25px;
+    top: 20%;
+}
+.quote-gallery-section .slick-prev:before,
+.quote-gallery-section .slick-next:before {
+    font-family: 'primesport';
+    font-size: 25px;
+    opacity: 1;
+}
+.quote-gallery-section .slick-prev:before {
+    content: "y";
+}
+.quote-gallery-section .slick-next:before {
+    content: "G";
+}

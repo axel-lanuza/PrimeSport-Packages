@@ -1,0 +1,233 @@
+.icon-primesport-cart {
+    /*border-left: 1px solid #424242;*/
+}
+
+.nav-link.bucket {
+    /*width: 93px;*/
+}
+
+.nav-link.bucket a {
+    background: #f3f3f3;
+    color: #000;
+    padding: 0;
+    line-height: 29px;
+}
+
+.nav-link.bucket:hover,
+.nav-link.bucket a:hover {
+  background: #024b78;
+  color: #fff;
+}
+
+.ec-cart-modal-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 110%;
+    width: 100%;
+    background: rgba(191, 191, 191, 0.8);
+    background-position: 0 145px;
+    z-index: 10;
+    display: none;
+    cursor: pointer;
+}
+
+.ec-cart-modal {
+    position: relative;
+    float: right;
+    width: 289px;
+    background-color: #fff;
+    text-align: center;
+    cursor: default;
+}
+
+.ec-cart-modal.full {
+    width: 466px;
+}
+
+.ec-cart-quantity {
+    height: 60px;
+    line-height: 60px;
+    background-color: #e8e8e8;
+}
+
+.ec-cart-quantity.full {
+    background-color: #1b6999;
+    color: #fff;
+}
+
+.ec-cart-quantity p {
+    font-family: 'StagSans-Book';
+    font-size: 14px;
+    text-transform: uppercase;
+    height: 60px;
+    line-height: 60px;
+}
+
+.ec-cart-quantity .ec-item-count {
+    font-family: 'StagSans-Bold';
+    margin-right: 3px;
+}
+
+.ec-cart-empty {
+  margin: 38px 0 25px 0;
+}
+
+.ec-cart-empty p:first-child {
+  font-family: 'StagSans-Bold';
+}
+
+.ec-cart-shop-ctas {
+  margin-top: 25px;
+}
+
+.ec-cart-empty .btn {
+    width: 205px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto 24px auto;
+    padding: 0;
+    font-size: 11px;
+}
+
+.ec-cart-full {
+  text-align: left;
+}
+
+.ec-cart-item {
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  border-bottom: 1px solid #ececec;
+}
+
+
+.ec-cart-item-details {
+  padding: 21px 0 20px 17px;
+  width: 339px;
+  background: #f6f6f6;
+}
+
+.ec-cart-item-details .ec-ticket {
+  font-family: 'StagSans-Bold';
+  font-size: 14px;
+}
+
+.ec-cart-item-details .ec-addition {
+  font-family: 'primesport';
+  font-size: 19px;
+  margin: 0 10px;
+}
+
+.ec-cart-item .ec-date {
+  font-family: 'StagSans-Medium';
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+.ec-ticket-location,
+.ec-quantity-price {
+  overflow: hidden;
+  width: 100%;
+  font-family: 'StagSans-Book';
+}
+
+.ec-ticket-location li,
+.ec-quantity-price li {
+  display: inline;
+  float: left;
+}
+
+.ec-ticket-location .ec-ticket-section,
+.ec-quantity-price .ec-ticket-quantity {
+  width: 55%!important;
+}
+
+.ec-cart-item-price {
+  position: relative;
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  flex-grow: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  justify-content: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  font-size: 14px;
+}
+
+
+.ec-cart-subtotal {
+  height: 62px;
+  line-height: 62px;
+  text-align: right;
+  font-family: "StagSans-Medium";
+  font-size: 12px;
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+
+.ec-subtotal-text {
+  width: 339px;
+  padding-right: 20px;
+  font-size: 12px;
+}
+
+.ec-subtotal-numbers {
+display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  font-family: "StagSans-Bold";
+  font-size: 14px;
+  flex-grow: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  justify-content: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+}
+
+.ec-cart-item-price .ec-cents,
+.subtotal-numbers .ec-cents {
+  font-size: 12px;
+}
+
+.ec-cart-actions {
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  justify-content: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  height: 92px;
+  background: #fbfbfb;
+  border-top: 1px solid #ececec;
+}
+
+.ec-cart-actions .btn {
+  width: 206px;
+}

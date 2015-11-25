@@ -1,0 +1,109 @@
+.form-field {
+	background: #f6f6f6;
+	padding: 10px 0;
+	box-sizing: border-box;
+}
+
+.form-field .title-section {
+	border-bottom: 1px solid #b3b3b3;
+	padding-left: 15px;
+}
+
+.form-field .decription-section {
+	margin-top: 20px;
+}
+
+.form-field .decription-section p {
+	margin-bottom: 0;
+	font-family: 'StagSans-Book';
+	font-size: 12px;
+	letter-spacing: 0.04em;
+	line-height: 22px;
+}
+
+.form-field .title {
+	font-family: 'StagSans-Bold';
+	color: #2d2d2d;
+	font-size: 20px;
+	letter-spacing: 0.5px;
+}
+
+.form-field .title-section .button {
+	margin-top: 26px;
+}
+
+.form-field .button {
+	text-transform: uppercase;
+	line-height: 12px;
+	font-size: 12px;
+	font-family: 'StagSans-Medium';
+	cursor: pointer;
+}
+
+.form-field .button.edit-btn {
+	padding: 0;
+	border: 0;
+	box-shadow: none;
+}
+
+.form-field .button:after {
+	content: '';
+	display: inline-block;
+	vertical-align: text-bottom;
+	width: 12px;
+	height: 12px;
+	margin-left: 9px;
+}
+
+.form-field .button.save {
+	color: #195b84;
+}
+
+.form-field .button.save:after {
+	background: url(../../img/save-btn.png) no-repeat;
+}
+
+.form-field .button.edit {
+	color: #7f7f7f;
+
+}
+
+.form-field .button.edit.blue {
+	color: #043b5c;
+}
+
+.form-field .button.edit.blue:after {
+	background: url(../../img/edit-blue-btn.png) no-repeat;
+}
+
+
+.form-field .button.edit:after {
+	background: url(../../img/edit-btn.png) no-repeat;
+}
+
+.form-field .button.edit-btn:after {
+	background: url(../../img/edit-blue-btn.png) no-repeat;
+}
+
+@media (max-width: 767px) {
+	.form-field {
+		margin-bottom: 0px;
+	}
+
+	.form-field-content {
+		padding: 0 15px;
+	}
+
+	.form-field .title-section {
+		padding-left: 0;
+	}
+
+	.prime-form .field-text.password {
+		padding: 0;
+		border: 0;
+		margin: 0;
+	}
+	.form-field .title {
+		font-size: 16px;
+	}
+}

@@ -1,0 +1,93 @@
+.accordion {
+	margin-bottom: 20px;
+}
+
+.accordion .panel {
+	background: none;
+	margin-bottom: 0;
+	border-radius: 0;
+	border: none;
+	border-bottom: 1px solid #b3b3b3;
+}
+.accordion .panel:first-child {
+	border-top: 1px solid #b3b3b3;
+}
+
+.accordion .panel-body {
+	padding: 15px 50px 15px 15px;
+}
+.accordion .panel-body p {
+	font-size: 15px;
+	line-height: 1.2em;
+}
+.accordion .panel-title {
+	font-size: 12px;
+	text-transform: uppercase;
+}
+.accordion .panel-heading {
+	padding: 20px 15px
+}
+.accordion .panel-heading a {
+	position: relative;
+	display: block;
+	font-size: 15px;
+	line-height: 1.2em;
+	outline: none;
+}
+
+.accordion .panel-heading a:after {
+	display: inline-block;
+	position: absolute;
+	content: "+";
+	right: 10px;
+	font-size: 20px;
+	font-family: 'Times new Roman';
+	font-weight: 900;
+}
+
+
+.accordion .panel-heading a:not(.collapsed):after {
+	content: '–';
+}
+
+@media (max-width: 767px) {
+	.accordion .panel-heading a:after {
+		color: #fff;
+	}
+
+	.accordion .panel-body .panel-heading a:after {
+		color: #5d5e60;
+	}
+	.accordion {
+		margin-bottom: 0px;
+	}
+
+	.accordion {
+		margin-bottom: -1px;
+	}
+
+	.accordion .panel-title {
+		font-size: 10px;
+	}
+
+	.accordion .panel-heading {
+		padding: 10px 0px;
+	}
+
+	.accordion .panel-heading a {
+		font-size: 12px;
+		padding: 0 20px 0 5px;
+	}
+
+	.accordion .panel-body p {
+		font-size: 13px;
+	}
+
+	.accordion .panel-body {
+		padding: 0;
+	}
+
+	.accordion .panel-body .table-title {
+		margin-top: 0;
+	}
+}

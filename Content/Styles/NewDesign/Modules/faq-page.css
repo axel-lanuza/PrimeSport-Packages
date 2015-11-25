@@ -1,0 +1,15 @@
+.faq-page .info-section p {
+    margin-bottom: 18px;
+}
+
+.faq-page .tabs-wrapper {
+    padding-top: 13px;
+}
+
+.faq-page .tabs-wrapper .page-title .title {
+    font-size: 14px;
+}
+
+.faq-page .tabs-wrapper .accordion {
+    margin-bottom: 0;
+}

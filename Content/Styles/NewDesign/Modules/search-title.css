@@ -1,0 +1,14 @@
+.search-title {
+	font-size: 16px;
+    color: rgb(63, 63, 63);
+    line-height: 1.693;
+    text-align: left;
+    width: 100%;
+    padding: 10px 0px;
+    margin: 0 0 10px;
+}
+
+.search-title .bold {
+    font-family: 'StagSans-Bold';
+    font-size: 14px;
+}

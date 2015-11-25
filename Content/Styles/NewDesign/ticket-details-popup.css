@@ -1,0 +1,20 @@
+#ticket-details-popup {
+    border: 1px solid #ababab;
+    min-height: 200px;
+    -webkit-box-shadow: 9px 7px 20px -6px rgba(0, 0, 0, 0.33);
+    -moz-box-shadow: 9px 7px 20px -6px rgba(0, 0, 0, 0.33);
+    box-shadow: 9px 7px 20px -6px rgba(0, 0, 0, 0.33);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#ticket-details-popup .title{
+    color: #3f3f3f;
+    font-size: 20px;
+    font-family: 'StagSans-Bold';
+    margin-top: 15px;
+}
+#ticket-details-popup hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+

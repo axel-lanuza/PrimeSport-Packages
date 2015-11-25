@@ -1,0 +1,23 @@
+.small-select {
+    border: 0px;
+    height: 23px;
+    max-width: none;
+    width: 47px;
+}
+.small-select * {
+    font: normal 12px/25px 'StagSans-Bold';
+}
+.small-select .xdsoft_selector {
+    border: 1px solid #7f7f7f;
+    border-radius: 4px;
+    line-height: 25px;
+    height: 25px;
+    padding-right: 25px;
+}
+.small-select .xdsoft_selector:before {
+    content: none;
+}
+.small-select .xdsoft_chooser .xdsoft_item {
+    height: 23px;
+    line-height: 23px;
+}

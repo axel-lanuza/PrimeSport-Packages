@@ -1,0 +1,82 @@
+.search-results-list {
+    display:block;
+    height:auto;
+    width:100%;
+    padding-top:10px;
+}
+
+.search-results-list .result-row {
+    display:block;
+    height:auto;
+    width:100%;
+    padding: 10px 0 9px;
+    overflow:hidden;
+}
+
+.search-results-list .result-row .text-all-width {
+    float:left;
+    text-align:left;
+    color: rgb(127, 127, 127);
+    font-size:15px;
+    letter-spacing: 0.5px;
+    padding:0px 5px;
+    margin-bottom: 0px;
+}
+
+.search-results-list .result-row .get-tickets-column {
+    width:16%;
+    text-align:right;
+    color: rgb(2, 75, 120);
+    text-transform: uppercase;
+    min-width:115px;
+    font-family: 'StagSans-Medium';
+}
+.search-results-list .result-row .get-tickets-column span{
+    font-family: 'StagSans-Medium';
+    font-size:11px;
+}
+
+.search-results-list .result-row .time-column {
+    min-height:1px;
+    width:10%;
+}
+
+.search-results-list .result-row .place-column {
+    width:25%;
+}
+
+.search-results-list .result-row .name-column {
+    width:34%;
+    color: #2d2d2d;
+    font-family: 'StagSans-Bold';
+}
+
+.search-results-list .result-row .name-column .subTitle {
+    color:rgb(127, 127, 127);
+    font-family: 'StagSans-Medium';
+    display:block;
+}
+
+.search-results-list .result-row .date-column {
+    width:15%;
+}
+
+@media (max-width: 768px) {
+    .search-results-list .result-row {
+        border-bottom:2px solid #cccccc;
+        margin-top:5px;
+        padding: 6px 0 10px;
+    }
+
+    .search-results-list .result-row .text-all-width {
+        width:100%;
+        clear:both;
+        text-align:left;
+        font-size:16px;
+        padding: 7px 0;
+    }
+
+    .search-results-list .result-row .name-column {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,70 @@
+.alerts {
+	margin: 20px 0;
+    padding:10px;
+    border:2px solid transparent;
+    border-radius:5px;
+}
+
+.alerts .message {
+	font-family: 'StagSans-Book';
+	font-size: 13px;
+	letter-spacing: 0.5px;
+	line-height: 17px;
+	margin-bottom: 5px;
+}
+
+.alerts .message:before {
+	content: '';
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	margin-right: 9px;
+	vertical-align: text-bottom;
+}
+
+.alerts .success {
+	color: #50ab38;
+}
+
+.alerts .message:before {
+	background: url(/Content/Styles/NewDesign/images/success-icon.png);
+}
+
+.alerts .warn {
+	color: #f49f15;
+}
+
+.alerts .warn:before {
+	background: url(/Content/Styles/NewDesign/images/warn-icon.png);
+}
+
+.alerts .error {
+	color: #ff0000;
+}
+
+.alerts .error:before {
+	background: url(/Content/Styles/NewDesign/images/error-icon.png);
+}
+
+@media (max-width: 767px) {
+	.alerts .error,
+	.alerts .warn,
+	.alerts .success {
+		padding-left: 25px;
+		position: relative;
+	}
+
+	.alerts .message:before {
+		position: absolute;
+		left: 0;
+	}
+}
+
+.loginAlertMessage {
+    color: #ff0000;
+    font-family: 'StagSans-Book';
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    line-height: 17px;
+    margin-bottom: 5px;
+}

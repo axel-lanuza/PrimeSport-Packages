@@ -1,0 +1,200 @@
+﻿/* About Us Page */
+.about-hero {
+    min-height: 500px;
+    background: url('images/hero.jpg') 0 0 no-repeat;
+    background-size: cover;
+    color: white;
+}
+.hero-content {
+    padding-top: 116px;
+    text-align: center;
+}
+.hero-content h1 {
+    font-size: 58px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'GothamCondensed-Bold';
+    max-width: 600px;
+    letter-spacing: 2px;
+    margin: 0 auto;
+}
+.hero-content p {
+    max-width: 440px;
+    font-family: 'StagSans-Book';
+    margin: 0 auto;
+    margin-top: 25px;
+    font-size: 18px;
+}
+.hero-content p:last-child {
+    max-width: 330px;
+}
+.about-partners {
+    color: #3f3f3f;
+}
+.about-partners h3 {
+    margin-bottom: 22px;
+}
+.about-partners p {
+    font-family: 'StagSans-Book';
+    line-height: 20px;
+}
+.partners-list {
+     padding: 0;
+    text-align: center;
+    margin: 0 0 10px;
+}
+.partners-list li {
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 25px 0;
+}
+.partners-list .partner-img-container {
+
+}
+.partners-list .partner-img-container img {
+    max-width: 120px;
+    width: 100%;
+    /*min-height: 100%;*/
+    height: auto;
+}
+.about-quote, .about-employee-quotes {
+    background-color: #fff;
+    text-align: center;
+    padding: 43px 0 20px;
+}
+.about-quote h3, .about-employee-quotes h3 {
+    font-family: 'StagSans-Light';
+    line-height: 28px;
+    max-width: 640px;
+    color: #656565;
+    margin: 0 auto 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.about-quote h5, .about-employee-quotes h5 {
+    font-family: 'StagSans-Bold';
+    font-size: 12px;
+}
+
+.about-tiles {
+    padding: 55px 0 35px;
+}
+.about-tiles ul {
+    text-align: center;
+}
+.about-tiles div {
+    text-align: center;
+}
+.tiles-list li {
+    vertical-align: top;
+    width: 33.33333%;
+    display: inline-block;
+}
+.list-tile-container h4 {
+    text-transform: none;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.list-tile-container p {
+    max-width: 240px;
+    text-align: center;
+    margin: 20px auto;
+    font-size: 13px;
+}
+
+.list-tile-container img {
+    border-radius: 5px;
+    width: 180px;
+    height: 180px;
+}
+.about-company-info {
+    padding: 15px 0 30px;
+}
+.about-company-info h3 {
+    margin: 55px 0 15px;
+}
+.about-company-info p {
+    line-height: 20px;
+    padding: 15px 0;
+    font-size: 14px;
+}
+.information-list {
+    text-align: center;
+    padding-top: 15px;
+}
+.information-list li {
+    vertical-align: top;
+    width: 33.2%;
+    display: inline-block;
+}
+.information-list-container {
+    margin: 60px 0 0;
+}
+.information-list-container h4 {
+    font-family: 'StagSans-Medium';
+    text-transform: none;
+    font-size: 16px;
+    margin: 15px auto;
+}
+.information-list-container .mobile-only {
+    display: none;
+}
+.information-list-container .icon {
+    font-size: 52px;
+    color: #024b78;
+}
+.information-list-container p {
+    max-width: 240px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 13px;
+    line-height: 20px;
+}
+.information-list-container .btn {
+    margin: 30px 0;
+    /*padding: 13px 13px;*/
+}
+
+.partner-description
+{
+    line-height: 20px;
+    padding: 15px 0;
+    font-size: 14px;
+}
+.partner-description a
+{
+    color: #024b78;
+}
+
+.partner-description a:hover
+{
+    color: #31708f;
+    text-decoration: underline;
+}
+
+.about-quote a
+{
+    color: #024b78;
+}
+
+.about-quote a:hover
+{
+    color: #31708f;
+    text-decoration: underline;
+}
+
+@media (max-width: 767px)
+{
+    .partners-list li
+    {
+        width: 33.3333%;
+        padding: 15px 0;
+    }
+
+    .tiles-list li
+    {
+        width: 100%;
+    }
+}

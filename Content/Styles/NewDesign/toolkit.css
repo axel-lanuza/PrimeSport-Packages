@@ -1,0 +1,1556 @@
+﻿
+/* CENTRAL CONTENT */
+.central-content-t2 section{
+	padding-left:52px;
+	clear:both;
+}
+.central-content-t2 h3{
+	letter-spacing:0.7px;
+}
+.central-content .bg-grey::before {
+	top: 0;
+}
+/* END CENTRAL CONTENT */
+
+.t2-r1 h3{
+	margin-bottom: 12px;
+}
+.t2-r1 > p {
+	line-height: 22px;
+    font-size: 14px;
+}
+.t2-s3 > h3 {
+	float: left;
+	width: 100%;
+	margin-top:43px;
+	position:relative;
+}
+.padding-left-6{
+	padding-left:6px !important;
+}
+.padding-right-6{
+	padding-right:6px !important;
+}
+.t2-r4 .car2-title ,
+.t2-r5 .car2-title {
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom:18px;
+}
+.t2-r5 {
+	padding-top:40px;
+	padding-bottom:46px;
+}
+.t2-r4 {
+	padding-top: 29px;
+}
+
+/*======simple-card======*/
+.t2-r6 .simple-card {
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 38px;
+}
+.t2-r6 .simple-card.margin-t-16{
+	margin-top:3px;
+	margin-bottom:36px;
+}
+
+.t2-r6 .simple-card {
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 39px;
+	padding: 24px 22px 20px 28px;
+}
+.t2-r6 .simple-card-p0 .car2-title {
+	margin:0 0 7px;
+}
+.t2-r6 .simple-card .row .image-center {
+	padding-top: 9%;
+}
+.t2-r6 .simple-card p {
+	margin-bottom:13px;
+}
+.t2-r6 .simple-card-p0 p {
+	margin-bottom:9px;
+}
+.t2-r6 .simple-card.simple-card-p0{
+	padding: 26px 22px 22px 140px;
+	position: relative;
+	width: 304px;
+}
+.simple-card.simple-card-p0 img {
+	height: auto;
+	left: 22px;
+	max-width: 92px;
+	position: absolute;
+	top: 49px;
+}
+/*======END simple-card=======*/
+
+.t2-r6 .car2-title {
+	font-size: 17px;
+	margin: 0 0 11px;
+	position: relative;
+}
+
+.t2-r7 .prime-sports-list2 {
+	padding-top: 44px;
+}
+.sublist .title-sublist {
+	font-family: "StagSans-Bold";
+	font-size: 14px;
+	margin-bottom: 5px;
+    margin-top: 0px;
+}
+.sublist li {
+	padding: 0;
+}
+.t2-r7 .prime-sports-list2 li.opened{
+	border-bottom:0;
+}
+.sublist {
+	margin-bottom: 0px;
+	margin-top: -2px;
+	padding-bottom: 10px;
+}
+.sublist .link-blue {
+	color: #024b78 ;
+	float: right;
+}
+
+.t2-r7 .panel-group .panel {
+	border-radius: 0;
+	border-style: none none none;
+	border-width: 0 0 0;
+	box-shadow: none;
+	background:none;
+	margin:0;
+}
+.t2-r7 .panel-group .panel-heading {
+
+}
+.t2-r7 .panel-group .panel-heading {
+	border-color: #b3b3b3;
+	border-radius: 0;
+	border-style: none none solid;
+	border-width: 0 0 1px;
+	position:relative;
+	padding:0;
+	box-shadow:none;
+	background-color:rgba(0,0,0,0);
+	background-color:transparent;
+}
+.t2-r7 .panel-title a {
+	display: block;
+	padding:16px 10px 14px;
+	position:relative;
+	text-transform:uppercase;
+	z-index:1;
+	color:#2d2d2d;
+	font-size:14px;
+}
+.t2-r7 .panel-body {
+	border-bottom:1px solid #b3b3b3;
+}
+.t2-r7 .panel-default > .panel-heading + .panel-collapse > .panel-body {
+	border-top:none !important;
+}
+.t2-r7 .panel-title .indicator {
+	background-image: url("/Content/Styles/NewDesign/images/icon-expand.png");
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 12px;
+	margin-top: -6px;
+	position: absolute;
+	right: 11px;
+	top: 50%;
+	width: 12px;
+	background-position:center center;
+	right:10px;
+}
+.t2-r7 .panel-title .indicator:before,
+.t2-r7 .panel-title .indicator:after{
+	display:none;
+}
+.t2-r7 .panel-body{
+	padding:0;
+}
+.t2-r7 .panel-title .indicator.minus-icon  {
+	background-image: url("/Content/Styles/NewDesign/images/icon-minus.png");
+}
+.t2-r7  .panel-group {
+	border-top: 1px solid #b3b3b3;
+	margin: 46px 0 40px;
+}
+.sublist li:hover {
+	background-color: #f0f0f0;
+}
+.sublist .title-sublist a:hover  {
+	color: #024b78;
+}
+.mobile-slider-content2{
+	display:none;
+}
+.btn-more > a {
+	border: 1px solid #024b78;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+
+	color: #024b78;
+	display: inline-block;
+	font-size: 24px;
+	line-height: 68px;
+	height:68px;
+	text-align: center;
+	width: 100%;
+	text-transform:uppercase;
+	font-family:'StagSans-Medium';
+}
+.btn-more {
+	margin-bottom: 45px;
+	margin-top: 7px;
+	float:left;
+	width:100%;
+}
+
+.arrow-blue {
+	padding-right: 11px;
+	background-image: url("/Content/Styles/NewDesign/images/icon-arrow-blue.png");
+	background-position: right 3px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	font-family: "StagSans-Medium";
+	text-transform: uppercase;
+	background-size: 6px 9px;
+	font-size:12px;
+}
+.accordian-content {
+	display: inline-block;
+	padding: 22px 9px 7px 170px;
+	position: relative;
+	width: 100%;
+}
+.accordian-content img{
+	position:absolute;
+	left:10px;
+	top:16px;
+	max-width:103px;
+}
+.accordian-text {
+	width: 60%;
+	float: left;
+}
+.accordian-text p {
+	letter-spacing:0.6px;
+}
+.accordian-text span {
+	display:block;
+}
+.accordian-text span.date span {
+	display:inline-block;
+	position:relative;
+	padding-right:12px;
+	margin-right:9px;
+}
+.accordian-text span.date span:after {
+	content:'';
+	position:absolute;
+	height:10px;
+	width:1px;
+	background-color:#2d2d2d;
+	right:0px;
+	top:2px;
+}
+.btn.btn-white:hover .fa-heart{
+	color:#d20000;
+}
+.disabled-icon{
+	display:none;
+}
+.btn.btn-white:hover .fa-heart-o{
+	display:none;
+}
+.btn.btn-white:hover .disabled-icon{
+	display:inline;
+}
+.btn-more {
+	display: none;
+}
+.accordian-content img.max-heightcntrl {
+	left: 24px;
+	max-width: 77px;
+}
+
+
+
+/*****************************************
+			post_seasons style
+					&
+			Regular Season Events
+*****************************************/
+.post_seasons ul {
+	max-width:596px;
+	width:100%;
+	padding:0 34px;
+	margin-bottom:8px;
+	display:inline-block;
+}
+.post_seasons li {
+	background-color:#fff;
+	font-size:20px;
+	color:#7f7f7f;
+	line-height:30px;
+	letter-spacing:0.4px;
+	font-family:'StagSans-Medium';
+	margin-bottom:40px;
+}
+.post_seasons li .post_thumbnail {
+	position:relative;
+}
+.post_seasons li .post_thumbnail a.img-responsive  {
+	display:block;
+}
+.post_seasons li .post_thumbnail a > img{
+	width:100%;
+	max-width:100%;
+}
+.post_seasons li .top_row {
+	border-bottom: 2px solid #f0f0f0;
+	padding-bottom:16px;
+	margin-bottom:14px;
+}
+.post_seasons li .post_body {
+	padding:16px 25px 45px;
+}
+.post_seasons li .post_body,
+.post_seasons li .top_row {
+	display:inline-block;
+	width:100%;
+}
+.post_seasons li .date,
+.post_seasons li .location {
+	float:left;
+}
+.post_seasons li .status,
+.post_seasons li .package {
+	float:right;
+}
+.post_seasons li .package {
+	background-image:url('/Content/Styles/NewDesign/images/package_arrow.png');
+	padding-right:14px;
+	background-position: right center;
+	background-repeat:no-repeat;
+}
+.post_seasons li .package:hover {
+	color:#024b78;
+	background-image:url('/Content/Styles/NewDesign/images/package_arrow_hover.png');
+}
+.post_seasons li .title{
+	font-size:30px;
+	color:#2d2d2d;
+	line-height:36px;
+	font-family:'StagSans-Bold';
+	margin-bottom:56px;
+}
+.post_seasons li .title:hover {
+	color:#024b78;
+}
+.post_seasons li .top_row .status {
+	font-family:'StagSans-Bold';
+}
+/*****************************************
+			post_seasons style
+					&
+			Regular Season Events	END
+*****************************************/
+
+
+/*=======slider-new styles=======*/
+.default-clickables.owl-theme .owl-controls .owl-dots span {
+  background: none ;
+  border: 1px solid #959595;
+  border-radius: 0;
+  height: 10px;
+  width: 10px;
+  display:inline-block;
+  margin:5px 7px;
+}
+.owl-dot{
+	display:inline-block;
+}
+.default-clickables.owl-theme .owl-controls .owl-dot.active span,
+.default-clickables.owl-theme .owl-controls .owl-dot:hover span {
+	background: #3f3f3f;
+	border-color: #3f3f3f;
+}
+.default-clickables.owl-theme .owl-controls .owl-nav .owl-prev {
+	background: url("/Content/Styles/NewDesign/images/icon-prev.png") no-repeat;
+	height: 17px;
+	left: -20px;
+	width: 11px;
+	position: absolute;
+    top: 2px;
+}
+.default-clickables.owl-theme .owl-controls .owl-nav .owl-next {
+	background: url("/Content/Styles/NewDesign/images/icon-next.png") no-repeat ;
+	height: 17px;
+	right: -20px;
+	width: 11px;
+	position: absolute;
+    top: 2px;
+}
+.event-img {
+	width:100%;
+	margin-bottom:8px;
+}
+.event-img img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 120px;
+    height: 120px;
+}
+
+.display-tc{
+	display:table-cell;
+	vertical-align:middle;
+	height:100%;
+}
+/*.event-desp h4{
+	margin:0 0 5px 0;
+	color: #3f3f3f;
+	font-size: 14px;
+	font-family: "StagSans-Bold";
+	text-transform:capitalize;
+	line-height:17px;
+	padding-right:10px;
+}
+.event-desp h4:hover {
+	color:#024878;
+}
+.event-desp p {
+	color: #3f3f3f;
+	font-family: "StagSans-Book";
+	font-size: 12px;
+	margin-bottom:5px;
+}
+.event-desp p.event-text{
+	color: #959595;
+	font-size: 11px;
+}
+*/
+.absolute-container2 .avatar-container {
+	display: inline !important;
+	height: auto !important;
+	margin: 0;
+	width: auto !important;
+}
+.absolute-container2 {
+	left: 0;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	top: 24px;
+}
+.heading-paginate-realtive {
+	margin-top: 32px;
+	padding-left: 14px;
+	position: relative;
+	margin-bottom: 36px;
+}
+.default-clickables .owl-controls {
+	position: absolute;
+	right: 20px;
+	top: -62px;
+}
+#season-events {
+	margin-bottom:40px;
+}
+#season-events .item{
+ width: 180px;
+}
+/*=======slider-new styles=======*/
+
+
+
+
+
+@media (max-width:1024px){
+    .featured-events h3 {
+    margin-bottom: 4px;
+}
+	.upcoming-events h3 {
+    	margin-left: 0px;
+        padding-left: 0px;
+	}
+	.central-content-t2 section {
+		padding-left: 42px;
+	}
+	.default-clickables .owl-controls {
+		right: 32px;
+	}
+	.t2-r1 h3 {
+		margin-bottom: 12px;
+		margin-top: 40px;
+	}
+	.central-content-t2 h3{
+		font-size:20px;
+	}
+	.default-clickables .owl-controls {
+		position: absolute;
+		right: 20px;
+		top: -62px;
+	}
+	.absolute-container {
+		top: 30%;
+	}
+
+	.seasons-event-carousel {
+		margin-top: 54px;
+	}
+	.t2-s3 .default-clickables .owl-controls {
+		top: -104px;
+	}
+	.t2-r4 .prime-sports-list1 li a {
+		padding: 12px 10px;
+		display:block;
+	}
+	/*=========Simple-card=======*/
+	.t2-r6 .simple-card {
+		padding: 24px 22px 20px 26px;
+	}
+
+	.accordian-content {
+		padding-left: 126px;
+	}
+	/*=======slider-new styles=======*/
+	.seasons-event-carousel {
+		margin-top: 35px;
+	}
+	.event-desp h4 {
+		padding-right: 32px;
+	}
+	.absolute-container2 .avatar-container {
+		height: 80% !important;
+		width: 80% !important;
+	}
+
+	/*=======slider-new styles=======*/
+
+}
+
+@media (max-width:992px) {
+.post-seasons-event-carousel .thumbnail .caption {
+	padding: 9px 13px 15px;
+}
+
+}
+
+@media (max-width:800px){
+	.central-content.central-content-t2 {
+		padding-right:15px;
+	}
+	.slide-header {
+		height:160px;
+
+	}
+
+}
+
+@media (max-width:767px){
+
+    .featured-events h3 {
+        margin-bottom: 5px;
+    }
+    div.container-card .majorcards-mobile {
+    	width: 100% !important;
+	}
+	/*.share-menu {
+		width:302px;
+		height:76px;
+		padding:17px 10px;
+	}
+	.share-menu .icon {
+		margin: 0 8px;
+	}
+	.share-menu .icon-primesport-facebook::before,
+	.share-menu .icon-primesport-twitter::before,
+	.share-menu .icon-primesport-google::before,
+	.share-menu .icon-primesport-mail::before {
+	  font-size: 15px;
+	}
+
+	*/
+
+	#season-events .item p {
+    font-size: 12px !important;
+	}
+
+	.padding-right-6 {
+	  padding-right: 15px !important;
+	}
+	.padding-left-6 {
+	  padding-left: 15px !important;
+	}
+	.central-content-t2 section {
+		padding-left: 6px;
+		padding-right: 6px;
+	}
+	.central-content-t2 section .row{
+		margin:0;
+	}
+	.central-content-t2 {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.central-content-t2 section.t2-s3 {
+		padding-left: 25px;
+		padding-right: 15px;
+	}
+	.default-clickables .owl-controls {
+		top: -61px;
+	}
+	.sublist .link-blue {
+		float: none;
+		margin-left: 10px;
+	}
+	/*=========Simple-card===========*/
+	.central-content-t2 section.t2-r6 .simple-card .row{
+		margin:0 -15px;
+	}
+	.t2-r6 .simple-card .row .image-center {
+		padding-top: 0;
+	}
+	.t2-r6 .simple-card.simple-card-p0 {
+		width: 100%;
+	}
+	.simple-card.simple-card-p0 img {
+		margin-top: -72px;
+		top: 50%;
+	}
+	/*==========END Simple-card============*/
+	.post-seasons-event-carousel {
+		margin: 0;
+		padding-left: 2px;
+	}
+	.post-seasons-event-carousel .caption .row{
+		margin:0 -15px;
+	}
+	.float-right-xs {
+		float: right;
+	}
+	.mobile-slider-content2,
+	.mobile-slider-content1{
+		display:block;
+	}
+	#season-events , #post-seasons-event{
+		/*display: none !important;*/
+	}
+
+
+	.central-content-t2 h3 {
+		font-size: 32px;
+	}
+	.t2-r1 h3 {
+		margin-bottom: 27px;
+		margin-top: 51px;
+	}
+	.t2-r1 > p {
+		line-height: 30px;
+	}
+	.central-content-t2 p{
+		font-size:20px;
+	}
+	.heading-paginate-realtive {
+		margin-bottom: 33px;
+		margin-top: 48px;
+	}
+	/*.post-seasons-event-carousel .prime-sports-card-caption-title {
+		font-size: 30px;
+	}*/
+	.t2-s3 > h3 {
+		margin-bottom: 34px;
+		margin-top: 55px;
+	}
+	.btn-more{
+		 margin-top:0;
+	}
+	.btn-more {
+		display: block;
+	}
+	.btn-more.margint-15 {
+		margin-top: 15px;
+		margin-bottom:56px;
+	}
+	.t2-r4 {
+		padding-top: 0;
+	}
+	.t2-r4 .car2-title, .t2-r5 .car2-title {
+		margin-bottom: 46px;
+		margin-top:64px;
+	}
+	.t2-r4 .prime-sports-list1 li a,
+	.t2-r5 .prime-sports-list2 li a {
+		display: block;
+		float:none;
+	}
+	.t2-r5 {
+		padding-top: 56px;
+	}
+	.t2-r4 .prime-sports-list1{
+		margin-bottom:6px;
+	}
+	.t2-r5 {
+		padding-bottom: 58px;
+		padding-top: 10px;
+	}
+	/*=========simple-card==========*/
+	.t2-r6 .simple-card {
+		margin-top: 57px;
+	}
+	.t2-r6 .simple-card {
+		padding: 42px 22px 40px 32px;
+	}
+	.t2-r6 .car2-title {
+		font-size: 32px;
+		margin: 0 0 22px;
+	}
+	.t2-r6 .simple-card > p {
+		font-size: 24px;
+		line-height: 36px;
+		margin-bottom: 32px;
+	}
+	.t2-r6 .simple-card a{
+		font-size:22px;
+	}
+	.t2-r6 .simple-card.simple-card-p0 {
+		padding: 62px 22px 62px 280px;
+	}
+	.simple-card.simple-card-p0 img {
+		max-width: inherit;
+	}
+	.t2-r6 .simple-card.simple-card-p0 > p {
+		margin-bottom: 16px;
+	}
+	/*==========simple-card============*/
+	.t2-r7 .panel-group {
+		margin: 48px 0 50px;
+	}
+	.t2-r7 .panel-title a{
+		display: block;
+		float: none;
+		font-size: 20px;
+		padding: 23px 10px;
+	}
+	.t2-r7 .panel-title .indicator,
+	.icon-expand {
+		background-image: url("/Content/Styles/NewDesign/images/icon-expand_mobile.png");
+		height: 19px;
+		width:19px;
+		margin-top: -9px;
+	}
+	.t2-r7 .panel-title .indicator.minus-icon {
+		background-image: url("/Content/Styles/NewDesign/images/icon-expand-slider.png");
+		height: 3px;
+		width:16px;
+		margin-top: -1.5px;
+		background-size:100% auto;
+	}
+	.arrow-blue {
+		background-size: auto auto;
+		padding-right: 20px;
+		font-size:18px;
+		background-position:right 5px;
+	}
+	.accordian-text {
+		float: left;
+		width: 100%;
+	}
+	.btn-blue-holder {
+		float: left;
+		text-align: left;
+	}
+	.sublist .link-blue {
+		margin-left: 0;
+	}
+	.accordian-content img {
+		max-width: 103px;
+		top:30px;
+	}
+	.accordian-content img.max-heightcntrl {
+		left: 37px;
+		max-width: inherit;
+	}
+	.accordian-content {
+		padding-left: 200px;
+		padding-top: 26px;
+	}
+	.sublist .title-sublist {
+		font-family: "StagSans-Bold";
+		font-size: 21px;
+		margin-bottom: 5px;
+	}
+	.slide-header h1 {
+		font-size:63px;
+		padding:50px 60px 60px 25px;
+	}
+	.t2-r5 .prime-sports-list2 {
+		border-bottom:1px solid #b3b3b3;
+	}
+	.accordian-content .accordian-text p {
+		line-height:24px;
+		font-size:19px;
+	}
+	.sublist p.title-sublist {
+		margin-bottom:15px;
+	}
+	.accordian-content .accordian-text .btn-blue-holder {
+		margin-top:5px;
+	}
+
+
+}
+@media (max-width:600px){
+	/*#postSeasonsEvent{
+		display: none;
+	}*/
+    /*.featured-events h3 {
+        margin-bottom: 40px;
+    }
+    .post-seasons-event-carousel,
+	.seasons-event-carousel {
+		display:none !important;
+	}
+*/
+	.owl-controls {
+		display: table-row;
+        margin-left: 252px;
+        position: relative !important;
+        right: 2px !important;
+        top: 11px !important;
+        height: 40px;
+	}
+}
+@media (max-width:580px){
+	.slide-header h1 {
+	  font-size: 54px;
+	}
+	.simple-card.simple-card-p0 img {
+		max-width: 150px;
+	}
+	.t2-r6 .simple-card.simple-card-p0 {
+		padding: 50px 22px 40px 210px;
+	}
+}
+
+@media (max-width:520px){
+
+	.central-content-t2 p {
+	  font-size: 16px;
+	  line-height: 26px;
+	}
+	.t2-r6 .car2-title {
+		font-size:26px;
+	}
+	.t2-r6 .simple-card > p,
+	.t2-r6 .simple-card a{
+		font-size: 18px;
+		line-height: 28px;
+	}
+	.accordian-content img,
+	.accordian-content img.max-heightcntrl {
+		max-width:100px;
+		left:15px;
+	}
+	.accordian-content {
+		padding-left: 150px;
+		padding-top: 26px;
+	}
+	.accordian-content .accordian-text p {
+		font-size: 16px;
+		line-height: 22px;
+	}
+	.arrow-blue {
+		background-position: right 3px;
+		font-size: 15px;
+		padding-right: 17px;
+	}
+	.sublist p.title-sublist {
+		margin-bottom: 10px;
+	}
+}
+
+@media (max-width:480px){
+
+	.slide-header h1 {
+		font-size: 40px;
+		padding: 34px 63px 60px 25px ;
+	}
+	.slide-header {
+		height: 140px;
+	}
+	.central-content-t2 h3,
+	.t2-r6 .car2-title	{
+		font-size: 26px;
+	}
+	/*=========Simple-card==========*/
+	.central-content-t2 p,
+	.t2-r6 .simple-card > p,
+	.t2-r6 .simple-card a	{
+		font-size: 18px;
+		line-height: 28px;
+	}
+	.simple-card.simple-card-p0 img {
+		max-width: 150px;
+		position: static;
+		margin:0 auto 30px;
+	}
+	.t2-r6 .simple-card.simple-card-p0 {
+		padding: 30px;
+	}
+	/*========END simple-card===========*/
+
+
+	.post_seasons ul {
+		padding:0px;
+	}
+	.post_seasons li {
+		font-size:16px;
+	}
+	.post_seasons li .title {
+		font-size: 25px;
+		line-height: 28px;
+		margin-bottom: 36px;
+	}
+	.post_seasons li .post_body {
+		padding: 16px 25px 35px;
+	}
+
+	.btn-more > a {
+		height:60px;
+		line-height:60px;
+	}
+	.t2-r4 .car2-title, .t2-r5 .car2-title {
+	  margin-bottom: 26px;
+	  margin-top: 34px;
+	}
+
+	.t2-r7 .panel-title a {
+		font-size: 17px;
+		padding: 16px 10px;
+	}
+	.t2-r7 .panel-title .indicator,
+	.icon-expand {
+		background-image: url("/Content/Styles/NewDesign/images/icon-expand.png");
+		height: 12px;
+		margin-top: -6px;
+		right: 12px;
+		width: 18px;
+	}
+	.t2-r7 .panel-title .indicator.minus-icon {
+		background-image: url("/Content/Styles/NewDesign/images/icon-minus.png");
+		height: 1px;
+		margin-top: -0.5px;
+		right: 15px;
+		width: 12px;
+	}
+
+
+}
+
+@media (max-width:414px){
+	.play-ico {
+		top: 20%;
+	}
+	.slide-header h1 {
+		font-size: 35px;
+		line-height: 38px;
+		padding: 50px 0px 00px 25px;
+	}
+	.t2-r6 .simple-card > p {
+		margin-bottom:15px;
+	}
+	.post_seasons li {
+		margin-bottom:25px;
+		font-size: 14px;
+	}
+	.post_seasons li .post_body {
+		padding: 16px 15px 25px;
+	}
+	.post_seasons li .top_row {
+		border-bottom: 2px solid #f0f0f0;
+		margin-bottom: 11px;
+		padding-bottom: 7px;
+	}
+	.post_seasons li .package {
+		background-size: 9px 12px;
+	}
+	.post_seasons li .title {
+		font-size: 22px;
+		line-height: 25px;
+		margin-bottom: 28px;
+	}
+	.btn-more > a {
+	  height: 50px;
+	  line-height: 50px;
+	  font-size:18px;
+	}
+
+	.btn-more {
+		margin-bottom:30px;
+	}
+	.t2-r1 h3 {
+		margin-bottom: 20px;
+		margin-top: 41px;
+	}
+	.t2-r7 .panel-title a {
+		padding: 15px 10px;
+	}
+
+}
+@media (max-width:384px){
+	#season-events .item h4 {
+    	font-size: 15px;
+	}
+	.post-seasons-event-carousel .prime-sports-card-caption-title {
+    	font-size: 15px;
+	}
+	.central-content-t2 h3,
+	.central-content-t2 h3, .t2-r6 .car2-title	{
+		font-size: 20px;
+	}
+	/*=========simple-card==========*/
+	.t2-r6 .simple-card {
+		padding: 30px 20px;
+	}
+	.t2-r6 .simple-card > p, .t2-r6 .simple-card a {
+	  font-size: 14px;
+	  line-height: 24px;
+	}
+	.t2-r6 .simple-card {
+		margin-top: 27px;
+	}
+	/*===========simple-card=========*/
+	.central-content-t2 p {
+	  font-size: 16px;
+	  line-height: 24px;
+	}
+	.post_seasons li {
+		font-size: 13px;
+		margin-bottom: 20px;
+	}
+	.post_seasons li .top_row {
+		border-bottom: 2px solid #f0f0f0;
+		margin-bottom: 6px;
+		padding-bottom: 3px;
+	}
+	.post_seasons li .title {
+		font-size: 19px;
+		line-height: 20px;
+		margin-bottom: 24px;
+	}
+	.post_seasons li .post_body {
+		padding: 10px 15px 15px;
+	}
+
+
+	.accordian-content {
+		padding:20px;
+	}
+	.accordian-content img {
+		position:static;
+		margin: 0 0 20px 0;
+	}
+	.accordian-content .accordian-text p {
+		font-size: 14px;
+		line-height: 22px;
+	}
+	.arrow-blue {
+		background-position: right 3px;
+		background-size:7px 12px;
+		font-size: 14px;
+		padding-right: 16px;
+	}
+	.t2-r4 .car2-title, .t2-r5 .car2-title {
+		margin-bottom: 18px;
+		margin-top: 27px;
+	}
+
+	.t2-r7 .panel-title a {
+		font-size: 14px;
+	}
+	.central-content-t2 .regular_seasons p {
+		font-size: 12px;
+	}
+}
+
+.no-padding{
+	padding: 0 !important;
+}
+
+.no-margin{
+	margin: 0 !important;
+}
+
+.no-margin-top{
+	margin-top: 0 !important;
+}
+
+.main-padding-top{
+	padding-top: 40px !important;
+}
+
+.main-padding-bottom{
+	padding-bottom: 40px !important;
+}
+
+.main-margin-top{
+	margin-top: 40px !important;
+}
+
+.main-margin-bottom{
+	margin-bottom: 40px !important;
+}
+
+.prime-sport-main-wrapper{
+	width: 100%;
+	height: 100%;
+}
+
+.prime-sport-wrapper{
+	width: 100%;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+
+.prime-sport-wrapper .prime-sport-container{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.custom-checkbox{
+	width: 100%;
+	height: 15px;
+	position: relative;
+}
+
+/* AKD */
+.popup .custom-checkbox {
+	width: auto;
+	height: auto;
+}
+
+.custom-checkbox input[type='radio']{
+	opacity: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1000;
+	display: block;
+}
+
+.custom-checkbox .checkbox{
+	display: block;
+}
+
+.prime-sports-btn-container-checkbox-label input[type=checkbox]{
+
+}
+
+.prime-sports-blue-checkbox-label  label {
+    text-transform: capitalize;
+    color: #3f3f3f;
+    padding-left: 37px;
+    position: relative;
+    cursor: pointer;
+}
+/* hide checkbox */
+
+.prime-sports-blue-checkbox-label .form-item-checkbox {
+  display: none;
+}
+/* create checkbox style with pseudo element
+   gray outline checkbox*/
+
+.prime-sports-blue-checkbox-label label:before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    border: 1px solid #b3b3b3;
+    position: absolute;
+    top: -3px;
+    left: 0;
+}
+/* checked checkbox - black outline and background image for check */
+
+.prime-sports-blue-checkbox-label input[type=checkbox].form-item-checkbox:checked + label:before{
+  border: 2px solid #FFF;
+  background: #024b78 url(/Content/Styles/images/check.png) no-repeat center center;
+}
+/*.prime-sports-blue-checkbox-label{
+	margin-bottom: 0px;
+	position: relative;
+	padding-left: 45px;
+}
+
+
+.prime-sports-blue-checkbox-label .background-element{
+	padding-left: 15px;
+	width: 15px;
+	height: 15px;
+	border: 1px solid #ccc;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+}
+
+.prime-sports-blue-checkbox-label .prime-sports-blue-checkbox{
+	margin-right: 15px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	z-index: 2000;
+}
+
+.prime-sports-blue-checkbox{
+	/*-webkit-appearance: none;
+   	-moz-appearance: none;
+   	appearance: none;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #ccc;
+}
+
+.prime-sports-blue-checkbox:checked + .background-element{
+	background: #024b78;
+}*/
+
+.prime-sports-btn-container-checkbox{
+	width: 30px;
+	height: 30px;
+	position: relative;
+	/display: inline-block;
+	float: right;
+}
+
+.prime-sports-btn-container-checkbox .prime-sports-checkbox{
+	width: 30px;
+	height: 30px;
+	display: block;
+	border: 1px solid #dedede;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 3000;
+	margin: 0px;
+	opacity: 0;
+	/*-webkit-appearance: none;
+   	-moz-appearance: none;
+   	appearance: none;*/
+}
+
+.prime-sports-btn-container-checkbox .background-element{
+	width: 29px;
+	height: 29px;
+	display: block;
+	border: 1px solid #dedede;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1000;
+}
+
+.prime-sports-btn-container-checkbox:nth-child(2){
+	width: 29px !important;
+}
+
+.prime-sports-btn-container-checkbox:nth-child(1){
+	color: #b3b3b3;
+}
+
+.prime-sports-btn-container-checkbox:nth-child(2) .background-element{
+	border-right: none !important;
+}
+
+.prime-sports-btn-container-checkbox .icon{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+	z-index: 2000;
+}
+
+.prime-sports-btn-container-checkbox .prime-sports-checkbox:checked + .icon{
+	color: #dedede;
+}
+
+.prime-sports-btn-container-checkbox .prime-sports-checkbox:checked + .icon + .background-element{
+	background: #024b78;
+}
+
+@media (max-width: 767px){
+	.main-padding-top-mobile{
+		padding-top: 40px !important;
+	}
+}
+
+@media (min-width:768px){
+	.prime-sport-wrapper{
+		width: 768px;
+		padding: 0;
+	}
+
+	.prime-sport-wrapper .prime-sport-container{
+		width: 675px;
+	}
+}
+
+@media (min-width:992px){
+	.prime-sport-wrapper{
+		width: 940px;
+		padding: 0;
+	}
+
+	.prime-sport-wrapper .prime-sport-container{
+		width: 940px;
+	}
+}
+
+@media (min-width:1200px){
+	.prime-sport-wrapper{
+		width: 1024px;
+		padding: 0;
+	}
+
+	.prime-sport-wrapper .prime-sport-container{
+		width: 940px;
+	}
+}
+
+
+.no-padding{
+	padding: 0 !important;
+}
+
+@media only screen and (min-width: 760px) {
+	.no-padding-desktop{
+		padding: 0 !important;
+	}
+}
+
+.no-margin{
+	margin: 0 !important;
+}
+
+.no-margin-top{
+	margin-top: 0 !important;
+}
+
+.main-padding-top{
+	padding-top: 40px !important;
+}
+
+.main-padding-bottom{
+	padding-bottom: 40px !important;
+}
+
+.main-margin-top{
+	margin-top: 40px !important;
+}
+
+.main-margin-bottom{
+	margin-bottom: 40px !important;
+}
+
+.prime-sport-main-wrapper{
+	width: 100%;
+	height: 100%;
+}
+
+.prime-sport-wrapper{
+	width: 100%;
+	margin: 1rem auto 0 !important;
+	padding: 0px 15px;
+}
+
+.prime-sport-wrapper .prime-sport-container{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.custom-checkbox{
+	width: 100%;
+	height: 15px;
+	position: relative;
+}
+
+.custom-checkbox input[type='radio']{
+	opacity: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1000;
+	display: block;
+}
+
+.custom-checkbox .checkbox{
+	//display: block;
+}
+
+/*.prime-sports-blue-checkbox-label{
+	margin-bottom: 0px;
+	position: relative;
+	padding-left: 45px;
+}
+
+
+.prime-sports-blue-checkbox-label .background-element{
+	padding-left: 15px;
+	width: 15px;
+	height: 15px;
+	border: 1px solid #ccc;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+}
+
+.prime-sports-blue-checkbox-label .prime-sports-blue-checkbox{
+	margin-right: 15px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	z-index: 2000;
+}
+
+.prime-sports-blue-checkbox{
+	-webkit-appearance: none;
+   	-moz-appearance: none;
+   	appearance: none;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #ccc;
+}
+
+.prime-sports-blue-checkbox:checked + .background-element{
+	background: #024b78;
+}*/
+
+.prime-sports-btn-container-checkbox{
+	width: 30px;
+	height: 30px;
+	position: relative;
+	//display: inline-block;
+	float: right;
+}
+
+.prime-sports-btn-container-checkbox .prime-sports-checkbox{
+	width: 30px;
+	height: 30px;
+	display: block;
+	border: 1px solid #dedede;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 3000;
+	margin: 0px;
+	opacity: 0;
+	/*-webkit-appearance: none;
+   	-moz-appearance: none;
+   	appearance: none;*/
+}
+
+.prime-sports-btn-container-checkbox .background-element{
+	width: 29px;
+	height: 29px;
+	display: block;
+	border: 1px solid #dedede;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1000;
+}
+
+.prime-sports-btn-container-checkbox:nth-child(2){
+	width: 29px !important;
+}
+
+.prime-sports-btn-container-checkbox:nth-child(1){
+	color: #b3b3b3;
+}
+
+.prime-sports-btn-container-checkbox:nth-child(2) .background-element{
+	border-right: none !important;
+}
+
+.prime-sports-btn-container-checkbox .icon{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+	z-index: 2000;
+}
+
+.prime-sports-btn-container-checkbox .prime-sports-checkbox:checked + .icon{
+	color: #dedede;
+}
+
+.prime-sports-btn-container-checkbox .prime-sports-checkbox:checked + .icon + .background-element{
+	background: #024b78;
+}
+
+@media (max-width: 767px){
+	.main-padding-top-mobile{
+		padding-top: 40px !important;
+	}
+}
+
+@media (min-width:768px){
+	.prime-sport-wrapper{
+		width: 768px;
+		padding: 0;
+	}
+
+	.prime-sport-wrapper .prime-sport-container{
+		width: 675px;
+	}
+}
+
+@media (min-width:992px){
+	.prime-sport-wrapper{
+		width: 940px;
+		padding: 0;
+	}
+
+	.prime-sport-wrapper .prime-sport-container{
+		width: 940px;
+	}
+}
+
+@media (min-width:1200px){
+	.prime-sport-wrapper{
+		width: 1024px;
+		padding: 0;
+	}
+
+	.prime-sport-wrapper .prime-sport-container{
+		width: 940px;
+	}
+}
+
+
+#note-popup2.small-popup{
+    max-width: 700px !important;
+}

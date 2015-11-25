@@ -1,0 +1,552 @@
+.tickets-area,
+.packages-area {
+    display: none;
+}
+.tickets-area.show,
+.packages-area.show {
+    display: block;
+}
+.event-tickets-list {
+    padding-top: 1px;
+    //margin-bottom: 20px;
+}
+
+.event-tickets-list  .separator{
+    padding: 0 53px;
+}
+
+.event-tickets-list .vertical-align-middle{
+    display: flex;
+    display:-webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -webkit-flex: flex;
+    -ms-flex: flex;
+    align-items: center;
+}
+
+.event-tickets-list .controls{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.event-tickets-list .controls .prime-sports-blue-checkbox-label{
+    margin-right: 68px;
+}
+
+.event-tickets-list .controls .prime-sports-blue-checkbox-label:nth-last-child(1){
+    margin-right: 0px;
+}
+
+.event-ticket {
+    width: 100%;
+    //background-color: white;
+    height: 175px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    vertical-align: middle;
+    //padding: 0;
+}
+
+
+.event-ticket .area{
+    background-color: #fff;
+}
+
+.event-ticket:first-child{
+    padding-top: 0px;
+}
+
+.event-ticket:last-child{
+    padding-bottom: 0px;
+}
+
+.event-ticket .area {
+    height: 100%;
+    min-height: inherit;
+    position: relative;
+}
+
+.event-ticket .date,
+.event-ticket .details,
+.event-ticket .low-area {
+    text-align: center;
+    font-family: 'StagSans-Medium';
+}
+
+.event-ticket .bold-text{
+    font-family: 'StagSans-Bold';
+    font-weight: bold;
+}
+.event-ticket .date {
+    font-size: 1em;
+    color: #7f7f7f;
+    border-right: 1px solid #f0f0f0;
+}
+
+.event-ticket .date div{
+    vertical-align: middle;
+}
+
+.event-ticket .details {
+    min-height: 110px;
+}
+.event-ticket .details .item {
+    width: 100%;
+}
+.event-ticket .details .item .description {
+    display: none;
+}
+.event-ticket .plus-icon {
+    width: 20px;
+    height: 20px;
+    z-index: 2;
+    margin: auto auto;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    position: absolute;
+
+}
+.event-ticket .buy-button {
+    //margin-top: 15px;
+    margin-top: 25px;
+    width: 100%;
+}
+.event-ticket .details .item .title {
+    color: #3f3f3f;
+    font-size: 19px;
+    font-family: 'StagSans-Bold';
+}
+.event-ticket .details .item .see-details-link {
+    color: #024b78;
+    margin-top: 5px;
+    font-size: 0.95em;
+    font-family: 'StagSans-Medium';
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.event-ticket .details .horizontal-line {
+    height: 1px;
+    width: 100%;
+    background-color: #f0f0f0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.event-ticket .details .vertical-line {
+    height: 110px;
+    width: 1px;
+    background-color: #f0f0f0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    z-index: 0;
+}
+.event-ticket .pricing {
+    color: #3f3f3f;
+    font-family: 'StagSans-Medium';
+    text-align: left;
+    padding-top: 15px;
+    /*    padding-left: 25px;*/
+    font-size: 12px;
+}
+.event-ticket .low-area {
+    border-top: 1px solid #f0f0f0;
+    max-height: 50px;
+    height: 50px;
+/*    padding-top: 1.5%;*/
+}
+.event-ticket .low-area .section {
+    width: 100%;
+    color: #7f7f7f;
+    text-align: center;
+}
+.event-ticket .low-area .section .small-bar {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 17px;
+}
+.event-ticket .place,
+.event-ticket .event-type {
+    color: #7f7f7f;
+}
+
+.event-ticket .place{
+        letter-spacing: 1px;
+}
+
+.event-ticket .low-area div {
+    display: inline-block;
+}
+.event-ticket .sell-area {
+    max-height: 50px;
+    height: 50px;
+}
+.event-ticket .sell-link {
+    color: #024b78;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'StagSans-Medium';
+    /*    padding-left: 10px;*/
+    cursor: pointer;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .event-ticket {
+        //padding-left: 0;
+        //padding-right: 0;
+    }
+    .event-ticket .date {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .event-ticket .details .item .title {
+        font-size: 1.2em;
+    }
+    .event-ticket .buy-button {}
+}
+
+
+@media (min-width: 0px) and (max-width: 767px) {
+
+    .event-ticket .no-padding-side-mobile{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .event-ticket .area .custom-padding-side-mobile{
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .event-ticket .details .item{
+        padding: 45px 0;
+    }
+
+    .event-ticket .pricing{
+        padding: 30px 0;
+    }
+
+    .event-ticket .area{
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .event-ticket .lower-details{
+        //padding: 50px 0;
+    }
+
+    .event-tickets-list {}
+    .event-ticket {
+        height: auto;
+    }
+    .event-ticket.small {
+        height: 680px;
+    }
+    .event-ticket .date {
+        display: block !important;
+        text-align: center;
+        padding: 33px 0 !important;
+        font-size: 1.6em;
+        border-right: 0px;
+        border-bottom: 1px solid #f0f0f0;
+    }
+    .event-ticket .plus-icon {
+        width: 35px;
+        height: 35px;
+        z-index: 1;
+        position: absolute;
+        margin: auto auto;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+    .event-ticket .area.divider {
+        height: 65px;
+        min-height: 20px !important;
+        padding: 0px;
+    }
+    .event-ticket .details .item .title {
+        font-size: 2.4em;
+        margin: 0 !important;
+    }
+    .event-ticket .pricing {
+        border-top: 1px solid #f0f0f0;
+        /*        border-bottom: 1px solid #f0f0f0;*/
+        //height: 315px;
+        text-align: center;
+        font-size: 20px;
+    }
+    .event-ticket .pricing .btn {
+        width: 100%;
+        height: 60px;
+        font-size: 20px;
+        padding-top: 23px;
+    }
+
+    .event-ticket .buy-button{
+        margin-top: 52px !important;
+    }
+    .event-ticket .pricing div {
+        //margin-top: 45px;
+        //margin-top: 25px;
+    }
+    .event-ticket .sell-link {
+        font-size: 20px;
+        margin-top: 66px !important;
+    }
+    .event-ticket .lower-details {
+        //padding-top: 30px;
+        //padding-bottom: 40px;
+    }
+    .event-ticket .low-area {
+        //margin-top: 20px;
+        //border: 0px;
+        //max-height: 150px;
+        height: auto;
+        max-height: none;
+        padding: 50px 0;
+    }
+    .event-ticket .low-area .section {
+        font-size: 1.5em;
+        color: #7f7f7f;
+    }
+    .event-ticket .place,
+    .event-ticket .event-type {
+        //font-size: 0.9em;
+    }
+    .event-ticket .place{
+        margin-top: 0px !important;
+    }
+    .event-ticket .low-area .section.text-pull-left,
+    .event-ticket .low-area .section.text-pull-right {
+        text-align: center !important;
+    }
+}
+@media (max-width: 480px) {
+    .event-ticket .plus-icon {
+        width: 20px;
+        height: 20px;
+    }
+    .event-ticket .date {
+        //height: 55px;
+        font-size: 1.3em;
+    }
+    .event-ticket .details {
+        min-height: auto;
+    }
+    .event-ticket .details .item .title {
+        font-size: 1.5em;
+    }
+    .event-ticket .area {
+        //padding-top: 20px;
+        min-height: 80px;
+        //padding-bottom: 20px;
+    }
+    .event-ticket .lower-details {
+        //padding-top: 20px;
+        //padding-bottom: 20px;
+    }
+    .event-ticket .low-area {
+        //margin-top: 5px;
+        //margin-bottom: 5px;
+    }
+    .event-ticket .low-area .section {
+        font-size: 1.2em;
+    }
+    .event-ticket .place,
+    .event-ticket .event-type {
+        font-size: 1.2em;
+    }
+    .event-ticket .area.divider {
+        height: 5px;
+        padding: 0px;
+    }
+}
+@media(max-width: 320px) {
+    .event-ticket .area {
+        //padding-top: 10px;
+        min-height: 60px;
+        //padding-bottom: 10px;
+        height: auto;
+    }
+    .event-ticket .pricing {
+        font-size: 1.1em;
+    }
+    .event-ticket .pricing div {
+        //margin-top: 20px;
+    }
+    .event-ticket .pricing .buy-button {
+        width: 100%;
+        height: 45px;
+        font-size: 1.1em;
+        padding-top: 17px;
+    }
+    .event-ticket .sell-link {
+        font-size: 1.1em;
+    }
+}
+
+
+
+
+/**
+
+ * Changes for events.html page.
+
+ */
+
+.area-divider {
+
+    padding-top: 9px;
+
+}
+
+/*// Sidebar ticket element*/
+
+.event-ticket .date div {
+
+    /*padding-top: 50px; commented due to dynamic splash page issue IG*/
+
+}
+
+.event-ticket .date {
+
+    //padding-top: 5px;
+    padding: 62px 0;
+
+}
+
+.event-ticket .details .item {
+    //padding-top: 30px;
+    //padding-bottom: 15px;
+    //padding: 45px 0;
+}
+
+/*// Title of the ticket*/
+
+.event-ticket .details .item {
+
+    /*padding: 30px 0; commented due to Dynamic Splash Page issue IG*/
+
+}
+
+.event-ticket .place, .event-ticket .sell-link{
+    margin-top: 0;
+}
+
+.event-ticket .event-type{
+
+    margin-top: 17px;
+
+}
+
+.tabs .toggle .title {
+
+    padding-top: 18px;
+
+}
+
+.event-ticket .details .item .title {
+
+    text-align: center;
+
+    margin: 40px auto 0 auto;
+
+}
+
+.tickets-area > .vertical-align, .toggle.vertical-align,
+
+.low-area.vertical-align, .sell-area.vertical-align {
+
+    display: block;
+
+}
+
+.tabs .toggle {
+
+    text-align: center;
+
+}
+
+@media only screen and (max-width : 768px) {
+
+    .event-ticket .date {
+
+	//padding-top: 25px;
+
+    }
+
+    .area-divider {
+
+	height: auto;
+
+	padding: 10px;
+
+    }
+
+    .tabs .toggle .title {
+
+	font-size: 14px;
+
+    }
+
+}
+
+@media only screen and (max-width : 360px) {
+
+    .tabs .toggle {
+
+	padding-top: 5px;
+
+    }
+
+    .tabs .toggle .title {
+
+	padding-top: 5px;
+
+    }
+
+}
+
+@media only screen and (max-width : 480px) {
+
+    .tabs .toggle .title {
+
+	font-size: 12px;
+
+    }
+
+}
+
+@media (max-width : 320px) {
+
+    .tabs .toggle {
+
+	padding: 5px;
+
+	text-align: center;
+
+    }
+
+    .toggle.left-toggle > .title {
+
+	padding-top: 1px;
+
+    }
+
+    .toggle.right-toggle > .title {
+
+	padding-top: 8px;
+
+    }
+
+}

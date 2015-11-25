@@ -1,0 +1,296 @@
+.rose-bowl-tickets-header {
+	background: #f3f3f3;
+}
+
+.rose-bowl-tickets-header .rose-bowl-wrapper {
+	padding: 25px 25px 25px 4%;
+}
+
+.rose-bowl-tickets-header .rose-bowl-wrapper .title  {
+	margin: 0 0 10px;
+    color: #024b78;
+    text-transform: uppercase;
+    font: normal 16px/1.2 'StagSans-Bold';
+    letter-spacing: 0.4px;
+    position: relative;
+    padding-left: 40px;
+}
+
+.rose-bowl-tickets-header .rose-bowl-wrapper .description {
+	margin: 0;
+	padding: 0 0 0 40px;
+	text-transform: uppercase;
+	font: normal 14px/1.2 'StagSans-Medium';
+	color: #3f3f3f;
+}
+
+.rose-bowl-tickets-header .time {
+    font-family: 'StagSans-Book';
+    font-size: 14px;
+}
+
+.rose-bowl-tickets-header .back-arrow {
+    color: #024b78;
+    position: absolute;
+    left: 0;
+}
+
+.rose-bowl-tickets-header .back-arrow .icomoon-arrow-left {
+    padding: 0 18px 0 0;
+    font-size: 13px;
+}
+
+.rose-bowl-tickets-header .ticket-include-info {
+	position: relative;
+    padding: 25px 4% 25px 20px;
+    background: #ececec;
+    border-left: 1px solid #e2e2e2;
+}
+
+.rose-bowl-tickets-header .ticket-include-info:before {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 25px;
+    left: -10px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 9px 10px 9px 0;
+    border-color: transparent #e2e2e2 transparent transparent;
+}
+
+.rose-bowl-tickets-header .ticket-include-info .title {
+	margin: 0 0 5px;
+	color: #3f3f3f;
+	font: normal 14px/1.2 'StagSans-Bold';
+	letter-spacing: 0.5px;
+	text-transform: none;
+}
+
+.rose-bowl-tickets-header .ticket-include-info .description {
+	font-size: 11.3px;
+    line-height: 1.6;
+    margin: 0 0 10px;
+}
+
+.my-ticket-include {
+    display: inherit;
+    height: 17px;
+    max-height: 17px;
+    max-width: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+
+.rose-bowl-tickets-header .link {
+    color: #024b78;
+    text-decoration: underline;
+}
+
+.rose-bowl-tickets-header .link:hover {
+    color: #024b78;
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .rows-bowl-mobile {
+        background: #f3f3f3;
+        position: relative;
+        z-index: 3;
+    }
+
+    body.info-visible .info-button {
+        background: #106498;
+    }
+
+    body.info-visible .info-button .icon {
+        border: 2px solid #ffffff;
+    }
+
+    body.info-visible .info-button .icon:before {
+        color: #ffffff;
+    }
+
+    .rows-bowl-mobile .back-button,
+    .rows-bowl-mobile .info-button {
+        width: 60px;
+        height: 100%;
+        line-height: 60px;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        background: #ececec;
+        text-align: center;
+    }
+
+    .rows-bowl-mobile .back-button {
+        right: inherit;
+        left: 0;
+    }
+
+    .rows-bowl-mobile .info-button .icon {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        border: 2px solid #024b78;
+        border-radius: 50%;
+        vertical-align: middle;
+        line-height: 20px;
+        padding-top: 2px;
+    }
+
+    .rows-bowl-mobile .back-button .icon {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .rows-bowl-mobile .back-button .icon:before {
+        color: #024b78;
+        font-size: 17px;
+        vertical-align: top;
+    }
+
+    .rows-bowl-mobile .info-button .icon:before {
+        color: #024b78;
+        font-size: 12px;
+        vertical-align: top;
+    }
+
+    .rows-bowl-mobile .title {
+        line-height: 22px;
+        font-size: 16px;
+        text-align: center;
+        color: #024b78;
+        text-transform: uppercase;
+        font-family: 'StagSans-Bold';
+        letter-spacing: 1px;
+        padding: 22px 0px 16px 0;
+        margin: 0;
+        position: relative;
+    }
+
+    body.info-visible .info-accordion {
+        display: block;
+    }
+
+    .rows-bowl-mobile .info-accordion {
+        display: none;
+        position: absolute;
+        z-index: 2;
+        left: 0;
+        right: 0;
+    }
+
+    .rows-bowl-mobile .info-title {
+        font-size: 16px;
+        color: #fff;
+        margin: 0;
+        padding: 15px 20px;
+        border-top: 1px solid #043b5c;
+        background: #024b78;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-family: 'StagSans-Medium';
+        position: relative;
+    }
+
+    .rows-bowl-mobile .info-title:after {
+        content: "l";
+        font-family: primesport;
+        color: #fff;
+        font-size: 12px;
+        position: absolute;
+        right: 20px;
+        text-transform: none
+    }
+
+    .rows-bowl-mobile .info-title.ui-accordion-header-active:after {
+        content: 'f';
+    }
+
+    .rows-bowl-mobile .info-title:first-child {
+        border-top: 0px;
+    }
+
+    .rows-bowl-mobile .info-content {
+        padding: 0 10px;
+        color: #2d2d2d;
+        background: #ececec;
+        border-radius: 0px;
+    }
+
+    .rows-bowl-mobile .additional-info-title {
+        margin: 0;
+        padding: 20px 10px;
+        border-top: 1px solid #b3b3b3;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-family: 'StagSans-Book';
+        position: relative;
+    }
+
+    .rows-bowl-mobile .additional-info-title:after {
+        content: "l";
+        font-family: primesport;
+        color: #2d2d2d;
+        font-size: 11px;
+        position: absolute;
+        right: 10px;
+        text-transform: none
+    }
+
+    .rows-bowl-mobile .additional-info-content {
+        border-radius: 0;
+        background: transparent;
+        padding: 0 20px 20px;
+        font-size: 12px;
+    }
+
+    .rows-bowl-mobile .link {
+        color: #024b78;
+        text-decoration: underline;
+    }
+
+    .rows-bowl-mobile .event-details {
+        padding: 10px 20px;
+    }
+
+    .rows-bowl-mobile .event-title {
+        color: #2d2d2d;
+        font-size: 14px;
+        margin-bottom: 0;
+        font-family: 'StagSans-Medium';
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        margin-top:10px;
+    }
+
+    .rows-bowl-mobile .time {
+        font-family: 'StagSans-Book';
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+    }
+
+    .tickets-section-overlay,
+    .stadium-overlay {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: #bfbfbf;
+        z-index: -1;
+        opacity: 0;
+        -webkit-transition: 0.5s all;
+                transition: 0.5s all;
+    }
+
+    body.info-visible .tickets-section-overlay,
+    .expanded-table .stadium-overlay {
+        opacity: .8;
+        z-index: 2;
+    }
+}

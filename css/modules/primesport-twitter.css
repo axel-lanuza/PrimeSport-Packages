@@ -1,0 +1,78 @@
+.primesport-twitter {
+	padding-right: 0px;
+	padding-left: 0px;
+	background: #f6f6f6;
+	border-radius: 0px;
+	margin: 0;
+}
+
+.primesport-twitter .content {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.primesport-twitter .prime-logo {
+	float: left;
+}
+
+.primesport-twitter .prime-logo-image {
+	border-radius: 2px;
+}
+
+.primesport-twitter .prime-details {
+	display: inline-block;
+    vertical-align: top;
+    margin-left: 5px;
+}
+
+.primesport-twitter .title {
+    margin: 0;
+    color: #2d2d2d;
+    font-family: 'StagSans-Bold';
+}
+
+.primesport-twitter .hashtag {
+	font-family: 'StagSans-Book';
+	letter-spacing: 0.5px;
+	margin: 10px 0 0 0;
+	color: #b3b3b3;
+    font-size: 11px;
+}
+
+.primesport-twitter .options {
+	float: right;
+}
+
+.primesport-twitter .share-option {
+	display: inline-block;
+    margin-left: 10px;
+}
+
+.primesport-twitter .share-option .icon {
+	font-size: 14px;
+    color: #024b78;
+}
+
+.primesport-twitter .date {
+	font-family: 'StagSans-Book';
+    color: #b3b3b3;
+    font-size: 11px;
+    text-align: right;
+    margin: 4px 0 0 0;
+    letter-spacing: 0.5px;
+}
+
+.primesport-twitter .description {
+    margin: 15px 0 0 0;
+    border-top: 1px solid #e2e2e2;
+    padding-top: 10px;
+    font-family: 'StagSans-Medium';
+    font-size: 12px;
+    color: #2d2d2d;
+    letter-spacing: 1px;
+}
+
+.primesport-twitter .link {
+	color: #024b78;
+    text-decoration: underline;
+}

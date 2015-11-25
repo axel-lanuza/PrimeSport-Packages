@@ -1,0 +1,103 @@
+@media (max-width: 767px) {
+	.ticket-full-information {
+        display: none;
+    }
+
+    .show-full-info .ticket-full-information {
+        display: block;
+    }
+
+    .ticket-full-information .stadium .stadium-image {
+        max-width: 100%;
+    }
+
+    .ticket-full-information .title {
+        font-family: 'StagSans-Semibold';
+        text-align: center;
+        letter-spacing: 0.5px;
+        border-top: 1px solid #cccccc;
+        border-bottom: 1px solid #cccccc;
+        padding: 15px 0 12px;
+        margin: 10px 0;
+        font-size: 16px;
+    }
+
+    .ticket-full-information .info {
+        padding: 0 15px;
+    }
+
+    .ticket-full-information .notes {
+        position: relative;
+        padding-left: 25px;
+        font-family: 'StagSans-Book';
+        font-size: 12px;
+        letter-spacing: 0.5px;
+        margin-bottom: 10px;
+    }
+
+    .ticket-full-information .notes:before {
+        content: "\e600";
+        position: absolute;
+        top: -3px;
+        left: 0;
+        color: #545454;
+        font-size: 20px;
+        font-family: 'icomoon' !important;
+        text-transform: none;
+    }
+
+    .ticket-full-information .instant-download {
+        padding-left: 0;
+    }
+
+    .ticket-full-information .instant-download,
+    .ticket-full-information .paperless {
+        font-family: 'StagSans-Medium';
+        margin-bottom: 10px;
+    }
+
+    .ticket-full-information .tooltip-wrapper .tooltip {
+        left: 0;
+    }
+
+    .ticket-full-information .buy-section {
+        background: #ececec;
+        padding: 10px 0;
+    }
+
+    .ticket-full-information .available-title {
+        font-family: 'StagSans-Book';
+        letter-spacing: 0.5px;
+        margin: 15px 0 20px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .ticket-full-information .available,
+    .ticket-full-information .price {
+        font-family: 'StagSans-Bold';
+    }
+
+    .ticket-full-information .ea {
+        font-family: 'StagSans-Semibold';
+    }
+
+    .ticket-full-information .buy-section .price .small {
+        font-size: 12px;
+    }
+
+    .ticket-full-information .buy-now {
+        display: block;
+        width: 100%;
+        height: 38px;
+        line-height: 38px;
+        border: 0px;
+        background: #024b78;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: 'StagSans-Medium';
+        letter-spacing: 0.5px;
+        text-align: center;
+        border-radius: 4px;
+    }
+}

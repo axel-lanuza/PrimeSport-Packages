@@ -1,0 +1,1728 @@
+<!doctype html>
+<!--[if lt IE 7]>
+<html class="no-js ie6 lt-ie10 lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js ie7 lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js ie8 lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]>
+<html class="no-js ie9 lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <title>Prime Sport</title>
+    <meta name="description" content="REPLACE">
+    <meta name="keywords" content="REPLACE">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <!--Instead of calling all CSS files, just call consolidated.css which mimics how the css bundle is created on the
+    integrated site and inform on how some selectors could be adjusted to avoid rules being overriden on different pages.
+    CSS files from the site are under /Content/Styles/NewDesign folder.
+    All required changes should be done on the files under the NewDesign folder-->
+    <link rel="stylesheet" type="text/css" href="css/consolidated.css">
+    <script>
+        /* change no-js class of html element to js */
+        (function(h,n){var r=/\bno-js\b/,c=h[n];r.test(c)&&(h[n]=c.replace(r,'js'));}(document.documentElement,'className'));
+    </script>
+</head>
+<body>
+<header class="anim-hamburger">
+    <div class="main-header row">
+        <div class="header-block logo-block col-md-4 col-sm-4">
+            <a class="header-link menu open-left-menu">
+                <div class="icon icon-primesport-menu"></div>
+            </a>
+            <a class="header-link logo" href="index.html"><img src="img/logo.png" alt="PrimeSport"/></a>
+            <div class="head-order visible-xs">Order by Phone: <span class="bold">1.800.591.9198</span></div>
+        </div>
+        <div class="header-block search-block col-md-4 col-sm-4">
+            <form class="search-form">
+                <a class="submit-search"><i class="fa fa-search"></i></a>
+                <input class="area-search" type="text" name="search-area"
+                       placeholder="Search for event, team, or city" data-placeholder="Search for event, team, or city"/>
+            </form>
+        </div>
+        <div class="header-block login-block col-md-4 col-sm-4 hidden-xs">
+            <a href="#" class="login-link">Log In</a>
+            <div class="login-order">
+                <span class="login-numb">1.800.591.9198</span>
+                <div class="icon icon-primesport-customer-suport"></div>
+            </div>
+        </div>
+    </div>
+    <div class="navigation hidden-xs row">
+        <ul class="col-md-11 col-sm-11 row">
+            <li class="nav-link col-md-3 col-sm-3"><a>Events &amp; Packages</a></li>
+            <li class="nav-link col-md-3 col-sm-3"><a>Pro Sports</a></li>
+            <li class="nav-link col-md-3 col-sm-3"><a>College Sports</a></li>
+            <li class="nav-link col-md-3 col-sm-3"><a>Motorsports</a></li>
+        </ul>
+        <div class="nav-link bucket nav-link-cart hidden-xs col-md-1 col-sm-1">
+            <a>
+                <div class="icon icon-primesport-cart">
+                    <!-- Cart Modal Counter -->
+                    <span class="cart-count">4</span>
+                </div>
+            </a>
+        </div>
+    </div>
+        <div class="navigation row navigation-menu-mobile visible-xs" >
+
+            <!-- Menu mobile -->
+            <ul class="nav nav-mega menu_mobile" id="menu-dropdown-mobile">
+                <li class="menu_mobile_title">
+                    <a href="#" class="menu_mobile_link principle collapsed" data-toggle="collapse" data-target="#menu_princ" aria-expanded="false">MENU</a>
+                </li>
+                <li class="menu_mobile_title">
+                    <a href="#" class="menu_mobile_link collapsed" data-toggle="collapse" data-target="#menu_login" aria-expanded="false">LOG IN</a>
+                </li>
+                <li class="nav-link-favorite">
+                    <a href="#" class="menu_mobile_link collapsed" data-toggle="collapse" data-target="#menu_fav" aria-expanded="false">
+                        <div class="icon icon-primesport-favorite-inactive"></div>
+                    </a>
+                </li>
+                <li class="menu_mobile_cart nav-link-cart">
+                    <a  href="#" class="menu_mobile_link active collapsed" data-toggle="collapse" data-target="#menu_cart" aria-expanded="false">
+                        <span>4<span/>
+                        <div class="icon icon-primesport-cart"></div>
+                    </a>
+                </li>
+            </ul><!-- END Menu mobile -->
+
+            <div id="father">
+                <div class="panel">
+                    <!-- 1.- Navbar-collapse principal menu -->
+                    <div class="navbar-collapse collapse" id="menu_princ" aria-expanded="false" data-parent="#father" style="height: 1px;">
+                        <ul class="nav nav-mega row">
+
+                            <!-- Firts  -->
+                            <li class="nav-link-title no-absolute dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Events & Packages<div class="icon icon-primesport-expand"></div><div class="icon icon-primesport-collapse"></div></a>
+                                <ul class="dropdown-menu">
+                                    <li class="subtitle_eventpack"><a href="#">Pro Sports</a></li>
+                                    <li class="subtitle_eventpack"><a href="#">College Sports</a></li>
+                                    <li class="subtitle_eventpack"><a href="#">Motor Sports</a></li>
+                                    <li class="subtitle_eventpack"><a href="#">The prime sports Experience</a></li>
+                                    <!-- cards -->
+                                    <ul class="subtitle_group_cards hidden-xs">
+                                        <li  class="subtitle_cards">
+                                            <a class="subtitle_cards_img">
+                                                <img src="img/mega-menu/logos/eventsandpackages/all-stars.png" alt="image">
+                                            </a>
+                                            <h4><a href="#"> MBL All-Star Game </a></h4>
+                                            <span class="date">Jun 15 - Jun 21, 2015</span>
+                                            <p class="detail">Lorem Ipsum, SX</p>
+                                        </li>
+                                        <li class="subtitle_cards">
+                                            <a class="subtitle_cards_img">
+                                                <img src="img/mega-menu/logos/eventsandpackages/daytona.png" alt="image">
+                                            </a>
+                                            <h4><a href="#">Daytona 500</a></h4>
+                                            <span class="date">Jun 15 - Jun 21, 2015</span>
+                                            <p class="detail">Lorem Ipsum, SX</p>
+                                        </li>
+                                        <li  class="subtitle_cards">
+                                            <a class="subtitle_cards_img">
+                                                <img src="img/mega-menu/logos/eventsandpackages/all-stars.png" alt="image">
+                                            </a>
+                                            <h4><a href="#">BCS Bowl</a></h4>
+                                            <span class="date">Jun 15 - Jun 21, 2015</span>
+                                            <p class="detail">Lorem Ipsum, SX</p>
+                                        </li>
+                                        <li  class="subtitle_cards">
+                                            <a class="subtitle_cards_img">
+                                                <img src="img/mega-menu/logos/eventsandpackages/super-bowl.png" alt="image">
+                                            </a>
+                                            <h4><a href="#">Super Bowl</a></h4>
+                                            <span class="date">Jun 15 - Jun 21, 2015</span>
+                                            <p class="detail">Lorem Ipsum, SX</p>
+                                        </li>
+                                        <li  class="subtitle_cards">
+                                            <a class="subtitle_cards_img">
+                                                <img src="img/mega-menu/logos/eventsandpackages/all-stars.png" alt="image">
+                                            </a>
+                                            <h4><a href="#">MBL All-Star Game</a></h4>
+                                            <span class="date">Jun 15 - Jun 21, 2015</span>
+                                            <p class="detail">Lorem Ipsum, SX</p>
+                                        </li>
+                                        <li  class="subtitle_cards">
+                                            <a class="subtitle_cards_img">
+                                                <img src="img/mega-menu/logos/eventsandpackages/daytona.png" alt="image">
+                                            </a>
+                                            <h4><a href="#">Daytona 500</a></h4>
+                                            <span class="date">Jun 15 - Jun 21, 2015</span>
+                                            <p class="detail">Lorem Ipsum, SX</p>
+                                        </li>
+                                    </ul>
+                                    <!-- END cards -->
+                                </ul>
+                            </li>
+
+                            <!-- Second  -->
+                            <li class="nav-link-title no-absolute dropdown mega-menu-separator">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pro Sports<div class="icon icon-primesport-expand"></div><div class="icon icon-primesport-collapse"></div></a>
+                                <ul class="dropdown-menu">
+                                    <li class="subtitle_prosport"><a>All pro sports</a></li>
+                                    <li class="subtitle_prosport"><a>NFL</a></li>
+                                    <li class="subtitle_prosport"><a>NBA</a></li>
+                                    <li class="subtitle_prosport"><a>NHL</a></li>
+                                    <li class="subtitle_prosport"><a>GOLF</a></li>
+                                    <li class="subtitle_prosport"><a>Soccer</a></li>
+                                    <li class="subtitle_prosport"><a>Tennis</a></li>
+                                    <li class="subtitle_prosport"><a>Horse Racing</a></li>
+
+                                    <!-- cards -->
+                                    <ul class="subtitle_group_cards hidden-xs">
+                                        <li class="subtitle_cards">
+                                            <a class="subtitle_cards_img">
+                                                <img src="img/mega-menu/logos/prosports/finalfour.png" alt="image">
+                                            </a>
+                                            <h4><a href="#">Lorem Ipsum Dolor Sit</a></h4>
+                                            <span class="date">Jun 15 - Jun 21, 2015</span>
+                                            <p class="detail">Lorem Ipsum, SX</p>
+                                        </li>
+                                        <li  class="subtitle_cards">
+                                            <a class="subtitle_cards_img">
+                                                <img src="img/mega-menu/logos/prosports/2K15bkb.png" alt="image">
+                                            </a>
+                                            <h4><a href="#">Lorem Ipsum Dolor Sit </a></h4>
+                                            <span class="date">Jun 15 - Jun 21, 2015</span>
+                                            <p class="detail">Lorem Ipsum, SX</p>
+                                        </li>
+                                        <li  class="subtitle_cards">
+                                            <a class="subtitle_cards_img">
+                                                <img src="img/mega-menu/logos/prosports/masterTournament.png" alt="image">
+                                            </a>
+                                            <h4><a href="#">The Masters</a></h4>
+                                            <span class="date">Jun 15 - Jun 21, 2015</span>
+                                            <p class="detail">Lorem Ipsum, SX</p>
+                                        </li>
+                                        <li  class="subtitle_cards">
+                                            <a class="subtitle_cards_img">
+                                                <img src="img/mega-menu/logos/prosports/superBowl.png" alt="image">
+                                            </a>
+                                            <h4><a href="#">Super Bowl</a></h4>
+                                            <span class="date">Jun 15 - Jun 21, 2015</span>
+                                            <p class="detail">Lorem Ipsum, SX</p>
+                                        </li>
+                                        <li  class="subtitle_cards">
+                                            <a class="subtitle_cards_img">
+                                                <img src="img/mega-menu/logos/prosports/allStarGame.png" alt="image">
+                                            </a>
+                                            <h4><a href="#">MLB All-Star Game</a></h4>
+                                            <span class="date">Jun 15 - Jun 21, 2015</span>
+                                            <p class="detail">Lorem Ipsum, SX</p>
+                                        </li>
+                                        <li  class="subtitle_cards">
+                                            <a class="subtitle_cards_img">
+                                                <img src="img/mega-menu/logos/prosports/kentuckyDerby.png" alt="image">
+                                            </a>
+                                            <h4><a href="#">Kentucky Derby</a></h4>
+                                            <span class="date">Jun 15 - Jun 21, 2015</span>
+                                            <p class="detail">Lorem Ipsum, SX</p>
+                                        </li>
+                                    </ul>
+                                    <!-- END cards -->
+                                </ul>
+                            </li>
+
+                            <!-- Third  -->
+                            <li class="nav-link-title no-absolute dropdown mega-menu-separator">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">College Sports<div class="icon icon-primesport-expand"></div><div class="icon icon-primesport-collapse"></div></a>
+                                <ul class="dropdown-menu">
+                                    <li class="subtitle_collegesport"><a>All college sports</a></li>
+                                    <li class="subtitle_collegesport"><a>The NCAA experience &#174;</a></li>
+                                    <li class="subtitle_collegesport"><a>College Football</a></li>
+                                    <li class="subtitle_collegesport"><a>college bowl games</a></li>
+                                    <li class="subtitle_collegesport"><a>college basketball</a></li>
+                                    <li class="subtitle_collegesport"><a>NCAA men's<br> basketball tournament</a></li>
+                                    <!-- cards -->
+                                    <ul class="subtitle_group_cards hidden-xs">
+                                        <li class="subtitle_cards">
+                                            <a class="subtitle_cards_img">
+                                                <img src="img/mega-menu/logos/college-sports/rose.png" alt="image">
+                                            </a>
+                                            <h4><a href="#">Rose Bowl</a></h4>
+                                            <span class="date">Jun 15 - Jun 21, 2015</span>
+                                            <p class="detail">Lorem Ipsum, SX</p>
+                                        </li>
+                                        <li  class="subtitle_cards">
+                                            <a class="subtitle_cards_img">
+                                                <img src="img/mega-menu/logos/college-sports/kickoff.png" alt="image">
+                                            </a>
+                                            <h4><a href="#">Chick-fill-A Bowl</a></h4>
+                                            <span class="date">Jun 15 - Jun 21, 2015</span>
+                                            <p class="detail">Lorem Ipsum, SX</p>
+                                        </li>
+                                        <li  class="subtitle_cards">
+                                            <a class="subtitle_cards_img">
+                                                <img src="img/mega-menu/logos/college-sports/bcs.png" alt="image">
+                                            </a>
+                                            <h4><a href="#">BCS Bowl</a></h4>
+                                            <span class="date">Jun 15 - Jun 21, 2015</span>
+                                            <p class="detail">Lorem Ipsum, SX</p>
+                                        </li>
+                                        <li  class="subtitle_cards">
+                                            <a class="subtitle_cards_img">
+                                                <img src="img/mega-menu/logos/college-sports/sugar.png" alt="image">
+                                            </a>
+                                            <h4><a href="#">Sugar Bowl</a></h4>
+                                            <span class="date">Jun 15 - Jun 21, 2015</span>
+                                            <p class="detail">Lorem Ipsum, SX</p>
+                                        </li>
+                                        <li  class="subtitle_cards">
+                                            <a class="subtitle_cards_img">
+                                                <img src="img/mega-menu/logos/college-sports/rose.png" alt="image">
+                                            </a>
+                                            <h4><a href="#">Rose Bowl</a></h4>
+                                            <span class="date">Jun 15 - Jun 21, 2015</span>
+                                            <p class="detail">Lorem Ipsum, SX</p>
+                                        </li>
+                                        <li  class="subtitle_cards">
+                                            <a class="subtitle_cards_img">
+                                                <img src="img/mega-menu/logos/college-sports/kickoff.png" alt="image">
+                                            </a>
+                                            <h4><a href="#">Chick-fill-A Bowl</a></h4>
+                                            <span class="date">Jun 15 - Jun 21, 2015</span>
+                                            <p class="detail">Lorem Ipsum, SX</p>
+                                        </li>
+                                    </ul>
+                                    <!-- END cards -->
+                                </ul>
+                            </li>
+
+                            <!-- Fourth  -->
+                            <li class="nav-link-title no-absolute dropdown mega-menu-separator">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Motorsports<div class="icon icon-primesport-expand"></div><div class="icon icon-primesport-collapse"></div></a>
+                                <ul class="dropdown-menu">
+                                    <li class="subtitle_motorsport"><a>All motorsports</a></li>
+                                    <li class="subtitle_motorsport"><a>nascar</a></li>
+
+                                    <!-- cards -->
+                                    <ul class="subtitle_group_cards hidden-xs">
+                                        <li class="subtitle_cards">
+                                            <a class="subtitle_cards_img">
+                                                <img src="img/mega-menu/logos/motorsports/500.png" alt="image">
+                                            </a>
+                                            <h4><a href="#">Indy 500</a></h4>
+                                            <span class="date">Jun 15 - Jun 21, 2015</span>
+                                            <p class="detail">Lorem Ipsum, SX</p>
+                                        </li>
+                                        <li  class="subtitle_cards">
+                                            <a class="subtitle_cards_img">
+                                                <img src="img/mega-menu/logos/motorsports/supercross.png" alt="image">
+                                            </a>
+                                            <h4><a href="#">Supercross</a></h4>
+                                            <span class="date">Jun 15 - Jun 21, 2015</span>
+                                            <p class="detail">Lorem Ipsum, SX</p>
+                                        </li>
+                                        <li  class="subtitle_cards">
+                                            <a class="subtitle_cards_img">
+                                                <img src="img/mega-menu/logos/motorsports/daytona.png" alt="image">
+                                            </a>
+                                            <h4><a href="#">Daytona 500</a></h4>
+                                            <span class="date">Jun 15 - Jun 21, 2015</span>
+                                            <p class="detail">Lorem Ipsum, SX</p>
+                                        </li>
+                                        <li  class="subtitle_cards">
+                                            <a class="subtitle_cards_img">
+                                                <img src="img/mega-menu/logos/motorsports/kobalt.png" alt="image">
+                                            </a>
+                                            <h4><a href="#">Kolbalt 400</a></h4>
+                                            <span class="date">Jun 15 - Jun 21, 2015</span>
+                                            <p class="detail">Lorem Ipsum, SX</p>
+                                        </li>
+                                        <li  class="subtitle_cards">
+                                            <a class="subtitle_cards_img">
+                                                <img src="img/mega-menu/logos/motorsports/500.png" alt="image">
+                                            </a>
+                                            <h4><a href="#">Indy 500</a></h4>
+                                            <span class="date">Jun 15 - Jun 21, 2015</span>
+                                            <p class="detail">Lorem Ipsum, SX</p>
+                                        </li>
+                                        <li  class="subtitle_cards">
+                                            <a class="subtitle_cards_img">
+                                                <img src="img/mega-menu/logos/motorsports/supercross.png" alt="image">
+                                            </a>
+                                            <h4><a href="#">Supercross</a></h4>
+                                            <span class="date">Jun 15 - Jun 21, 2015</span>
+                                            <p class="detail">Lorem Ipsum, SX</p>
+                                        </li>
+                                    </ul>
+                                    <!-- END cards -->
+                                </ul>
+                            </li>
+
+                            <!-- Five Only Mobile screen size -->
+                            <li class="nav-link-title no-absolute dropdown visible-xs mega-menu-separator">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">PrimeSport Experience<div class="icon icon-primesport-expand"></div><div class="icon icon-primesport-collapse"></div></a>
+                                <ul class="dropdown-menu">
+                                    <li class="subtitle_motorsport"><a>Opction One</a></li>
+                                    <li class="subtitle_motorsport"><a>Opction two</a></li>
+                                    <li class="subtitle_motorsport"><a>Opction tree</a></li>
+                                    <li class="subtitle_motorsport"><a>Opction Four</a></li>
+                                </ul>
+                            </li>
+
+                            <!-- Six Only Mobile screen size -->
+                            <li class="nav-link-title no-absolute dropdown mega-menu-separator visible-xs">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact Us<div class="icon icon-primesport-expand"></div><div class="icon icon-primesport-collapse"></div></a>
+                                <div class="dropdown-menu panel-contactus">
+                                    <p class="number">1-800-591-9198</p>
+                                    <p><span class="schedule">Mon-Fri:</span> 9AM — 7PM EST</p>
+                                    <p><span class="schedule">Sat-Sun:</span> 10AM — 5PM EST</p>
+                                    <a class="btn btn-blue btn-contactus" href="#">SEND US AN EMAIL</a>
+                                    <ul class="faq_ul">
+                                        <li class="faq_link"><a href="#">FAQ ></a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <!-- Seven   -->
+                            <li class="nav-link-cart hidden-xs" style="width:8.33333%;float:left">
+                                <a>
+                                    <div class="icon icon-primesport-cart"></div>
+                                </a>
+                            </li>
+                        </ul>
+                     </div>
+
+                    <!-- 2.- Navbar-collapse log-in-menu -->
+                    <div class="navbar-collapse collapse" id="menu_login" aria-expanded="false" data-parent="#father" style="height: 1px;">
+                        <div class="login_panel container visible-xs">
+                            <p class="description">Login with your PrimeSport username and password that you used previously to register.</p>
+                            <form class="login-form">
+                                <input type="text" placeholder="EMAIL ADDRESS">
+                                <input type="password" placeholder="PASSWORD">
+                                <a href="#" class="forgot forgot-password">Forgot password ></a>
+                                <button class="btn btn-login">LOGIN</button>
+                            </form>
+                            <hr>
+                            <a class="btn btn-blue btn-singup sign-up-link" href="#">CREATE AN ACCOUNT</a>
+                        </div>
+                    </div>
+
+                    <!-- 3.- Navbar-collapse favorite-menu -->
+                    <div class="navbar-collapse collapse " id="menu_fav" aria-expanded="false" data-parent="#father" style="height: 1px;">
+                        <ul class="nav nav-mega row visible-xs">
+                            <li class="nav-link-title no-absolute dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">my favorites<div class="icon icon-primesport-expand"></div><div class="icon icon-primesport-collapse"></div></a>
+                            <ul class="dropdown-menu">
+                                <li class="subtitle_eventpack"><a href="#">Atlanta hawks</a></li>
+                                <li class="subtitle_eventpack"><a href="#">boston red sox</a></li>
+                                <li class="subtitle_eventpack"><a href="#">ncaa 2016 final four</a></li>
+                                <li class="subtitle_eventpack"><a href="#">super bowl 50</a></li>
+                            </ul>
+                            </li>
+                            <li class="nav-link-title no-absolute dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">recently viewed<div class="icon icon-primesport-expand"></div><div class="icon icon-primesport-collapse"></div></a>
+                                <div class="dropdown-menu">
+                                    <div class="container recent_card">
+                                        <div class="col-xs-4 recent-img-card">
+                                          <img class="recent_img" src="img/menu/logo-final-four.png" class="event_logo" alt="">
+                                        </div>
+                                        <div class="col-xs-6 recent_body_card">
+                                            <h4 class="title"><a href="#" class="title_link">Final Four</a></h4>
+                                            <p class="description">Lorem ipsum dolor sit, consectetur.</p>
+                                            <p class="date">Jun 15 - Jun 21, 2015</p>
+                                        </div>
+                                    </div>
+                                    <div class="container recent_card">
+                                        <div class="col-xs-4 recent-img-card">
+                                            <img class="recent_img" src="img/menu/logo-wrestling.png" class="event_logo" alt="">
+                                        </div>
+                                        <div class="col-xs-6 recent_body_card">
+                                            <h4 class="title"><a href="#" class="title_link">Wrestling Championships Lorem Ipsum</a></h4>
+                                            <p class="description">Lorem ipsum dolor sit, consectetur.</p>
+                                            <p class="date">June 15 - June 21, 2015</p>
+                                        </div>
+                                    </div>
+                                    <div class="container recent_card">
+                                        <div class="col-xs-4 recent-img-card">
+                                            <img class="recent_img" src="img/menu/logo-basket.png" class="event_logo" alt="">
+                                        </div>
+                                        <div class="col-xs-6 recent_body_card">
+                                            <h4 class="title"><a href="#" class="title_link">Basketball Championship</a></h4>
+                                            <p class="description">Lorem ipsum dolor sit, consectetur.</p>
+                                            <p class="date">June 15 - June 21, 2015</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class="nav-link-title over-flow-hidden no-absolute dropdown">
+                                        <ul class="social_media_menu">
+                                            <li class="col-md-15 col-sm-15 col-xs-15">
+                                                <a class="twitter" href="https://twitter.com/primesport" target="_blank">
+                                                    <div class="icon icon-primesport-twitter"></div>
+                                                </a>
+                                            </li>
+                                            <li class="col-md-15 col-sm-15 col-xs-15">
+                                                <a class="facebook" href="https://www.facebook.com/PrimeSportEvents" target="_blank">
+                                                    <div class="icon icon-primesport-facebook"></div>
+                                                </a>
+                                            </li>
+                                            <li class="col-md-15 col-sm-15 col-xs-15">
+                                                <a class="youtube" href="https://www.youtube.com/channel/UCSBuS6F8zci88PyxJIDwIlQ" target="_blank">
+                                                    <div class="icon icon-primesport-youtube"></div>
+                                                </a>
+                                            </li>
+                                            <li class="col-md-15 col-sm-15 col-xs-15">
+                                                <a class="google" href="https://plus.google.com/110158606543970442801" target="_blank">
+                                                    <div class="icon icon-primesport-google"></div>
+                                                </a>
+                                            </li>
+                                            <li class="col-md-15 col-sm-15 col-xs-15">
+                                                <a class="instagram" href="https://instagram.com/primesportevents/" target="_blank">
+                                                    <div class="icon icon-primesport-instagram"></div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- 4.- Navbar-collapse shopping-cart -->
+                     <!-- IMPORTANT!! DON'T DELETE THIS BECAUSE IS INACTIVE STATE FOR SHOPPING CART
+                    <div class="navbar-collapse collapse " id="menu_cart" aria-expanded="false" data-parent="#father" style="height: 1px;">
+                        <ul class="cart_header_ul">
+                            <li class="cart_header_li"><a><span class="number">0 </span> ITEMS ADDED TO CART</a></li>
+                        </ul>
+                        <div class="cart_panel container visible-xs">
+                            <p class="cart_empty_title">Your cart is empty. </p>
+                            <p class="cart_empty_desc">Get started with the options below:</p>
+                                <a href="#" class="btn btn-blue btn-cart-shop">Shop pro sports</a>
+                                <a href="#" class="btn btn-blue btn-cart-shop">Shop College sports</a>
+                                <a href="#" class="btn btn-blue btn-cart-shop">Shop Motorsports</a>
+                        </div>
+                    </div> -->
+
+                    <!-- SHOPPING CART ACTVIE -->
+                    <div class="navbar-collapse collapse " id="menu_cart" aria-expanded="false" data-parent="#father" style="height: 1px;">
+                        <ul class="cart_header_ul visible-xs">
+                            <li class="cart_header_li"><a class="active"><span class="number">4 </span> ITEMS ADDED TO CART</a></li>
+                        </ul>
+                    <div>
+                        <div class="cart_active_header  padding-left visible-xs">
+                            <ul class="cart_header_ul_details">
+                                <li class="cart_header_li section_a active_SC">
+                                    <span>Event Name</span>
+                                </li>
+                                <li class="cart_header_li section_b padding-center">
+                                    <span class="col-xs-5">Section</span>
+                                    <span class="col-xs-5">Row</span>
+                                    <span class="col-xs-2">Qty</span>
+                                </li>
+                                <li class="cart_header_li section_c padding-center">
+                                    <span class="col-xs-6">Price</span>
+                                    <span class="col-xs-6">TOTAL</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="cart_panel_active container visible-xs">
+                            <!-- You have to generate an different id for each one of these elements -->
+                            <ul id="element_1" class="cart_details_ul">
+                                <li class="cart_details_li section_a active_SC">
+                                        <span class="first">Rose Bowl Tickets + VIP Hospitality Ticket at Rose Bowl</span>
+                                        <p class="detail">Rose Bowl – Pasadena, CA</p>
+                                        <a class="right_ctrl"></a>
+                                </li>
+                                <li class="cart_details_li section_b">
+                                        <span class="col-xs-5 fillin_text">6–L</span>
+                                        <span class="col-xs-5 fillin_text">7</span>
+                                        <span class="col-xs-2 fillin_text">2</span>
+                                        <a class="right_ctrl"></a>
+                                        <a class="left_ctrl"></a>
+                                </li>
+                                <li class="cart_details_li section_c">
+                                        <span class="col-xs-6 fillin_text">$340.<span class="text-shorter">00/ea</span></span>
+                                        <span class="col-xs-6 fillin_text">$680.<span class="text-shorter">00</span></span>
+                                        <a class="left_ctrl"></a>
+                                        <div class="remove_ctrl"><a class="remove_link">REMOVE</a></div>
+                                </li>
+                            </ul>
+
+                            <ul id="element_2" class="cart_details_ul">
+                                <li class="cart_details_li section_a active_SC">
+                                        <p class="first">Mavericks at thunder tickets</p>
+                                        <p class="detail">Bok Center – Tulsa, OK</p>
+                                        <a class="right_ctrl"></a>
+                                </li>
+                                <li class="cart_details_li section_b">
+                                        <span class="col-xs-5 fillin_text">Club Wembley</span>
+                                        <span class="col-xs-5 fillin_text">block 20</span>
+                                        <span class="col-xs-2 fillin_text">1</span>
+                                        <a class="right_ctrl"></a>
+                                        <a class="left_ctrl"></a>
+                                </li>
+                                <li class="cart_details_li section_c">
+                                        <span class="col-xs-6 fillin_text">$5,340.<span class="text-shorter">00/ea</span></span>
+                                        <span class="col-xs-6 fillin_text">$5,340.<span class="text-shorter">00</span></span>
+                                        <a class="left_ctrl"></a>
+                                        <div class="remove_ctrl"><a class="remove_link">REMOVE</a></div>
+                                </li>
+                            </ul>
+
+                            <ul id="element_3" class="cart_details_ul">
+                                <li class="cart_details_li section_a active_SC">
+                                        <p class="first">Rose BowlTickets</p>
+                                        <p class="detail">Bok Center – Tulsa, OK</p>
+                                        <a class="right_ctrl"></a>
+                                </li>
+                                <li class="cart_details_li section_b">
+                                        <span class="col-xs-5 fillin_text">MVP Box 124</span>
+                                        <span class="col-xs-5 fillin_text">1</span>
+                                        <span class="col-xs-2 fillin_text">3</span>
+                                        <a class="right_ctrl"></a>
+                                        <a class="left_ctrl"></a>
+                                </li>
+                                <li class="cart_details_li section_c">
+                                        <span class="col-xs-6 fillin_text">$50,340.<span class="text-shorter">00/ea</span></span>
+                                        <span class="col-xs-6 fillin_text">$151,020.<span class="text-shorter">00</span></span>
+                                        <a class="left_ctrl"></a>
+                                        <div class="remove_ctrl"><a class="remove_link">REMOVE</a></div>
+                                </li>
+                            </ul>
+
+                            <ul id="element_4" class="cart_details_ul">
+                                <li class="cart_details_li section_a active_SC">
+                                        <p class="first">NCAA Division 1 women’s volleyball championship tickets</p>
+                                        <p class="detail">Rose Bowl – Pasadena, CA</p>
+                                        <a class="right_ctrl"></a>
+                                </li>
+                                <li class="cart_details_li section_b">
+                                        <span class="col-xs-5 fillin_text">109–B</span>
+                                        <span class="col-xs-5 fillin_text">13</span>
+                                        <span class="col-xs-2 fillin_text">1</span>
+                                        <a class="right_ctrl"></a>
+                                        <a class="left_ctrl"></a>
+                                </li>
+                                <li class="cart_details_li section_c">
+                                        <span class="col-xs-6 fillin_text">$100,340.<span class="text-shorter">00/ea</span></span>
+                                        <span class="col-xs-6 fillin_text">$100,340.<span class="text-shorter">00</span></span>
+                                        <a class="left_ctrl"></a>
+                                        <div class="remove_ctrl"><a class="remove_link">REMOVE</a></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                        <div class="cart_panel_active container visible-xs">
+                            <hr class="hr_gray">
+                            <div class="subtot pull-left">Subtotal</div>
+                            <div class="subtot pull-right">$257,380.00</div>
+                            <div class="clearfix"></div>
+                            <hr class="hr_gray">
+                            <button class="btn btn-darkblue btn-100">check out</button>
+                            <a class="btn btn-blue btn-100" href="#">continue shopping</a>
+                            <div class="clearfix"> <br><br><br></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+</header>
+
+<div class="page index-page">
+    <!-- Begin Cart Modal - Full -->
+    <div class="cart-modal-wrapper">
+        <div class="cart-modal full">
+            <div class="cart-quantity full">
+                <p><span class="item-count">4</span> items added to cart</p>
+            </div>
+            <div class="cart-full">
+                <div class="cart-item">
+                    <div class="cart-item-details">
+                        <p class="cart-modal-ticket">
+                            <span class="ticket-name">ROSE BOWL TICKETS</span> <span class="addition">+<br></span>
+                            <span class="add-on">VIP HOSPITALITY TICKET AT ROSE BOWL</span>
+                        </p>
+                        <p class="date"><span class="date-day">SUN JAN 1-2</span> AT <span class="date-time">1:30PM</span> <span class="time-zone">PST</span></p>
+                        <ul class="ticket-location">
+                            <li class="ticket-section">SECTION: <span class="section-name">6-L</span></li>
+                            <li class="ticket-row">ROW: <span class="row-name">7</span></li>
+                        </ul>
+                        <ul class="quantity-price">
+                            <li class="ticket-quantity">QUANTITY: <span class="ticket-count">2</span></li>
+                            <li class="ticket-price">PRICE: <span class="apiece">$340.00</span>/ea</li>
+                        </ul>
+                    </div>
+                    <div class="cart-item-price"><div class="digits">$680.<span class="cents">00</span></div></div>
+                </div>
+                <div class="cart-item">
+                    <div class="cart-item-details">
+                        <p class="cart-modal-ticket">
+                            <span class="ticket-name">MAVERICKS AT THUNDER TICKETS</span>
+                        </p>
+                        <p class="date"><span class="date-day">SAT OCT 13</span> AT <span class="date-time">7:30PM</span> <span class="time-zone">PST</span></p>
+                        <ul class="ticket-location">
+                            <li class="ticket-section">SECTION: <span class="section-name">CLUB WEMBLEY</span></li>
+                            <li class="ticket-row">ROW: <span class="row-name">BLOCK 20</span></li>
+                        </ul>
+                        <ul class="quantity-price">
+                            <li class="ticket-quantity">QUANTITY: <span class="ticket-count">1</span></li>
+                            <li class="ticket-price">PRICE: <span class="apiece">$5340.00</span>/ea</li>
+                        </ul>
+                    </div>
+                    <div class="cart-item-price"><div class="digits">$5340.<span class="cents">00</span></div></div>
+                </div>
+                <div class="cart-item">
+                    <div class="cart-item-details">
+                        <p class="cart-modal-ticket">
+                            <span class="ticket-name">ROSE BOWL TICKETS</span>
+                        </p>
+                        <p class="date"><span class="date-day">FRI JAN 1</span> AT <span class="date-time">1:30PM</span> <span class="time-zone">PST</span></p>
+                        <ul class="ticket-location">
+                            <li class="ticket-section">SECTION: <span class="section-name">MVP BOX 124</span></li>
+                            <li class="ticket-row">ROW: <span class="row-name">1</span></li>
+                        </ul>
+                        <ul class="quantity-price">
+                            <li class="ticket-quantity">QUANTITY: <span class="ticket-count">2</span></li>
+                            <li class="ticket-price">PRICE: <span class="apiece">$50,340.00</span>/ea</li>
+                        </ul>
+                    </div>
+                    <div class="cart-item-price"><div class="digits">$151,020.<span class="cents">00</span></div></div>
+                </div>
+                <div class="cart-item">
+                    <div class="cart-item-details">
+                        <p class="cart-modal-ticket">
+                            <span class="ticket-name">NCAA DIVISION 1 WOMEN'S VOLLEYBALL CHAMPIONSHIP TICKETS</span>
+                        </p>
+                        <p class="date"><span class="date-day">THU JAN 1</span> AT <span class="date-time">1:30PM</span> <span class="time-zone">PST</span></p>
+                        <ul class="ticket-location">
+                            <li class="ticket-section">SECTION: <span class="section-name">109-B</span></li>
+                            <li class="ticket-row">ROW: <span class="row-name">13</span></li>
+                        </ul>
+                        <ul class="quantity-price">
+                            <li class="ticket-quantity">QUANTITY: <span class="ticket-count">1</span></li>
+                            <li class="ticket-price">PRICE: <span class="apiece">$100,340.00</span>/ea</li>
+                        </ul>
+                    </div>
+                    <div class="cart-item-price"><div class="digits">$100,340.<span class="cents">00</span></div></div>
+                </div>
+                <div class="cart-subtotal">
+                    <div class="subtotal-text">SUBTOTAL</div>
+                    <div class="subtotal-numbers">
+                        <div class="digits"><span class="subtotal-dollars">$257,380.<span class="cents">00</span></span></div>
+                    </div>
+                </div>
+                <div class="cart-actions">
+                    <a class="btn btn-blue continue-shopping">CONTINUE SHOPPING</a> <a class="btn btn-blue">CHECKOUT</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Cart Modal - Full -->
+    <div class="slider">
+        <div class="carousel">
+            <div class="item" style="background-image:url('img/slide-1.jpg')">
+                <div class="rollover"></div>
+                <div class="item-content container">
+                    <p class="date">May 02, 2015</p>
+                    <h2>Experience the Kentucky Derby Like Never Before.</h2>
+                    <p class="location">Churchill Downs, Louisville, KY</p>
+                    <a href="#" class="btn btn-white">View Packages</a>
+                    <div class="slide-countdown" data-countdown="2015/12/02"></div>
+                </div>
+            </div>
+            <div class="item" style="background-image:url('img/slide-1.jpg')">
+                <div class="rollover"></div>
+                <div class="item-content container">
+                    <p class="date">May 02, 2015</p>
+                    <h2>Experience the Kentucky Derby Like Never Before.</h2>
+                    <p class="location">Churchill Downs, Louisville, KY</p>
+                    <a href="#" class="btn btn-white">View Packages</a>
+                    <div class="slide-countdown" data-countdown="2015/12/02"></div>
+                </div>
+            </div>
+            <div class="item" style="background-image:url('img/slide-1.jpg')">
+                <div class="rollover"></div>
+                <div class="item-content container">
+                    <p class="date">May 02, 2015</p>
+                    <h2>Experience the Kentucky Derby Like Never Before.</h2>
+                    <p class="location">Churchill Downs, Louisville, KY</p>
+                    <a href="#" class="btn btn-white">View Packages</a>
+                    <div class="slide-countdown" data-countdown="2015/12/02"></div>
+                </div>
+            </div>
+            <div class="item" style="background-image:url('img/slide-1.jpg')">
+                <div class="rollover"></div>
+                <div class="item-content container">
+                    <p class="date">May 02, 2015</p>
+                    <h2>Experience the Kentucky Derby Like Never Before.</h2>
+                    <p class="location">Churchill Downs, Louisville, KY</p>
+                    <a href="#" class="btn btn-white">View Packages</a>
+                    <div class="slide-countdown" data-countdown="2015/12/02"></div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-controls">
+            <div class="carousel-pagination container">
+                <div class="owl-page active" data-pagination-index="0">
+                    <span class="pagination-title">Kentucky Derby</span>
+                </div>
+                <div class="owl-page" data-pagination-index="1">
+                    <span class="pagination-title">Super Bowl 50</span>
+                </div>
+                <div class="owl-page" data-pagination-index="2">
+                    <span class="pagination-title">The Masters</span>
+                </div>
+                <div class="owl-page" data-pagination-index="3">
+                    <span class="pagination-title">The Experience</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slider slider-mobile">
+        <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+                <a class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                    <div class="icon icon-primesport-collapse"></div>
+                    <div class="icon icon-primesport-expand"></div>
+                    <h4 class="panel-name">Kentucky Derby</h4>
+                </a>
+                <div id="collapse1" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                        <div class="item" style="background-image:url('img/slide-1.jpg')">
+                            <div class="item-content">
+                                <p class="date">May 02, 2015</p>
+                                <h2>Experience the Kentucky Derby Like Never Before.</h2>
+                                <p class="location">Churchill Downs, Louisville, KY</p>
+                                <a href="#" class="btn btn-white">View Packages</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <a class="panel-heading collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                    <div class="icon icon-primesport-collapse"></div>
+                    <div class="icon icon-primesport-expand"></div>
+                    <h4 class="panel-name">Super Bowl</h4>
+                </a>
+                <div id="collapse2" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <div class="item" style="background-image:url('img/slide-1.jpg')">
+                            <div class="item-content">
+                                <p class="date">May 02, 2015</p>
+                                <h2>Experience the Kentucky Derby Like Never Before.</h2>
+                                <p class="location">Churchill Downs, Louisville, KY</p>
+                                <a href="#" class="btn btn-white">View Packages</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <a class="panel-heading collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                    <div class="icon icon-primesport-collapse"></div>
+                    <div class="icon icon-primesport-expand"></div>
+                    <h4 class="panel-name">the masters</h4>
+                </a>
+                <div id="collapse3" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <div class="item" style="background-image:url('img/slide-1.jpg')">
+                            <div class="item-content">
+                                <p class="date">May 02, 2015</p>
+                                <h2>Experience the Kentucky Derby Like Never Before.</h2>
+                                <p class="location">Churchill Downs, Louisville, KY</p>
+                                <a href="#" class="btn btn-white">View Packages</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <a class="panel-heading collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+                    <div class="icon icon-primesport-collapse"></div>
+                    <div class="icon icon-primesport-expand"></div>
+                    <h4 class="panel-name">The Experience</h4>
+                </a>
+                <div id="collapse4" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <div class="item" style="background-image:url('img/slide-1.jpg')">
+                            <div class="item-content">
+                                <p class="date">May 02, 2015</p>
+                                <h2>Experience the Kentucky Derby Like Never Before.</h2>
+                                <p class="location">Churchill Downs, Louisville, KY</p>
+                                <a href="#" class="btn btn-white">View Packages</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <section class="upcoming-events bg-grey">
+            <div class="container container-section">
+                <h3>Major Events</h3>
+                <div class="container-cards">
+                    <div class="item container-card">
+                        <div class="social-icons">
+                            <a href="#" class="social-icon share">
+                                <div class="icon icon-primesport-share-ps"></div>
+                                <div class="share-menu">
+                                    <div class="icon icon-primesport-facebook"></div><!--
+                                 --><div class="icon icon-primesport-twitter"></div><!--
+                                 --><div class="icon icon-primesport-google"></div><!--
+                                 --><div class="icon icon-primesport-mail"></div>
+                                </div>
+                            </a>
+                            <a href="#" class="social-icon like">
+                                <div class="icon icon-primesport-favorite-inactive"></div>
+                                <div class="icon icon-primesport-favorite-active"></div>
+                            </a>
+                        </div>
+                        <img src="img/item-1.jpg" alt="">
+                        <div class="card-info">
+                            <p class="date">Apr  9 - Apr 11, 2015</p>
+                            <h5>NCAA Frozen Four</h5>
+                            <span class="location">Boston, MA</span>
+                            <a href="#" class="see-links">See Packages ></a>
+                        </div>
+                    </div>
+                    <div class="item container-card">
+                        <div class="social-icons">
+                            <a href="#" class="social-icon share">
+                                <div class="icon icon-primesport-share-ps"></div>
+                                <div class="share-menu">
+                                    <div class="icon icon-primesport-facebook"></div><!--
+                                 --><div class="icon icon-primesport-twitter"></div><!--
+                                 --><div class="icon icon-primesport-google"></div><!--
+                                 --><div class="icon icon-primesport-mail"></div>
+                                </div>
+                            </a>
+                            <a href="#" class="social-icon like">
+                                <div class="icon icon-primesport-favorite-inactive"></div>
+                                <div class="icon icon-primesport-favorite-active"></div>
+                            </a>
+                        </div>
+                        <img src="img/item-2.jpg" alt="">
+                        <div class="card-info">
+                            <p class="date">Apr  9 - Apr 11, 2015</p>
+                            <h5>NCAA Frozen Four</h5>
+                            <span class="location">Boston, MA</span>
+                            <a href="#" class="see-links">See Packages ></a>
+                        </div>
+                    </div>
+                    <div class="item container-card">
+                        <div class="social-icons">
+                            <a href="#" class="social-icon share">
+                                <div class="icon icon-primesport-share-ps"></div>
+                                <div class="share-menu">
+                                    <div class="icon icon-primesport-facebook"></div><!--
+                                 --><div class="icon icon-primesport-twitter"></div><!--
+                                 --><div class="icon icon-primesport-google"></div><!--
+                                 --><div class="icon icon-primesport-mail"></div>
+                                </div>
+                            </a>
+                            <a href="#" class="social-icon like">
+                                <div class="icon icon-primesport-favorite-inactive"></div>
+                                <div class="icon icon-primesport-favorite-active"></div>
+                            </a>
+                        </div>
+                        <img src="img/item-3.jpg" alt="">
+                        <div class="card-info">
+                            <p class="date">Apr  9 - Apr 11, 2015</p>
+                            <h5>NCAA Frozen Four</h5>
+                            <span class="location">Boston, MA</span>
+                            <a href="#" class="see-links">See Packages ></a>
+                        </div>
+                    </div>
+                    <div class="item container-card">
+                        <div class="social-icons">
+                            <a href="#" class="social-icon share">
+                                <div class="icon icon-primesport-share-ps"></div>
+                                <div class="share-menu">
+                                    <div class="icon icon-primesport-facebook"></div><!--
+                                 --><div class="icon icon-primesport-twitter"></div><!--
+                                 --><div class="icon icon-primesport-google"></div><!--
+                                 --><div class="icon icon-primesport-mail"></div>
+                                </div>
+                            </a>
+                            <a href="#" class="social-icon like">
+                                <div class="icon icon-primesport-favorite-inactive"></div>
+                                <div class="icon icon-primesport-favorite-active"></div>
+                            </a>
+                        </div>
+                        <img src="img/item-1.jpg" alt="">
+                        <div class="card-info">
+                            <p class="date">Apr  9 - Apr 11, 2015</p>
+                            <h5>NCAA Frozen Four</h5>
+                            <span class="location">Boston, MA</span>
+                            <a href="#" class="see-links">See Packages ></a>
+                        </div>
+                    </div>
+                    <div class="item container-card">
+                        <div class="social-icons">
+                            <a href="#" class="social-icon share">
+                                <div class="icon icon-primesport-share-ps"></div>
+                                <div class="share-menu">
+                                    <div class="icon icon-primesport-facebook"></div><!--
+                                 --><div class="icon icon-primesport-twitter"></div><!--
+                                 --><div class="icon icon-primesport-google"></div><!--
+                                 --><div class="icon icon-primesport-mail"></div>
+                                </div>
+                            </a>
+                            <a href="#" class="social-icon like">
+                                <div class="icon icon-primesport-favorite-inactive"></div>
+                                <div class="icon icon-primesport-favorite-active"></div>
+                            </a>
+                        </div>
+                        <img src="img/item-2.jpg" alt="">
+                        <div class="card-info">
+                            <p class="date">Apr  9 - Apr 11, 2015</p>
+                            <h5>NCAA Frozen Four</h5>
+                            <span class="location">Boston, MA</span>
+                            <a href="#" class="see-links">See Packages ></a>
+                        </div>
+                    </div>
+                </div>
+                <!--<a class="show-more btn btn-blue visible-xs" href="#">SHOW MORE</a>-->
+            </div>
+        </section>
+        <section class="primesport-xp">
+            <div class="container container-section">
+                <h3>The PrimeSport Experience</h3>
+                <div class="row primesport-xp-text">
+                    <div class="col-md-6 col-sm-8">
+                        <p>It’s not just a game. it’s the coutside seats so close that LeBron James might actually sweat on you. It’s the hospitatlity parties where you can look your hero in the eye. It’s a moment in time where comaraderie, laughter, cheers and little moments create big memories.</p>
+                    </div>
+                    <div class="col-md-6 col-sm-4">
+                        <a href="#" class="btn pull-right btn-blue mob-100">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider-experience">
+                <div id="video-gallery">
+                    <div class="item" data-video="xLGZbeC1kzc">
+                        <img src="img/video-preview.jpg" alt="">
+                        <div class="play-ico"></div>
+                        <div class="title"><i class="icon-primesport-left-arrow"></i>Video info 0 <i class="icon-primesport-right-arrow"></i></div>
+                    </div>
+                    <div class="item" data-video="xLGZbeC1kzc">
+                         <img src="img/video-preview.jpg" alt="">
+                         <div class="play-ico"></div>
+                        <div class="title"><i class="icon-primesport-left-arrow"></i>Video info 1 <i class="icon-primesport-right-arrow"></i></div>
+                    </div>
+                    <div class="item" data-video="xLGZbeC1kzc">
+                        <img src="img/video-preview.jpg" alt="">
+                        <div class="play-ico"></div>
+                        <div class="title"><i class="icon-primesport-left-arrow"></i>Video info 2 <i class="icon-primesport-right-arrow"></i></div>
+                    </div>
+                    <div class="item" data-video="xLGZbeC1kzc">
+                        <img src="img/video-preview.jpg" alt="">
+                        <div class="play-ico"></div>
+                        <div class="title"><i class="icon-primesport-left-arrow"></i>Video info 3 <i class="icon-primesport-right-arrow"></i></div>
+                    </div>
+                    <div class="item" data-video="xLGZbeC1kzc">
+                        <img src="img/video-preview.jpg" alt="">
+                        <div class="play-ico"></div>
+                        <div class="title"><i class="icon-primesport-left-arrow"></i>Video info 4 <i class="icon-primesport-right-arrow"></i></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-events">
+            <div class="container container-section">
+                <div class="row">
+                    <div class="col-md-2 col-sm-3"><h3>Featured Events</h3></div>
+                    <div class="col-md-4 col-sm-4">
+                        <select name="event" id="events-select">
+                            <option value="1">Event #1</option>
+                            <option value="2">Event #2</option>
+                            <option value="3">Event #3</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="container-cards">
+                    <div class="item container-card">
+                        <div class="img-container">
+                            <img src="img/small-item-1.png" alt="">
+                        </div>
+                        <h6>Lorem Ipsum Dolor Sit</h6>
+                        <p class="date">Jun 15 - Jun 21, 2015</p>
+                        <p class="location">Lorem Ipsum, SX</p>
+                    </div>
+                    <div class="item container-card">
+                        <div class="img-container">
+                            <img src="img/small-item-2.png" alt="">
+                        </div>
+                        <h6>Lorem Ipsum Dolor Sit</h6>
+                        <p class="date">Jun 15 - Jun 21, 2015</p>
+                        <p class="location">Lorem Ipsum, SX</p>
+                    </div>
+                    <div class="item container-card">
+                        <div class="img-container">
+                            <img src="img/small-item-1.png" alt="">
+                        </div>
+                        <h6>Lorem Ipsum Dolor Sit</h6>
+                        <p class="date">Jun 15 - Jun 21, 2015</p>
+                        <p class="location">Lorem Ipsum, SX</p>
+                    </div>
+                    <div class="item container-card">
+                        <div class="img-container">
+                            <img src="img/small-item-1.png" alt="">
+                        </div>
+                        <h6>Lorem Ipsum Dolor Sit</h6>
+                        <p class="date">Jun 15 - Jun 21, 2015</p>
+                        <p class="location">Lorem Ipsum, SX</p>
+                    </div>
+                    <div class="item container-card">
+                        <div class="img-container">
+                            <img src="img/small-item-1.png" alt="">
+                        </div>
+                        <h6>Lorem Ipsum Dolor Sit</h6>
+                        <p class="date">Jun 15 - Jun 21, 2015</p>
+                        <p class="location">Lorem Ipsum, SX</p>
+                    </div>
+                    <div class="item container-card">
+                        <div class="img-container">
+                            <img src="img/small-item-1.png" alt="">
+                        </div>
+                        <h6>Lorem Ipsum Dolor Sit</h6>
+                        <p class="date">Jun 15 - Jun 21, 2015</p>
+                        <p class="location">Lorem Ipsum, SX</p>
+                    </div>
+                    <div class="item container-card">
+                        <div class="img-container">
+                            <img src="img/small-item-1.png" alt="">
+                        </div>
+                        <h6>Lorem Ipsum Dolor Sit</h6>
+                        <p class="date">Jun 15 - Jun 21, 2015</p>
+                        <p class="location">Lorem Ipsum, SX</p>
+                    </div>
+                    <div class="item container-card">
+                        <div class="img-container">
+                            <img src="img/small-item-1.png" alt="">
+                        </div>
+                        <h6>Lorem Ipsum Dolor Sit</h6>
+                        <p class="date">Jun 15 - Jun 21, 2015</p>
+                        <p class="location">Lorem Ipsum, SX</p>
+                    </div>
+                </div>
+
+                <a class="show-more btn btn-blue visible-xs" href="#">SHOW MORE</a>
+            </div>
+        </section>
+        <!-- SECTION CUSTOM PACKAGES-->
+        <section class="custom-packages">
+            <div class="container container-section">
+                <h3>Custom Packages</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                <a href="http://concierge.primesport.com" class="btn btn-blue mob-100">Learn More</a>
+            </div>
+        </section>
+        <!-- END SECTION CUSTOM PACKAGES-->
+        <!-- SECTION NEWSLETTER-->
+        <section class="newsletter">
+            <div class="container container-section">
+                <h3>Get updates on events and packages from PrimeSport!</h3>
+                <form class="send-form">
+                    <input type="email" placeholder="Email Address" class="form-email">
+                    <input type="submit" value="JOIN" class="btn btn-darkblue join">
+                </form>
+            </div>
+        </section>
+        <!-- END SECTION NEWSLETTER-->
+    </div>
+</div>
+
+<footer class="page-footer">
+    <div class="main-footer">
+        <section class="social-media">
+            <div class="container container-section">
+                <ul class="row">
+                    <li class="col-md-15 col-sm-15 col-xs-15">
+                        <a class="twitter" href="https://twitter.com/primesport" target="_blank">
+                            <div class="icon icon-primesport-twitter"></div>
+                        </a>
+                    </li>
+                    <li class="col-md-15 col-sm-15 col-xs-15">
+                        <a class="facebook" href="https://www.facebook.com/PrimeSportEvents" target="_blank">
+                            <div class="icon icon-primesport-facebook"></div>
+                        </a>
+                    </li>
+                    <li class="col-md-15 col-sm-15 col-xs-15">
+                        <a class="youtube" href="https://www.youtube.com/channel/UCSBuS6F8zci88PyxJIDwIlQ"  target="_blank">
+                            <div class="icon icon-primesport-youtube"></div>
+                        </a>
+                    </li>
+                    <li class="col-md-15 col-sm-15 col-xs-15">
+                        <a class="google" href="https://plus.google.com/110158606543970442801"  target="_blank">
+                            <div class="icon icon-primesport-google"></div>
+                        </a>
+                    </li>
+                    <li class="col-md-15 col-sm-15 col-xs-15">
+                        <a class="instagram" href="https://instagram.com/primesportevents/"  target="_blank">
+                            <div class="icon icon-primesport-instagram"></div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="footer-top">
+            <div class="container container-section">
+                <div class="row">
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                        <div class="row">
+                            <div class="footer-links col-md-12 col-sm-12 col-xs-6">
+                                <h6>Company</h6>
+                                <ul>
+                                    <li><a href="about-us.html">About PrimeSport</a></li>
+                                    <li><a href="#">FAQ</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-links col-md-12 col-sm-12 col-xs-6">
+                                <h6>Resources</h6>
+                                <ul>
+                                    <li><a href="#">Affiliate Program</a></li>
+                                    <li><a href="#">Seller Guide</a></li>
+                                    <li><a href="#">Concierge Live</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-6">
+                        <div class="primesport-footer-info">
+                            <a href="#">
+                                <div class="icon icon-primesport-hospitality"></div>
+                            </a>
+                            <h6>The PrimeSport Experience</h6>
+                            <p>We’re so much more than tickets!    </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-6">
+                        <div class="primesport-footer-info">
+                            <a href="#">
+                                <div class="icon icon-primesport-custom"></div>
+                            </a>
+                            <h6>Custom Packages  Available</h6>
+                            <p>Perfect for private or corporate events.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-6 appstore-link">
+                        <a href="https://itunes.apple.com/us/app/primesport/id932565744?mt=8" target="_blank"><img src="img/home/appstore.png" alt="AppStore" /></a>
+                    </div>
+                    <a class="visible-xs col-xs-6 see-quick btn btn-white">
+                        See quick links
+                    </a>
+                    <div class="visible-sm col-xs-6"></div>
+                </div>
+            </div>
+        </section>
+        <div class="slideout-footer">
+            <div class="slideout-footer-content">
+                <section class="footer-placement">
+                    <div class="container container-section">
+                        <div class="footer-caption">Quick Links</div>
+                        <div class="row">
+                            <div class="col-md-3 col-sm-3 col-xs-6 footer-links">
+                                <h6>Sports</h6>
+                                <ul>
+                                    <li><a href="#">MLB</a></li>
+                                    <li><a href="#">NBA</a></li>
+                                    <li><a href="#">NFL</a></li>
+                                    <li><a href="#">NHL</a></li>
+                                    <li><a href="#">Golf</a></li>
+                                    <li><a href="#">Soccer</a></li>
+                                    <li><a href="#">Tennis</a></li>
+                                    <li><a href="#">Horse Racing</a></li>
+                                    <li><a href="#">Motorsports</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-6 footer-links">
+                                <h6>Major Events</h6>
+                                <ul>
+                                    <li><a href="#">Men's Final Four</a></li>
+                                    <li><a href="#">Masters</a></li>
+                                    <li><a href="#">Super Bowl</a></li>
+                                    <li><a href="#">CFP National Championship</a></li>
+                                    <li><a href="#">CONCACAF Gold Cup</a></li>
+                                    <li><a href="#">Rose Bowl</a></li>
+                                    <li><a href="#">Kentucky Derby</a></li>
+                                    <li><a href="#">Mayweather vs. Pacquiao</a></li>
+                                    <li><a href="#">Daytona 500</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-6 footer-links">
+                                <h6>Upcoming Events</h6>
+                                <ul>
+                                    <li><a href="#">Texas Race</a></li>
+                                    <li><a href="#">Bristol Race</a></li>
+                                    <li><a href="#">Monster Energy Supercross Finals</a></li>
+                                    <li><a href="#">Indianapolis 500</a></li>
+                                    <li><a href="#">National Finals Rodeo</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-6 footer-links">
+                                <h6>The NCAA Experience<sup>&copy;</sup></h6>
+                                <ul>
+                                    <li><a href="#">Men’s Basketball Championship</a></li>
+                                    <li><a href="#">Wrestling Championships</a></li>
+                                    <li><a href="#">Men’s Final Four</a></li>
+                                    <li><a href="#">Women’s Final Four</a></li>
+                                    <li><a href="#">Men’s Frozen Four</a></li>
+                                    <li><a href="#">Women’s College World Series</a></li>
+                                    <li><a href="#">Men’s College World Series</a></li>
+                                    <li><a href="#">Women’s Volleyball Championship</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="footer-low">
+                    <div class="container container-section">
+                        <div class="footer-copyright">&#169; 2015 PrimeSport All rights reserved. <span>Privacy Policy | Terms and Conditions</span></div>
+                        <img src="img/home/logo-white.png" class="footer-logo" alt="PrimeSport" />
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div id="email-share-popup" class="popup share-popup hidden">
+    <header class="clearfix">
+        <span class="popup-close"><div class="icon icon-primesport-close"></div></span>
+        <div class="icon icon-primesport-mail"></div>
+        <h2>Share with your friends</h2>
+    </header>
+    <div class="content">
+        <input type="email" placeholder="Friend’s Name"/>
+        <input type="email" placeholder="Friend’s Email Address (seperate multiple with comma)">
+        <textarea name="" placeholder="Your Message"></textarea>
+        <div class="share-section">
+            <div class="left-column">
+                <img src="img/share-item.jpg" alt="share-item">
+            </div>
+            <div class="right-column info">
+                <a href="#" class="primesport-label">
+                    <img src="img/ps-logo.png" alt="">
+                    <span>PrimeSport</span>
+                </a>
+                <p>Lorem ipsum dolor sit amet, possit viderer detracto qui et. Estillo quod decore persius cu, cibo deserunt dissentiet quo eu. Illud lor diceret omne sque nam id, qui in quod nulla, et alterum veritus quaestio cum. Legere postea eum ut, volutpat delicatissimi meis. </p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <a href="#" class="share-btn">send email</a>
+    </footer>
+</div>
+
+<div id="twitter-share-popup" class="popup share-popup hidden">
+    <header class="clearfix">
+        <span class="popup-close"><div class="icon icon-primesport-close"></div></span>
+        <div class="icon icon-primesport-twitter"></div>
+        <h2>Share a link with your followers John Smith</h2>
+    </header>
+    <div class="content clearfix">
+        <div class="left-column">
+            <img src="img/user-avatar.jpg" alt="">
+        </div>
+        <div class="right-column">
+            <textarea name="" placeholder="Your Message"></textarea>
+            <div class="share-section">
+                <div class="left-column">
+                    <img src="img/share-item.jpg" alt="share-item">
+                </div>
+                <div class="right-column info">
+                    <a href="#" class="primesport-label">
+                        <img src="img/ps-logo.png" alt="">
+                        <span>PrimeSport</span>
+                    </a>
+                    <p>Lorem ipsum dolor sit amet, possit viderer detracto qui et. Estillo quod decore persius cu, cibo deserunt dissentiet quo eu. Illud lor diceret omne sque nam id, qui in quod nulla, et alterum veritus quaestio cum.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <a href="#" class="share-btn">tweet</a>
+    </footer>
+</div>
+
+<div id="google-plus-share-popup" class="popup share-popup hidden">
+    <header class="clearfix">
+        <span class="popup-close"><div class="icon icon-primesport-close"></div></span>
+        <div class="icon icon-primesport-google"></div>
+        <h2>Share this on Google+ as John Smith</h2>
+    </header>
+    <div class="content clearfix">
+        <div class="left-column">
+            <img src="img/user-avatar.jpg" alt="">
+        </div>
+        <div class="right-column">
+            <textarea name="" placeholder="Add a comment ..."></textarea>
+            <div class="share-section">
+                <div class="left-column">
+                    <img src="img/share-item.jpg" alt="share-item">
+                </div>
+                <div class="right-column info">
+                    <a href="#" class="primesport-label">
+                        <img src="img/ps-logo.png" alt="">
+                        <span>PrimeSport</span>
+                    </a>
+                    <p>Lorem ipsum dolor sit amet, possit viderer detracto qui et. Estillo quod decore persius cu, cibo deserunt dissentiet quo eu. Illud lor diceret omne sque nam id, qui in quod nulla, et alterum veritus quaestio cum.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <a href="#" class="share-btn">share</a>
+    </footer>
+</div>
+
+<div id="facebook-share-popup" class="popup share-popup hidden">
+    <header class="clearfix">
+        <span class="popup-close"><div class="icon icon-primesport-close"></div></span>
+        <div class="icon icon-primesport-facebook"></div>
+        <h2>Post to Facebook</h2>
+    </header>
+    <div class="content clearfix">
+        <div class="left-column">
+            <img src="img/user-avatar.jpg" alt="">
+        </div>
+        <div class="right-column">
+            <textarea name="" placeholder="Say something about this..."></textarea>
+            <div class="share-section">
+                <div>
+                    <div class="left-column">
+                        <img src="img/share-item.jpg" alt="share-item">
+                    </div>
+                    <div class="right-column info">
+                        <p>Lorem ipsum dolor sit amet, possit viderer detracto qui et. Estillo quod decore persius cu, cibo deserunt dissentiet quo eu. Illud lor diceret omne sque nam id, qui in quod nulla, et alterum veritus quaestio cum.</p>
+                    </div>
+                </div>
+                <div class="facebook-company-label">
+                    <a href="#" class="primesport-label">
+                        <img src="img/ps-logo.png" alt="">
+                        <span>via PrimeSport</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <a href="#" class="share-btn">share</a>
+        <a href="#" class="share-btn-cancel" data-close-popup>cancel</a>
+    </footer>
+</div>
+
+<div id="video-modal-popup" class="popup hidden">
+    <iframe src="" frameborder="0" allowfullscreen class="vid-index"></iframe>
+</div>
+
+<div class="favorite-popup popup hidden">
+    <div class="popup-main-container">
+        <header class="clearfix">
+            <span class="popup-close"><div class="icon icon-primesport-close"></div></span>
+            <img src="img/logo.png" alt="PrimeSport">
+        </header>
+        <div class="popup-container">
+            <div class="popup-sub-container">
+                <p class="popup-sub-title"><span>Your favorite is temporarily saved!</span></p>
+                <p class="popup-sub-info">Please <a href="#">sign in</a> or <a href="#">create an account</a> to permanently save the item you have favorited.</p>
+                <div class="popup-buttons">
+                    <a href="#" class="btn btn-blue mob-100 active">Create account</a>
+                    <a href="#" class="btn btn-blue mob-100">Not right now</a>
+                </div>
+            </div>
+            <div class="popup-sub-container">
+                <p class="popup-sub-info">Your favorites can be accessed in the PrimeSport menu:</p>
+                <div class="popup-menu-block">
+                    <div class="popup-menu-sub-block">
+                        <div class="icon icon-primesport-menu"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="favorite-popup popup small hidden">
+    <div class="popup-main-container">
+        <div class="popup-container">
+            <div class="popup-sub-container">
+                <span class="popup-close"><div class="icon icon-primesport-close"></div></span>
+                <p class="popup-sub-title"><span>Favorite Saved!</span></p>
+            </div>
+            <div class="popup-sub-container">
+                <p class="popup-sub-info">Your favorites can be accessed in the PrimeSport menu:</p>
+                <div class="popup-menu-block">
+                    <div class="popup-menu-sub-block">
+                        <div class="icon icon-primesport-menu"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="menu-button">
+    <div class="toggle-left-menu menu-hidden" data-target=".left-menu-wrapper">
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+    </div>
+</div>
+
+<div class="left-menu-wrapper menu-hidden">
+    <div class="left-menu">
+        <div class="log-in-alert visible">
+            <h2 class="title">You are not logged in</h2>
+            <p class="description">
+                <a class="log-in-link" href="#">Sign in</a> or <a class="sign-up-link" href="#">Create an Account</a> to permanently save your favorites.
+            </p>
+        </div>
+        <div class="my-favorites">
+            <h2 class="title">My favorites</h2>
+            <ul>
+                <li class="favorite-item">
+                    <a class="link" href="#">Atlanta Braves</a>
+                </li>
+                <li class="favorite-item">
+                    <a class="link" href="#">Atlanta Falcons</a>
+                </li>
+                <li class="favorite-item">
+                    <a class="link" href="#">Lorem Ipusm</a>
+                </li>
+                <li class="favorite-item">
+                    <a class="link" href="#">Lorem Ipusm</a>
+                </li>
+                <li class="favorite-item">
+                    <a class="link" href="#">Lorem Ipusm</a>
+                </li>
+                <li class="favorite-item">
+                    <a class="link" href="#">Lorem Ipusm</a>
+                </li>
+            </ul>
+        </div>
+        <div class="primesport-twitter">
+            <div class="content">
+                <div class="clearfix">
+                    <div class="prime-logo">
+                        <img class="prime-logo-image" src="img/experience/prime-logo.png" alt="">
+                        <div class="prime-details">
+                            <h6 class="title">PrimeSport</h6>
+                            <p class="hashtag">@primesportevents</p>
+                        </div>
+                    </div>
+                    <div class="options">
+                        <ul>
+                            <li class="share-option">
+                                <div data-icon="N" class="icon"></div>
+                            </li>
+                            <li class="share-option">
+                                <div data-icon="O" class="icon"></div>
+                            </li>
+                            <li class="share-option">
+                                <div data-icon="R" class="icon"></div>
+                            </li>
+                            <li class="share-option">
+                                <div data-icon="M" class="icon"></div>
+                            </li>
+                        </ul>
+                        <p class="date">20 minutes ago</p>
+                    </div>
+                </div>
+                <p class="description">It's never too early to start planning for Augusta! #2016Masters Tix & Travel Pkgs: <a class="link" href="http://ow.ly/Ly7vD">http://ow.ly/Ly7vD</a></p>
+            </div>
+        </div>
+        <div class="container social-media">
+            <ul class="row">
+                <li class="col-md-15 col-sm-15 col-xs-15">
+                    <a class="twitter" href="https://twitter.com/primesport" target="_blank">
+                        <div class="icon icon-primesport-twitter"></div>
+                    </a>
+                </li>
+                <li class="col-md-15 col-sm-15 col-xs-15">
+                    <a class="facebook" href="https://www.facebook.com/PrimeSportEvents" target="_blank">
+                        <div class="icon icon-primesport-facebook"></div>
+                    </a>
+                </li>
+                <li class="col-md-15 col-sm-15 col-xs-15">
+                    <a class="youtube" href="https://www.youtube.com/channel/UCSBuS6F8zci88PyxJIDwIlQ" target="_blank">
+                        <div class="icon icon-primesport-youtube"></div>
+                    </a>
+                </li>
+                <li class="col-md-15 col-sm-15 col-xs-15">
+                    <a class="google" href="https://plus.google.com/110158606543970442801" target="_blank">
+                        <div class="icon icon-primesport-google"></div>
+                    </a>
+                </li>
+                <li class="col-md-15 col-sm-15 col-xs-15">
+                    <a class="instagram" href="https://instagram.com/primesportevents/" target="_blank">
+                        <div class="icon icon-primesport-instagram"></div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="customer-service">
+            <h2 class="title">customer service</h2>
+            <p class="phone">1-800-591-9198</p>
+            <p class="time"><span class="days">mon–fri:</span> 9am — 6pm est</p>
+            <p class="time"><span class="days">sat-sun:</span> 10am — 5pm est</p>
+        </div>
+        <div class="faq">
+            <a class="title" href="#">FAQ ></a>
+        </div>
+    </div>
+</div>
+
+
+<div id="login-popup" class="popup account-popup login-popup hidden">
+    <header class="black clearfix">
+        <span class="popup-close"><div class="icon icon-primesport-close"></div></span>
+        <img src="img/logo.png" alt="PrimeSport">
+    </header>
+    <div class="content clearfix">
+        <div class="sub-container">
+            <p class="sub-title">Login</p>
+            <p class="sub-info">Login with your PrimeSport username and password that you used previously to register.</p>
+            <div class="alerts" id="login-validation-errors"></div>
+            <form action="" class="login-form form-field" data-validate-msg-id="login-validation-errors">
+                <div class="row form-row">
+                    <div class="col-xs-12">
+                        <input type="email" class="field email" name="email" value="" placeholder="EMAIL ADDRESS" data-validate="true" data-validate-msg-email="Not valid email">
+                    </div>
+                </div>
+                <div class="row form-row">
+                    <div class="col-xs-12">
+                        <input type="password" class="field min-length only-digits-and-letters" name="password" value="" placeholder="PASSWORD" data-validate="true" data-validate-min-length="6" data-validate-msg-min-length="Password must be at least 6 characters" data-validate-msg-only-digits-and-letters="Password includes numbers and letters">
+                    </div>
+                </div>
+                <a href="#" class="forgot-password">forgot password <span class="gt-arrow">&gt;</span></a>
+                <input type="submit" class="btn btn-darkblue login" value="Login">
+            </form>
+        </div>
+        <div class="sub-container">
+            <a href="#" class="btn btn-blue create-account">Create an account</a>
+        </div>
+    </div>
+</div>
+
+<div id="welcome-popup" class="popup account-popup welcome-popup hidden">
+    <header class="black clearfix">
+        <span class="popup-close"><div class="icon icon-primesport-close"></div></span>
+        <img src="img/logo.png" alt="PrimeSport">
+    </header>
+    <div class="content clearfix">
+        <div class="sub-container">
+            <p class="sub-title">Welcome to PrimeSport, Brett!</p>
+            <p class="sub-info">Your account has succesfully been created. You are now ready to shop our tickets and packages.</p>
+                <input type="button" class="btn btn-darkblue mod-100 shop-primesport" value="Shop PrimeSport">
+        </div>
+        <div class="sub-container">
+            <p class="sub-info">Complete the rest of your account for a faster checkout:</p>
+            <a href="#" class="complete-account">Complete my account <span class="gt-arrow">&gt;</span></a>
+        </div>
+    </div>
+</div>
+
+<div id="signup-popup" class="popup account-popup signup-popup hidden">
+    <header class="black clearfix">
+        <span class="popup-close"><div class="icon icon-primesport-close"></div></span>
+        <img src="img/logo.png" alt="PrimeSport">
+    </header>
+    <div class="content clearfix">
+        <p class="sub-title">Create an Account</p>
+        <p class="sub-info">Create a PrimeSport account to buy and sell tickets and to check your order status.</p>
+        <div class="alerts" id="signup-validation-errors"></div>
+        <form action="index.html" class="prime-form" data-validate-msg-id="signup-validation-errors">
+            <div class="row form-row">
+                <div class="col-sm-12 col-md-6">
+                    <input type="text" name="firstName" class="field required" placeholder="First Name" data-validate="true" data-validate-msg-required="First name must be filled">
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <input type="text" name="lastName" class="field required" placeholder="Last Name" data-validate="true"  data-validate-msg-required="Second name must be filled">
+                </div>
+            </div>
+            <div class="row form-row">
+                <div class="col-sm-12 col-md-6">
+                    <input type="text" name="email" class="field email matches" placeholder="Email Address" data-validate="true" data-validate-correspond-element-id="confirmEmail" data-validate-msg-matches="Email addresses do not match. Please try again" data-validate-msg-email="Not valid email">
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <input type="text" name="confirmEmail" id="confirmEmail" class="field" placeholder="Confirm Email Address">
+                </div>
+            </div>
+            <div class="row form-row">
+                <div class="col-sm-12 col-md-6">
+                    <input type="password" name="password" class="field min-length matches only-digits-and-letters" placeholder="Password" data-validate="true" data-validate-correspond-element-id="confirmPassword" data-validate-min-length="6" data-validate-msg-min-length="Password must be at least 6 characters long" data-validate-msg-matches="Passwords do not match. Please try again" data-validate-msg-only-digits-and-letters="Password includes numbers and letters">
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <input type="password" name="confirmPassword" id="confirmPassword" class="field" placeholder="Confirm Password">
+                </div>
+            </div>
+
+            <div class="row form-row custom-checkbox">
+                <div class="col-md-12">
+                    <input type="checkbox" name="is-email-notifications" id="is-email-notifications">
+                    <label class="label" for="is-email-notifications">I would like to receive emails and offers from PrimeSport.</label>
+                </div>
+            </div>
+
+            <div class="row form-row terms-row">
+                <div class="col-md-12">
+                    <p>By clicking “Create Account,” I agree to the <a href="#">Terms and Conditions</a> and <a href="#">Privacy Policy</a>.</p>
+                </div>
+            </div>
+
+            <input type="submit" class="btn btn-darkblue" value="Create Account" />
+        </form>
+    </div>
+</div>
+
+<div id="forgot-password-popup" class="popup account-popup forgot-password-popup hidden">
+    <header class="black clearfix">
+        <span class="popup-close"><div class="icon icon-primesport-close"></div></span>
+        <img src="img/logo.png" alt="PrimeSport">
+    </header>
+    <div class="content clearfix">
+        <div class="sub-container">
+            <p class="sub-title">Forgot Password</p>
+            <p class="sub-info">Enter your PrimeSport username (email address) that you used to register. We’ll send you an email with a link to reset your password.</p>
+            <div class="alerts" id="forgot-password-validation-errors"></div>
+            <form action="" class="forgot-password-form form-field" data-validate-msg-id="forgot-password-validation-errors">
+                <div class="row form-row">
+                    <div class="col-xs-12">
+                        <input type="email" class="field email" name="email" value="" placeholder="EMAIL ADDRESS" data-validate="true" data-validate-msg-email="There is no account associated with this email. Please double check your username or click Create An Account.">
+                    </div>
+                </div>
+                <input type="submit" class="btn btn-darkblue send" value="Send">
+            </form>
+            <p class="sub-info">If you still need help, contact PrimeSport <a href="#">Customer Support.</a></p>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/lib/jquery.countdown.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/lib/jquery.roundabout.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/lib/jquery.touchSwipe.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/lib/jquery.selectbox-0.2.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/lib/owl.carousel.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="js/lib/jquery.ddslick.min.js"></script>
+<script src="js/lib/slick.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/popupHelper.js" type="text/javascript"></script>
+<script src="js/megaMenu.js" type="text/javascript"></script>
+<script src="js/cart-modal.js" type="text/javascript"></script>
+<script src="js/index.js" type="text/javascript"></script>
+<script src="js/main.js" type="text/javascript"></script>
+<script src="js/social_icons.js" type="text/javascript"></script>
+<script src="js/footer.js" type="text/javascript"></script>
+<script src="js/formValidation.js" type="text/javascript"></script>
+
+</body>
+</html>

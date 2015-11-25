@@ -1,0 +1,72 @@
+.tickets-filters {
+	padding: 0 15px;
+    background: #024b78;	
+}
+
+.tickets-filters .filter {
+	border-right: 1px solid #05334e;
+}
+
+.tickets-filters .filter:last-child {
+	border-right: none;
+}
+
+.tickets-filters .dropdown-filter {
+	padding: 15px 15px 15px 0;
+}
+
+.tickets-filters .slider {
+	padding: 15px 5px;
+    line-height: 40px;
+}
+
+.tickets-filters .big-select {
+    padding: 15px 0 0 15px;
+}
+
+.tickets-filters .dd-container label.dd-selected-text {
+    font-size: 10px;
+}
+
+@media (min-width: 768px) {
+	.tickets-filters {
+	    height: auto !important;
+	}
+}
+
+@media (max-width: 767px) {
+	.tickets-filters {
+        position: absolute;
+        left: 0;
+        right: 0;
+        z-index: 2;
+        margin-top: 36px;
+        overflow: hidden;
+        -webkit-transition: 0.5s all;
+                transition: 0.5s all;
+    }
+
+    .tickets-section:not(.filters-visible) .tickets-filters {
+        height: 0px !important;
+    }
+
+    .tickets-section.filters-visible .table-head {
+        color: #4b4b4b;
+    }
+
+    .tickets-filters .filter {
+        border-right: 0px;
+        padding: 12px 0;
+        border-bottom: 1px solid #043b5c;
+    }
+
+    .tickets-filters .slider {
+        padding: 3px 0;
+        display: block;
+    }
+
+    .tickets-filters .dropdown-filter .dd-options {
+        max-height: 120px;
+        overflow: auto;
+    }
+}

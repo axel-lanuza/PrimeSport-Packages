@@ -1,0 +1,251 @@
+.prime-form {
+	padding: 16px 0 0;
+}
+
+.prime-form .form-row {
+	margin-bottom: 12px;
+}
+
+.prime-form .form-row:before,
+.prime-form .form-row:after {
+    display: table;
+    content: " ";
+}
+
+.prime-form .form-row:after {
+    clear: both;
+}
+
+.prime-form.edit-form .form-fieldset {
+	margin-bottom: 30px;
+}
+
+.prime-form .label {
+	display: block;
+	font-family: 'StagSans-Medium';
+	font-size: 13px;
+	color: #2d2d2d;
+	letter-spacing: 0.5px;
+	line-height: 20px;
+	padding: 10px 0;
+	margin: 0;
+	text-align: left;
+	white-space: normal;
+}
+
+.prime-form .field {
+	line-height: 39px;
+	height: 40px;
+	border: 1px solid #b7b7b7;
+	border-radius: 4px;
+	padding: 0 15px;
+	font-size: 13px;
+	font-family: 'StagSans-Book';
+	background: transparent;
+	width: 100%;
+}
+
+.prime-form .field-text {
+	color: #3f3f3f;
+	font-family: 'StagSans-Book';
+	line-height: 14px;
+	padding-top: 12px;
+}
+.prime-form .textarea-field {
+	height: 147px;
+	line-height: 20px;
+	padding: 10px;
+	resize: vertical;
+}
+
+.prime-form .field-text.small-field {
+	padding-top: 0px;
+}
+
+.prime-form .field::-webkit-input-placeholder {
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+}
+.prime-form .field::-moz-placeholder {
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+}
+.prime-form .field:-moz-placeholder {
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+}
+.prime-form .field:-ms-input-placeholder {
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+}
+
+.prime-form .textarea-field::-webkit-input-placeholder {
+	text-transform: none;
+}
+.prime-form .textarea-field::-moz-placeholder {
+	text-transform: none;
+}
+.prime-form .textarea-field:-moz-placeholder {
+	text-transform: none;
+}
+.prime-form .textarea-field:-ms-input-placeholder {
+	text-transform: none;
+}
+
+.prime-form .password {
+	font-family: 'StagSans-Book';
+	font-size: 13px;
+	letter-spacing: 2px;
+	padding-top: 15px;
+}
+
+.prime-form .link {
+	color: #024b78;
+	font-family: 'StagSans-Medium';
+	font-size: 13px;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+}
+
+.prime-form .field-select .dd-container,
+.prime-form .field-select .dd-select,
+.prime-form .field-select .dd-container .dd-options {
+	width: 100% !important;
+}
+
+.prime-form .field-select .dd-select {
+	height: 40px;
+	border-radius: 4px;
+	border: 1px solid #b7b7b7;
+}
+
+.prime-form .field-select .dd-selected {
+	padding-left: 15px;
+}
+
+.prime-form .field-select .dd-selected-text,
+.prime-form .field-select .dd-selected {
+	font-size: 13px;
+	font-family: 'StagSans-Book';
+	color: #a9a9a9;
+	text-transform: uppercase;
+	line-height: 21px;
+}
+
+.prime-form .field-select .dd-pointer {
+    width: 44px;
+    height: 38px;
+    right: 0;
+    top: 3px;
+}
+
+.prime-form .field-select .dd-pointer-down {
+    border: none;
+    border-left: 1px solid #cfcfcf;
+    background: #f6f6f6;
+    border-radius: 0 4px 4px 0;
+}
+
+.prime-form .field-select .dd-pointer:after {
+    display: block;
+    content: "";
+    margin-top: 40%;
+    margin-left: 36%;
+    width: 12px;
+    height: 8px;
+    background: url("../../img/arrow-down-gray.png") no-repeat;
+    background-size: contain;
+}
+
+.prime-form .field-select .dd-select.opened {
+	background: #b3b3b3 !important;
+	border-radius: 4px 4px 0 0;
+}
+
+.prime-form .field-select .opened .dd-selected-text,
+.prime-form .field-select .opened .dd-selected {
+	color: #ffffff;
+}
+
+.prime-form .field-select .dd-pointer-up {
+	height: 40px;
+	width: 45px;
+	top: 7px;
+	right: -1px;
+	background: #024b78;
+	border: 1px solid #043b5c !important;
+	border-radius: 0 4px 0 0;
+}
+
+.prime-form .field-select .dd-pointer-up:after {
+	background: url("../../img/arrow-down.png") no-repeat;
+}
+
+.prime-form .field-select .dd-option {
+	padding: 5px 15px;
+}
+
+.prime-form .field-select .dd-option-text {
+	color: #2d2d2d;
+	font-family: 'StagSans-Book';
+	font-weight: normal;
+	letter-spacing: 0.5px;
+	margin-bottom: 0px;
+	line-height: 23px;
+}
+
+.prime-form .custom-checkbox input[type="checkbox"] {
+	display: none;
+}
+
+.prime-form .custom-checkbox .label {
+	font-family: 'StagSans-Book';
+	color: #3f3f3f;
+	padding-left: 37px;
+	position: relative;
+	cursor: pointer;
+}
+
+.prime-form .custom-checkbox .label:before {
+	content: '';
+	width: 24px;
+	height: 24px;
+	border: 1px solid #b3b3b3;
+	position: absolute;
+	top: 6px;
+	left: 0;
+}
+
+.prime-form .custom-checkbox input:checked + .label:before {
+	border: 1px solid #106498;
+	background: #106498 url('../../img/check.png') no-repeat center center;
+}
+
+.prime-form:not(.edit-form) .form-row.form-fieldset.unfilled .form-row {
+	display: none;
+}
+
+.prime-form:not(.edit-form) .unfilled .label {
+	color: #b3b3b3;
+}
+
+.prime-form:not(.edit-form) .unfilled .field-text {
+	display: none;
+}
+
+@media (max-width: 767px) {
+	.prime-form .password {
+		border: 1px solid #b7b7b7;
+		border-radius: 4px;
+		padding: 15px 0 5px 15px;
+		margin-bottom: 10px;
+	}
+
+	.prime-form .field-text {
+		padding-top: 0px;
+	}
+
+	.prime-form:not(.edit-form) .label {
+		padding-bottom: 5px;
+	}
+}

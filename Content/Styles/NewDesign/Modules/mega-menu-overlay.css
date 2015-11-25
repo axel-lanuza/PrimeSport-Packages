@@ -1,0 +1,45 @@
+/**
+ * This stylesheet contains the rules for
+ * an overlay when the menu is open on
+ * mobile  devices.
+ */
+
+/* Full Overlay
+.page-menu-overlay {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(222, 222, 222, .82);
+    position: fixed;
+    z-index: 5001;
+    outline: 0px none
+}
+*/
+
+.content-wrapper {
+    display: block;
+    width: auto;
+    height: auto;
+    position: relative;
+}
+
+/* ... say what?  */
+.content-wrapper-overlay {
+    zoom: 1;
+    /* Older than Firefox 0.9 */
+    -moz-opacity: 0.4;
+    /* Safari 1.x (pre WebKit!) */
+    -khtml-opacity: 0.4;
+    filter: alpha(opacity=40);
+    opacity: 0.4;
+}
+
+/* the background result trick */
+.content-wrapper-overlay-parent {
+    background: rgba(179, 179, 179, 0.4);
+}

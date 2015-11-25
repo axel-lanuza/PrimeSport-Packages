@@ -1,0 +1,12 @@
+.numerical-list {
+    counter-reset: count;
+    padding-left: 0;
+}
+.numerical-list li {
+    list-style: none;
+}
+
+.numerical-list li:before {
+    counter-increment: count;
+    content: counter(count)". ";
+}

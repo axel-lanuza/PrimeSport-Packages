@@ -1,0 +1,647 @@
+/*.collapse, .collapse[style] {
+    display: block!important;
+    height: 900px;
+}*/
+
+.no-margin {
+    margin: 0;
+}
+
+.buy-page .alerts {
+    margin: 5px 0;
+    height: 0px;
+    padding: 0;
+}
+
+.buy-page .alerts.active {
+    height: auto;
+    margin: 5px 0;
+    padding: auto;
+}
+
+.buy-page .steps .nav-steps li {
+    width: 33.333333%;
+}
+
+.buy-page .steps .nav-steps li:last-child {
+    display: none;
+}
+
+.buy-page .steps .nav-steps li:first-child, .steps .nav-steps li[data-switch="1"] {
+    text-align: center;
+}
+
+.buy-page h2.title {
+    font-size: 18px;
+    line-height: 18px;
+    font-family: 'StagSans-Bold';
+    letter-spacing: 0.04em;
+    font-weight: normal;
+}
+
+.buy-page .accordion .panel:first-child {
+    border-top: none;
+}
+
+.buy-page .panel-heading h2.title {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.buy-page .order-info-toggle {
+    display: none;
+}
+
+.buy-page .order-info.toggle-opened,
+.buy-page .order-info.toggle-opened[style] {
+    display: block!important;
+}
+
+/* Credit card info*/
+
+#buy-tickets-user-form .col-md-10.col-sm-8 .form-row:not(.initial),
+#buy-tickets-user-form .hidden-first {
+    display: none;
+}
+
+.buy-page .order-info .event-tickets-info {
+    width: 100%;
+    margin-bottom: 17px;
+}
+
+.order-info.reviewing .event-order-summary .coupon-form {
+    display: block;
+    background: #fff;
+}
+
+.buy-page .event-tickets-info h3 {
+    text-align: center;
+    padding: 16px 67px;
+    margin-bottom: 1px;
+    font-family: 'StagSans-Bold';
+    font-size: 17px;
+    background: #fff;
+}
+
+.buy-page .order-info.reviewing h3 {
+        background: #024b78;
+        color: #fff;
+
+}
+
+.buy-page .event-tickets-details {
+    background: #fff;
+    padding: 15px 16px 16px 16px;
+    text-transform: uppercase;
+}
+
+.buy-page .event-tickets-details h4 {
+    font-family: 'StagSans-Semibold';
+    font-size: 13px;
+    color: #2d2d2d;
+}
+
+.buy-page .event-tickets-details ul {
+    background: #f6f6f6;
+    padding: 17px 13px;
+    font-size: 12px;
+}
+
+.buy-page .event-tickets-details ul .venue-name,
+.buy-page .event-tickets-details ul .event-time {
+    font-family: 'StagSans-Medium';
+}
+
+.buy-page .event-tickets-details ul .venue-name {
+    margin-bottom: 17px;
+}
+
+.buy-page .event-tickets-details ul .event-value {
+    font-family: 'StagSans-Medium';
+}
+
+.buy-page .event-order-summary {
+    width: 100%;
+    margin-top: -17px;
+    position: relative;
+}
+
+.buy-page .event-order-summary h3 {
+    text-align: center;
+    padding: 16px 67px;
+    margin-bottom: 1px;
+    font-family: 'StagSans-Bold';
+    font-size: 17px;
+    background: #fff;
+}
+
+.buy-page .event-order-summary .event-summary-details {
+    width: 100%;
+    background: #fff;
+    text-transform: uppercase;
+}
+
+.buy-page .event-order-summary .event-summary-details.final-total {
+    margin-bottom: 26px;
+}
+
+.event-order-summary .event-summary-details li {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 18px 0;
+}
+
+
+.event-order-summary .event-summary-details .underline {
+    border-bottom: 1px solid #ececec;
+}
+
+.event-order-summary .event-summary-details .summary-item,
+.event-order-summary .event-summary-details .summary-value {
+    width: 50%;
+    float: left;
+}
+
+.event-order-summary .event-summary-details .summary-item {
+    font-family: 'StagSans-semiBold';
+    font-size: 12px;
+}
+
+.event-order-summary .event-summary-details .summary-value {
+    font-family: 'StagSans-Book';
+    font-size: 13px;
+}
+
+.event-order-summary .coupon-form {
+    padding: 0;
+    display: none;
+}
+
+
+.event-order-summary .event-summary-coupon {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 18px 0;
+
+}
+
+.event-order-summary .event-summary-coupon li {
+    display: inline;
+    float: left;
+}
+
+
+
+.event-order-summary .coupon-code {
+    width: 60%;
+}
+
+.event-order-summary .coupon-code input {
+    line-height: 39px;
+    height: 40px;
+    border: 1px solid #b7b7b7;
+    border-radius: 4px;
+    padding: 0 15px;
+    font-size: 13px;
+    font-family: 'StagSans-Book';
+    background: transparent;
+    width: 100%;
+
+}
+
+.event-order-summary .coupon-code input {
+    height: 40px;
+}
+
+.event-order-summary .coupon-code-submit {
+    width: 25%;
+}
+
+.coupon-code-submit input {
+    line-height: 39px;
+    height: 40px;
+    border: 1px solid #b7b7b7;
+    border-radius: 4px;
+    padding: 0 15px;
+    font-size: 13px;
+    font-family: 'StagSans-Book';
+    background: transparent;
+    width: 100%;
+    margin-left: 15px;
+}
+
+.coupon-confirmed {
+    display: none;
+}
+
+.event-order-summary .tooltip-container.service-fee {
+    position: absolute;
+    top: 220px;
+    left: 88px;
+    z-index: 100;
+}
+
+
+/* fixes "Shipping Address" label overlaps on credit card field*/
+.buy-page .prime-form label {
+    white-space: inherit;
+}
+
+.buy-page .prime-form label.pay-card {
+    margin-top: -10px;
+}
+
+.buy-page .paypal-btn {
+    width: 80%;
+    text-indent: -999em;
+    background: url(../images/paypal.png) center center no-repeat;
+}
+
+.review-info {
+    margin-top: 20px;
+}
+
+.review-row {
+    margin-bottom: 48px;
+}
+
+.review-row:last-child {
+    margin-bottom: 0;
+}
+
+.address-review li {
+    font-size: 12px;
+}
+
+.review-item {
+    font-family: 'StagSans-Medium';
+}
+
+
+/* Accordion styles */
+
+.buy-page .accordion {
+    margin-bottom: 10px;
+}
+
+.buy-page .tab-content .accordion .panel-heading a:after {
+    font-family: 'StagSans-Light';
+}
+
+
+/* End of accordion styles */
+
+.buy-page .panel .prime-form {
+    padding-top: 0;
+    margin-bottom: 25px;
+}
+
+.buy-page .panel .edit-form {
+    padding-left: 0px;
+}
+
+.buy-page .panel .edit-form .alerts {
+    margin: 0;
+}
+
+.buy-page .prime-form .custom-checkbox .label {
+    font-size: 12px;
+    white-space: normal;
+}
+
+.buy-page .prime-form .custom-checkbox .label a {
+    text-decoration: underline;
+}
+
+
+/* Description block */
+
+.buy-page .description-block {
+    background: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.buy-page .description-block h2.title {
+    font-family: 'StagSans-semiBold';
+}
+
+.buy-page .description-block p {
+    font-size: 13px;
+}
+
+.buy-page .description-block a {
+    text-decoration: underline;
+}
+
+
+/* End of Description block */
+
+.buy-page .custom-checkbox .label-semi-bold {
+    font-family: 'StagSans-semiBold'
+}
+
+
+/* Buttons customize */
+
+.buy-page .btn.continue {
+    padding: 13px 48px;
+}
+
+.buy-page .small-select {
+    margin: 5px 0;
+}
+
+.buy-page .small-select .xdsoft_selector {
+    background: #f6f6f6;
+}
+
+.buy-page .label-ticket-price {
+    padding-top: 0;
+}
+
+.buy-page .other-dates-wrapper {
+    display: none;
+}
+
+
+/* Tooltip customize */
+
+.buy-page .tooltip-container {
+    float: left;
+}
+
+.buy-page .tooltip-wrapper {
+    top: auto;
+    bottom: 5px;
+}
+
+.buy-page .tooltip {
+    width: 155px;
+    left: -69px;
+}
+
+.buy-page .tooltip-icon {
+    cursor: pointer;
+    position: relative;
+}
+
+.buy-page .tooltip-icon.tooltip-input {
+    line-height: 40px;
+    margin-left: 5px;
+}
+
+.buy-page .tooltip-icon.tooltip-input .tooltip {
+    width: 180px;
+    left: -81px;
+}
+
+.buy-page .tooltip-icon img {
+    padding-bottom: 1px;
+    padding-left: 2px;
+}
+
+.buy-page .tooltip-icon:hover .tooltip {
+    display: block;
+    z-index: 3;
+}
+
+/* final tab styles */
+.buy-page .tab-pane.final .page-title h3 {
+    margin: 60px 0 15px;
+}
+
+.buy-page .tab-pane.final .page-title p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.buy-page .tab-pane.final .page-title p.green-text {
+    display: inline;
+    color: #50ab38;
+    font-size: 13px;
+}
+
+.buy-page .tab-pane.final .page-title p a {
+    text-decoration: underline;
+}
+
+.buy-page .tab-pane.final .page-title .icomoon-success-icon:before {
+    color: #50ab38;
+    padding-right: 5px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.buy-page .tab-pane.final .buttons-block {
+    padding: 28px 10px;
+    border-bottom: 1px solid #d4d4d4;
+}
+.buy-page .tab-pane.final .description-bottom {
+    padding: 28px 10px;
+}
+.buy-page .tab-pane.final .description-bottom p {
+    color: #3f3f3f;
+}
+.buy-page .tab-pane.final .description-bottom .buttons-block {
+    border-bottom: none;
+}
+.buy-page .xdsoft_selectspinner .xdsoft_selector {
+    background: #F6F6F6;
+}
+
+@media (max-width: 767px) {
+
+    .buy-page .no-padding-mobile {
+        padding: 0;
+    }
+
+    .buy-page .nav-container {
+        position: relative;
+    }
+
+    .buy-page .steps .nav-steps li {
+        width: 28%;
+        padding-top: 20px;
+        height: 55px;
+    }
+
+    .buy-page .steps .num,
+    .buy-page .steps .tick {
+        padding-right: 5px;
+        display: block;
+        float: left;
+    }
+
+    .buy-page .create-account-user-form,
+    .buy-page .login-user-form {
+        padding-top: 20px;
+    }
+
+    .buy-page .create-account-user-form .col-sm-3.col-md-4.col-lg-4 input {
+        margin-bottom: 15px;
+    }
+
+    .buy-page .create-account-user-form.prime-form .form-row {
+        margin-bottom: 0;
+    }
+
+    .buy-page .get-paid-user-form label br {
+        display: none;
+    }
+
+    .buy-page .prime-form label.pay-card {
+        margin-top: 0;
+    }
+
+    .buy-page .expiration-row {
+        margin-left: -30px;
+    }
+
+    .buy-page .review-container {
+
+    }
+
+    .order-details-modal {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 100;
+        background: rgba(191, 191, 191, 0.8);
+        display: none;
+    }
+
+    .buy-page .order-info-toggle {
+        border: none;
+        width: 60px;
+        height: 55px;
+        margin: -20px -11px 0 0;
+        float: right;
+        background: #ececec url(../images/circle-icon-blue.png) center no-repeat;
+        background-size: 50%;
+        position: absolute;
+        top: 20px;
+        right: 11px;
+        display: block;
+    }
+
+    .order-info-toggle.open {
+        background: #106498 url(../images/circle-icon-white.png) center no-repeat;
+        background-size: 50%;
+    }
+
+    .nav-steps .visible-xs.order-info-toggle-nav {
+    /*    display: none!important;*/
+        position: absolute
+    }
+
+    .buy-page .order-info {
+        display: none;
+        position: absolute;
+        top: 56px;
+        left: 0;
+        padding: 0;
+        width: 100%;
+        background: #fff;
+        z-index: 200;
+    }
+
+    .buy-page .order-info h3 {
+        background: #024b78;
+        color: #fff;
+        font-family: 'StagSans-Medium';
+        font-size: 14px;
+        text-align: left;
+        text-transform: uppercase;
+        margin-top: 0;
+        border-bottom: 2px solid #043b5c;
+        padding-left: 24px;
+        cursor: pointer;
+    }
+
+    .buy-page .order-info h3:before {
+        content: "l";
+        font-family: "primesport" !important;
+        font-style: normal !important;
+        font-weight: normal !important;
+        font-variant: normal !important;
+        text-transform: none !important;
+        speak: none;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        position: absolute;
+        right: 42px;
+    }
+
+    .buy-page .order-info h3.open:before {
+        content: "f";
+    }
+
+    .buy-page .event-tickets-details {
+        display: none;
+    }
+
+    .buy-page .event-tickets-details h4 {
+        font-size: 14px;
+    }
+
+    .buy-page .event-tickets-details ul {
+        font-size: 12px;
+    }
+
+    .buy-page .event-order-summary .event-summary-details {
+        display: none;
+    }
+
+    .event-order-summary .event-summary-details .summary-item {
+        font-size: 12px;
+    }
+
+    .event-order-summary .event-summary-details .summary-value {
+        font-size: 14px;
+    }
+
+    .event-order-summary .tooltip-container.service-fee {
+        display: none;
+    }
+
+    .buy-page .tab-pane.final .page-title h3 {
+        margin: 20px 0 15px;
+    }
+
+    .buy-page .tab-pane.final .description-bottom {
+        padding: 28px 10px 0 10px;
+        margin-bottom: -30px;
+    }
+
+    .prime-form.clearfix .pull-right {
+        float: none!important;
+    }
+
+    .prime-form.clearfix .pull-right input {
+        margin-bottom: 15px;
+    }
+
+
+    .buy-page .small-select {
+        width: 100%;
+    }
+    .buy-page .label-ticket-price br {
+        display: none;
+    }
+    .buy-page .btn {
+        width: 100%;
+    }
+    .buy-page .second-btn {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .buy-page .no-padding {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}

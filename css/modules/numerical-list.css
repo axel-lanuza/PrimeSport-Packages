@@ -1,0 +1,18 @@
+.numerical-list {
+    padding-bottom: 15px;
+    padding-left: 0;
+    counter-reset: count;
+}
+
+.numerical-list li {
+    position: relative;
+    padding-left: 12px;
+    list-style: none;
+}
+
+.numerical-list li:before {
+    position: absolute;
+    left: 0;
+    content: counter(count)'. ';
+    counter-increment: count;
+}

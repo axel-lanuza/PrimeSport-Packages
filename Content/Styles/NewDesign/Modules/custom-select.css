@@ -1,0 +1,195 @@
+.xdsoft_noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+.xdsoft_noselect::selection {
+    background: transparent;
+}
+.xdsoft_noselect::-moz-selection {
+    background: transparent;
+}
+.xdsoft_selectspinner {
+    display: inline-block;
+    border: 1px solid #ccc;
+    position: relative;
+    min-width: 20px;
+}
+.xdsoft_selectspinner.active .xdsoft_selector span {
+    position: relative;
+}
+.xdsoft_selectspinner.active .xdsoft_spinner {
+    margin: 0 1px 0 0;
+}
+.xdsoft_selectspinner select {
+    visibility: hidden !important;
+}
+.xdsoft_selectspinner * {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    color: #2d2d2d;
+    font: normal 14px/40px 'StagSans-Bold';
+    }
+.xdsoft_selectspinner .xdsoft_selector,
+.xdsoft_selectspinner .xdsoft_spinner {
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.xdsoft_selectspinner .xdsoft_selector {
+    left: 0px;
+    right: 0;
+    padding-right: 25px;
+    height: 38px;
+    background: #fff;
+    text-align: right;
+    border-radius: 5px;
+    border: none;
+}
+.xdsoft_selectspinner .xdsoft_selector:before {
+    position: absolute;
+    left: 10px;
+    top: 13px;
+    display: block;
+    content: "QTY";
+    color: #7f7f7f;
+    font: normal 11px/1.2 'StagSans-Medium';
+}
+.xdsoft_selectspinner .xdsoft_spinner {
+    right: 0px;
+    margin-left: -10px;
+    padding: 0 8px;
+    background-color: rgba(227, 227, 227, 0.1);
+}
+.xdsoft_selectspinner .xdsoft_spinner button {
+    display: block;
+    position: absolute;
+    top: 1px;
+    left: 0px;
+    right: 0px;
+    bottom: 55%;
+    border-style: solid;
+    border-width: 0 5px 5px 5px;
+    border-color: transparent transparent #7f7f7f transparent;
+    opacity: 0.7;
+    cursor: default;
+    background-color: transparent;
+    outline: 0px !important;
+    width: 10px;
+}
+.xdsoft_selectspinner .xdsoft_spinner button:hover {
+    opacity: 1.0;
+    background-color: rgba(227, 227, 227, 0.5);
+}
+.xdsoft_selectspinner .xdsoft_spinner button:active {
+    background-color: rgba(227, 227, 227, 0.9);
+}
+.xdsoft_selectspinner .xdsoft_spinner button:first-child {
+    top: 55%;
+    bottom: 1px;
+    border-width: 5px 5px 0px 5px;
+    border-color: #7f7f7f transparent transparent transparent;
+}
+.ie9 .xdsoft_selectspinner .xdsoft_spinner button{
+    background-image: url("/Content/Styles/NewDesign/images/arrows-tickets.png");
+    width: 10px;
+    height: 45%;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    border-style: none;
+    border-width: 0;
+    border-color: transparent;
+    top: 20%;
+}
+.ie9 .xdsoft_selectspinner .xdsoft_spinner button:first-child {
+    top: 36%;
+    bottom: 1px;
+    border-width: 0;
+    border-color: transparent transparent transparent transparent;
+    background-position: 0 100%;
+}
+.xdsoft_selectspinner .xdsoft_chooser {
+    display: none;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    background: #f6f6f6;
+    width: calc(100% + 2px);
+    border: 1px solid #7f7f7f;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: right;
+    z-index: 2;
+}
+.xdsoft_selectspinner .xdsoft_chooser > div > div.xdsoft_item {
+    padding-left: 5px;
+    padding-right: 25px;
+    cursor: pointer;
+    background: #f6f6f6;
+}
+.xdsoft_selectspinner .xdsoft_chooser > div > div.xdsoft_item.active {
+    background: #fff;
+    color: #000;
+}
+.xdsoft_scrollbar > .xdsoft_scroller {
+    background: #ececec !important;
+    height: 20px;
+    border-radius: 3px;
+}
+.xdsoft_scrollbar {
+    position: absolute;
+    width: 7px;
+    right: 8px;
+    top: 0px;
+    bottom: 0px;
+    cursor: pointer;
+}
+.xdsoft_scroller_box {
+    position: relative;
+}
+.xdsoft_pretty {
+    color: #444;
+    z-index: 2;
+    min-width: 100%;
+    height: 38px;
+    border: 0px;
+}
+.xdsoft_pretty .xdsoft_selector {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+@media (max-width: 767px) {
+    .xdsoft_pretty {
+        z-index: 1;
+    }
+
+    .xdsoft_selectspinner .xdsoft_selector {
+        text-align: center;
+    }
+
+    .xdsoft_selectspinner .xdsoft_selector:before {
+        font-size: 12px;
+        color: #4b4b4b;
+        left: 50%;
+        margin-left: -25px;
+    }
+
+    .xdsoft_selectspinner .xdsoft_selector span {
+        padding-left: 45px !important;
+    }
+
+    .xdsoft_selectspinner .xdsoft_chooser > div > div.xdsoft_item {
+        text-align: center;
+    }
+}

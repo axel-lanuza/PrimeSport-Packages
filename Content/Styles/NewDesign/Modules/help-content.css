@@ -1,0 +1,59 @@
+.help-content .second-title-section {
+	height: 30px;
+	line-height: 30px;
+	margin-top: 23px;
+	background: #3b3b3b;
+	padding-left: 15px;
+	font-family: 'StagSans-Book';
+	color: #fff;
+	letter-spacing: 0.5px;
+	font-size: 12px;
+}
+
+.help-content .text {
+	margin-top: 20px;
+	margin-bottom: 0;
+	font-family: 'StagSans-Book';
+	color: #3f3f3f;
+	letter-spacing: 0.5px;
+	font-size: 12px;
+}
+
+.help-content .small-margin {
+	margin-top: 5px;
+}
+
+.help-content .big-margin {
+	margin-top: 30px;
+}
+
+.help-content.bottom-margin {
+	margin-bottom: 20px;
+}
+
+.help-content .bold {
+	font-family: 'StagSans-Semibold'
+}
+
+.help-content .title {
+	font-family: 'StagSans-Bold';
+    color: #3f3f3f;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    margin-bottom: 5px;
+}
+
+.help-content .link {
+	font-family: 'StagSans-Medium';
+	color: #024b78;
+	text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+	.help-content .second-title-section {
+		text-align: center;
+		padding: 10px 0;
+		height: auto;
+		font-size: 14px;
+	}
+}

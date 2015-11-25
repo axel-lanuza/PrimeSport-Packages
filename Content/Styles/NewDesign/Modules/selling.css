@@ -1,0 +1,154 @@
+.selling-content {
+	margin-top: 22px;
+}
+
+.no-tickets {
+	margin: 70px 0;
+}
+
+.table-content .icon-close {
+	text-align: center;
+    background-image: url(/Content/Styles/NewDesign/images/close-btn.png);
+    background-repeat: no-repeat;
+    width: 13px;
+    height: 13px;
+    margin: 5px 0 0 8px;
+}
+
+.selling-content .edit-section {
+	display: none;
+}
+
+.selling-content .btn-container {
+	display: none;
+}
+
+.selling-content .edit-section .field {
+	line-height: 26px;
+    height: 27px;
+    padding: 0 10px;
+    width: 45px;
+    margin-top: 5px;
+}
+
+.selling-content .edit-section .field.price {
+	width: 65%;
+}
+
+.payout {
+	position: relative;
+}
+
+.payout:after {
+	content: "?";
+    position: absolute;
+    top: 0;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #7f7f7f;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 10px;
+    right: -5px;
+    cursor: pointer;
+}
+
+.selling-content .column-payout:hover .tooltip {
+	display: block;
+	left: 31px;
+    top: -74px;
+}
+
+.selling-content .column-payout {
+	position: relative;
+	cursor: pointer;
+}
+
+.selling-content .table-title .column-price:after {
+	content: none;
+}
+
+.details-row.selling-info {
+	padding-right: 15px;
+}
+
+.details-row.selling-info > .table-sub-row:not(.sub-title) {
+	padding-top: 13px;
+}
+
+@media (max-width: 767px) {
+	.no-tickets {
+		margin: 15px 0 50px 0;
+	}
+
+	.payout:after {
+		display: none;
+	}
+
+	.icon-close-wrapper {
+		margin-left: 10px;
+		color: #d20000;
+	}
+
+	.icon-close-wrapper .icon-close {
+		display: inline-block;
+		vertical-align: top;
+		margin-left: 5px;
+		width: 13px;
+		height: 13px;
+		margin: 0 0 0 5px;
+		background-image: url(/Content/Styles/NewDesign/images/close-btn-red.png);
+	}
+
+	.icon-close-wrapper .icon-primesport-close {
+		color: #d20000;
+		padding-top: 0;
+		font-size: 4px;
+	}
+
+	.selling-content .table-row.header {
+		padding: 15px;
+	}
+
+	.selling-content .table-row.header .table-column {
+		width: 50%;
+	}
+
+	.selling-content .edit-section .field {
+		width: 75%;
+		text-align: center;
+	}
+
+	.selling-content .btn-container {
+		padding: 0 0 10px 0;
+	}
+
+	.selling-content .btn-container .btn {
+		width: 47%;
+	}
+
+	.selling-content {
+		font-size: 0;
+		white-space: nowrap;
+		text-align: left;
+	}
+
+	.selling.show-buttons > .selling-wrapper {
+		margin-left: -90px;
+	}
+
+	.selling > .selling-wrapper {
+		width: 100%;
+		margin-right: 15px;
+		font-size: 14px;
+		white-space: normal;
+		-webkit-transition: margin 0.5s;
+				transition: margin 0.5s;
+	}
+
+	.selling > .selling-wrapper,
+	.selling > .mobile-buttons {
+		display: inline-block;
+		vertical-align: top;
+	}
+}

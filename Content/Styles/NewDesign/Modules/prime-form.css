@@ -1,0 +1,472 @@
+.prime-form {
+	padding: 16px 0 0;
+}
+
+.prime-form .form-row {
+	margin-bottom: 12px;
+}
+
+.prime-form .form-row.disabled .label {
+	color: #d1d1d1;
+}
+.prime-form input[disabled="disabled"] {
+	background: #ececec;
+}
+
+.prime-form .btn-darkblue[disabled="disabled"] {
+    color: #3f3f3f;
+    border-color: #3f3f3f;
+}
+
+.prime-form .form-row:before,
+.prime-form .form-row:after {
+    display: table;
+    content: " ";
+}
+
+.prime-form .form-row:after {
+    clear: both;
+}
+
+.prime-form.edit-form .form-fieldset {
+	margin-bottom: 30px;
+}
+
+.prime-form .label {
+	display: block;
+	font-family: 'StagSans-Medium';
+	font-size: 13px;
+	color: #2d2d2d;
+	letter-spacing: 0.5px;
+	line-height: 20px;
+	padding: 10px 0;
+	margin: 0;
+	text-align: left;
+	/*white-space: normal;*/
+}
+
+.prime-form .label-book {
+	font-family: 'StagSans-Book';
+	color: #3f3f3f;
+	font-weight: 500;
+	white-space: inherit;
+}
+.prime-form .label-semi-bold {
+	font-family: 'StagSans-semiBold';
+	white-space: inherit;
+}
+
+.prime-form .field {
+	line-height: 39px;
+	height: 40px;
+	border: 1px solid #b7b7b7;
+	border-radius: 4px;
+	padding: 0 15px;
+	font-size: 13px;
+	font-family: 'StagSans-Book';
+	background: transparent;
+	width: 100%;
+}
+.prime-form .field-textarea {
+	height: auto;
+	line-height: 1.2em;
+	padding: 10px 5px;
+	resize: none;
+}
+.prime-form .field-textarea::-webkit-input-placeholder {
+	color: #2d2d2d;
+	text-transform: none !important;
+}
+.prime-form .field-textarea::-moz-placeholder {
+	color: #2d2d2d;
+	text-transform: none !important;
+}
+/* Firefox 19+ */
+.prime-form .field-textarea:-moz-placeholder {
+	color: #2d2d2d;
+	text-transform: none !important;
+}
+/* Firefox 18- */
+.prime-form .field-textarea:-ms-input-placeholder {
+	color: #2d2d2d;
+	text-transform: none !important;
+}
+
+.prime-form .mobile-placeholders input::-webkit-input-placeholder {
+	opacity: 0;
+
+}
+.prime-form .mobile-placeholders input::-moz-placeholder {
+	opacity: 0;
+
+}
+/* Firefox 19+ */
+.prime-form .mobile-placeholders input:-moz-placeholder {
+	opacity: 0;
+
+}
+/* Firefox 18- */
+.prime-form .mobile-placeholders input:-ms-input-placeholder {
+	text-indent: -9999px;
+}
+
+.prime-form .field-text {
+	color: #3f3f3f;
+	font-family: 'StagSans-Book';
+	line-height: 14px;
+	padding-top: 12px;
+}
+.prime-form .textarea-field {
+	height: 147px;
+	line-height: 20px;
+	padding: 10px;
+	resize: vertical;
+}
+
+.prime-form .field-text.small-field {
+	padding-top: 0px;
+}
+
+/* fix for background of autofill fields in google chrome */
+.prime-form .field:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #f6f6f6 inset;
+}
+
+.prime-form .field::-webkit-input-placeholder {
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+}
+.prime-form .field::-moz-placeholder {
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+}
+.prime-form .field:-moz-placeholder {
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+}
+.prime-form .field:-ms-input-placeholder {
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+}
+
+.prime-form .textarea-field::-webkit-input-placeholder {
+	text-transform: none;
+}
+.prime-form .textarea-field::-moz-placeholder {
+	text-transform: none;
+}
+.prime-form .textarea-field:-moz-placeholder {
+	text-transform: none;
+}
+.prime-form .textarea-field:-ms-input-placeholder {
+	text-transform: none;
+}
+
+.prime-form .password {
+	font-family: 'StagSans-Book';
+	font-size: 13px;
+	letter-spacing: 2px;
+	padding-top: 15px;
+}
+
+.prime-form .link {
+	color: #024b78;
+	font-family: 'StagSans-Medium';
+	font-size: 13px;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+}
+
+.prime-form .field-select .dd-container,
+.prime-form .field-select .dd-select,
+.prime-form .field-select .dd-container .dd-options {
+	width: 100% !important;
+}
+
+.prime-form .field-select .dd-select {
+	height: 40px;
+	border-radius: 4px;
+	border: 1px solid #b7b7b7;
+}
+
+.prime-form .field-select .dd-selected {
+	padding-left: 15px;
+}
+
+.prime-form .field-select .dd-selected-text,
+.prime-form .field-select .dd-selected {
+	font-size: 13px;
+	font-family: 'StagSans-Book';
+	color: #a9a9a9;
+	text-transform: uppercase;
+	line-height: 21px;
+    max-height: 28px;
+}
+
+.prime-form .field-select .dd-pointer {
+    width: 44px;
+    height: 38px;
+    right: 0;
+    top: 3px;
+}
+
+.prime-form .field-select .dd-pointer-down {
+    border: none;
+    border-left: 1px solid #cfcfcf;
+    background: #f6f6f6;
+    border-radius: 0 4px 4px 0;
+}
+
+.prime-form .field-select .dd-pointer:after {
+    display: block;
+    content: "";
+    margin-top: 40%;
+    margin-left: 36%;
+    width: 12px;
+    height: 8px;
+    background: url("/Content/Styles/NewDesign/images/arrow-down-gray.png") no-repeat;
+    background-size: contain;
+}
+
+.prime-form .field-select .dd-select.opened {
+	background: #b3b3b3 !important;
+	border-radius: 4px 4px 0 0;
+}
+
+.prime-form .field-select .opened .dd-selected-text,
+.prime-form .field-select .opened .dd-selected {
+	color: #ffffff;
+}
+
+.prime-form .field-select .dd-pointer-up {
+	height: 40px;
+	width: 45px;
+	top: 2px;
+	right: -1px;
+	background: #024b78;
+	border: 1px solid #043b5c !important;
+	border-radius: 0 4px 0 0;
+}
+
+.prime-form .field-select .dd-pointer-up:after {
+	background: url("/Content/Styles/NewDesign/images/arrow-down.png") no-repeat;
+}
+
+.prime-form .field-select .dd-option {
+	padding: 5px 15px;
+}
+
+.prime-form .field-select .dd-option-text {
+	color: #2d2d2d;
+	font-family: 'StagSans-Book';
+	font-weight: normal;
+	letter-spacing: 0.5px;
+	margin-bottom: 0px;
+	line-height: 23px;
+}
+
+.prime-form .custom-checkbox input[type="checkbox"] {
+	display: none;
+}
+
+.prime-form .custom-checkbox .label {
+	font-family: 'StagSans-Book';
+	color: #3f3f3f;
+	padding-left: 37px;
+	position: relative;
+	cursor: pointer;
+}
+
+.prime-form .custom-checkbox .label:before {
+	content: '';
+	width: 24px;
+	height: 24px;
+	border: 1px solid #b3b3b3;
+	position: absolute;
+	top: 6px;
+	left: 0;
+}
+
+.prime-form .custom-checkbox input:checked + .label:before {
+	border: 1px solid #106498;
+	background: url('/Content/Styles/NewDesign/images/check.png') no-repeat center center;
+	background-color: #106498;
+}
+
+.prime-form .custom-radio input[type="radio"] {
+	display: none;
+}
+.prime-form .custom-radio .label {
+	font-family: 'StagSans-Book';
+	color: #3f3f3f;
+	padding-left: 37px;
+	position: relative;
+	cursor: pointer;
+}
+.prime-form .custom-radio .label:before {
+	content: '';
+	width: 24px;
+	height: 24px;
+	border: 1px solid #b3b3b3;
+	position: absolute;
+	top: 6px;
+	left: 0;
+}
+.prime-form .custom-radio input:checked + .label:before {
+	border: 1px solid #106498;
+	background: url('/Content/Styles/NewDesign/images/check.png') no-repeat center center;
+	background-color: #106498;
+}
+
+.prime-form:not(.edit-form) .form-row.form-fieldset.unfilled .form-row {
+	display: none;
+}
+
+.prime-form:not(.edit-form) .unfilled .label {
+	color: #b3b3b3;
+}
+
+.prime-form:not(.edit-form) .unfilled .field-text {
+	display: none;
+}
+.prime-form .calendar-wrapper {
+	padding-right: 40px;
+}
+.prime-form .calendar-icon {
+	display: block;
+	width: 32px;
+	height: 30px;
+	position: absolute;
+	right: 0;
+	top: 4px;
+	background: url('/Content/Styles/NewDesign/images/calendar-icon.png') no-repeat center center;
+	cursor: pointer;
+}
+
+.ui-datepicker.custom-datepicker {
+	display: none;
+	background-color: white !important;
+	font-family: 'StagSans-Book';
+	padding: 10px;
+	margin-left: 120px;
+	margin-top: 10px;
+}
+.ui-datepicker.custom-datepicker .ui-datepicker-header {
+	position: relative;
+	background: #fff;
+	text-align: center;
+	margin-bottom: 5px;
+}
+.ui-datepicker.custom-datepicker .ui-datepicker-title {
+	background: white;
+	color: black;
+}
+.ui-datepicker.custom-datepicker .ui-datepicker-header .ui-icon {
+	display: none;
+}
+.ui-datepicker.custom-datepicker .ui-datepicker-calendar thead {
+	display: none;
+}
+.ui-datepicker.custom-datepicker .ui-datepicker-calendar td {
+	padding: 3px;
+	background: #fff;
+}
+.ui-datepicker.custom-datepicker .ui-datepicker-calendar td .ui-state-active {
+	font-family: 'StagSans-semiBold';
+}
+.ui-datepicker.custom-datepicker .ui-datepicker-prev,
+.ui-datepicker.custom-datepicker .ui-datepicker-next {
+	margin-top: 0;
+	position: absolute;
+	height: 13px;
+	width: 9px;
+	top: 3px;
+}
+
+.ui-datepicker.custom-datepicker .ui-datepicker-prev {
+	left: 0px;
+	background: url('/Content/Styles/NewDesign/images/calendar-left-arrow.png') no-repeat center center;
+}
+.ui-datepicker.custom-datepicker .ui-datepicker-next {
+	right: 0;
+	background: url('/Content/Styles/NewDesign/images/calendar-right-arrow.png') no-repeat center center;
+}
+
+.prime-form .field.invalid, .prime-form .invalid{
+    border-color: #d20000 !important;
+	color: #d20000 !important;
+}
+
+.prime-form input[type=checkbox].invalid + label {
+    color: #d20000 !important;
+}
+
+.prime-form input[type=checkbox].invalid + label:before {
+    border-color: #d20000 !important;
+}
+
+.prime-form .field.invalid::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #d20000;
+}
+.prime-form .field.invalid:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   	color:    #d20000;
+   	opacity:  1;
+}
+.prime-form .field.invalid::-moz-placeholder { /* Mozilla Firefox 19+ */
+   	color:    #d20000;
+   	opacity:  1;
+}
+.prime-form .field.invalid:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   	color:    #d20000;
+}
+
+@media (max-width: 767px) {
+	.prime-form .password {
+		border: 1px solid #b7b7b7;
+		border-radius: 4px;
+		padding: 15px 0 5px 15px;
+		margin-bottom: 10px;
+	}
+
+	.prime-form .field-text {
+		padding-top: 0px;
+	}
+
+	.prime-form:not(.edit-form) .label {
+		padding-bottom: 5px;
+	}
+
+	.prime-form .mobile-placeholders input::-webkit-input-placeholder {
+		opacity: 1;
+	}
+	.prime-form .mobile-placeholders input::-moz-placeholder {
+		opacity: 1;
+	}
+	/* Firefox 19+ */
+	.prime-form .mobile-placeholders input:-moz-placeholder {
+		opacity: 1;
+	}
+	/* Firefox 18- */
+	.prime-form .mobile-placeholders input:-ms-input-placeholder {
+		opacity: 1;
+	}
+
+	.prime-form .mobile-placeholders textarea::-webkit-input-placeholder {
+		color: #b7b7b7;
+		text-transform: uppercase;
+	}
+	.prime-form .mobile-placeholders textarea::-moz-placeholder {
+		color: #b7b7b7;
+		text-transform: uppercase;
+	}
+	/* Firefox 19+ */
+	.prime-form .mobile-placeholders textarea:-moz-placeholder {
+		color: #b7b7b7;
+		text-transform: uppercase;
+	}
+	/* Firefox 18- */
+	.prime-form .mobile-placeholders textarea:-ms-input-placeholder {
+		color: #b7b7b7;
+		text-transform: uppercase;
+	}
+}

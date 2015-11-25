@@ -1,0 +1,465 @@
+﻿/* Small devices (tablets, 768px and up) */
+@media (max-width: 767px) {
+    .xs-row {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .xs-margin-bottom {
+        margin-bottom: 12px;
+    }
+    h3 {
+        font-size: 16px;
+        margin: 30px 0 15px;
+    }
+    .about-quote h3, .about-employee-quotes h3, .about-partners h3 {
+        font-size: 16px;
+    }
+    .mob-100 {
+        width: 100%;
+    }
+    .slider {
+        display: none;
+    }
+    .slider.slider-mobile {
+        display: block;
+    }
+    .slider .owl-wrapper, .slider .owl-item {
+        height: 100%;
+    }
+    .slider .item-content .slide-countdown {
+        display: none;
+    }
+    .slider .carousel .item {
+        min-height: 300px;
+        height: 100%;
+    }
+    .slider .item-content {
+        padding: 48px 12px 0;
+    }
+    .slider .item-content h2 {
+        font-size: 35px;
+        line-height: 34px;
+    }
+    .slider .item-content .location {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    .slider .item-content .btn {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 12px 17px;
+        font-size: 12px;
+    }
+    .slider .carousel-controls {
+        margin: 0;
+    }
+    .slider .carousel-pagination .owl-page {
+        padding: 15px 5px;
+    }
+    .index-page h3 {
+        font-size: 16px;
+        margin: 30px 0 15px;
+    }
+    .upcoming-events .container-card {
+        margin: 0 10px 20px 0;
+    }
+    .upcoming-events .container-card .card-info h5 {
+        font-size: 15px;
+    }
+    .upcoming-events .container-card .card-info .date,
+    .upcoming-events .container-card .card-info .location {
+        font-size: 10px;
+    }
+    .upcoming-events .container-card .card-info .see-links {
+        font-size: 10px;
+        padding: 4px 0 0;
+    }
+    .newsletter h3 {
+        margin: 25px 0 19px;
+    }
+    .form-email {
+        width: 74%;
+        float: left;
+        background-color: #f6f6f6;
+        border: 1px solid #dbdbdb;
+        color: #2d2d2d;
+    }
+    .send-form {
+        width: 100%;
+    }
+    .send-form ::-webkit-input-placeholder {
+        color: #2d2d2d;
+    }
+
+    .send-form ::-moz-placeholder {
+        color: #2d2d2d;
+    }
+
+    /* Firefox 19+ */
+    .send-form :-moz-placeholder {
+        color: #2d2d2d;
+    }
+
+    /* Firefox 18- */
+    .send-form :-ms-input-placeholder {
+        color: #2d2d2d;
+    }
+    .btn.join {
+        width: 23%;
+    }
+    
+
+    /* Video gallery */
+    #video-gallery .slick-center {
+        transform: none;
+    }
+
+
+    .featured-events select {
+        max-width: none;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .featured-events .container-cards {
+        padding: 0;
+        font-size: 0;
+    }
+
+    .featured-events .container-card {
+        display: inline-block;
+        margin: 0;
+        margin-right: 4%;
+        margin-bottom: 10px;
+    }
+
+    .featured-events .container-card:nth-child(2n) {
+        margin-right: 0;
+    }
+
+    .carousel-controls .container {
+        padding: 0;
+    }
+
+    .container-cards .owl-controls {
+        top: -44px;
+    }
+
+    #events-select {
+        margin-bottom: 50px;
+    }
+
+     #video-gallery .icon-primesport-left-arrow {
+        left: 0;
+     }
+
+     #video-gallery .icon-primesport-right-arrow {
+        right: 0;
+     }
+
+     #video-gallery .icon-primesport-left-arrow, #video-gallery .icon-primesport-right-arrow {
+        bottom: 38px;
+     }
+
+    .popup {
+        width: 90%;
+    }
+
+    .share-popup .left-column img {
+        max-width: 27px;
+    }
+
+    .share-popup h1 {
+        font-size: 8px;
+    }
+
+    .share-popup .share-section .left-column img {
+        max-width: none;
+    }
+
+    .slider-experience {
+      margin: 30px 0;
+    }
+
+    .about-hero p {
+        font-size: 15px;
+    }
+    .hero-content {
+        padding-top: 80px;
+    }
+    .hero-content h1 {
+        font-size: 37px;
+        line-height: 38px;
+        margin-bottom: 40px;
+    }
+    .experience-section-copy h1, .experience-section .experience-section-copy h2 {
+        font-size: 37px;
+        line-height: 38px;
+    }
+    .experience-section-copy p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .partners-list .partners-list-item {
+        width: 33.3333%;
+        padding: 15px 0;
+    }
+
+    .tiles-list .tiles-list-item {
+        width: 100%;
+    }
+    .list-tile-container p {
+        margin: 10px auto 20px;
+    }
+
+    .about-employee-quotes {
+        padding: 43px 0 30px;
+    }
+    .about-company-info h3 {
+        margin: 25px 0 15px;
+    }
+    .information-list {
+        padding-top: 0;
+    }
+    .information-list .information-list-item {
+        width: 50%;
+        vertical-align: bottom;
+    }
+    .information-list-container {
+        margin-top: 40px;
+    }
+    .information-list-container p {
+        display: none;
+    }
+    .information-list-container h4 {
+        font-size: 14px;
+        margin: 5px auto;
+    }
+    .information-list-container .desktop-only {
+        display: none;
+    }
+    .information-list-container .mobile-only {
+        display: block;
+    }
+
+    .social-item.column-38 {
+        width: 100%;
+    }
+
+    .social-item.column-48 {
+        width: 100%;
+    }
+
+    .social-item.column-58 {
+        width: 100%;
+    }
+
+    .quote-gallery-section {
+        min-height: 0;
+    }
+
+    .quote-gallery-section p {
+        font-size: 15px;
+        max-width: 245px;
+    }
+
+    .quote-gallery-section .gallery-wrapper {
+        padding-top: 35px;
+    }
+    #events-select, .dd-select, .dd-options {
+        width: 100% !important;
+    }
+    .featured-events .owl-controls {
+        top: -140px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .slider .item-content {
+        padding: 90px 15px 0;
+    }
+    .slider .item-content .slide-countdown {
+        right: 15px;
+    }
+
+    #video-gallery .icon-primesport-left-arrow, #video-gallery .icon-primesport-right-arrow {
+        bottom: 28px;
+    }
+    .slider .carousel-pagination {
+        width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+}
+
+@media (max-width: 795px) {
+    .quote-gallery-section .slick-next {
+        right: 10px;
+    }
+
+    .quote-gallery-section .slick-prev {
+        left: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .owl-controls {
+        right: 10px !important;
+    }
+    
+    .search-page .search-head .sbHolder {
+        width:100%;
+        float:left;
+        clear:both;
+        font-size: 14px;
+        padding-left:10px;
+        margin-bottom:10px;
+    }
+
+    .favorite-popup{
+        width:100%;
+
+    }
+
+    .favorite-popup .popup-main-container{
+        min-height:550px;
+    }
+
+    .favorite-popup.small .popup-main-container{
+        min-height:0px;
+    }
+
+    .favorite-popup .popup-main-container .popup-buttons{
+        width:100%;
+        padding:0px 23px;
+    }
+
+    .favorite-popup .popup-main-container .popup-sub-container p{
+        text-align:center;
+    }
+
+    .favorite-popup .popup-main-container .popup-sub-container .popup-sub-title{
+        padding-left:0px;
+        height:120px;
+        background: url('../img/big-heart.png') 51% 0px no-repeat;
+        padding-top:70px;
+    }
+
+    .favorite-popup.small .popup-main-container .popup-sub-container .popup-sub-title{
+        text-align: center;
+        background: url('../img/red-heart.png') 100px 5px no-repeat;
+        padding-left:0px;
+        margin-top:20px;
+        padding-top:0px;
+        height:auto;
+    }
+
+    .favorite-popup .popup-main-container .popup-sub-container .popup-sub-title span{
+        vertical-align:bottom;
+    }
+
+    .favorite-popup .popup-main-container .popup-buttons a{
+        margin-bottom:20px;
+    }
+}
+@media (max-width: 800px) and (min-width: 767px){
+    .logo {
+        width: 150px;
+        margin-left: 10%;
+    }
+
+    .header-hamburger {
+        margin-right: 0;
+    }
+
+    .logo-block {
+        padding-left: 2.8%;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    #video-gallery .owl-controls .owl-buttons {
+        max-width: 36%;
+        margin: -75px auto 0 auto;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+    .slider .item-content {
+        padding: 90px 15px 0 15px;
+    }
+
+    .slider .item-content .slide-countdown {
+        right: 15px;
+    }
+}
+
+
+
+@media (max-width: 767px) {
+    .owl-controls {
+        right: 17px !important;
+    }
+}
+
+/* Ipad landscape */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+    .primesport-xp-text .col-sm-8 {
+        width: 63%;
+    }
+    .primesport-xp-text .col-sm-4 {
+        width: 35%;
+    }
+}
+
+@media (max-width: 487px) {
+    .upcoming-events .container-card {
+        margin: 0 0 20px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .experience-hero-section .experience-section-copy {
+        padding-top: 100px;
+        padding-bottom: 40px;
+    }
+
+    .experience-hero-text {
+        padding-top: 0;
+    }
+
+    .experience-hero-controls .btn {
+        width: 48%;
+        padding: 8px 0;
+    }
+
+    .experience-hero-controls .btn + .btn {
+        margin-left: 4%;
+    }
+
+    
+}
+
+@media (max-width: 414px) {
+    .owl-controls {
+        right: 10px !important;
+    }
+    .play-ico {
+        width: 55px;
+        height: 55px;
+    }
+
+    .logo-block {
+        padding:5px 15px 15px;
+    }
+    
+}
+

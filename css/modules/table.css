@@ -1,0 +1,79 @@
+.table {
+	margin-bottom: 0px;
+}
+
+.table .table-head {
+	padding: 8px 15px;
+	background: #3b3b3b;
+	border: none!important;
+	color: #fff;
+	text-align: left;
+	letter-spacing: 0.5px;
+	font-size: 0;
+}
+
+.table .table-body {
+    position: relative;
+    overflow: auto;
+    background: #fff;
+}
+
+.table .table-col {
+	display: inline-block;
+    vertical-align: middle;
+    letter-spacing: 0.5px;
+    font: normal 12px/1.2 'StagSans-Book';
+    padding: 0 5px 0 0;
+}
+
+.table .table-row {
+	padding: 8px 15px 4px;
+    border-top: none!important;
+    border-bottom: 1px solid #cccccc;
+    font-size: 0;
+    cursor: pointer;
+}
+
+.table .table-row:hover {
+    background: #ececec;
+}
+.table .table-row.active {
+    background: #ececec;
+}
+
+.table .ps-scrollbar-y-rail {
+	opacity: 1;
+	right: 0 !important;
+	background-color: #f6f6f6;
+	border: 0px;
+	margin-right: 0 !important;
+	padding: 8px 0px 4px;
+}
+
+.table .ps-scrollbar-y {
+	padding: 0 4px;
+	background-color: #9a9a9a;
+}
+
+@media (max-width: 767px) {
+	.tickets-table .ticket-table-body.ps-active-y > div {
+        margin-right: 0;
+    }
+
+    .table .table-head {
+    	padding: 0;
+    }
+
+    .table .table-head .table-col {
+        box-sizing: border-box;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        margin: 0;
+        font: normal 12px/1.2 'StagSans-Book';
+    }
+
+    .ticket-table .table-body {
+        -webkit-transition: 0.5s all;
+                transition: 0.5s all;
+    }
+}

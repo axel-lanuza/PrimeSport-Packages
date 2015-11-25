@@ -1,0 +1,114 @@
+.divider-margin {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.area-divider {
+    background-color: #3b3b3b;
+    height: 40px;
+}
+.area-divider .title {
+    color: white;
+    font-size: 1em;
+    width: 100%;
+    text-align: left;
+}
+.area-divider .title h2
+{
+    margin-top: 5px !important;
+    font-size: 14px;
+}
+
+@media (max-width: 767px) {
+    .area-divider {
+        padding-left: 15px;
+        background-color: #3b3b3b;
+        height: 70px;
+    }
+    .area-divider .title {
+        font-size: 1.3em;
+        text-align: center;
+    }
+}
+@media (max-width: 640px) {
+    .divider-margin {
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+}
+@media (max-width: 320px) {
+    .area-divider .title {
+        font-size: 1em;
+        text-align: center;
+    }
+}
+
+/* Custom Dropdown Menu */
+
+.drop-down-container {
+    padding-left: 15px;
+    padding-right: 0px;
+}
+.dd-container .dd-selected {
+    font-weight: normal;
+}
+.dd-container label.dd-selected-text {
+    font-weight: normal;
+    margin-bottom: 0;
+    color: #ffffff;
+}
+.dd-container .dd-options {
+    border: none;
+    background: #f6f6f6;
+    box-shadow: 0px 4px 5px #ddd;
+}
+.dd-container .dd-option {
+    border: none;
+}
+.dd-container .dd-option:hover,
+.dd-container .dd-option-selected {
+    background: #f0f0f0;
+}
+.dd-container .dd-pointer {
+    width: 44px;
+    height: 40px;
+    right: 0;
+    top: 3px;
+}
+.dd-container .dd-pointer:after {
+    content: "";
+    width: 12px;
+    height: 8px;
+    background: url("images/arrow-down.png") no-repeat;
+    display: block;
+    margin-top: 41%;
+    margin-left: 38%;
+}
+.dd-container .dd-pointer-down {
+    border: none;
+    background: #b3b3b3;
+    border-left: 1px solid #a7a7a7;
+}
+.dd-container .dd-pointer-up {
+    background: #024b78;
+    border: none!important;
+    border-left: 1px solid #a7a7a7!important;
+    margin-top: -3px;
+}
+@media (max-width:991px) {
+    .dd-container label.dd-selected-text {
+        font-size: 0.8em;
+        line-height: 1.8;
+    }
+}
+@media (max-width: 767px) {
+    
+    .drop-down-container {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 8px;
+    }
+    .dd-container label.dd-selected-text {
+        font-size: 1em;
+        line-height: 1;;
+    }
+}

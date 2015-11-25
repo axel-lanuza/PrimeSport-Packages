@@ -1,0 +1,519 @@
+
+/* -------------SOCIAL ICONS----------------- */
+a { text-decoration: none; color: inherit; }
+a:hover{ text-decoration: none; color: inherit; }
+a:focus{ text-decoration: none; color: inherit;}
+
+.social-icons {
+    /*padding: 0px;
+    position: absolute;
+    top: 12px;
+    left: 17px;
+    color: #fff;
+    */
+    position: absolute;
+    z-index: 100000;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #fff;
+}
+.icon-primesport-mail:before {
+    font-size: 17px;
+    line-height: 40px;
+}
+.icon-primesport-twitter:before {
+    line-height: 38px;
+}
+.social-icons .social_wrap {
+    position: relative;
+    display: inline-block;
+}
+.social-icon {
+    position: relative;
+    margin: 1px;
+    font-size: 17px;
+    padding: 8px 10px 5px 10px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    color: #fff;
+    border: 1px solid #fff;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.social-icon:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+.social-icon.like {
+    padding: 10px 10px 3px 10px;
+}
+.share-menu {
+    display: none;
+    width: 190px;
+    position: absolute;
+    color: #024b78;
+    background: rgba(255, 255, 255, 1);
+    text-align: left;
+    margin-top: 17px;
+    border: 1px solid #ababab;
+    margin-left: -5px;
+}
+.share-menu.active {
+    display: block;
+}
+.share-menu .icon {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 7px;
+    margin: 0 4px;
+    cursor: pointer;
+}
+.share-menu .icon-primesport-twitter:before {
+    font-size: 20px;
+}
+.share-menu .icon-primesport-facebook:before {
+    font-size: 17px;
+    line-height: 40px;
+}
+.share-menu .icon-primesport-google:before {
+    font-size: 17px;
+    line-height: 42px;
+}
+.share-menu .icon-primesport-mail:before {
+    font-size: 22px;
+}
+.share-menu:after,
+.share-menu:before {
+    bottom: 100%;
+    left: 12.5%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+.share-menu:after {
+    border-color: rgba(234, 62, 160, 0);
+    border-bottom-color: rgba(255, 255, 255, 1);
+    border-width: 10px;
+    margin-left: -10px;
+}
+.share-menu:before {
+    border-color: rgba(194, 225, 245, 0);
+    border-bottom-color: #ababab;
+    border-width: 11px;
+    margin-left: -11px;
+}
+.social-icon:hover,
+.social-icon.active {
+    cursor: pointer;
+    color: #024b78;
+    background: rgba(255, 255, 255, 1);
+}
+.social-icon.like.active {
+    background: rgba(255, 255, 255, 1);
+    color: #d20000;
+}
+.social-icon.like .icon-primesport-favorite-active {
+    display: none;
+}
+.social-icon.like.active .icon-primesport-favorite-active {
+    display: block;
+}
+.social-icon.like.active .icon-primesport-favorite-inactive {
+    display: none;
+}
+
+
+/* ------------- END SOCIAL ICONS----------------- */
+
+
+
+/* ------------- MAJOR EVENTS CARDS --------------- */
+#postSeasonsEvent .item{
+    max-width:313px; 
+    height: 410px;
+    float:left; 
+    position:relative;
+}
+#postSeasonsEvent .item .item-inner {
+    height: 366px;
+}
+#postSeasonsEvent .thumbnail {
+    width: 270px;
+}
+
+#postSeasonsEvent .thumbnail .img-bigcard {
+   height: 220px; 
+}
+#postSeasonsEvent .thumbnail a > img.img-responsive.prime-sports-img-responsive.grayscale{
+    max-width: 100%;
+}
+img.grayscale {
+    filter: url('#grayscale');
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: Gray();
+}
+img.grayscale:hover,
+.thumbnail a:hover img.grayscale,
+.post_thumbnail:hover img.grayscale {
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    filter: none;
+}
+img.infront {
+    position: absolute;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px !important;
+    left: 0;
+    right: 0;
+    border: none;
+    width: 50%;
+    max-width: 165px !important;
+    z-index: 5000;
+}
+
+.post-seasons-event-carousel  .prime-sports-card-caption-title h4{
+	font-size: 17px;
+	margin-bottom:10px;
+	color:#3f3f3f;
+    text-transform: capitalize;
+    height: 35px;
+}
+
+.prime-sports-card-caption-title h4 a:hover  {
+	color:#024878;
+}
+.post-seasons-event-carousel hr {
+	margin-bottom: 10px;
+	margin-top: 10px;
+	border-color:#f0f0f0;
+}
+.post-seasons-event-carousel .thumbnail {
+	background-color: #fff;
+	border: none;
+	border-radius: 0px;
+	
+	padding: 0px 0 12px;
+	max-width: 304px;
+    margin: 0 auto;
+    margin-bottom: 44px;
+}
+.post-seasons-event-carousel {
+	clear: both;
+	/*margin: 0 6px;
+	padding-left: 6px;*/
+}
+.post-seasons-event-carousel .item-inner{
+	margin-left:6px;
+	margin-right:6px;
+}
+
+.post-seasons-event-carousel .item-inner .btn {
+	background: rgba(255, 255, 255, 0.2);
+	height: 36px;
+	line-height: 36px;
+	padding: 0;
+	text-align: center;
+	width: 36px;
+	margin-right:3px;
+}
+.post-seasons-event-carousel .item-inner .btn:hover{
+	background:#fff;
+}
+.post-seasons-event-carousel .thumbnail .caption {
+	padding: 9px 15px 15px;
+}
+.post-seasons-event-carousel .prime-sports-card-subtitle {
+	font-size:12px;
+    height: 18px;
+}
+.post-seasons-event-carousel .prime-sports-card-subtitle a{
+	padding-right:10px;
+	background-image:url(../img/xs-arrow.png);
+	background-repeat:no-repeat;
+	background-position:right 3px;	
+	font-family:"StagSans-Medium";
+	text-transform:uppercase;
+	cursor:pointer;
+	color:#7f7f7f;
+	text-decoration:none;
+}
+.post-seasons-event-carousel .prime-sports-card-subtitle a:hover {
+	color:#024878;
+	background-image:url(../img/xs-arrow-hover.png);	
+}
+
+
+.prime-sports-share {
+    float: left;
+    position: absolute;
+    z-index: 100000;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.prime-sports-img-responsive {
+    width: 100%;
+}
+.prime-sports-card-subtitle {
+    color: #7f7f7f;
+    font-family: 'StagSans-Medium';
+}
+.prime-sports-card-caption-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'StagSans-Bold';
+}
+
+.prime-sports-card .title {
+    color: #3f3f3f;
+    font-size: 1.2em;
+    font-weight: bold
+}
+.prime-sports-card .sub-title {
+    font-family: 'StagSans-Book';
+    color: #3f3f3f;
+}
+.prime-sports-card .text {
+    font-size: 0.8em;
+    font-family: 'StagSans-Book';
+    color: #959595;
+}
+
+.caption .title {
+    margin: 0px;
+}
+
+.container-card {
+    margin-bottom: 45px;
+    background: #ffffff;
+    margin-right: 15px;
+    position: relative;
+}
+
+.container-card img {
+    width: 100%;
+}
+.container-card .card-info {
+    padding: 15px;
+}
+.container-card .card-info .date {
+    font-size: 12px;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 10px;
+    font-family: 'StagSans-Medium';
+    color: #7f7f7f;
+}
+.container-card .card-info h5 {
+    font-size: 17px;
+    color: #3f3f3f;
+    font-family: 'StagSans-Bold';
+}
+.container-card .card-info h5:hover {
+    cursor: pointer;
+    color: #024b78;
+}
+.container-card .card-info .location {
+    color: #7f7f7f;
+    font-size: 12px;
+    font-family: 'StagSans-Medium';
+}
+.container-card .card-info .see-links {
+    text-transform: uppercase;
+    float: right;
+    font-size: 12px;
+    font-family: 'StagSans-Medium';
+    color: #7f7f7f;
+}
+.container-card .card-info .see-links:hover {
+    cursor: pointer;
+    color: #024b78;
+}
+
+
+/* class for position cards without carousel */
+.no_carousel .item{
+    min-height: 328px !important;
+}
+
+.no_carousel .item-inner{
+    min-height: 328px !important;
+}
+
+
+@media (min-width: 768px){
+.no_carousel>.item{
+    margin-right: 12px;
+    margin-bottom: 12px;
+    float: left;
+}
+
+.no_carousel .item:nth-child(3n){
+    margin-right: 0;
+}
+}
+/*  END no-carousel  */
+
+/* ncaa_tickets_cards */
+.ncaa_ticket_card {
+    background: #ececec !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+}
+
+.ncaa_ticket_card .img_ncaa_ticket {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.ncaa_ticket_card .title_ncaa {
+    font-family: "StagSans-Bold";
+    font-size: 17px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.ncaa_ticket_card .ncaa_info{
+    text-align: center;
+    font-family: "StagSans-Book";
+    font-size: 12px;
+    line-height: 2.1;
+}
+
+.ncaa_ticket_card .btn-ncaa{
+    width: 100% !important;
+    text-align: center !important;
+    margin-top: 15px;
+    margin-bottom: 46px;
+}
+
+.ncaa_ticket_card .btn-ncaa:hover{
+    background-color: #024b78 !important;
+}
+
+
+@media (max-width:767px){
+
+ img.infront {
+    	margin-top: 28% !important;
+}
+}
+
+
+
+
+@media (max-width:600px){
+.thumbnail{
+		max-width: 532px !important;
+		margin-left:15px;
+		margin-right:15px;
+		padding-left: 55px;
+		padding-right: 55px;
+	}
+
+	.thumbnail a {
+		width: 100% !important;
+	}
+
+	.thumbnail .social-icons a {
+		width: inherit !important;
+	}
+
+	div.container-card .social-icons a {
+		width: inherit !important;
+	}
+
+
+	.share-menu {
+    	display: none;
+    	width: 190px;
+    	position: absolute;
+    	color: #024b78;
+    	background: rgba(255, 255, 255, 1);
+    	text-align: left;
+    	margin-top: 17px;
+    	border: 1px solid #ababab;
+    	margin-left: -5px;
+	}
+
+}
+
+
+@media (max-width:480px){
+.share-menu .icon-primesport-facebook::before,
+	.share-menu .icon-primesport-twitter::before,
+	.share-menu .icon-primesport-google::before,
+	.share-menu .icon-primesport-mail::before {
+	  font-size: 20px;
+	}		
+	
+	.share-menu {
+		height: 51px;
+		padding: 3px 10px;
+		width: 200px;
+	}	
+	.share-menu .icon {
+	  margin: 0 3px;
+	}
+}
+
+@media (max-width:384px){
+    .share-menu .icon-primesport-facebook::before,
+	.share-menu .icon-primesport-twitter::before,
+	.share-menu .icon-primesport-google::before,
+	.share-menu .icon-primesport-mail::before {
+		font-size: 18px;
+	}		
+	.share-menu {
+		height: 45px;
+		padding: 3px 5px;
+		width: 182px;
+	}	
+	.share-menu .icon {
+	  margin: 0 3px;
+	}
+
+	img.infront {
+        margin-top: 46px !important;
+        width: 50%;
+
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+

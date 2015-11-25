@@ -1,0 +1,1091 @@
+<!doctype html>
+<!--[if lt IE 7]>
+<html class="no-js ie6 lt-ie10 lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js ie7 lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js ie8 lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]>
+<html class="no-js ie9 lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <title>Prime Sport</title>
+    <meta name="description" content="REPLACE">
+    <meta name="keywords" content="REPLACE">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <!--Instead of calling all CSS files, just call consolidated.css which mimics how the css bundle is created on the
+    integrated site and inform on how some selectors could be adjusted to avoid rules being overriden on different pages.
+    CSS files from the site are under /Content/Styles/NewDesign folder.
+    All required changes should be done on the files under the NewDesign folder-->
+    <link rel="stylesheet" type="text/css" href="css/consolidated.css">
+    <script>
+        /* change no-js class of html element to js */
+        (function(h,n){var r=/\bno-js\b/,c=h[n];r.test(c)&&(h[n]=c.replace(r,'js'));}(document.documentElement,'className'));
+    </script>
+</head>
+<body class="menu-hidden">
+<header class="page-header anim-hamburger">
+    <div class="main-header row">
+        <div class="header-block logo-block col-md-4 col-sm-4">
+            <a class="header-link menu open-left-menu">
+                <div class="icon icon-primesport-menu"></div>
+            </a>
+            <a class="header-link logo" href="index.html"><img src="img/logo.png" alt="PrimeSport"/></a>
+            <div class="head-order visible-xs">Order by Phone: <span class="bold">1.800.591.9198</span></div>
+        </div>
+        <div class="header-block search-block col-md-4 col-sm-4">
+            <form class="search-form">
+                <a class="submit-search"><i class="fa fa-search"></i></a>
+                <input class="area-search" type="text" name="search-area"
+                       placeholder="Search for event, team, or city" data-placeholder="Search for event, team, or city"/>
+            </form>
+        </div>
+        <div class="header-block login-block col-md-4 col-sm-4 hidden-xs">
+            <a href="#" class="login-link">Log In</a>
+            <div class="login-order">
+                <span class="login-numb">1.800.591.9198</span>
+                <div class="icon icon-primesport-customer-suport"></div>
+            </div>
+        </div>
+    </div>
+    <div class="navigation hidden-xs row">
+        <ul class="col-md-11 col-sm-11 row">
+            <li class="nav-link col-md-3 col-sm-3"><a>Events &amp; Packages</a></li>
+            <li class="nav-link col-md-3 col-sm-3"><a>Pro Sports</a></li>
+            <li class="nav-link col-md-3 col-sm-3"><a>College Sports</a></li>
+            <li class="nav-link col-md-3 col-sm-3"><a>Motorsports</a></li>
+        </ul>
+        <div class="nav-link bucket col-md-1 col-sm-1">
+            <a><div class="icon icon-primesport-cart"></div> </a>
+        </div>
+    </div>
+</header>
+
+<div class="page index-page">
+    <!-- Begin Cart Modal - Empty -->
+    <div class="cart-modal-wrapper">
+        <div class="cart-modal empty">
+            <div class="cart-quantity">
+                <p><span class="item-count">0</span> items added to cart</p>
+            </div>
+            <div class="cart-empty">
+                <p>Your cart is empty.</p>
+                <p>Get started with the options below:</p>
+                <div class="cart-shop-ctas">
+                    <a class="btn btn-blue">SHOP PRO SPORTS</a>
+                    <a class="btn btn-blue">SHOP COLLEGE SPORTS</a>
+                    <a class="btn btn-blue">SHOP MOTORSPORTS</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Cart Modal - Empty -->
+    <div class="slider">
+        <div class="carousel">
+            <div class="item" style="background-image:url('img/slide-1.jpg')">
+                <div class="rollover"></div>
+                <div class="item-content container">
+                    <p class="date">May 02, 2015</p>
+                    <h2>Experience the Kentucky Derby Like Never Before.</h2>
+                    <p class="location">Churchill Downs, Louisville, KY</p>
+                    <a href="#" class="btn btn-white">View Packages</a>
+                    <div class="slide-countdown" data-countdown="2015/12/02"></div>
+                </div>
+            </div>
+            <div class="item" style="background-image:url('img/slide-1.jpg')">
+                <div class="rollover"></div>
+                <div class="item-content container">
+                    <p class="date">May 02, 2015</p>
+                    <h2>Experience the Kentucky Derby Like Never Before.</h2>
+                    <p class="location">Churchill Downs, Louisville, KY</p>
+                    <a href="#" class="btn btn-white">View Packages</a>
+                    <div class="slide-countdown" data-countdown="2015/12/02"></div>
+                </div>
+            </div>
+            <div class="item" style="background-image:url('img/slide-1.jpg')">
+                <div class="rollover"></div>
+                <div class="item-content container">
+                    <p class="date">May 02, 2015</p>
+                    <h2>Experience the Kentucky Derby Like Never Before.</h2>
+                    <p class="location">Churchill Downs, Louisville, KY</p>
+                    <a href="#" class="btn btn-white">View Packages</a>
+                    <div class="slide-countdown" data-countdown="2015/12/02"></div>
+                </div>
+            </div>
+            <div class="item" style="background-image:url('img/slide-1.jpg')">
+                <div class="rollover"></div>
+                <div class="item-content container">
+                    <p class="date">May 02, 2015</p>
+                    <h2>Experience the Kentucky Derby Like Never Before.</h2>
+                    <p class="location">Churchill Downs, Louisville, KY</p>
+                    <a href="#" class="btn btn-white">View Packages</a>
+                    <div class="slide-countdown" data-countdown="2015/12/02"></div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-controls">
+            <div class="carousel-pagination container">
+                <div class="owl-page active" data-pagination-index="0">
+                    <span class="pagination-title">Kentucky Derby</span>
+                </div>
+                <div class="owl-page" data-pagination-index="1">
+                    <span class="pagination-title">Super Bowl 50</span>
+                </div>
+                <div class="owl-page" data-pagination-index="2">
+                    <span class="pagination-title">The Masters</span>
+                </div>
+                <div class="owl-page" data-pagination-index="3">
+                    <span class="pagination-title">The Experience</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slider slider-mobile">
+        <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+                <a class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                    <div class="icon icon-primesport-collapse"></div>
+                    <div class="icon icon-primesport-expand"></div>
+                    <h4 class="panel-name">Kentucky Derby</h4>
+                </a>
+                <div id="collapse1" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                        <div class="item" style="background-image:url('img/slide-1.jpg')">
+                            <div class="item-content">
+                                <p class="date">May 02, 2015</p>
+                                <h2>Experience the Kentucky Derby Like Never Before.</h2>
+                                <p class="location">Churchill Downs, Louisville, KY</p>
+                                <a href="#" class="btn btn-white">View Packages</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <a class="panel-heading collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                    <div class="icon icon-primesport-collapse"></div>
+                    <div class="icon icon-primesport-expand"></div>
+                    <h4 class="panel-name">Super Bowl</h4>
+                </a>
+                <div id="collapse2" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <div class="item" style="background-image:url('img/slide-1.jpg')">
+                            <div class="item-content">
+                                <p class="date">May 02, 2015</p>
+                                <h2>Experience the Kentucky Derby Like Never Before.</h2>
+                                <p class="location">Churchill Downs, Louisville, KY</p>
+                                <a href="#" class="btn btn-white">View Packages</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <a class="panel-heading collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                    <div class="icon icon-primesport-collapse"></div>
+                    <div class="icon icon-primesport-expand"></div>
+                    <h4 class="panel-name">the masters</h4>
+                </a>
+                <div id="collapse3" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <div class="item" style="background-image:url('img/slide-1.jpg')">
+                            <div class="item-content">
+                                <p class="date">May 02, 2015</p>
+                                <h2>Experience the Kentucky Derby Like Never Before.</h2>
+                                <p class="location">Churchill Downs, Louisville, KY</p>
+                                <a href="#" class="btn btn-white">View Packages</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <a class="panel-heading collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+                    <div class="icon icon-primesport-collapse"></div>
+                    <div class="icon icon-primesport-expand"></div>
+                    <h4 class="panel-name">The Experience</h4>
+                </a>
+                <div id="collapse4" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <div class="item" style="background-image:url('img/slide-1.jpg')">
+                            <div class="item-content">
+                                <p class="date">May 02, 2015</p>
+                                <h2>Experience the Kentucky Derby Like Never Before.</h2>
+                                <p class="location">Churchill Downs, Louisville, KY</p>
+                                <a href="#" class="btn btn-white">View Packages</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <section class="upcoming-events bg-grey">
+            <div class="container container-section">
+                <h3>Major Events</h3>
+                <div class="container-cards">
+                    <div class="item container-card">
+                        <div class="social-icons">
+                            <a href="#" class="social-icon share">
+                                <div class="icon icon-primesport-share-ps"></div>
+                                <div class="share-menu">
+                                    <div class="icon icon-primesport-facebook"></div><!--
+                                 --><div class="icon icon-primesport-twitter"></div><!--
+                                 --><div class="icon icon-primesport-google"></div><!--
+                                 --><div class="icon icon-primesport-mail"></div>
+                                </div>
+                            </a>
+                            <a href="#" class="social-icon like">
+                                <div class="icon icon-primesport-favorite-inactive"></div>
+                                <div class="icon icon-primesport-favorite-active"></div>
+                            </a>
+                        </div>
+                        <img src="img/item-1.jpg" alt="">
+                        <div class="card-info">
+                            <p class="date">Apr  9 - Apr 11, 2015</p>
+                            <h5>NCAA Frozen Four</h5>
+                            <span class="location">Boston, MA</span>
+                            <a href="#" class="see-links">See Packages ></a>
+                        </div>
+                    </div>
+                    <div class="item container-card">
+                        <div class="social-icons">
+                            <a href="#" class="social-icon share">
+                                <div class="icon icon-primesport-share-ps"></div>
+                                <div class="share-menu">
+                                    <div class="icon icon-primesport-facebook"></div><!--
+                                 --><div class="icon icon-primesport-twitter"></div><!--
+                                 --><div class="icon icon-primesport-google"></div><!--
+                                 --><div class="icon icon-primesport-mail"></div>
+                                </div>
+                            </a>
+                            <a href="#" class="social-icon like">
+                                <div class="icon icon-primesport-favorite-inactive"></div>
+                                <div class="icon icon-primesport-favorite-active"></div>
+                            </a>
+                        </div>
+                        <img src="img/item-2.jpg" alt="">
+                        <div class="card-info">
+                            <p class="date">Apr  9 - Apr 11, 2015</p>
+                            <h5>NCAA Frozen Four</h5>
+                            <span class="location">Boston, MA</span>
+                            <a href="#" class="see-links">See Packages ></a>
+                        </div>
+                    </div>
+                    <div class="item container-card">
+                        <div class="social-icons">
+                            <a href="#" class="social-icon share">
+                                <div class="icon icon-primesport-share-ps"></div>
+                                <div class="share-menu">
+                                    <div class="icon icon-primesport-facebook"></div><!--
+                                 --><div class="icon icon-primesport-twitter"></div><!--
+                                 --><div class="icon icon-primesport-google"></div><!--
+                                 --><div class="icon icon-primesport-mail"></div>
+                                </div>
+                            </a>
+                            <a href="#" class="social-icon like">
+                                <div class="icon icon-primesport-favorite-inactive"></div>
+                                <div class="icon icon-primesport-favorite-active"></div>
+                            </a>
+                        </div>
+                        <img src="img/item-3.jpg" alt="">
+                        <div class="card-info">
+                            <p class="date">Apr  9 - Apr 11, 2015</p>
+                            <h5>NCAA Frozen Four</h5>
+                            <span class="location">Boston, MA</span>
+                            <a href="#" class="see-links">See Packages ></a>
+                        </div>
+                    </div>
+                    <div class="item container-card">
+                        <div class="social-icons">
+                            <a href="#" class="social-icon share">
+                                <div class="icon icon-primesport-share-ps"></div>
+                                <div class="share-menu">
+                                    <div class="icon icon-primesport-facebook"></div><!--
+                                 --><div class="icon icon-primesport-twitter"></div><!--
+                                 --><div class="icon icon-primesport-google"></div><!--
+                                 --><div class="icon icon-primesport-mail"></div>
+                                </div>
+                            </a>
+                            <a href="#" class="social-icon like">
+                                <div class="icon icon-primesport-favorite-inactive"></div>
+                                <div class="icon icon-primesport-favorite-active"></div>
+                            </a>
+                        </div>
+                        <img src="img/item-1.jpg" alt="">
+                        <div class="card-info">
+                            <p class="date">Apr  9 - Apr 11, 2015</p>
+                            <h5>NCAA Frozen Four</h5>
+                            <span class="location">Boston, MA</span>
+                            <a href="#" class="see-links">See Packages ></a>
+                        </div>
+                    </div>
+                    <div class="item container-card">
+                        <div class="social-icons">
+                            <a href="#" class="social-icon share">
+                                <div class="icon icon-primesport-share-ps"></div>
+                                <div class="share-menu">
+                                    <div class="icon icon-primesport-facebook"></div><!--
+                                 --><div class="icon icon-primesport-twitter"></div><!--
+                                 --><div class="icon icon-primesport-google"></div><!--
+                                 --><div class="icon icon-primesport-mail"></div>
+                                </div>
+                            </a>
+                            <a href="#" class="social-icon like">
+                                <div class="icon icon-primesport-favorite-inactive"></div>
+                                <div class="icon icon-primesport-favorite-active"></div>
+                            </a>
+                        </div>
+                        <img src="img/item-2.jpg" alt="">
+                        <div class="card-info">
+                            <p class="date">Apr  9 - Apr 11, 2015</p>
+                            <h5>NCAA Frozen Four</h5>
+                            <span class="location">Boston, MA</span>
+                            <a href="#" class="see-links">See Packages ></a>
+                        </div>
+                    </div>
+                </div>
+                <!--<a class="show-more btn btn-blue visible-xs" href="#">SHOW MORE</a>-->
+            </div>
+        </section>
+        <section class="primesport-xp">
+            <div class="container container-section">
+                <h3>The PrimeSport Experience</h3>
+                <div class="row primesport-xp-text">
+                    <div class="col-md-6 col-sm-8">
+                        <p>It’s not just a game. it’s the coutside seats so close that LeBron James might actually sweat on you. It’s the hospitatlity parties where you can look your hero in the eye. It’s a moment in time where comaraderie, laughter, cheers and little moments create big memories.</p>
+                    </div>
+                    <div class="col-md-6 col-sm-4">
+                        <a href="#" class="btn pull-right btn-blue mob-100">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider-experience">
+                <div id="video-gallery">
+                    <div class="item" data-video="xLGZbeC1kzc">
+                        <img src="img/video-preview.jpg" alt="">
+                        <div class="play-ico"></div>
+                        <div class="title"><i class="icon-primesport-left-arrow"></i>Video info 0 <i class="icon-primesport-right-arrow"></i></div>
+                    </div>
+                    <div class="item" data-video="xLGZbeC1kzc">
+                         <img src="img/video-preview.jpg" alt="">
+                         <div class="play-ico"></div>
+                        <div class="title"><i class="icon-primesport-left-arrow"></i>Video info 1 <i class="icon-primesport-right-arrow"></i></div>
+                    </div>
+                    <div class="item" data-video="xLGZbeC1kzc">
+                        <img src="img/video-preview.jpg" alt="">
+                        <div class="play-ico"></div>
+                        <div class="title"><i class="icon-primesport-left-arrow"></i>Video info 2 <i class="icon-primesport-right-arrow"></i></div>
+                    </div>
+                    <div class="item" data-video="xLGZbeC1kzc">
+                        <img src="img/video-preview.jpg" alt="">
+                        <div class="play-ico"></div>
+                        <div class="title"><i class="icon-primesport-left-arrow"></i>Video info 3 <i class="icon-primesport-right-arrow"></i></div>
+                    </div>
+                    <div class="item" data-video="xLGZbeC1kzc">
+                        <img src="img/video-preview.jpg" alt="">
+                        <div class="play-ico"></div>
+                        <div class="title"><i class="icon-primesport-left-arrow"></i>Video info 4 <i class="icon-primesport-right-arrow"></i></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-events">
+            <div class="container container-section">
+                <div class="row">
+                    <div class="col-md-2 col-sm-3"><h3>Featured Events</h3></div>
+                    <div class="col-md-4 col-sm-4">
+                        <select name="event" id="events-select">
+                            <option value="1">Event #1</option>
+                            <option value="2">Event #2</option>
+                            <option value="3">Event #3</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="container-cards">
+                    <div class="item container-card">
+                        <div class="img-container">
+                            <img src="img/small-item-1.png" alt="">
+                        </div>
+                        <h6>Lorem Ipsum Dolor Sit</h6>
+                        <p class="date">Jun 15 - Jun 21, 2015</p>
+                        <p class="location">Lorem Ipsum, SX</p>
+                    </div>
+                    <div class="item container-card">
+                        <div class="img-container">
+                            <img src="img/small-item-2.png" alt="">
+                        </div>
+                        <h6>Lorem Ipsum Dolor Sit</h6>
+                        <p class="date">Jun 15 - Jun 21, 2015</p>
+                        <p class="location">Lorem Ipsum, SX</p>
+                    </div>
+                    <div class="item container-card">
+                        <div class="img-container">
+                            <img src="img/small-item-1.png" alt="">
+                        </div>
+                        <h6>Lorem Ipsum Dolor Sit</h6>
+                        <p class="date">Jun 15 - Jun 21, 2015</p>
+                        <p class="location">Lorem Ipsum, SX</p>
+                    </div>
+                    <div class="item container-card">
+                        <div class="img-container">
+                            <img src="img/small-item-1.png" alt="">
+                        </div>
+                        <h6>Lorem Ipsum Dolor Sit</h6>
+                        <p class="date">Jun 15 - Jun 21, 2015</p>
+                        <p class="location">Lorem Ipsum, SX</p>
+                    </div>
+                    <div class="item container-card">
+                        <div class="img-container">
+                            <img src="img/small-item-1.png" alt="">
+                        </div>
+                        <h6>Lorem Ipsum Dolor Sit</h6>
+                        <p class="date">Jun 15 - Jun 21, 2015</p>
+                        <p class="location">Lorem Ipsum, SX</p>
+                    </div>
+                    <div class="item container-card">
+                        <div class="img-container">
+                            <img src="img/small-item-1.png" alt="">
+                        </div>
+                        <h6>Lorem Ipsum Dolor Sit</h6>
+                        <p class="date">Jun 15 - Jun 21, 2015</p>
+                        <p class="location">Lorem Ipsum, SX</p>
+                    </div>
+                    <div class="item container-card">
+                        <div class="img-container">
+                            <img src="img/small-item-1.png" alt="">
+                        </div>
+                        <h6>Lorem Ipsum Dolor Sit</h6>
+                        <p class="date">Jun 15 - Jun 21, 2015</p>
+                        <p class="location">Lorem Ipsum, SX</p>
+                    </div>
+                    <div class="item container-card">
+                        <div class="img-container">
+                            <img src="img/small-item-1.png" alt="">
+                        </div>
+                        <h6>Lorem Ipsum Dolor Sit</h6>
+                        <p class="date">Jun 15 - Jun 21, 2015</p>
+                        <p class="location">Lorem Ipsum, SX</p>
+                    </div>
+                </div>
+
+                <a class="show-more btn btn-blue visible-xs" href="#">SHOW MORE</a>
+            </div>
+        </section>
+        <!-- SECTION CUSTOM PACKAGES-->
+        <section class="custom-packages">
+            <div class="container container-section">
+                <h3>Custom Packages</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                <a href="http://concierge.primesport.com" class="btn btn-blue mob-100">Learn More</a>
+            </div>
+        </section>
+        <!-- END SECTION CUSTOM PACKAGES-->
+        <!-- SECTION NEWSLETTER-->
+        <section class="newsletter">
+            <div class="container container-section">
+                <h3>Get updates on events and packages from PrimeSport!</h3>
+                <form class="send-form">
+                    <input type="email" placeholder="Email Address" class="form-email">
+                    <input type="submit" value="JOIN" class="btn btn-darkblue join">
+                </form>
+            </div>
+        </section>
+        <!-- END SECTION NEWSLETTER-->
+    </div>
+</div>
+
+<footer class="page-footer">
+    <div class="main-footer">
+        <section class="social-media">
+            <div class="container container-section">
+                <ul class="row">
+                    <li class="col-md-15 col-sm-15 col-xs-15">
+                        <a class="twitter" href="https://twitter.com/primesport" target="_blank">
+                            <div class="icon icon-primesport-twitter"></div>
+                        </a>
+                    </li>
+                    <li class="col-md-15 col-sm-15 col-xs-15">
+                        <a class="facebook" href="https://www.facebook.com/PrimeSportEvents" target="_blank">
+                            <div class="icon icon-primesport-facebook"></div>
+                        </a>
+                    </li>
+                    <li class="col-md-15 col-sm-15 col-xs-15">
+                        <a class="youtube" href="https://www.youtube.com/channel/UCSBuS6F8zci88PyxJIDwIlQ"  target="_blank">
+                            <div class="icon icon-primesport-youtube"></div>
+                        </a>
+                    </li>
+                    <li class="col-md-15 col-sm-15 col-xs-15">
+                        <a class="google" href="https://plus.google.com/110158606543970442801"  target="_blank">
+                            <div class="icon icon-primesport-google"></div>
+                        </a>
+                    </li>
+                    <li class="col-md-15 col-sm-15 col-xs-15">
+                        <a class="instagram" href="https://instagram.com/primesportevents/"  target="_blank">
+                            <div class="icon icon-primesport-instagram"></div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="footer-top">
+            <div class="container container-section">
+                <div class="row">
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                        <div class="row">
+                            <div class="footer-links col-md-12 col-sm-12 col-xs-6">
+                                <h6>Company</h6>
+                                <ul>
+                                    <li><a href="about-us.html">About PrimeSport</a></li>
+                                    <li><a href="#">FAQ</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-links col-md-12 col-sm-12 col-xs-6">
+                                <h6>Resources</h6>
+                                <ul>
+                                    <li><a href="#">Affiliate Program</a></li>
+                                    <li><a href="#">Seller Guide</a></li>
+                                    <li><a href="#">Concierge Live</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-6">
+                        <div class="primesport-footer-info">
+                            <a href="#">
+                                <div class="icon icon-primesport-hospitality"></div>
+                            </a>
+                            <h6>The PrimeSport Experience</h6>
+                            <p>We’re so much more than tickets!    </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-6">
+                        <div class="primesport-footer-info">
+                            <a href="#">
+                                <div class="icon icon-primesport-custom"></div>
+                            </a>
+                            <h6>Custom Packages  Available</h6>
+                            <p>Perfect for private or corporate events.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-6 appstore-link">
+                        <a href="https://itunes.apple.com/us/app/primesport/id932565744?mt=8" target="_blank"><img src="img/home/appstore.png" alt="AppStore" /></a>
+                    </div>
+                    <a class="visible-xs col-xs-6 see-quick btn btn-white">
+                        See quick links
+                    </a>
+                    <div class="visible-sm col-xs-6"></div>
+                </div>
+            </div>
+        </section>
+        <div class="slideout-footer">
+            <div class="slideout-footer-content">
+                <section class="footer-placement">
+                    <div class="container container-section">
+                        <div class="footer-caption">Quick Links</div>
+                        <div class="row">
+                            <div class="col-md-3 col-sm-3 col-xs-6 footer-links">
+                                <h6>Sports</h6>
+                                <ul>
+                                    <li><a href="#">MLB</a></li>
+                                    <li><a href="#">NBA</a></li>
+                                    <li><a href="#">NFL</a></li>
+                                    <li><a href="#">NHL</a></li>
+                                    <li><a href="#">Golf</a></li>
+                                    <li><a href="#">Soccer</a></li>
+                                    <li><a href="#">Tennis</a></li>
+                                    <li><a href="#">Horse Racing</a></li>
+                                    <li><a href="#">Motorsports</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-6 footer-links">
+                                <h6>Major Events</h6>
+                                <ul>
+                                    <li><a href="#">Men's Final Four</a></li>
+                                    <li><a href="#">Masters</a></li>
+                                    <li><a href="#">Super Bowl</a></li>
+                                    <li><a href="#">CFP National Championship</a></li>
+                                    <li><a href="#">CONCACAF Gold Cup</a></li>
+                                    <li><a href="#">Rose Bowl</a></li>
+                                    <li><a href="#">Kentucky Derby</a></li>
+                                    <li><a href="#">Mayweather vs. Pacquiao</a></li>
+                                    <li><a href="#">Daytona 500</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-6 footer-links">
+                                <h6>Upcoming Events</h6>
+                                <ul>
+                                    <li><a href="#">Texas Race</a></li>
+                                    <li><a href="#">Bristol Race</a></li>
+                                    <li><a href="#">Monster Energy Supercross Finals</a></li>
+                                    <li><a href="#">Indianapolis 500</a></li>
+                                    <li><a href="#">National Finals Rodeo</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-6 footer-links">
+                                <h6>The NCAA Experience<sup>&copy;</sup></h6>
+                                <ul>
+                                    <li><a href="#">Men’s Basketball Championship</a></li>
+                                    <li><a href="#">Wrestling Championships</a></li>
+                                    <li><a href="#">Men’s Final Four</a></li>
+                                    <li><a href="#">Women’s Final Four</a></li>
+                                    <li><a href="#">Men’s Frozen Four</a></li>
+                                    <li><a href="#">Women’s College World Series</a></li>
+                                    <li><a href="#">Men’s College World Series</a></li>
+                                    <li><a href="#">Women’s Volleyball Championship</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="footer-low">
+                    <div class="container container-section">
+                        <div class="footer-copyright">&#169; 2015 PrimeSport All rights reserved. <span>Privacy Policy | Terms and Conditions</span></div>
+                        <img src="img/home/logo-white.png" class="footer-logo" alt="PrimeSport" />
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div id="email-share-popup" class="popup share-popup hidden">
+    <header class="clearfix">
+        <span class="popup-close"><div class="icon icon-primesport-close"></div></span>
+        <div class="icon icon-primesport-mail"></div>
+        <h2>Share with your friends</h2>
+    </header>
+    <div class="content">
+        <input type="email" placeholder="Friend’s Name"/>
+        <input type="email" placeholder="Friend’s Email Address (seperate multiple with comma)">
+        <textarea name="" placeholder="Your Message"></textarea>
+        <div class="share-section">
+            <div class="left-column">
+                <img src="img/share-item.jpg" alt="share-item">
+            </div>
+            <div class="right-column info">
+                <a href="#" class="primesport-label">
+                    <img src="img/ps-logo.png" alt="">
+                    <span>PrimeSport</span>
+                </a>
+                <p>Lorem ipsum dolor sit amet, possit viderer detracto qui et. Estillo quod decore persius cu, cibo deserunt dissentiet quo eu. Illud lor diceret omne sque nam id, qui in quod nulla, et alterum veritus quaestio cum. Legere postea eum ut, volutpat delicatissimi meis. </p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <a href="#" class="share-btn">send email</a>
+    </footer>
+</div>
+
+<div id="twitter-share-popup" class="popup share-popup hidden">
+    <header class="clearfix">
+        <span class="popup-close"><div class="icon icon-primesport-close"></div></span>
+        <div class="icon icon-primesport-twitter"></div>
+        <h2>Share a link with your followers John Smith</h2>
+    </header>
+    <div class="content clearfix">
+        <div class="left-column">
+            <img src="img/user-avatar.jpg" alt="">
+        </div>
+        <div class="right-column">
+            <textarea name="" placeholder="Your Message"></textarea>
+            <div class="share-section">
+                <div class="left-column">
+                    <img src="img/share-item.jpg" alt="share-item">
+                </div>
+                <div class="right-column info">
+                    <a href="#" class="primesport-label">
+                        <img src="img/ps-logo.png" alt="">
+                        <span>PrimeSport</span>
+                    </a>
+                    <p>Lorem ipsum dolor sit amet, possit viderer detracto qui et. Estillo quod decore persius cu, cibo deserunt dissentiet quo eu. Illud lor diceret omne sque nam id, qui in quod nulla, et alterum veritus quaestio cum.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <a href="#" class="share-btn">tweet</a>
+    </footer>
+</div>
+
+<div id="google-plus-share-popup" class="popup share-popup hidden">
+    <header class="clearfix">
+        <span class="popup-close"><div class="icon icon-primesport-close"></div></span>
+        <div class="icon icon-primesport-google"></div>
+        <h2>Share this on Google+ as John Smith</h2>
+    </header>
+    <div class="content clearfix">
+        <div class="left-column">
+            <img src="img/user-avatar.jpg" alt="">
+        </div>
+        <div class="right-column">
+            <textarea name="" placeholder="Add a comment ..."></textarea>
+            <div class="share-section">
+                <div class="left-column">
+                    <img src="img/share-item.jpg" alt="share-item">
+                </div>
+                <div class="right-column info">
+                    <a href="#" class="primesport-label">
+                        <img src="img/ps-logo.png" alt="">
+                        <span>PrimeSport</span>
+                    </a>
+                    <p>Lorem ipsum dolor sit amet, possit viderer detracto qui et. Estillo quod decore persius cu, cibo deserunt dissentiet quo eu. Illud lor diceret omne sque nam id, qui in quod nulla, et alterum veritus quaestio cum.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <a href="#" class="share-btn">share</a>
+    </footer>
+</div>
+
+<div id="facebook-share-popup" class="popup share-popup hidden">
+    <header class="clearfix">
+        <span class="popup-close"><div class="icon icon-primesport-close"></div></span>
+        <div class="icon icon-primesport-facebook"></div>
+        <h2>Post to Facebook</h2>
+    </header>
+    <div class="content clearfix">
+        <div class="left-column">
+            <img src="img/user-avatar.jpg" alt="">
+        </div>
+        <div class="right-column">
+            <textarea name="" placeholder="Say something about this..."></textarea>
+            <div class="share-section">
+                <div>
+                    <div class="left-column">
+                        <img src="img/share-item.jpg" alt="share-item">
+                    </div>
+                    <div class="right-column info">
+                        <p>Lorem ipsum dolor sit amet, possit viderer detracto qui et. Estillo quod decore persius cu, cibo deserunt dissentiet quo eu. Illud lor diceret omne sque nam id, qui in quod nulla, et alterum veritus quaestio cum.</p>
+                    </div>
+                </div>
+                <div class="facebook-company-label">
+                    <a href="#" class="primesport-label">
+                        <img src="img/ps-logo.png" alt="">
+                        <span>via PrimeSport</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <a href="#" class="share-btn">share</a>
+        <a href="#" class="share-btn-cancel" data-close-popup>cancel</a>
+    </footer>
+</div>
+
+<div id="video-modal-popup" class="popup hidden">
+    <iframe src="" frameborder="0" allowfullscreen class="vid-index"></iframe>
+</div>
+
+<div class="favorite-popup popup hidden">
+    <div class="popup-main-container">
+        <header class="clearfix">
+            <span class="popup-close"><div class="icon icon-primesport-close"></div></span>
+            <img src="img/logo.png" alt="PrimeSport">
+        </header>
+        <div class="popup-container">
+            <div class="popup-sub-container">
+                <p class="popup-sub-title"><span>Your favorite is temporarily saved!</span></p>
+                <p class="popup-sub-info">Please <a href="#">sign in</a> or <a href="#">create an account</a> to permanently save the item you have favorited.</p>
+                <div class="popup-buttons">
+                    <a href="#" class="btn btn-blue mob-100 active">Create account</a>
+                    <a href="#" class="btn btn-blue mob-100">Not right now</a>
+                </div>
+            </div>
+            <div class="popup-sub-container">
+                <p class="popup-sub-info">Your favorites can be accessed in the PrimeSport menu:</p>
+                <div class="popup-menu-block">
+                    <div class="popup-menu-sub-block">
+                        <div class="icon icon-primesport-menu"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="favorite-popup popup small hidden">
+    <div class="popup-main-container">
+        <div class="popup-container">
+            <div class="popup-sub-container">
+                <span class="popup-close"><div class="icon icon-primesport-close"></div></span>
+                <p class="popup-sub-title"><span>Favorite Saved!</span></p>
+            </div>
+            <div class="popup-sub-container">
+                <p class="popup-sub-info">Your favorites can be accessed in the PrimeSport menu:</p>
+                <div class="popup-menu-block">
+                    <div class="popup-menu-sub-block">
+                        <div class="icon icon-primesport-menu"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="menu-button">
+    <div class="toggle-left-menu menu-hidden" data-target=".left-menu-wrapper">
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+    </div>
+</div>
+
+<div class="left-menu-wrapper menu-hidden">
+    <div class="left-menu">
+        <div class="log-in-alert visible">
+            <h2 class="title">You are not logged in</h2>
+            <p class="description">
+                <a class="log-in-link" href="#">Sign in</a> or <a class="sign-up-link" href="#">Create an Account</a> to permanently save your favorites.
+            </p>
+        </div>
+        <div class="my-favorites">
+            <h2 class="title">My favorites</h2>
+            <ul>
+                <li class="favorite-item">
+                    <a class="link" href="#">Atlanta Braves</a>
+                </li>
+                <li class="favorite-item">
+                    <a class="link" href="#">Atlanta Falcons</a>
+                </li>
+                <li class="favorite-item">
+                    <a class="link" href="#">Lorem Ipusm</a>
+                </li>
+                <li class="favorite-item">
+                    <a class="link" href="#">Lorem Ipusm</a>
+                </li>
+                <li class="favorite-item">
+                    <a class="link" href="#">Lorem Ipusm</a>
+                </li>
+                <li class="favorite-item">
+                    <a class="link" href="#">Lorem Ipusm</a>
+                </li>
+            </ul>
+        </div>
+        <div class="primesport-twitter">
+            <div class="content">
+                <div class="clearfix">
+                    <div class="prime-logo">
+                        <img class="prime-logo-image" src="img/experience/prime-logo.png" alt="">
+                        <div class="prime-details">
+                            <h6 class="title">PrimeSport</h6>
+                            <p class="hashtag">@primesportevents</p>
+                        </div>
+                    </div>
+                    <div class="options">
+                        <ul>
+                            <li class="share-option">
+                                <div data-icon="N" class="icon"></div>
+                            </li>
+                            <li class="share-option">
+                                <div data-icon="O" class="icon"></div>
+                            </li>
+                            <li class="share-option">
+                                <div data-icon="R" class="icon"></div>
+                            </li>
+                            <li class="share-option">
+                                <div data-icon="M" class="icon"></div>
+                            </li>
+                        </ul>
+                        <p class="date">20 minutes ago</p>
+                    </div>
+                </div>
+                <p class="description">It's never too early to start planning for Augusta! #2016Masters Tix & Travel Pkgs: <a class="link" href="http://ow.ly/Ly7vD">http://ow.ly/Ly7vD</a></p>
+            </div>
+        </div>
+        <div class="container social-media">
+            <ul class="row">
+                <li class="col-md-15 col-sm-15 col-xs-15">
+                    <a class="twitter" href="https://twitter.com/primesport" target="_blank">
+                        <div class="icon icon-primesport-twitter"></div>
+                    </a>
+                </li>
+                <li class="col-md-15 col-sm-15 col-xs-15">
+                    <a class="facebook" href="https://www.facebook.com/PrimeSportEvents" target="_blank">
+                        <div class="icon icon-primesport-facebook"></div>
+                    </a>
+                </li>
+                <li class="col-md-15 col-sm-15 col-xs-15">
+                    <a class="youtube" href="https://www.youtube.com/channel/UCSBuS6F8zci88PyxJIDwIlQ" target="_blank">
+                        <div class="icon icon-primesport-youtube"></div>
+                    </a>
+                </li>
+                <li class="col-md-15 col-sm-15 col-xs-15">
+                    <a class="google" href="https://plus.google.com/110158606543970442801" target="_blank">
+                        <div class="icon icon-primesport-google"></div>
+                    </a>
+                </li>
+                <li class="col-md-15 col-sm-15 col-xs-15">
+                    <a class="instagram" href="https://instagram.com/primesportevents/" target="_blank">
+                        <div class="icon icon-primesport-instagram"></div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="customer-service">
+            <h2 class="title">customer service</h2>
+            <p class="phone">1-800-591-9198</p>
+            <p class="time"><span class="days">mon–fri:</span> 9am — 6pm est</p>
+            <p class="time"><span class="days">sat-sun:</span> 10am — 5pm est</p>
+        </div>
+        <div class="faq">
+            <a class="title" href="#">FAQ ></a>
+        </div>
+    </div>
+</div>
+
+
+<div id="login-popup" class="popup account-popup login-popup hidden">
+    <header class="black clearfix">
+        <span class="popup-close"><div class="icon icon-primesport-close"></div></span>
+        <img src="img/logo.png" alt="PrimeSport">
+    </header>
+    <div class="content clearfix">
+        <div class="sub-container">
+            <p class="sub-title">Login</p>
+            <p class="sub-info">Login with your PrimeSport username and password that you used previously to register.</p>
+            <div class="alerts" id="login-validation-errors"></div>
+            <form action="" class="login-form form-field" data-validate-msg-id="login-validation-errors">
+                <div class="row form-row">
+                    <div class="col-xs-12">
+                        <input type="email" class="field email" name="email" value="" placeholder="EMAIL ADDRESS" data-validate="true" data-validate-msg-email="Not valid email">
+                    </div>
+                </div>
+                <div class="row form-row">
+                    <div class="col-xs-12">
+                        <input type="password" class="field min-length only-digits-and-letters" name="password" value="" placeholder="PASSWORD" data-validate="true" data-validate-min-length="6" data-validate-msg-min-length="Password must be at least 6 characters" data-validate-msg-only-digits-and-letters="Password includes numbers and letters">
+                    </div>
+                </div>
+                <a href="#" class="forgot-password">forgot password <span class="gt-arrow">&gt;</span></a>
+                <input type="submit" class="btn btn-darkblue login" value="Login">
+            </form>
+        </div>
+        <div class="sub-container">
+            <a href="#" class="btn btn-blue create-account">Create an account</a>
+        </div>
+    </div>
+</div>
+
+<div id="welcome-popup" class="popup account-popup welcome-popup hidden">
+    <header class="black clearfix">
+        <span class="popup-close"><div class="icon icon-primesport-close"></div></span>
+        <img src="img/logo.png" alt="PrimeSport">
+    </header>
+    <div class="content clearfix">
+        <div class="sub-container">
+            <p class="sub-title">Welcome to PrimeSport, Brett!</p>
+            <p class="sub-info">Your account has succesfully been created. You are now ready to shop our tickets and packages.</p>
+                <input type="button" class="btn btn-darkblue mod-100 shop-primesport" value="Shop PrimeSport">
+        </div>
+        <div class="sub-container">
+            <p class="sub-info">Complete the rest of your account for a faster checkout:</p>
+            <a href="#" class="complete-account">Complete my account <span class="gt-arrow">&gt;</span></a>
+        </div>
+    </div>
+</div>
+
+<div id="signup-popup" class="popup account-popup signup-popup hidden">
+    <header class="black clearfix">
+        <span class="popup-close"><div class="icon icon-primesport-close"></div></span>
+        <img src="img/logo.png" alt="PrimeSport">
+    </header>
+    <div class="content clearfix">
+        <p class="sub-title">Create an Account</p>
+        <p class="sub-info">Create a PrimeSport account to buy and sell tickets and to check your order status.</p>
+        <div class="alerts" id="signup-validation-errors"></div>
+        <form action="index.html" class="prime-form" data-validate-msg-id="signup-validation-errors">
+            <div class="row form-row">
+                <div class="col-sm-12 col-md-6">
+                    <input type="text" name="firstName" class="field required" placeholder="First Name" data-validate="true" data-validate-msg-required="First name must be filled">
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <input type="text" name="lastName" class="field required" placeholder="Last Name" data-validate="true"  data-validate-msg-required="Second name must be filled">
+                </div>
+            </div>
+            <div class="row form-row">
+                <div class="col-sm-12 col-md-6">
+                    <input type="text" name="email" class="field email matches" placeholder="Email Address" data-validate="true" data-validate-correspond-element-id="confirmEmail" data-validate-msg-matches="Email addresses do not match. Please try again" data-validate-msg-email="Not valid email">
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <input type="text" name="confirmEmail" id="confirmEmail" class="field" placeholder="Confirm Email Address">
+                </div>
+            </div>
+            <div class="row form-row">
+                <div class="col-sm-12 col-md-6">
+                    <input type="password" name="password" class="field min-length matches only-digits-and-letters" placeholder="Password" data-validate="true" data-validate-correspond-element-id="confirmPassword" data-validate-min-length="6" data-validate-msg-min-length="Password must be at least 6 characters long" data-validate-msg-matches="Passwords do not match. Please try again" data-validate-msg-only-digits-and-letters="Password includes numbers and letters">
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <input type="password" name="confirmPassword" id="confirmPassword" class="field" placeholder="Confirm Password">
+                </div>
+            </div>
+
+            <div class="row form-row custom-checkbox">
+                <div class="col-md-12">
+                    <input type="checkbox" name="is-email-notifications" id="is-email-notifications">
+                    <label class="label" for="is-email-notifications">I would like to receive emails and offers from PrimeSport.</label>
+                </div>
+            </div>
+
+            <div class="row form-row terms-row">
+                <div class="col-md-12">
+                    <p>By clicking “Create Account,” I agree to the <a href="#">Terms and Conditions</a> and <a href="#">Privacy Policy</a>.</p>
+                </div>
+            </div>
+
+            <input type="submit" class="btn btn-darkblue" value="Create Account" />
+        </form>
+    </div>
+</div>
+
+<div id="forgot-password-popup" class="popup account-popup forgot-password-popup hidden">
+    <header class="black clearfix">
+        <span class="popup-close"><div class="icon icon-primesport-close"></div></span>
+        <img src="img/logo.png" alt="PrimeSport">
+    </header>
+    <div class="content clearfix">
+        <div class="sub-container">
+            <p class="sub-title">Forgot Password</p>
+            <p class="sub-info">Enter your PrimeSport username (email address) that you used to register. We’ll send you an email with a link to reset your password.</p>
+            <div class="alerts" id="forgot-password-validation-errors"></div>
+            <form action="" class="forgot-password-form form-field" data-validate-msg-id="forgot-password-validation-errors">
+                <div class="row form-row">
+                    <div class="col-xs-12">
+                        <input type="email" class="field email" name="email" value="" placeholder="EMAIL ADDRESS" data-validate="true" data-validate-msg-email="There is no account associated with this email. Please double check your username or click Create An Account.">
+                    </div>
+                </div>
+                <input type="submit" class="btn btn-darkblue send" value="Send">
+            </form>
+            <p class="sub-info">If you still need help, contact PrimeSport <a href="#">Customer Support.</a></p>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/lib/jquery.countdown.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/lib/jquery.roundabout.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/lib/jquery.touchSwipe.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/lib/jquery.selectbox-0.2.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/lib/owl.carousel.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="js/lib/jquery.ddslick.min.js"></script>
+<script src="js/lib/slick.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/popupHelper.js" type="text/javascript"></script>
+<script src="js/cart-modal.js" type="text/javascript"></script>
+<script src="js/index.js" type="text/javascript"></script>
+<script src="js/formValidation.js" type="text/javascript"></script>
+
+</body>
+</html>

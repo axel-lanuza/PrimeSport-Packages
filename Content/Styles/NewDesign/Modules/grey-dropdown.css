@@ -1,0 +1,50 @@
+.grey-dropdown .dd-select {
+	border-radius: 5px;
+	border: 0px;
+}
+
+.grey-dropdown .dd-option,
+.grey-dropdown .dd-selected {
+	padding: 7px 10px 6px;
+}
+
+.grey-dropdown .dd-pointer {
+    width: 44px;
+    height: 33px;
+    right: 0;
+    top: 3px;
+}
+
+.grey-dropdown .dd-pointer-down {
+    border: none;
+    border-left: 1px solid #a7a7a7;
+    background: #b3b3b3;
+    border-radius: 0 4px 4px 0;
+}
+
+.grey-dropdown .dd-pointer:after {
+    display: block;
+    content: "";
+    margin-top: 32%;
+    margin-left: 38%;
+    width: 12px;
+    height: 8px;
+    background: url("/Content/Styles/NewDesign/images/arrow-down.png") no-repeat;
+}
+
+.grey-dropdown label.dd-selected-text,
+.grey-dropdown .dd-option label {
+	font-family: 'StagSans-Book';
+	font-size: 12px;
+}
+
+.grey-dropdown .dd-pointer-up {
+    margin-top: -3px;
+    background: #024b78;
+    border: 0!important;
+    border-left: 1px solid #024b78 !important;
+}
+
+.grey-dropdown .dd-option label {
+	color: #2d2d2d;
+}

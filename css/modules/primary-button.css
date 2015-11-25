@@ -1,0 +1,22 @@
+.primary-button {
+	background: #fff;
+	border: 1px solid #024b78;
+	color: #024b78;
+	font-family: 'StagSans-Medium';
+	margin-left: 8px;
+	display: inline-block;
+	border-radius: 5px;
+	line-height: 40px;
+	height: 40px;
+	padding: 0 18px;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	margin: 13px 0 0 17px;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.primary-button:hover {
+	background: #024b78;
+	color: #fff;
+}

@@ -1,0 +1,40 @@
+.variants-list {
+    overflow: hidden;
+}
+
+.variants-list .variants-list-item {
+    float: left;
+
+    width: 50%;
+}
+
+.variants-list-container {
+    max-width: 297px;
+    height: 100%;
+    margin-right: auto;
+    margin-bottom: 35px;
+    margin-left: auto;
+    padding: 23px 16px;
+
+    text-align: center;
+
+    border-radius: 10px;
+    background: #f6f6f6;
+}
+
+.variants-list-img-container img {
+    display: block;
+
+    width: 95%;
+    margin: 0 auto;
+}
+
+.variants-list-container p {
+    padding: 15px 15px;
+}
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 767px) {
+    .variants-list .variants-list-item {
+        width: 100%;
+    }
+}

@@ -1,0 +1,28 @@
+.nav-breadcrumb {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  z-index: 5;
+  background-color: rgba(89, 88, 87, .8);
+  color: #bdbdbb;
+  font-family: 'StagSans-Book';
+  font-size: 12px;
+}
+
+.nav-breadcrumb-location {
+  float: left;
+  padding-left: 42px;
+}
+
+.nav-breadcrumb-jump {
+  float: right;
+  padding-right: 33px;
+}
+
+.nav-breadcrumb-jump a {
+    font-size: 12px;
+    margin-left: 30px;
+}

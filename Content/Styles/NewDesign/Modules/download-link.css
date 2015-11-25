@@ -1,0 +1,28 @@
+.download-link {
+	display: none;
+	padding: 15px 0 30px 0;
+	color: #2d2d2d;
+	font-size: 14px;
+}
+
+.download-link .icon-primesport-download {
+	font-size: 18px;
+}
+
+.download-link span {
+	vertical-align: top;
+}
+
+
+.download-link .icon + span {
+	margin-left: 5px;
+	font-weight: bold;
+}
+
+@media (max-width: 767px) { 
+
+	.download-link { 
+		display: block;
+		text-align: center;
+	}
+}

@@ -1,0 +1,220 @@
+.ticket {
+	background: #fff;
+}
+
+.ticket .col-section, 
+.ticket .col-row, 
+.ticket .col-price {
+	margin-bottom: 5px;
+    font: normal 14px/1.2 'StagSans-Bold';
+    letter-spacing: 0.4px;
+}
+
+.ticket .btn {
+    padding: 15px 0;
+    width: 100%;
+    background: #024b78;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    font: normal 12px/1.2 'StagSans-Medium';
+    letter-spacing: 0.4px;
+}
+
+.ticket .col-notes .popup-content {
+	display: none;
+}
+
+.ticket .icomoon-note {
+	color: #545454;
+    font-size: 20px;
+}
+
+.ticket .col-links {
+    font: normal 12px/1.2 'StagSans-Medium';
+    letter-spacing: 0.8px;
+}
+
+.ticket .col-button {
+	padding-left: 15px;
+	padding-right: 0px;
+}
+
+.ticket .full-info {
+    display: none !important;
+}
+
+.ticket .instant-download {
+    display: inline-block;
+    padding-right: 15px;
+    /*color: #024b78;*/
+    color: #4a8bb3;
+    position: relative;
+}
+
+.ticket .icomoon-arrow-down {
+	padding-right: 5px;
+	font-size: 14px;
+	vertical-align: text-bottom;
+}
+
+.ticket .paperless,
+.ticket .col-notes .note {
+    display: inline-block;
+    padding-right: 15px;
+    /*color: #024b78;*/
+	color: #4a8bb3;
+    position: relative;
+}
+    
+.ticket .icomoon-paperless {
+	margin-right: 5px;
+	font-size: 14px;
+	vertical-align: text-bottom;
+}
+
+.ticket .paperless .tooltip {
+	left: -83px;
+}
+
+.ticket .instant-download:hover,
+.ticket .paperless:hover {
+	cursor: pointer;
+}
+    
+.ticket .instant-download:hover .tooltip-wrapper, 
+.ticket .paperless:hover .tooltip-wrapper,
+.ticket .col-notes:hover .tooltip-wrapper {
+    top: inherit;
+}
+
+.ticket .instant-download:hover .tooltip-wrapper.bottom,
+.ticket .paperless:hover .tooltip-wrapper.bottom,
+.ticket .col-notes:hover .tooltip-wrapper.bottom {
+	top: 0;
+	bottom: inherit;
+}
+
+.ticket .instant-download:hover .tooltip,
+.ticket .paperless:hover .tooltip,
+.ticket .col-notes:hover .tooltip {
+	display: block;
+    z-index:3;
+}
+
+.ticket .tooltip-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.ticket .tooltip-wrapper.bottom .tooltip {
+      bottom: inherit;
+      top: 25px;
+}
+
+.ticket .tooltip-wrapper.bottom .tooltip:before {
+	border-top: 0;
+	border-bottom: 9px solid #ababab;
+	bottom: inherit;
+	top: -9px;
+}
+
+.ticket .tooltip-wrapper.bottom .tooltip:after {
+	border-top: 0;
+	border-bottom: 8px solid #ffffff;
+	bottom: inherit;
+	top: -8px;
+}
+
+.ticket .tooltip {
+	display: none;
+	background: #fff;
+	padding: 14px;
+	border: 1px solid #ababab;
+	color: #2d2d2d;
+	font-family: 'StagSans-Medium';
+	font-size: 12px;
+	box-sizing: border-box;
+	width: 191px;
+	opacity: 1;
+	letter-spacing: 0.4px;
+	box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.12);
+	left: -89px;
+	bottom: 25px;
+	position: relative;
+}
+      
+.ticket .tooltip:before {
+	content: '';
+	position: absolute;
+	display: block;
+	border-top: 9px solid #ababab;
+	border-left: 13px solid transparent;
+	border-right: 13px solid transparent;
+	left: 50%;
+	margin-left: -13px;
+	bottom: -9px;
+}
+    
+.ticket .tooltip:after {
+	content: '';
+	position: absolute;
+	display: block;
+	border-top: 8px solid #ffffff;
+	border-left: 11px solid transparent;
+	border-right: 11px solid transparent;
+	left: 50%;
+	margin-left: -11px;
+	bottom: -8px;
+}
+
+@media (max-width: 767px) {
+	.ticket .qty-available {
+        margin-bottom: 5px;
+        font: normal 12px/1.2 'StagSans-Bold';
+        letter-spacing: 0.4px;
+        text-align: center;
+    }
+
+    .ticket .col-section,
+    .ticket .col-row,
+    .ticket .col-price {
+        font-size: 12px;
+    }
+
+
+    .ticket .col-button .btn,
+    .ticket .col-links {
+        display: none;
+    }
+
+    .ticket .col-button .icon {
+        text-align: center;
+    }
+
+    .ticket .col-button .icon:before {
+        color: #024b78;
+        font-size: 18px;
+    }
+
+    .ticket .qty-available {
+		margin-bottom: 5px;
+		font: normal 12px/1.2 'StagSans-Bold';
+		letter-spacing: 0.4px;
+		text-align: center;
+		padding: 0;
+    }
+
+	.ticket .col-quantity {
+		padding: 0 5px 0 0;
+	}
+
+	.ticket .small-select {
+        border-bottom: 0px;
+        height: auto;
+    }
+}

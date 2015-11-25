@@ -1,0 +1,370 @@
+/*FOOTER*/
+footer {
+}
+
+.main-footer {
+    color: #fff;
+    background: #2d2d2d;
+}
+
+.social-media {
+    text-align: center;
+    background: #3b3b3b;
+    color: #fff;
+}
+
+.social-media li {
+    position: relative;
+    border-right: 1px solid #303030;
+    height: 38px;
+}
+
+.social-media li:first-child {
+    border-left: 1px solid #303030;
+}
+
+.social-media a {
+    width: 100%;
+    height: 38px;
+    background: #3b3b3b;
+    font-size: 20px;
+    line-height: 38px;
+    color: #fff;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.icon-primesport-youtube:before {
+    font-size: 40px;
+    line-height: 36px;
+}
+
+.icon-primesport-twitter:before {
+    line-height: 38px;
+}
+
+.icon-primesport-facebook:before {
+    font-size: 17px;
+    line-height: 42px;
+}
+
+.icon-primesport-google:before {
+    font-size: 17px;
+    line-height: 40px;
+}
+.icon-primesport-mail:before {
+    font-size: 17px;
+    line-height: 40px;
+}
+.icon-primesport-instagram:before {
+    font-size: 16px;
+    line-height: 41px;
+}
+
+.social-media .twitter:hover {
+    background: #00abdc;
+}
+
+.social-media .facebook:hover {
+    background: #3f6597;
+}
+
+.social-media .youtube:hover {
+    background: #ec1234;
+}
+
+.social-media .google:hover {
+    background: #e43d3f;
+}
+
+.social-media .instagram:hover {
+    background: #5c85a6;
+}
+
+.footer-top {
+    padding: 38px 0 14px;
+    border-bottom: 1px solid #4e4e4e;
+}
+
+.footer-top ul {
+    padding: 0 0 28px;
+}
+
+.footer-low {
+    padding: 0 0 50px;
+}
+
+.footer-placement {
+    padding: 0 0 44px;
+}
+
+.footer-links {
+}
+
+.footer-links h6 {
+    padding-bottom: 9px;
+    font-family: 'StagSans-Bold';
+}
+
+.footer-links li {
+    font-size: 11px;
+    line-height: 20px;
+}
+
+.footer-caption {
+    margin: 40px 0 23px;
+    font-size: 14px;
+}
+
+.primesport-footer-info {
+    padding: 4px 0 0;
+    width: 100%;
+    max-width: 150px;
+}
+
+.primesport-footer-info h6 {
+    line-height: 20px;
+    margin-bottom: 1px;
+    font-family: 'StagSans-Bold';
+}
+
+.primesport-footer-info a {
+    margin: 0 0 11px;
+    width: 120px;
+    height: 110px;
+    background: #3b3b3b;
+    text-align: center;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.icon-primesport-hospitality:before {
+    font-size: 63px;
+    line-height: 100px;
+}
+
+.icon-primesport-custom:before {
+    font-size: 45px;
+    line-height: 106px;
+}
+
+.appstore-link a {
+    margin: 12px 0 0;
+}
+
+.see-quick {
+    padding: 11px 0;
+    font-size: 10px;
+    max-width: 105px;;
+    margin: 12px 0 0 15px;
+}
+
+.footer-placement .footer-links h6 {
+    padding-bottom: 11px;
+}
+
+.footer-copyright {
+    float: right;
+    font-size: 10px;
+    margin: 10px 0 0 0;
+}
+
+.footer-copyright span {
+    font-family: 'StagSans-Semibold';
+}
+
+/*END FOOTER*/
+
+/*hide footer*/
+.page-footer {
+    position: relative;
+    /*z-index: 1;*/
+}
+
+.social-media,
+.footer-top {
+    position: relative;
+    z-index: 1;
+    background-color: #2d2d2d;
+}
+
+.slideout-footer {
+    position: relative;
+    height: auto; /* calculated by js */
+    background-color: #3b3b3b;
+}
+
+.js .slideout-footer.enabled > .slideout-footer-content {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/* Tickets footer */
+.footer-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  z-index: -1;
+  background: #bfbfbf;
+  opacity: 0;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+.footer-overlay.active {
+  z-index: 1;
+  opacity: .8;
+}
+.bottom-footer {
+  height: 38px;
+}
+.bottom-footer .main-footer {
+  position: absolute;
+  z-index: 3;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.ticket-footer {
+  background: #3b3b3b;
+  padding-top: 8px;
+  padding-bottom: 10px;
+}
+.ticket-footer .container-section {
+  padding: 0 4%;
+}
+.ticket-footer .see-quick {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 12px;
+  font-family: 'StagSans-Medium';
+  letter-spacing: 0.5px;
+  float: right;
+  margin: 0;
+  padding: 5px 0 0;
+  max-width: 120px;
+}
+.ticket-full-footer {
+    letter-spacing: 1px;
+    overflow: hidden;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+}
+.ticket-full-footer.hidden-footer {
+  height: 0 !important;
+}
+.ticket-full-footer .container {
+  padding-bottom: 10px;
+  padding-top: 35px;
+}
+.ticket-full-footer .footer-caption {
+  font-family: 'StagSans-Light';
+}
+.ticket-full-footer li a,
+.ticket-full-footer p {
+  color: #d5d5d5;
+  font-family: 'StagSans-Book';
+}
+.ticket-full-footer strong {
+  font-family: 'StagSans-Semibold';
+}
+.ticket-full-footer .policy {
+  float: right;
+  font-size: 10px;
+  padding-top: 45px;
+}
+/* End Tickets footer */
+
+@media (max-width: 767px) {
+    /*FOOTER*/
+    .footer-top {
+        padding: 29px 20px 14px;
+        border-bottom: none;
+    }
+    .footer-placement {
+        display: none;
+    }
+    .appstore-link img {
+        width: 105px;
+    }
+    .footer-logo {
+        margin: 12px 0 0;
+    }
+    .footer-copyright {
+        font-size: 9px;
+        width: 55%;
+        text-align: right;
+    }
+    .footer-copyright span {
+        display: block;
+    }
+
+    .footer-low {
+        padding: 15px 0;
+    }
+
+    /* Search page footer */
+    .search-footer {
+        letter-spacing: 0.5px;
+    }
+
+    .search-footer .footer-top,
+    .search-footer .slideout-footer {
+        background: #2d2d2d;
+    }
+
+    .search-footer h6 {
+        color: #b3b3b3;
+    }
+
+    .search-footer a,
+    .search-footer p {
+        letter-spacing: 1px;
+        color: #989898;
+    }
+
+    .search-footer .icon:before,
+    .search-footer .btn-white {
+        color: #fff;
+    }
+
+    .search-footer .footer-copyright {
+        color: #b3b3b3;
+        line-height: 17px;
+    }
+    /* End Search page footer */
+
+    /* Tickets footer */
+    .ticket-footer .footer-logo {
+        margin-top: 0;
+    }
+
+    .ticket-full-footer .footer-links {
+        padding: 10px 0 20px 20px;
+    }
+
+    .ticket-full-footer .footer-links li {
+        /*display: inline-block;*/
+        padding-right: 15px;
+    }
+
+    .ticket-full-footer .footer-links li a {
+        line-height: 18px;
+        color: #d5d5d5;
+    }
+    /* End Tickets footer */
+}

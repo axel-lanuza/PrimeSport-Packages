@@ -1,0 +1,145 @@
+.form-field {
+	background: #f6f6f6;
+	padding: 10px 0;
+	box-sizing: border-box;
+}
+
+.form-field .title-section {
+	border-bottom: 1px solid #b3b3b3;
+	padding-left: 15px;
+}
+
+.form-field .decription-section {
+	margin-top: 20px;
+}
+
+.form-field .decription-section p {
+	margin-bottom: 0;
+	font-family: 'StagSans-Book';
+	font-size: 12px;
+	letter-spacing: 0.04em;
+	line-height: 22px;
+}
+
+.form-field .title {
+	font-family: 'StagSans-Bold';
+	color: #2d2d2d;
+	font-size: 20px;
+	letter-spacing: 0.5px;
+}
+
+.form-field .title-section .button {
+	margin-top: 26px;
+}
+.form-field .terms-row p {
+	font: normal 12px/16px 'StagSans-Book';
+	letter-spacing: 0.04em;
+	margin-bottom: 0;
+}
+.form-field .terms-row p a {
+	text-decoration: underline;
+}
+.form-field .button {
+	text-transform: uppercase;
+	line-height: 12px;
+	font-size: 12px;
+	font-family: 'StagSans-Medium';
+	cursor: pointer;
+}
+
+.form-field .button.edit-btn {
+	padding: 0;
+	border: 0;
+	box-shadow: none;
+}
+
+.form-field .button:after {
+	content: '';
+	display: inline-block;
+	vertical-align: text-bottom;
+	width: 12px;
+	height: 12px;
+	margin-left: 9px;
+}
+
+.form-field .button.save {
+	color: #195b84;
+}
+
+.form-field .button.save:after {
+	background: url(/Content/Styles/NewDesign/images/save-btn.png) no-repeat;
+}
+
+.form-field .button.edit {
+	color: #7f7f7f;
+
+}
+
+.form-field .button.edit.blue {
+	color: #043b5c;
+}
+
+.form-field .button.edit.blue:after {
+	background: url(/Content/Styles/NewDesign/images/edit-blue-btn.png) no-repeat;
+}
+
+
+.form-field .button.edit:after {
+	background: url(/Content/Styles/NewDesign/images/edit-btn.png) no-repeat;
+}
+
+.form-field .button.edit-btn:after {
+	background: url(/Content/Styles/NewDesign/images/edit-blue-btn.png) no-repeat;
+}
+.form-field .border {
+	width: 100%;
+	height: 1px;
+	border-bottom: 1px solid #d4d4d4;
+	margin: 27px 0;
+}
+.form-field #create-account .border,
+.form-field #login .border {
+	margin-top: 17px;
+}
+.form-field .forgot-password {
+	text-transform: uppercase;
+	color: #024b78;
+	font-size: 10px;
+}
+
+.form-field .usd-placeholder {
+	position: relative;
+}
+.form-field .usd-placeholder:before {
+	content: "$";
+	position: absolute;
+	top: 0;
+	left: 12px;
+	line-height: 16px;
+}
+.form-field .usd-placeholder input {
+	padding-left: 20px;
+}
+
+@media (max-width: 767px) {
+	.form-field {
+		margin-bottom: 0px;
+	}
+
+	.form-field-content {
+		padding: 0 15px;
+	}
+
+	.form-field .title-section {
+		padding-left: 0;
+	}
+
+	.prime-form .field-text.password {
+		padding: 0;
+		border: 0;
+		margin: 0;
+	}
+	.form-field .title {
+		font-size: 16px;
+	}
+}

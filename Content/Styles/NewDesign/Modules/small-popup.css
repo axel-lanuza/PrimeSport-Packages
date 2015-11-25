@@ -1,0 +1,71 @@
+.small-popup {
+	max-width: 439px;
+	width: 100%;
+	margin: 0 auto;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+
+.small-popup .popup-main-container {
+    background: #2d2d2d;
+    border-radius: 5px;
+    box-shadow: 0px 3px 9px 1px rgba(0, 0, 0, 0.15);
+}
+
+.small-popup .popup-header {
+	height: 47px;
+}
+
+.small-popup .popup-header .popup-close {
+	border: 1px solid #818181
+}
+
+.small-popup .popup-close .icon-primesport-close:before {
+	 color: #818181;
+}
+
+.small-popup .header-image {
+	width: 35%;
+    display: block;
+    margin: 8px auto 0;
+}
+
+.small-popup .popup-container {
+	background: #ffffff;
+    padding: 30px 28px 20px;
+    border-radius: 0 0 5px 5px;
+}
+
+.small-popup .title {
+    font-family: 'StagSans-Bold';
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.small-popup .description {
+    font-family: 'StagSans-Book';
+    letter-spacing: 1px;
+    font-size: 12px;
+    line-height: 22px;
+    margin: 15px 0 30px;
+}
+
+@media (max-width: 767px) {
+    .small-popup {
+        padding: 20px 10px;
+        background: transparent;
+    }
+
+    .small-popup .header-image {
+        width: 44%;
+    }
+
+    .small-popup .popup-main-container {
+        border-radius: 4px;
+    }
+
+    .small-popup.popup .popup-container {
+        border-radius: 0 0 4px 4px;
+        padding: 10px 28px 5px;
+    }
+}

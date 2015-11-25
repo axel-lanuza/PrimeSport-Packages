@@ -1,0 +1,55 @@
+.page-title .title {
+	font-size: 20px;
+	font-family: 'StagSans-Bold';
+	color: #3f3f3f;
+	margin: 15px 0 20px;
+	letter-spacing: 0.5px;
+}
+.title-wrapper {
+	background-color: #f6f6f6;
+}
+.sell-page .page-title {
+	margin: 25px 0;
+}
+.sell-page .page-title .title {
+	margin: 0 0 10px;
+	color: #024b78;
+	text-transform: uppercase;
+	font: normal 16px/1.2 'StagSans-Bold';
+	letter-spacing: 0.4px;
+	position: relative;
+}
+.sell-page .page-title .description {
+	margin: 0;
+	text-transform: uppercase;
+	font: normal 14px/1.2 'StagSans-Medium';
+	color: #3f3f3f;
+}
+.sell-page .page-title .time {
+	font-family: 'StagSans-Book';
+	font-size: 14px;
+}
+
+/* Buy page - potentially merge with above */
+
+.buy-page .page-title {
+	margin: 25px 0;
+}
+.buy-page .page-title .title {
+	margin: 0 0 10px;
+	color: #024b78;
+	text-transform: uppercase;
+	font: normal 16px/1.2 'StagSans-Bold';
+	letter-spacing: 0.4px;
+	position: relative;
+}
+.buy-page .page-title .description {
+	margin: 0;
+	text-transform: uppercase;
+	font: normal 14px/1.2 'StagSans-Medium';
+	color: #3f3f3f;
+}
+.buy-page .page-title .time {
+	font-family: 'StagSans-Book';
+	font-size: 14px;
+}

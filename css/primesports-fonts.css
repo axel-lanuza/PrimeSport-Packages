@@ -1,0 +1,190 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "primesport";
+  src:url("../fonts/primesport.eot");
+  src:url("../fonts/primesport.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/primesport.woff") format("woff"),
+    url("../fonts/primesport.ttf") format("truetype"),
+    url("../fonts/primesport.svg#primesport") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "primesport" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "primesport" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-primesport-affiliate:before {
+  content: "a";
+}
+.icon-primesport-calendar:before {
+  content: "b";
+}
+.icon-primesport-careers:before {
+  content: "c";
+}
+.icon-primesport-cart:before {
+  content: "d";
+}
+.icon-primesport-close:before {
+  content: "e";
+}
+.icon-primesport-collapse:before {
+  content: "f";
+}
+.icon-primesport-contact:before {
+  content: "g";
+}
+.icon-primesport-custom:before {
+  content: "h";
+}
+.icon-primesport-customer-suport:before {
+  content: "i";
+}
+.icon-primesport-down-arrow:before {
+  content: "j";
+}
+.icon-primesport-download:before {
+  content: "k";
+}
+.icon-primesport-expand:before {
+  content: "l";
+}
+.icon-primesport-facebook:before {
+  content: "m";
+}
+.icon-primesport-faq:before {
+  content: "n";
+}
+.icon-primesport-favorite-active:before {
+  content: "o";
+}
+.icon-primesport-favorite-inactive:before {
+  content: "p";
+}
+.icon-primesport-flights:before {
+  content: "q";
+}
+.icon-primesport-golf:before {
+  content: "r";
+}
+.icon-primesport-google:before {
+  content: "s";
+}
+.icon-primesport-horse-racing:before {
+  content: "t";
+}
+.icon-primesport-hospitality:before {
+  content: "u";
+}
+.icon-primesport-hospitality2:before {
+  content: "v";
+}
+.icon-primesport-hotel:before {
+  content: "w";
+}
+.icon-primesport-instagram:before {
+  content: "x";
+}
+.icon-primesport-left-arrow:before {
+  content: "y";
+}
+.icon-primesport-mail:before {
+  content: "z";
+}
+.icon-primesport-menu:before {
+  content: "A";
+}
+.icon-primesport-no-star:before {
+  content: "B";
+}
+.icon-primesport-pin:before {
+  content: "C";
+}
+.icon-primesport-play:before {
+  content: "D";
+}
+.icon-primesport-primesport-logo:before {
+  content: "E";
+}
+.icon-primesport-question:before {
+  content: "F";
+}
+.icon-primesport-right-arrow:before {
+  content: "G";
+}
+.icon-primesport-search:before {
+  content: "H";
+}
+.icon-primesport-sellers:before {
+  content: "I";
+}
+.icon-primesport-share-ps:before {
+  content: "J";
+}
+.icon-primesport-social-favorite:before {
+  content: "K";
+}
+.icon-primesport-social-like:before {
+  content: "L";
+}
+.icon-primesport-social-more:before {
+  content: "M";
+}
+.icon-primesport-social-reply:before {
+  content: "N";
+}
+.icon-primesport-social-retweet:before {
+  content: "O";
+}
+.icon-primesport-social-share:before {
+  content: "P";
+}
+.icon-primesport-souvenirs:before {
+  content: "Q";
+}
+.icon-primesport-star:before {
+  content: "R";
+}
+.icon-primesport-team:before {
+  content: "S";
+}
+.icon-primesport-tickets:before {
+  content: "T";
+}
+.icon-primesport-transportation:before {
+  content: "U";
+}
+.icon-primesport-twitter:before {
+  content: "V";
+}
+.icon-primesport-up-arrow:before {
+  content: "W";
+}
+.icon-primesport-youtube:before {
+  content: "X";
+}

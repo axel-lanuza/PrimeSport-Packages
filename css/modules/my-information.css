@@ -1,0 +1,29 @@
+.information-btn-container {
+	margin-top: 5px;
+}
+
+.information-btn-container .cancel {
+	padding: 13px 42px;
+}
+
+.information-edit,
+.password-edit {
+	display: none;
+}
+
+#my-information .billing-address.toggle {
+	margin-bottom: 0px;
+}
+
+#my-information .shipping-address.toggle .form-row:not(.buttons),
+#my-information .shipping-address.toggle .label {
+	display: none !important;
+}
+
+@media (max-width: 767px) {
+	.information-btn-container .cancel,
+	.information-btn-container .second-btn {
+		display: block;
+		margin: 0;
+	}
+}

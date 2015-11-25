@@ -1,0 +1,369 @@
+/*HEADER*/
+header {
+}
+
+header a, header a:visited, header a:active, header a:focus {
+    color: #b3b3b3;
+}
+
+header a:hover {
+    color: #b3b3b3;
+}
+
+.header-hamburger {
+    display: inline-block;
+    margin-right: 5%;
+    position: relative;
+}
+
+.header-link {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+/* fixing menu button overlapping on tablet - AKD */
+@media (max-width: 991px) and (min-width: 768px) {
+    .header-link img {
+        margin-left: 12px;
+    }
+}
+
+.header-link.menu {
+    padding: 14px 16px 2px 12px;
+    margin-right: 5%;
+    border-right: 1px solid #424242;
+    position: relative;
+}
+
+.header-hamburger .header-link.menu {
+    margin-right: 0;
+}
+
+.anim-hamburger .header-link.menu .icon {
+    opacity: 0;
+}
+
+.main-header {
+    padding: 15px 0 13px;
+    background: #2d2d2d;
+    position: relative;
+}
+
+.header-block {
+    position: relative;
+}
+
+.logo-block {
+    padding: 0 0 0 4%;
+}
+
+.search-block {
+    padding: 12px 0 0 4%;
+}
+
+.search-form {
+    position: relative;
+    max-width: 340px;
+    width: 100%;
+    display: inline-block;
+}
+
+.submit-search {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    margin-top: -7.5px;
+}
+
+.area-search {
+    padding: 8px 0 6px 14px;
+    font-size: 11px;
+    width: 100%;
+    border: 1px solid #252525;
+    color: #fff;
+    background: #383838;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    outline: none;
+}
+
+.area-search::-webkit-input-placeholder { color: #fff; }
+.area-search:-moz-placeholder { color: #fff!important; opacity: 1!important; }
+.area-search::-moz-placeholder { color: #fff!important; opacity: 1!important; }
+.area-search:-ms-input-placeholder { color: #fff; }
+
+/*.search-form input.[placeholder], [placeholder], *[placeholder] {
+color: #fff!important;
+}*/
+
+.login-block {
+    padding: 17px 4% 0 0;
+    color: #fff;
+    font-size: 12px;
+    text-align: right;
+}
+
+/* fixing menu button overlapping on tablet - AKD */
+@media (max-width: 991px) and (min-width: 768px) {
+    .login-block {
+        padding: 17px 3% 0 0;
+    }
+}
+
+.login-order {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.login-order .icon {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 24px;
+    padding: 9px 0 0;
+    margin: -7px 4px -9px 13px; /*sorry for '-' ^^ */
+}
+
+.login-numb {
+    margin: 0 0 0 13px;
+    border-left: 1px solid #fff;
+    padding: 0 0 0 13px;
+    font-family: 'StagSans-Bold';
+}
+
+.login-link {
+    color: #fff !important;
+    vertical-align: middle;
+}
+
+.login-link:hover {
+    color: #fff;
+}
+
+.navigation {
+    position: relative;
+    margin: 0;
+}
+
+.navigation ul {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-link {
+    padding: 0;
+    margin: 0;
+    height: 58px;
+}
+
+.nav-link a {
+    border-right: 1px solid #ebebeb;
+    display: block;
+    width: 100%;
+    text-align: center;
+    line-height: 58px;
+    color: #2d2d2d;
+    background: #fff;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+}
+
+.nav-link a:hover {
+    color: #fff;
+    background: #024b78;
+    cursor: pointer;
+}
+
+.nav-link:first-child a {
+}
+
+.nav-link.bucket a {
+    border-right: 0;
+    background: #f3f3f3;
+}
+
+.nav-link.bucket a:hover {
+    background: #c6c6c6;
+}
+
+.nav-link.bucket a div {
+    line-height: 58px;
+}
+
+.nav-link.bucket a div:before {
+    vertical-align: middle;
+}
+
+.icon-primesport-cart:before {
+    font-size: 30px;
+    line-height: 0;
+}
+
+/*END HEADER*/
+
+@media (max-width: 767px) {
+    .header-link.menu {
+        margin-right: 0;
+        padding: 14px 5px 2px 0;
+    }
+
+    .header-link.menu {
+        border: none;
+    }
+    .logo-block {
+        padding: 0 31px 16px;
+        border-bottom: 2px solid #535353;
+    }
+    .header-link.logo {
+        float: right;
+    }
+    .main-header.row {
+        padding: 15px 0px 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .head-order {
+        text-align: right;
+        color: #fff;
+    }
+    .search-block {
+        padding: 12px 35px 0;
+    }
+    .search-form {
+        max-width: 100%;
+    }
+    .area-search {
+        border-color: #313131;
+    }
+
+    /* Tickets header menu */
+    .header-hamburger {
+        position: static;
+        margin-right: 5%;
+    }
+
+    .header-menu .sport-menu {
+        width: 100%;
+        left: 0;
+        margin-top: 2px;
+    }
+
+    .header-menu .sport-menu ul li a {
+        width: 100%;
+    }
+    /* End Tickets header menu */
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .logo-block {
+        padding: 0 0 0 3%;
+    }
+    .header-link.menu {
+        padding: 14px 10px 2px 0;
+        margin-right: 4%;
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .head-order {
+        font-size: 12px;
+        letter-spacing: 1px;
+        display: block;
+        width: 100%;
+        float: right;
+        margin-top: 10px;
+    }
+    .logo-block {
+        padding: 10px 25px 20px;
+        display: inline-block;
+    }
+    .header-link.menu .icon {
+        background-image: url("../../img/header/menu_btn_mobile.png");
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        width: 40px;
+        height: 51px;
+    }
+    .header-link.menu .icon:before {
+        content: '';
+    }
+    .header-link.menu {
+        height: 33px;
+    }
+    .area-search {
+        font-size: 20px;
+        letter-spacing: 1.5px;
+        height: 48px;
+        padding: 8px 60px 6px 23px;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+    }
+
+    .submit-search {
+        right: 25px;
+        margin-top: -10.5px;
+    }
+
+    .submit-search .icon-search {
+        display: inline-block;
+        background-image: url("../../img/header/icon-search.png");
+        background-repeat: no-repeat;
+        height: 15px;
+        width: 13px;
+        background-size: 100% auto;
+        width: 18px;
+        height: 21px;
+    }
+}
+
+@media (max-width: 414px) {
+    .header-link.menu .icon {
+        width: 33px;
+        height: 29px;
+    }
+    .head-order {
+        font-size: 11px;
+        letter-spacing: 0.6px;
+        margin-top: 5px;
+    }
+    .area-search {
+        font-size: 14px;
+        letter-spacing: 0.6px;
+    }
+    .search-block {
+        padding: 15px 15px 0;
+    }
+}
+
+@media (max-width: 360px) {
+    .mobile-header h2 {
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+}
+
+.small-static-header {
+    position: relative;
+    height: 200px;
+    width: 100%;
+    background: #000;
+    background-size: cover !important;
+    background-position: center;
+    overflow: hidden;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -webkit-flex: flex;
+    -ms-flex: flex;
+    align-items: center;
+}

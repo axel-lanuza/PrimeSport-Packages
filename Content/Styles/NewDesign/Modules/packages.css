@@ -1,0 +1,745 @@
+  @font-face {
+      font-family: 'carets';
+      src: url('/fonts/icomoon1.eot?n8qsyh');
+      src: url('/fonts/icomoon1.eot?n8qsyh#iefix') format('embedded-opentype'), url('/fonts/icomoon1.ttf?n8qsyh') format('truetype'), url('/fonts/icomoon1.woff?n8qsyh') format('woff'), url('/fonts/icomoon1.svg?n8qsyh#icomoon') format('svg');
+      font-weight: normal;
+      font-style: normal;
+  }
+  
+  .main-container {
+      background: url(/images/MergedLayers.png) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src='/images/MergedLayers.png', sizingMethod='scale');
+      -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='MergedLayers.png', sizingMethod='scale')";
+  }
+  
+  .icon-chevron-thin-up:before {
+      content: "\e900";
+  }
+  
+  .icon-chevron-small-up:before {
+      content: "\e901";
+  }
+  
+  .icon-chevron-thin-down:before {
+      content: "\e902";
+  }
+  
+  .icon-chevron-small-down:before {
+      content: "\e903";
+  }
+  /*#####################
+        Generañ Styles (required) for packages
+    ######################*/
+  
+  .page {
+      color: #FFF;
+      background: url(img/2560x1000_CFA_PeachBowl.png);
+  }
+  
+  .page h1 {
+      font-family: 'GothamCondensed-Bold';
+      font-size: 72px;
+      margin: 0;
+      letter-spacing: 3px;
+  }
+  
+  .small-static-header {
+      background-position: center;
+      background-size: cover!important;
+      -webkit-background-size: cover!important;
+      -mox-background-size: cover!important;
+      -o-background-size: cover!important;
+  }
+  
+  #pagePackages .main-margin {
+      padding-top: 4rem;
+      height: 100%;
+      overflow: hidden;
+  }
+  
+  #pagePackages .packageDetail .no-margin {
+      font-family: "StagSans-Bold";
+      margin-bottom: 1rem !important;
+  }
+  
+  #pagePackages .packageDetail .hotelAddress {
+      color: #949494;
+      font-family: "StagSans-Book";
+      letter-spacing: 1px
+  }
+  /*#####################
+    Additional Styles (required) for carousel
+    ######################*/
+  
+  #pagePackages #myCarousel .carousel-control.left,
+  .carousel-control.right {
+      background: none;
+  }
+  
+  #pagePackages #myCarousel {
+      padding: 1rem;
+  }
+  /*#####################
+        Additional Styles (required) for tabs
+        ######################*/
+  
+  #pagePackages .selling-content.tabs {
+      width: 100%;
+      /* height: 65px; */
+      border: none;
+      border-radius: 5px;
+      margin-bottom: 30px;
+  }
+  
+  #pagePackages .tabs .nav-tab {
+      border: 2px;
+  }
+  
+  #pagePackages .tabs .nav-tabs>li {
+      width: 33.333333%;
+  }
+  
+  #pagePackages #sellingTabs {
+      font-size: 0;
+      /* white-space: nowrap; */
+      text-align: left;
+  }
+  
+  #pagePackages .tabs .nav-tabs>li.active {
+      background-color: #024b78;
+  }
+  
+  #pagePackages .tabs .nav-tabs>li:not(.active) a:hover {
+      background: #FFF;
+      color: #024b78;
+  }
+  
+  #pagePackages #general p {
+      font-family: "StagSans-Bold";
+      margin-bottom: 1rem;
+  }
+  
+  #pagePackages #general ul {
+      margin-bottom: 1rem;
+  }
+  
+  #pagePackages #general ul li {
+      list-style: circle inside url("/img/ciculo.png");
+      font-size: 14px;
+  }
+  /*#####################
+        Additional Styles (required) for accordion
+        ######################*/
+  
+  #pagePackages .accordion .panel {
+      background: none;
+      margin-bottom: 3px;
+      border-bottom: none;
+  }
+  
+  #pagePackages .accordion .panel-heading {
+      height: 40px;
+      background: -webkit-linear-gradient(3deg, #024b78 0%, rgba(2, 75, 120, 0.360784) 100%);
+      background: -moz-linear-gradient(3deg, #024b78 0%, rgba(2, 75, 120, 0.360784) 100%);
+      background: -o-linear-gradient(3deg, #024b78 0%, rgba(2, 75, 120, 0.360784) 100%);
+      background: -ms-linear-gradient(3deg, #024b78 0%, rgba(2, 75, 120, 0.360784) 100%);
+      background: linear-gradient(87deg, #024b78 0%, rgba(2, 75, 120, 0.360784) 100%);
+      background-color: #222222;
+      color: white;
+      text-align: left;
+      padding: 0 12px 0 3%;
+      text-transform: uppercase;
+  }
+  
+  #pagePackages .accordion .panel-heading.collapsed {
+      background: #222;
+  }
+  
+  #pagePackages .accordion .panel-heading h4 {
+      vertical-align: middle;
+      padding-top: 1rem;
+  }
+  
+  #pagePackages .accordion .panel-heading a {
+      font-size: 1.2rem;
+      margin-right: 0.5rem;
+  }
+  
+  #pagePackages .accordion .panel-heading a .thinLetter {
+      font-family: "StagSans-Book";
+      font-weight: 100;
+      font-size: 1.1rem;
+  }
+  
+  #pagePackages .accordion .panel-heading a:after {
+      font-family: 'carets';
+      content: "\e903";
+      font-size: 2.5rem;
+      font-weight: 100;
+      color: #FFF !important;
+  }
+  
+  #pagePackages .accordion .panel-heading a:not(.collapsed):after {
+      font-family: 'carets';
+      content: "\e901" !important;
+      font-size: 2.5rem;
+      font-weight: 100;
+      color: #FFF !important;
+  }
+  
+  #pagePackages .accordion .panel-heading a:not(.collapsed):parent {
+      background-color: #222222;
+  }
+  
+  #pagePackages .accordion .panel-body {
+      padding: 2rem 0;
+  }
+  /*
+        
+            Styles for new ddr
+        */
+  
+  .quantity {
+      position: relative;
+      vertical-align: middle;
+  }
+  
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+  }
+  
+  input[type=number] {
+      -moz-appearance: textfield;
+  }
+  
+  .quantity input {
+      width: 42px;
+      height: 25px;
+      line-height: 1.65;
+      float: left;
+      display: block;
+      padding: 0;
+      margin: 0;
+      padding-left: 1rem;
+      border: 0.0999999rem solid #AAA;
+      border-radius: 5px;
+  }
+  
+  .quantity input:focus {
+      outline: 0;
+  }
+  
+  .quantity-nav {
+      float: left;
+      position: relative;
+      height: 19px;
+      top: -26px;
+      left: 46px;
+  }
+  
+  .quantity-button {
+      position: relative;
+      cursor: pointer;
+      border-left: 1px solid #eee;
+      width: 20px;
+      height: 10px;
+      text-align: center;
+      color: #333;
+      font-size: 13px;
+      line-height: 1.7;
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      -o-user-select: none;
+      user-select: none;
+  }
+  
+  .quantity-button.quantity-up {
+      position: absolute;
+      top: -2px;
+  }
+  
+  .quantity-button.quantity-down {
+      position: absolute;
+      bottom: 1px;
+  }
+  
+  #pagePackages section {
+      overflow: hidden;
+  }
+  
+  #pagePackages #sellingTabsMobile {
+      margin-bottom: 0;
+  }
+  
+  #pagePackages #sellingTabsMobile li {
+      width: 50%;
+  }
+  
+  #pagePackages #sellingTabsMobile {}
+  
+  #pagePackages .btn.btn-warning {
+      background-color: #f49f15;
+      color: #FFF;
+  }
+  
+  #pagePackages .btn-warning.active,
+  .btn-warning.focus,
+  .btn-warning:active,
+  .btn-warning:focus,
+  .btn-warning:hover,
+  .open>.dropdown-toggle.btn-warning {
+      background-color: #f49f15;
+      color: #FFF;
+  }
+  
+  #pagePackages .updateOrder {
+      width: 230px;
+      height: 40px;
+  }
+  /*tables*/
+  
+  #pagePackages table {
+      border-collapse: separate;
+      border-spacing: 0;
+      min-width: 350px;
+  }
+  
+  #pagePackages table tr th,
+  #pagePackages table tr td {
+      border-right: 1px solid #bbb;
+      border-bottom: 1px solid #bbb;
+      padding: 5px;
+  }
+  
+  #pagePackages table tr th:first-child,
+  #pagePackages table tr td:first-child {
+      border-left: 1px solid #bbb;
+  }
+  
+  #pagePackages table tr th:first-child,
+  #pagePackages table tr td:first-child {
+      border-left: 1px solid #bbb;
+  }
+  
+  #pagePackages table tr th {
+      background: #eee;
+      text-align: left;
+  }
+  
+  #pagePackages table.Info tr th,
+  #pagePackages table.Info tr:first-child td {
+      border-top: 1px solid #bbb;
+  }
+  /* top-left border-radius */
+  
+  #pagePackages table tr:first-child th:first-child,
+  #pagePackages table.Info tr:first-child td:first-child {
+      border-top-left-radius: 6px;
+  }
+  /* top-right border-radius */
+  
+  #pagePackages table tr:first-child th:last-child,
+  #pagePackages table.Info tr:first-child td:last-child {
+      border-top-right-radius: 6px;
+  }
+  /* bottom-left border-radius */
+  
+  #pagePackages table tr:last-child td:first-child {
+      border-bottom-left-radius: 6px;
+  }
+  /* bottom-right border-radius */
+  
+  #pagePackages table tr:last-child td:last-child {
+      border-bottom-right-radius: 6px;
+  }
+  
+  #pagePackages .roomTypeSec {
+      margin-bottom: 2px;
+  }
+  
+  #pagePackages .roomType {
+      border-radius: 3px;
+  }
+  
+  #pagePackages .roomType td {
+      font-size: 1rem;
+      font-weight: 900;
+      width: 25%;
+      height: auto;
+      background: #FFF;
+  }
+  
+  #pagePackages .roomType td .smallest {
+      font-size: 0.8rem;
+      background: #FFF;
+  }
+  
+  #pagePackages .roomType .selected {
+      background-color: #024b78;
+      color: #FFF;
+  }
+  /* Totals roms requested  */
+  
+  #pagePackages #collapseFaq1 {
+      font-size: 1.2rem;
+  }
+  
+  #pagePackages .totals {
+      margin-top: 1.5rem;
+      height: 8rem;
+  }
+  
+  #pagePackages .totalGues {
+      background: #FFF;
+      overflow: hidden;
+      width: 12rem;
+      padding: 0.36rem;
+      /*padding: 0.5rem 0.5rem 0.5rem 1rem;
+            float: right;*/
+      border-radius: 5px;
+      border: 1px solid #AAA;
+  }
+  
+  #pagePackages .totalGues p {
+      margin: 0.2rem 0 0 2rem;
+      font-size: 1.2rem;
+  }
+  
+  #pagePackages .transact {
+      min-height: 100%;
+      overflow: hidden;
+  }
+  
+  #pagePackages .text-center {
+      text-align: center;
+      color: #024b78;
+      font-family: "StagSans-Bold";
+  }
+  
+  #pagePackages .text-center td {
+      font-size: 1.1rem;
+  }
+  /* Guest per room */
+  
+  #pagePackages .guestPerRoom {
+      padding-top: 0.5rem;
+  }
+  
+  #pagePackages p {
+      font-size: 1.2rem;
+  }
+  
+  #pagePackages p.parBold {
+      font-family: "StagSans-Bold";
+      font-size: 1.3rem !important;
+  }
+  
+  .guestPerRoom .gprRow {
+      border-bottom: 1px solid #AAA;
+      height: 6rem;
+      padding-top: 2rem
+  }
+  
+  .guestPerRoom .gprRow.rowOne {
+      border-top: 1px solid #AAA;
+  }
+  
+  #pagePackages .guestPerRoom .vertical-line,
+  #pagePackages .guestPerRoom .vertical-line2 {
+      height: 6rem;
+      width: 1px;
+      background-color: #AAA;
+      position: absolute;
+      top: 29px;
+      right: 27rem;
+      left: 0;
+      margin: auto;
+      z-index: 0;
+  }
+  
+  #pagePackages .guestPerRoom .vertical-line2 {
+      top: 9rem;
+  }
+  
+  #pagePackages .guestPerRoom .cellGuest {
+      padding-left: 0.5rem;
+  }
+  
+  #pagePackages .guestPerRoom .cellGuest p {
+      font-size: 1.2rem;
+  }
+  
+  #pagePackages .guestPerRoom .cellGuest {
+      display: inline-block;
+  }
+  
+  #pagePackages .guestPerRoom .cellGuest {
+      position: relative;
+  }
+  
+  #pagePackages .guestPerRoom .cellGuest p {
+      vertical-align: middle;
+  }
+  
+  #pagePackages .guestPerRoom .cellGuest .quantity {
+      /* position: absolute; */
+      /* top: -11px; */
+      /* right: 0; */
+      float: right;
+      margin-top: -28px;
+      left: 45px;
+  }
+  /* Additional nights */
+  
+  #pagePackages input[type="radio"] {
+      display: none;
+  }
+  
+  #pagePackages input[type="radio"] + label {
+      color: #222;
+      font-size: 14px;
+      padding-left: 1rem;
+  }
+  
+  #pagePackages input[type="radio"] + label span {
+      display: inline-block;
+      width: 19px;
+      height: 19px;
+      margin: -1px 4px 0 0;
+      vertical-align: middle;
+      cursor: pointer;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+  }
+  
+  #pagePackages input[type="radio"] + label span {
+      background-color: transparent;
+      border: 1px solid #f49f15;
+  }
+  
+  #pagePackages input[type="radio"]:checked + label span {
+      background-color: #f49f15;
+      border: 1px solid white;
+  }
+  
+  #pagePackages input[type="radio"] + label span,
+  #pagePackages input[type="radio"]:checked + label span {
+      -webkit-transition: background-color 0.4s linear;
+      -o-transition: background-color 0.4s linear;
+      -moz-transition: background-color 0.4s linear;
+      transition: background-color 0.4s linear;
+  }
+  
+  #pagePackages .additionalNights {
+      height: 7rem;
+      padding: 3rem 0;
+  }
+  
+  #pagePackages .additionalNights p,
+  #pagePackages .additionalNights div {
+      display: inline-block
+  }
+  
+  #pagePackages .additionalNights p {
+      margin-right: 2rem;
+  }
+  
+  #pagePackages .additionalNightsBefore .col-sm-offset-3,
+  #pagePackages .additionalNightsBeggining .col-sm-offset-3 {
+      padding-left: 0;
+      padding-right: 0;
+  }
+  
+  #pagePackages .additionalNightsBefore,
+  #pagePackages .additionalNightsBeggining {
+      height: 9rem;
+      padding: 1rem 0 1rem 0;
+  }
+  
+  #pagePackages .additionalNightsBefore p,
+  #pagePackages .additionalNightsBeggining p {
+      font-family: "StagSans-Bold"
+  }
+  
+  #pagePackages .additionalNightsBefore .quantity,
+  #pagePackages .additionalNightsBeggining .quantity {
+      position: absolute;
+      top: 0;
+      right: 6px;
+  }
+
+#pagePackages .guestPerRoom .quantity .quantity-nav {
+    top: 0 !important;
+    left: 0 !important;
+}
+  
+  #pagePackages .additionalNightsBefore a,
+  #pagePackages .additionalNightsBeggining a {
+      font-family: "StagSans-Bold";
+      font-size: 0.9999rem;
+      color: #024b78;
+      text-decoration: underline;
+  }
+  
+  #pagePackages .additionalNightsBefore .col-xs-6.col-sm-6,
+  #pagePackages .additionalNightsBeggining .col-xs-6.col-sm-6 {
+      border-top: 1px solid #AAA;
+      border-bottom: 1px solid #AAA;
+      height: 4rem;
+      padding-top: 1rem;
+  }
+  
+  #pagePackages .additionalNightsBefore .col-xs-6.col-sm-6:nth-child(even),
+  #pagePackages .additionalNightsBeggining .col-xs-6.col-sm-6:nth-child(even) {
+      border-right: 1px solid #AAA;
+  }
+  /* Total golobals */
+  
+  #pagePackages .totalsGlobal {
+      height: 108px;
+      /*border-bottom: #d6d6d6 1px solid;*/
+  }
+  
+  #pagePackages .totalsGlobal .priceTag {
+      float: right;
+      font-family: 'GothamCondensed-Bold';
+      font-size: 1.5rem;
+  }
+  
+  #pagePackages .totalsGlobal p.pricePack {
+      font: 700 3.5rem 'GothamCondensed-Bold';
+      letter-spacing: 2px;
+      float: right;
+  }
+  
+  #pagePackages .totalsGlobal .last {
+      color: #024b78;
+  }
+  
+  #pagePackages .totalsGlobal .prices {
+      border: 1px solid #AAA;
+      padding: 0.7rem;
+      border-radius: 5px;
+      overflow: hidden;
+      background: #FFF;
+  }
+  /* Media queries */
+  
+  @media (max-width: 767px) {
+      .page h1 {
+          font-size: 4rem;
+      }
+      #pagePackages .packageDetail {
+          margin-top: 2rem;
+      }
+      #pagePackages.main-container {
+          background: none !important;
+      }
+      #pagePackages.main-container .row {
+          margin-right: -8px !important;
+          margin-left: -15px;
+      }
+      #pagePackages .main-margin {
+          padding-top: 1rem;
+      }
+      #pagePackages #myCarousel {
+          width: 100%;
+          width: 100%;
+          max-width: 520px;
+          margin: 0 auto 0;
+      }
+      #pagePackages #myCarousel .carousel-control.left,
+      .carousel-control.right {
+          display: none;
+      }
+      #pagePackages #myCarousel .item img {
+          border: none;
+      }
+      #pagePackages .selling-content {
+          height: 50rem;
+      }
+      #pagePackages .selling-content .accordion {
+          margin-top: -31px;
+      }
+      #pagePackages .selling-content .accordion .panel {
+          margin-bottom: 0;
+      }
+      #pagePackages .selling-content .accordion .panel-heading {
+          background: none;
+          color: #222;
+          border-top: 0.0999999rem solid #222;
+          height: 60px;
+      }
+      #pagePackages .selling-content .accordion .panel-heading {
+          border-bottom: 0.0999999rem solid #222;
+      }
+      #pagePackages .selling-content .accordion .panel-heading h4 {
+          padding-top: 2rem;
+      }
+      #pagePackages .selling-content .accordion .panel-heading h4 a:after {
+          font-family: 'carets';
+          content: "\e903";
+          font-size: 2.5rem;
+          font-weight: 100;
+          color: #222 !important;
+      }
+      #pagePackages #contract .col-xs-12.col-sm-12 {
+          padding-right: 0;
+          padding-left: 15px;
+      }
+      #pagePackages .tabs {
+          width: 100%;
+          /* height: 65px; */
+          border: none;
+          border-radius: 5px;
+          margin-bottom: 30px;
+      }
+      #pagePackages .selling-content {
+          font-size: 0;
+          white-space: normal !important;
+          text-align: left;
+      }
+      #pagePackages #general ul li {
+          font-size: 1.2rem
+      }
+      #pagePackages #transact {
+          display: none;
+      }
+      #pagePackages #transact.active {
+          display: block;
+      }
+      #pagePackages #contract.active {
+          display: block;
+      }
+      #pagePackages #contract {
+          display: none;
+      }
+  }
+  
+  @media (max-width: 480px) {
+      #pagePackages #myCarousel {
+          width: 100%;
+          max-width: 395px;
+          margin: 0 auto 0;
+      }
+      #pagePackages .totalsGlobal p.pricePack {
+          font-size: 2rem;
+      }
+  }
+  
+  @media (max-width: 320px) {
+      #pagePackages #myCarousel {
+          width: 100%;
+          max-width: 300px;
+          margin: 0 auto 0 1.5rem;
+      }
+  }

@@ -1,0 +1,150 @@
+.e-commerce-header {
+
+}
+
+.e-commerce-header .logo {
+    position: relative;
+    width: auto;
+}
+
+.e-commerce-header .logo:before {
+	content: '';
+	display: block;
+	width: 19px;
+	height: 11px;
+	background: url('../../img/arrow-down-gray.png');
+	position: absolute;
+	right: -18%;
+	top: 50%;
+	margin-top: -3px;
+}
+
+.e-commerce-header .sport-menu {
+    overflow: hidden;
+    position: absolute;
+    z-index: 2;
+    left: 58px;
+    top: 100%;
+    margin-top: 13px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.e-commerce-header .sport-menu .menu-item {
+    display: block;
+    width: 224px;
+    padding: 0 34px;
+    line-height: 50px;
+    background: #383838;
+    font-family: 'StagSans-Book';
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #fffefe;
+}
+
+.e-commerce-header .sport-menu.menu-hidden {
+    height: 0 !important;
+}
+
+.e-commerce-header .sign-up {
+	margin-right: 13px;
+	padding-right: 13px;
+	border-right: 1px solid #fff;
+	line-height: 12px;
+	vertical-align: middle;
+	color: #fff;
+}
+
+.e-commerce-header .login-block {
+	border-left: 1px solid #424242;
+	padding: 17px 4% 23px 0;
+}
+
+.e-commerce-header .search-form {
+	padding-right: 25px;
+	box-sizing: border-box;
+}
+
+.e-commerce-header .submit-search {
+	right: 34px;
+}
+
+.e-commerce-header .icon-search {
+	display: inline-block;
+    background-image: url("../../img/header/icon-search.png");
+    background-repeat: no-repeat;
+    height: 15px;
+    width: 13px;
+    background-size: 100% auto;
+    width: 12px;
+    height: 15px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .e-commerce-header .sport-menu {
+        left: 33px;
+    }
+}
+
+@media (max-width: 767px) {
+    .e-commerce-header .logo img {
+        padding-right: 0;
+        width: 100%;
+        max-width: inherit;
+    }
+
+    .e-commerce-header .logo {
+    	float: none;
+    	padding-top: 5px;
+    }
+
+    .e-commerce-header .logo:before {
+        content: none;
+    }
+
+    .e-commerce-header .logo-block {
+    	padding: 0px;
+    	border-bottom: 0px;
+    	text-align: center;
+    	width: 100%;
+    }
+
+    .e-commerce-header.main-header {
+    	padding: 0;
+    }
+
+    .e-commerce-header .search-button {
+		width: 60px;
+		height: 60px;
+		line-height: 60px;
+		background: #3b3b3b;
+		text-align: center;
+		float: right;
+    }
+
+    .e-commerce-header .search-button .icon-search {
+    	width: 25px;
+    	height: 30px;
+    	vertical-align: middle;
+    }
+
+    .e-commerce-header .header-hamburger {
+    	float: left;
+    	padding: 0 12px;
+    	margin: 0;
+    	border-right: 1px solid #464646;
+    	height: 60px;
+    }
+}
+
+@media (max-width: 480px) {
+    .e-commerce-header .logo img {
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 414px) {
+    .e-commerce-header .logo img {
+        max-width: 150px;
+    }
+}

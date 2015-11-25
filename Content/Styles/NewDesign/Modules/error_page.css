@@ -1,0 +1,20 @@
+﻿.error-page{
+    padding: 15rem;
+}
+
+.error-page h1{
+    font-size: 58px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #024b78;
+    font-family: 'GothamCondensed-Bold';
+    letter-spacing: 2.5px;
+}
+.error-page .NotFoundLink{
+   color: #024b78;
+   text-decoration: underline;
+}
+
+.error-page img{
+   max-width: 100%;
+}

@@ -1,0 +1,411 @@
+.bold {
+	color: #2d2d2d;
+    font-family: 'StagSans-Bold';
+    font-weight: normal;
+}
+
+.table-content {
+	background: #ffffff;
+	margin-top: 16px;
+}
+
+.table-content p {
+	font-size: 14px;
+	margin-bottom: 0;
+}
+
+.table-content p.small {
+	font-size: 11px;
+}
+
+.table-title {
+	background: #3b3b3b;
+	color: #ffffff;
+	margin: 23px 0 16px 0;
+	padding: 7px 12px;
+	font-size: 12px;
+}
+
+.table-title .table-column {
+	color: #ffffff;
+}
+
+.table-row {
+	padding: 15px 0;
+}
+
+.table-row.expanded-arrow {
+	color: #d5d5d5;
+	text-align: center;
+	border-top: 1px solid #b3b3b3;
+	cursor: pointer;
+}
+
+.details-row {
+	display: none;
+	background: #f9f9f9;
+	padding: 15px 40px 15px 15px;
+}
+
+.table-sub-row.sub-title {
+	margin-bottom: 5px;
+	border-bottom: 1px solid #b3b3b3;
+}
+
+.table-sub-row.sub-title p {
+	color: #7f7f7f;
+}
+
+.table-column {
+	float: left;
+	text-align: left;
+	color: #2d2d2d;
+	font-size: 15px;
+	letter-spacing: 0.5px;
+	padding: 0px 5px;
+	margin-bottom: 0px;
+}
+
+.column-order {
+	width: 15%;
+}
+
+.column-date {
+	width: 15%;
+}
+
+.column-event-name {
+	width: 30%;
+}
+
+.column-location {
+	width: 20%;
+}
+
+.column-price {
+	width: 15%;
+}
+
+.column-icons {
+	width: 5%;
+}
+
+.column-list-date, .column-hand-date, .column-sale-end-date, .column-qty, .column-payout {
+	width: 20%;
+}
+
+.table-content .btn-container {
+	background: #f6f6f6;
+	padding: 20px 0;
+}
+
+.bold {
+	color: #2d2d2d;
+    font-family: 'StagSans-Bold';
+    font-weight: normal;
+}
+
+.medium {
+    font-family: 'StagSans-Medium';
+    color: #2d2d2d;
+}
+
+.table-content {
+	background: #ffffff;
+	margin-top: 16px;
+}
+
+.table-content p, .table-content span {
+	font-size: 14px;
+	margin-bottom: 0;
+}
+
+.table-content p.small {
+	font-size: 11px;
+}
+
+.table-title {
+	background: #3b3b3b;
+	color: #ffffff;
+	margin: 23px 0 16px 0;
+	padding: 7px 12px;
+	font-size: 12px;
+}
+.table-title.selling-head {
+    margin: 0 0 -22px 0;
+}
+
+.table-title .table-column {
+	color: #ffffff;
+}
+
+.table-row {
+	padding: 15px 8px;
+}
+
+.table-row.expanded-arrow {
+	color: #d5d5d5;
+	text-align: center;
+	border-top: 1px solid #b3b3b3;
+	cursor: pointer;
+	padding: 3px 8px;
+}
+
+.table-row.expanded-arrow.active .icon-primesport-down-arrow:before {
+	content: "W";
+}
+
+.details-row {
+	display: none;
+	background: #f9f9f9;
+	padding: 15px 40px 15px 15px;
+}
+
+.table-sub-row.sub-title {
+	margin-bottom: 10px;
+	border-bottom: 1px solid #b3b3b3;
+}
+
+.table-sub-row.sub-title p, .table-sub-row.sub-title span {
+	color: #7f7f7f;
+}
+
+.table-sub-row .table-column.column-grand-total p.line span.gray {
+	color: #7f7f7f;
+}
+
+.table-sub-row .table-column.column-grand-total p.line span.dark {
+	color: #3f3f3f;
+}
+
+.table-sub-row .table-column.column-grand-total p.line span:first-child {
+	text-align: right;
+    padding-right: 10px;
+}
+
+.table-column {
+    display: table-cell;
+    /* list-style: none; */
+    /* float: left; */
+    text-align: left;
+    color: #2d2d2d;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    padding: 0px 5px;
+    margin-bottom: 0px;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.table-column .column-section {
+	margin-bottom: 10px;
+}
+
+.table-column .column-section:last-child {
+	margin-bottom: 0;
+}
+
+/*.table-column.dropdown-icon:after {
+	content: '';
+	display: inline-block;
+	width: 8px;
+	height: 4px;
+	background: url(../../img/full-arrow-down.png);
+	margin-left: 6px;
+}*/
+
+.column-order {
+	width: 15%;
+}
+
+.column-date {
+	width: 15%;
+}
+
+.column-event-name {
+	width: 25%;
+}
+
+.column-location {
+	width: 21%;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.column-price {
+	width: 19%;
+}
+
+.column-icons {
+	width: 5%;
+}
+
+.column-small-qty {
+	width: 10%;
+}
+
+.column-purchase {
+	width: 20%;
+	text-align: right;
+}
+
+.column-list-date, .column-hand-date, .column-sale-end-date, .column-qty, .column-payout {
+	width: 20%;
+}
+
+.canceled .column-list-date,
+.canceled .column-hand-date,
+.canceled .column-sale-end-date,
+.canceled .column-qty {
+	width: 25%;
+}
+
+.expired .column-list-date,
+.expired .column-hand-date,
+.expired .column-sale-end-date,
+.expired .column-qty {
+	width: 25%;
+}
+
+.column-hand-date {
+	text-align: center;
+}
+
+.selling-content .edit-section .column-hand-date .field {
+	width: 65px;
+	margin-top: 0;
+	background: #fff;
+	color: #2d2d2d;
+	font-size: 12px;
+}
+
+.column-sale-end-date {
+    padding-left: 20px;
+}
+
+.column-qty,
+.column-sale-end-date,
+.column-hand-date {
+	text-align: center;
+}
+
+.column-order-status, .column-delivery-method, .column-seat-location, .column-grand-total {
+	width: 25%;
+}
+
+.column-order-status {
+	position: relative;
+	padding-right: 20px;
+}
+
+.column-payment-date {
+	width: 20%;
+}
+
+.table-content .btn-container {
+	background: #f6f6f6;
+	padding: 20px 0;
+}
+
+/*.table-title .column-price:after,
+.table-title .column-location:after {
+	content: '';
+	display: inline-block;
+	width: 8px;
+	height: 4px;
+	background: url(../../img/full-arrow-down.png);
+	margin-left: 6px;
+}*/
+
+@media (max-width: 767px) {
+
+	.table-content {
+		margin: 16px 0;
+	}
+
+	.column-date {
+		width: 35%;
+	}
+
+	.column-event-name {
+		width: 65%;
+	}
+
+	.column-location, .column-price, .column-list-date, .column-hand-date, .column-sale-end-date, .column-qty, .column-order, .column-small-qty,
+	.column-purchase, .column-order-status, .column-delivery-method, .column-grand-total {
+		width: 50%;
+	}
+
+	.column-sale-end-date {
+		padding-left: 5px;
+	}
+
+	.column-payout, .column-seat-location {
+		width: 100%;
+	}
+
+	.column-icons {
+		width: 100%;
+	}
+
+	.details-row {
+		padding: 15px;
+	}
+
+	.table-row.expanded-arrow {
+		padding: 10px 0 5px 0;
+	}
+
+	.table-sub-row.sub-title {
+		margin-bottom: 10px;
+		padding-bottom: 5px;
+	}
+
+	.table-sub-row {
+		margin-bottom: 15px;
+	}
+
+	.details-row.payment-mobile {
+		display: block;
+	}
+
+	.mobile-buttons .button {
+		display: block;
+		width: 90px;
+		color: #ffffff;
+		font-family: 'StagSans-Medium';
+		text-transform: uppercase;
+		text-align: center;
+		height: 48px;
+		line-height: 48px;
+	}
+
+	.mobile-buttons .button:after {
+		content: none;
+	}
+
+	.mobile-buttons .button.edit {
+		background: #043b5c;
+		color: #ffffff;
+	}
+
+	.mobile-buttons .button.remove {
+		background: #d20000;
+	}
+
+	.user-buttons {
+		background: transparent;
+	}
+
+	.user-buttons .selling-wrapper {
+		background: #fff;
+	}
+
+	.column-qty,
+	.column-sale-end-date,
+	.column-hand-date {
+		text-align: left;
+	}
+}

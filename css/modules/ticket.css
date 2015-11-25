@@ -1,0 +1,146 @@
+.ticket {
+	background: #fff;
+}
+
+.ticket .col-section, 
+.ticket .col-row, 
+.ticket .col-price {
+	margin-bottom: 5px;
+    font: normal 14px/1.2 'StagSans-Bold';
+    letter-spacing: 0.4px;
+}
+
+.ticket .btn {
+    padding: 15px 0;
+    width: 100%;
+    background: #024b78;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    font: normal 12px/1.2 'StagSans-Medium';
+    letter-spacing: 0.4px;
+}
+
+.ticket .col-notes .popup-content {
+	display: none;
+}
+
+.ticket .icomoon-note {
+	color: #545454;
+    font-size: 20px;
+}
+
+.ticket .col-links {
+    font: normal 12px/1.2 'StagSans-Medium';
+    letter-spacing: 0.8px;
+}
+
+.ticket .col-button {
+	padding-left: 15px;
+	padding-right: 0px;
+}
+
+.ticket .full-info {
+    display: none !important;
+}
+
+.ticket .instant-download {
+    display: inline-block;
+    padding-right: 15px;
+    /*color: #024b78;*/
+    color: #4a8bb3;
+    position: relative;
+}
+
+.ticket .icomoon-arrow-down {
+	padding-right: 5px;
+	font-size: 14px;
+	vertical-align: text-bottom;
+}
+
+.ticket .paperless {
+    display: inline-block;
+    padding-right: 15px;
+    /*color: #024b78;*/
+	color: #4a8bb3;
+    position: relative;
+}
+    
+.ticket .icomoon-paperless {
+	margin-right: 5px;
+	font-size: 14px;
+	vertical-align: text-bottom;
+}
+
+.ticket .paperless .tooltip {
+	left: -83px;
+}
+
+.ticket .instant-download:hover,
+.ticket .paperless:hover {
+	cursor: pointer;
+}
+    
+.ticket .instant-download:hover .tooltip-wrapper, 
+.ticket .paperless:hover .tooltip-wrapper {
+    top: inherit;
+}
+
+.ticket .instant-download:hover .tooltip-wrapper.bottom,
+.ticket .paperless:hover .tooltip-wrapper.bottom {
+	top: 0;
+	bottom: inherit;
+}
+
+.ticket .instant-download:hover .tooltip,
+.ticket .paperless:hover .tooltip {
+	display: block;
+}
+
+@media (max-width: 767px) {
+	.ticket .qty-available {
+        margin-bottom: 5px;
+        font: normal 12px/1.2 'StagSans-Bold';
+        letter-spacing: 0.4px;
+        text-align: center;
+    }
+
+    .ticket .col-section,
+    .ticket .col-row,
+    .ticket .col-price {
+        font-size: 12px;
+    }
+
+
+    .ticket .col-button .btn,
+    .ticket .col-links {
+        display: none;
+    }
+
+    .ticket .col-button .icon {
+        text-align: center;
+    }
+
+    .ticket .col-button .icon:before {
+        color: #024b78;
+        font-size: 18px;
+    }
+
+    .ticket .qty-available {
+		margin-bottom: 5px;
+		font: normal 12px/1.2 'StagSans-Bold';
+		letter-spacing: 0.4px;
+		text-align: center;
+		padding: 0;
+    }
+
+	.ticket .col-quantity {
+		padding: 0 5px 0 0;
+	}
+
+	.ticket .small-select {
+        border-bottom: 0px;
+        height: auto;
+    }
+}

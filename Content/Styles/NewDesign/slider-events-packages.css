@@ -1,0 +1,351 @@
+.travel-package-slider .carousel {
+    min-height: 437px !important;
+    overflow: hidden;
+}
+.travel-package-slider .carousel .item-content .logo-events {
+    position: absolute;
+    right: 13px;
+    top: 20px;
+    width: 220px;
+    height: 220px;
+}
+.travel-package-slider .carousel .item {
+    min-height: 437px;
+    background-position: center;
+    background-size: cover !important;
+    overflow: hidden;
+}
+.travel-package-slider .carousel-inner {
+    min-height: 437px;
+}
+.travel-package-slider .carousel .item-content {
+    padding-top: 40px;
+}
+.travel-package-slider .carousel .item-content h1 {
+    max-width: 652px;
+    margin: 0;
+    font-family: 'GothamCondensed-Bold';
+     font-size: 58px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 2.5px;
+}
+.description {
+    font-family: "StagSans-Book";
+    font-size: 14px;
+}
+.social-icons.events-like {
+    display: inline-block;
+    margin-top: 0;
+}
+.social-icon-pack .icon-primesport-facebook:hover {
+    background-color: #ffffff;
+    color: #024b78;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.social-icon-pack .icon-primesport-google:hover {
+    background-color: #ffffff;
+    color: #024b78;
+}
+.social-icon-pack .icon-primesport-twitter:hover {
+    background-color: #ffffff;
+    color: #024b78;
+}
+.social-icon-pack .icon-primesport-twitter:before{
+ line-height: 0;
+}
+.social-icon-pack .icon-primesport-mail:hover {
+    background-color: #ffffff;
+    color: #024b78;
+}
+.social-icon-pack .icon-primesport-mail:before{
+    line-height: 0px;
+}
+
+.social-icons .social-icon {
+    width: 44px;
+    height: 44px;
+}
+.social-icon-pack {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    max-width: 190px;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid #ffffff;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    /* outline: 1px solid yellow; */
+}
+.social-icon-pack .icon {
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+    text-align: center;
+    width: 44px;
+    height: 44px;
+    border-right: 1px solid white;
+    margin-left: -4px;
+    padding-top: 14px;
+}
+
+.social-icon-pack .icon-primesport-mail {
+    border-right: 0px;
+}
+.travel-package-slider .carousel-control.left .glyphicon,
+.travel-package-slider .carousel-control.right .glyphicon {
+    position: absolute;
+    top: 50%;
+}
+@media (max-width: 767px) {
+    .travel-package-slider .carousel {
+        display: block;
+    }
+    .item-content .slide-countdown {
+        display: block;
+    }
+}
+
+/*@media (max-width: 690px) {*/
+
+@media (max-width: 767px) {
+    /*.social-icon-pack .icon {
+        width: 32px;
+        height: 32px;
+        padding-bottom: 10px;
+        padding-top: 3px;
+    }
+    .social-icon.like {
+        padding: 0px;
+        padding-top: 5px;
+    }
+    .social-icons .social-icon {
+        width: 32px;
+        height: 32px;
+    }
+    .icon-primesport-facebook:before {
+        font-size: 14px;
+        line-height: 27px;
+    }
+    .icon-primesport-google:before {
+        font-size: 14px;
+        line-height: 27px;
+    }
+    .icon-primesport-twitter:before {
+        font-size: 14px;
+        line-height: 27px;
+    }
+    .icon-primesport-mail:before {
+        font-size: 14px;
+        line-height: 27px;
+    }
+    .icon-primesport-favorite-inactive:before {
+        font-size: 14px;
+/*        line-height: 5px; AKD - removing because it makes the favorites in mobile menu too short*/
+    
+    .icon-primesport-favorite-active:before {
+        font-size: 14px;
+        line-height: 5px;
+    }*/
+    .travel-package-slider .carousel {
+        display: block;
+    }
+    .travel-package-slider .carousel .item-content .slide-countdown {
+        display: none;
+    }
+    .travel-package-slider .carousel .item-content .logo-events {
+        top: -10px;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+    }
+    .travel-package-slider .carousel .item-content {
+        padding-top: 200px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .travel-package-slider .carousel .item-content h1 {
+        font-size: 74px;
+        line-height: 1;
+    }
+    .item-content {
+        margin-top: 20px;
+    }
+    .description {
+        font-family: "StagSans-Book";
+        font-size: 32px;
+    }
+    .travel-package-slider .carousel .item-content .description {
+        max-width: 100%;
+        width: 100%;
+        line-height: 2;
+    }
+    /*.social-icon-pack {
+        /*margin: 0 auto;
+    text-align: center;
+    display: block;*/
+        /*max-width: 146px;
+        margin-left: auto;*/
+    /*}*/
+    .travel-package-slider .center {
+        display: block;
+        margin: 0px auto;
+        width: 180px;
+    }
+    /*.social-icons {
+        margin-right: auto;
+    }*/
+    .travel-package-slider .carousel-control:focus,
+    .travel-package-slider .carousel-control:hover {
+        /*
+	height: 200px;
+	bottom: 1px;
+*/
+    }
+    .travel-package-slider .carousel-control {
+        top: 80%;
+        color: #ffffff !important;
+    }
+    .travel-package-slider .carousel-control .glyphicon-menu-left,
+    .travel-package-slider .carousel-control .glyphicon-menu-right,
+    .travel-package-slider .carousel-control .icon-next,
+    .travel-package-slider .carousel-control .icon-prev {
+        top: 38%;
+    }
+    .travel-package-slider .carousel-control.left .glyphicon {
+        left: 38%;
+        left: 10%;
+    }
+    .travel-package-slider .carousel-control.right {
+        background-image: none;
+    }
+    .travel-package-slider .carousel-control.left {
+        background-image: none;
+    }
+}
+@media (max-width: 640px){
+    .travel-package-slider{
+         max-height: 360px;
+    }
+    .travel-package-slider .carousel{
+         max-height: 360px !important; 
+    }
+    .travel-package-slider .carousel .item{
+         min-height: 360px;
+     }
+    .travel-package-slider .carousel-control  {
+        top: 45%;
+    }
+    .travel-package-slider .carousel .item-content{
+        padding-top: 20px;
+    }
+    .travel-package-slider .carousel .item-content h1{
+        font-size: 4.5rem;
+        max-width: 50%;
+    }
+    .travel-package-slider .center{
+        width: auto;
+        margin-top: 10px;
+    }
+    .travel-package-slider .carousel .item-content .logo-events{
+        width: 165px;
+        height: 165px;
+        position: absolute;
+        margin-right: auto;
+        top: 50px;
+        left: 50%;
+        right: 0;
+    }
+    .social-icons.events-like{
+            display: inline-block;
+        position: static !important;
+    }
+}
+/*@media (max-width: 414px) {
+    .travel-package-slider .carousel-control {
+        top: 70%;
+    }
+    .travel-package-slider .carousel .item-content h1 {
+        font-size: 30px;
+        line-height: 1;
+    }
+    .travel-package-slider .carousel .item-content .description {
+        max-width: 100%;
+        font-size: 14px;
+        width: 100%;
+        line-height: 1.9;
+    }
+    .travel-package-slider .carousel .item-content .location {
+        max-width: 100%;
+        font-size: 15px;
+        width: 100%;
+        line-height: 1.9;
+    }
+}*/
+@media (max-width: 320px) {
+    .travel-package-slider .carousel-control {
+         top: 54%;
+    }
+    .travel-package-slider .center {
+        margin-top: 60px;
+    }
+    .travel-package-slider .carousel .item-content h1 {
+        font-size: 30px;
+        line-height: 1;
+    }
+    .travel-package-slider .carousel .item-content .description {
+        max-width: 100%;
+        font-size: 14px;
+        width: 100%;
+        line-height: 1.9;
+    }
+    .travel-package-slider .carousel-control.right .glyphicon,
+    .travel-package-slider .carousel-control.left .glyphicon {
+        top: 37%;
+    }
+}
+
+/* Special rules to move arrows below the content 
+/* when the content is too big it overlaps the arrows
+*/
+
+@media (min-width: 768px) and (max-width: 1447px) {
+    .travel-package-slider .carousel .item-content {
+        padding-top: 20px;
+    }
+    .travel-package-slider .carousel-control.right .glyphicon,
+    .travel-package-slider .carousel-control.left .glyphicon {
+        top: 35%;
+    }
+    .travel-package-slider .carousel-control.right .glyphicon {
+        right: 10%;
+    }
+    .travel-package-slider .carousel-control.left .glyphicon {
+        left: 10%;
+    }
+    .travel-package-slider .carousel-control.right,
+    .travel-package-slider .carousel-control.left {
+        background-image: none;
+        height: 58px;
+        bottom: 0px;
+        top: auto;
+        position: absolute;
+        width: 50%;
+    }
+}
+@media (min-width: 768px) and (max-width: 907px) {
+    .travel-package-slider .carousel .item-content {
+        padding-top: 10px;
+    }
+    .travel-package-slider .carousel-control.right .glyphicon,
+    .travel-package-slider .carousel-control.left .glyphicon {
+        top: 35%;
+    }
+}

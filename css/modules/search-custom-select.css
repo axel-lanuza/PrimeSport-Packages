@@ -1,0 +1,27 @@
+.search-filter {
+    float: right;
+    width: 18%;
+}
+
+.search-filter .dd-option,
+.search-filter .dd-selected {
+    padding: 5px 10px;
+}
+
+.search-filter .dd-pointer {
+    height: 30px;
+    width: 38px;
+}
+
+.search-filter .dd-container,
+.search-filter .dd-select,
+.search-filter .dd-options {
+    width: 100% !important;
+}
+
+@media(max-width: 767px) {
+    .search-filter {
+        float: none;
+        width: 100%;
+    }
+}

@@ -1,0 +1,200 @@
+.menu-button {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    padding-left: 4%;
+    left: 0px;
+}
+
+.menu-button > div {
+    width: 79px;
+    height: 86px;
+    background: #2d2d2d;
+    position: relative;
+    margin-left: -35px;
+}
+
+/* fixing menu button overlapping on tablet - AKD */
+@media (max-width: 991px) and (min-width: 768px) {
+    .menu-button > div {
+        width: 69px;
+        height: 76px;
+        margin-left: -45px;
+    }
+}
+
+.menu-button > div:hover {
+    cursor: pointer;
+}
+
+.menu-button .line {
+    display: block;
+    position: absolute;
+    background: #b3b3b3;
+    box-sizing: content-box;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.menu-button .line-1 {
+    border-top: 0px;
+}
+
+.menu-button .line-3 {
+    border-bottom: 0px;
+}
+
+.toggle-left-menu.menu-hidden .line {
+    width: 38px;
+    height: 3px;
+    border-top: 1px solid #353535;
+    border-bottom: 1px solid #353535;
+    left: 26px;
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+}
+
+.toggle-left-menu.menu-hidden .line-1 {
+    top: 30px;
+}
+
+.toggle-left-menu.menu-hidden .line-2 {
+    top: 39px;
+}
+
+.toggle-left-menu.menu-hidden .line-3 {
+    top: 49px;
+}
+
+.menu-button .line-1 {
+    z-index: 2;
+    height: 4px;
+    width: 15px;
+    transform: rotate(-47deg);
+    -webkit-transform: rotate(-47deg);
+    -moz-transform: rotate(-47deg);
+    -o-transform: rotate(-47deg);
+    border: 0px;
+    left: 18px;
+    top: 36px;
+}
+
+.menu-button .line-2 {
+    width: 37px;
+    height: 4px;
+    border-top: 1px solid #5f5f5f;
+    border-bottom: 1px solid #5f5f5f;
+    left: 22px;
+    top: 39px;
+    z-index: 1;
+}
+
+.menu-button .line-3 {
+    z-index: 2;
+    height: 4px;
+    width: 15px;
+    transform: rotate(47deg);
+    -webkit-transform: rotate(47deg);
+    -moz-transform: rotate(47deg);
+    -o-transform: rotate(47deg);
+    border: 0px;
+    left: 18px;
+    top: 45px;
+}
+
+.left-menu-wrapper.menu-hidden {
+    background: rgba(191, 191, 191, 0);
+    z-index: 0;
+    visibility: hidden; /* added visibility: hidden so that it doesn't interfere with the other nav */
+}
+
+.left-menu-wrapper.menu-hidden .left-menu {
+    left: -428px;
+}
+
+.left-menu-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background: rgba(191, 191, 191, 0.8);
+    z-index: 2;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.left-menu {
+	position: relative;
+	width: 100%;
+	max-width: 369px;
+	box-sizing: border-box;
+	left: -369px;
+}
+
+.left-menu > div {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.left-menu .primesport-twitter {
+	padding-left: 22px;
+	padding-right: 21px;
+}
+
+.left-menu .container {
+	width: 100%;
+	padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (max-width: 767px) {
+    .menu-button {
+        padding-left: 0px;
+    }
+    .menu-button > div {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 428px) {
+    .left-menu {
+        padding-right: 79px;
+    }
+    .left-menu > div {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .left-menu.menu-hidden {
+        left: -100%;
+    }
+
+    .left-menu .log-in-alert {
+        padding-left: 40px;
+        padding-right: 27px;
+        background-position: 12px 18px;
+    }
+
+    .left-menu .recently-viewed .text {
+        margin-left: 56px;
+        float: none;
+    }
+
+    .left-menu .social-item .content {
+        padding: 20px 10px;
+    }
+
+    .left-menu .primesport-twitter {
+	    padding-left: 12px;
+	    padding-right: 11px;
+	}
+}

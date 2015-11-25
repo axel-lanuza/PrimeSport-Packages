@@ -1,0 +1,48 @@
+.alerts {
+	margin: 20px 0;
+}
+
+.alerts .message {
+	font-family: 'StagSans-Book';
+	font-size: 13px;
+	position: relative;
+	letter-spacing: 0.5px;
+	line-height: 17px;
+	margin-bottom: 5px;
+	padding-left: 26px;
+}
+
+.alerts .message:before {
+	content: '';
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	vertical-align: text-bottom;
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+
+.alerts .success {
+	color: #50ab38;
+}
+
+.alerts .message:before {
+	background: url(../../img/success-icon.png);
+}
+
+.alerts .warn {
+	color: #f49f15;
+}
+
+.alerts .warn:before {
+	background: url(../../img/warn-icon.png);
+}
+
+.alerts .error {
+	color: #ff0000;
+}
+
+.alerts .error:before {
+	background: url(../../img/error-icon.png);
+}

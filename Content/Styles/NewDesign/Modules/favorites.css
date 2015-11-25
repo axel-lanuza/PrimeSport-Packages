@@ -1,0 +1,100 @@
+.custom-icon {
+	margin-right: 11px;
+}
+
+.custom-icon .icon-primesport-favorite-inactive, .custom-icon .icon-primesport-favorite-active, .custom-icon .icon-primesport-favorite-active, .custom-icon .icon-primesport-menu {
+	font-size: 18px;
+}
+
+.custom-icon .icon-primesport-close {
+	font-size: 8px;
+	color: #2d2d2d;
+	padding-top: 5px;
+    padding-left: 4px;
+}
+
+.custom-icon .icon-primesport-favorite-inactive {
+	color: #024b78;
+}
+
+.custom-icon .icon-primesport-favorite-active {
+	color: #d20000;
+}
+
+.custom-icon .icon-primesport-menu {
+	color: #b3b3b3;
+}
+
+.custom-icon.like, .custom-icon.fill-like {
+	width: 33px;
+	height: 33px;
+	background: #ffffff;
+	border-radius: 2px;
+}
+
+.custom-icon.menu {
+	width: 33px;
+	height: 28px;
+	background: #2d2d2d;
+}
+
+.item-close .custom-icon {
+	border: 1px solid #2d2d2d;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.fill-icon .icon {
+	padding-top: 5px;
+    padding-left: 8px;
+}
+
+.favorite-content {
+	margin: 19px 0 30px 0;
+}
+
+.favorite-item  {
+	display: table;
+	margin: 10px 0 20px 0;
+}
+
+.favorite-item .icon-wrapper {
+	display: table-cell;
+	vertical-align: top;
+}
+
+.favorite-item .description {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.favorite-btn-container .cancel {
+	padding: 13px 42px;
+}
+
+/* hide items for 2 step*/
+.favorite-item .item-close {
+	display: none;
+}
+
+.favorite-btn-container {
+	display: none;
+}
+
+#favorites .save {
+	display: none;
+}
+
+@media (max-width: 767px) {
+	.favorite-item .description {
+		font-size: 14px;
+	}
+
+	.favorite-content.inactive 	.favorite-item {
+		margin: 10px 0 42px 0;
+	}
+}
+
+
