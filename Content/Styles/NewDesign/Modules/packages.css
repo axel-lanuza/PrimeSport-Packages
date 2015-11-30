@@ -40,6 +40,11 @@
       background: url(img/2560x1000_CFA_PeachBowl.png);
   }
   
+  .tablePara {
+      font-family: "StagSans-Bold";
+      margin-bottom: -15px;
+  }
+  
   .page h1 {
       font-family: 'GothamCondensed-Bold';
       font-size: 72px;
@@ -303,7 +308,7 @@
   
   #pagePackages .updateOrder {
       width: 230px;
-      height: 40px;
+      height: 45px;
   }
   /*tables*/
   
@@ -317,7 +322,7 @@
   #pagePackages table tr td {
       border-right: 1px solid #bbb;
       border-bottom: 1px solid #bbb;
-      padding: 5px;
+      /*padding: 5px;*/
   }
   
   #pagePackages table tr th:first-child,
@@ -379,7 +384,7 @@
   }
   
   #pagePackages .roomType td .smallest {
-      font-size: 0.8rem;
+      font-size: 1.1rem;
       background: #FFF;
   }
   
@@ -394,8 +399,8 @@
   }
   
   #pagePackages .totals {
-      margin-top: 1.5rem;
-      height: 8rem;
+      margin-top: 3.5rem;
+      height: 5rem;
   }
   
   #pagePackages .totalGues {
@@ -407,11 +412,12 @@
             float: right;*/
       border-radius: 5px;
       border: 1px solid #AAA;
+      margin-left: -13px;
   }
   
   #pagePackages .totalGues p {
-      margin: 0.2rem 0 0 2rem;
-      font-size: 1.2rem;
+      margin: 0.2rem 0 0 1rem;
+      font-size: 1.4rem;
   }
   
   #pagePackages .transact {
@@ -420,13 +426,15 @@
   }
   
   #pagePackages .text-center {
-      text-align: center;
+      text-align: left;
       color: #024b78;
-      font-family: "StagSans-Bold";
   }
   
   #pagePackages .text-center td {
-      font-size: 1.1rem;
+      font-family: "StagSans-Bold";
+      font-size: 1.3rem;
+      font-weight: 900;
+      letter-spacing: 0.1rem;
   }
   /* Guest per room */
   
@@ -576,18 +584,19 @@
       top: 0;
       right: 6px;
   }
-
-#pagePackages .guestPerRoom .quantity .quantity-nav {
-    top: 0 !important;
-    left: 0 !important;
-}
+  
+  #pagePackages .guestPerRoom .quantity .quantity-nav {
+      top: 0 !important;
+      left: 0 !important;
+  }
   
   #pagePackages .additionalNightsBefore a,
   #pagePackages .additionalNightsBeggining a {
       font-family: "StagSans-Bold";
-      font-size: 0.9999rem;
+      font-size: 1.3rem;
       color: #024b78;
       text-decoration: underline;
+      float: right;
   }
   
   #pagePackages .additionalNightsBefore .col-xs-6.col-sm-6,
@@ -631,6 +640,10 @@
       border-radius: 5px;
       overflow: hidden;
       background: #FFF;
+  }
+  
+  section#transact {
+      padding-left: 2rem;
   }
   /* Media queries */
   
