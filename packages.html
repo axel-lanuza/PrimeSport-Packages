@@ -400,7 +400,7 @@
                     </section>
                     <section id="transact" class="bg-grey main-margin col-xs-12 col-sm-6">
                         <div class="accordion" id="accordion-general" role="tablist" aria-multiselectable="true">
-                            <div class="panel">
+                            <div id="reservationDetail" class="panel">
                                 <div class="panel-heading" role="tab" id="faq1" data-toggle="collapse" data-parent="#accordion-general" href="#collapseFaq1" aria-expanded="true" aria-controls="collapseFaq1">
                                     <h4 class="panel-title">
                                             <a role="button" data-toggle="collapse" data-parent="#accordion-general" href="#collapseFaq1" aria-expanded="true" aria-controls="collapseFaq1">
@@ -553,6 +553,7 @@
                                                                 <button role="button" class="down"><i class="fa fa-caret-down"></i></button>
                                                             </div>
                                                         </div>
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -583,7 +584,7 @@
                                                     </p>
                                                 </div>
                                                 <div class="col-xs-6 col-sm-6">
-                                                    Room 1
+                                                    <p class="parBold">Room 1</p>
                                                     <div class="spinner">
                                                         <input type="number" name="amount" max="10" min="1" value="1" class="amount" />
                                                         <div class="upDown">
@@ -606,7 +607,7 @@
                                                     </p>
                                                 </div>
                                                 <div class="col-xs-6 col-sm-6">
-                                                    Room 2
+                                                    <p class="parBold">Room 2</p>
                                                     <div class="spinner">
                                                         <input type="number" name="amount" max="10" min="1" value="1" class="amount" />
                                                         <div class="upDown">
@@ -628,7 +629,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="panel">
+                            <div id="optionsUpgrades" class="panel">
                                 <div class="panel-heading collapsed" role="tab" id="faq2" data-toggle="collapse" data-parent="#accordion-general" href="#collapseFaq2" aria-expanded="false" aria-controls="collapseEvents">
                                     <h4 class="panel-title">
                                             <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-general" href="#collapseFaq2" aria-expanded="false" aria-controls="collapseEvents">
@@ -639,92 +640,105 @@
                                 </div>
                                 <div id="collapseFaq2" class="panel-colapse collapse" role="tabpanel" aria-labelledby="faq2">
                                     <div class="panel-body">
-                                        <div class="row ticketUpgrade">
-                                            <div class="col-xs-6 col-sm-6">
-                                                <p>
-                                                    Ticket Upgrade
-                                                </p>
-                                            </div>
-                                            <div class="col-xs-6">
-                                                <a class="link-blue" href="#">SEE SEATING CHART</a>
-                                            </div>
-                                        </div>
-                                        <div class="row ticketUpgrade">
-                                            <div class="col-xs-12 col-sm-12">
-                                                <input data-brackets-id="3195" type="radio" id="radio08" name="radio">
-                                                <label data-brackets-id="3196" for="radio08"><span data-brackets-id="3197"></span>(Turn 1/Turn 4 Lower(Cup)) (108-112,180-184 Rows 1-10)</label>
-                                                <br> No Tickets Upgrade
-                                            </div>
-                                            <div class="col-xs-12 col-sm-12">
-                                                <input data-brackets-id="3195" type="radio" id="radio09" name="radio">
-                                                <label data-brackets-id="3196" for="radio09"><span data-brackets-id="3197"></span>(Turn 1/Turn 4 Lower(Cup)) (108-112,180-184 Rows 1-10)</label>
-                                                <br> $25.00/Guest
-                                            </div>
-                                            <div class="col-xs-12 col-sm-12">
-                                                <input data-brackets-id="3195" type="radio" id="radio10" name="radio">
-                                                <label data-brackets-id="3196" for="radio10"><span data-brackets-id="3197"></span>(Turn 1/Turn 4 Lower(Cup)) (108-112,180-184 Rows 1-10)</label>
-                                                <br> $40.00/Guest
-                                            </div>
-
-                                        </div>
-
-                                        <div class="row packageOptions">
-                                            <div class="col-xs-6 col-sm-6">
-                                                <p>
-                                                    Package Options
-                                                </p>
-                                            </div>
-
-                                        </div>
-                                        <div class="row packageOptions">
-                                            <div class="col-xs-2 col-sm-2">
-                                                <div class="spinner">
-                                                    <input type="number" name="amount" max="10" min="1" value="1" class="amount" />
-                                                    <div class="upDown">
-                                                        <button role="button" class="up"><i class="fa fa-caret-up"></i></button>
-                                                        <button role="button" class="down"><i class="fa fa-caret-down"></i></button>
-                                                    </div>
+                                        <div class="ticketUpgrade">
+                                            <div class="row">
+                                                <div class="col-xs-6 col-sm-6">
+                                                    <p>
+                                                        Ticket Upgrade
+                                                    </p>
+                                                </div>
+                                                <div class="col-xs-6">
+                                                    <a class="link-blue" href="#">SEE SEATING CHART</a>
                                                 </div>
                                             </div>
-                                            <div class="col-xs-4 col-sm-8">
-                                                <p>
-                                                    Sprint FanZone Access-Sundat
-                                                </p>
-                                                <br>
-                                                <a href="#" class="link-blue">WHAT IS THIS?</a>
-                                            </div>
-                                            <div class="col-xs-2 col-sm-2">
-                                                <p>$90.00/Guest</p>
-                                            </div>
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-12">
+                                                    <input data-brackets-id="3195" type="radio" id="radio08" name="radio">
+                                                    <label data-brackets-id="3196" for="radio08"><span data-brackets-id="3197"></span>(Turn 1/Turn 4 Lower(Cup)) (108-112,180-184 Rows 1-10)</label>
+                                                    <br>
+                                                    <p class="price-per-guest">No Tickets Upgrade</p>
+                                                </div>
+                                                <div class="col-xs-12 col-sm-12">
+                                                    <input data-brackets-id="3195" type="radio" id="radio09" name="radio">
+                                                    <label data-brackets-id="3196" for="radio09"><span data-brackets-id="3197"></span>(Turn 1/Turn 4 Lower(Cup)) (108-112,180-184 Rows 1-10)</label>
+                                                    <br>
+                                                    <p class="price-per-guest">
+                                                        $40.00/Guest
+                                                    </p>
+                                                </div>
+                                                <div class="col-xs-12 col-sm-12">
+                                                    <input data-brackets-id="3195" type="radio" id="radio10" name="radio">
+                                                    <label data-brackets-id="3196" for="radio10"><span data-brackets-id="3197"></span>(Turn 1/Turn 4 Lower(Cup)) (108-112,180-184 Rows 1-10)</label>
+                                                    <br>
+                                                    <p class="price-per-guest">
+                                                        $40.00/Guest
+                                                    </p>
+                                                </div>
 
+                                            </div>
                                         </div>
-                                        <div class="row packageOptions">
-                                            <div class="col-xs-2 col-sm-2">
-                                                <div class="spinner">
-                                                    <input type="number" name="amount" max="10" min="1" value="1" class="amount" />
-                                                    <div class="upDown">
-                                                        <button role="button" class="up"><i class="fa fa-caret-up"></i></button>
-                                                        <button role="button" class="down"><i class="fa fa-caret-down"></i></button>
+
+                                        <div class="packageOptions">
+                                            <div class="row">
+                                                <div class="col-xs-6 col-sm-6">
+                                                    <p>
+                                                        Package Options
+                                                    </p>
+                                                </div>
+
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-xs-2 col-sm-2">
+                                                    <div class="spinner">
+                                                        <input type="number" name="amount" max="10" min="1" value="1" class="amount" />
+                                                        <div class="upDown">
+                                                            <button role="button" class="up"><i class="fa fa-caret-up"></i></button>
+                                                            <button role="button" class="down"><i class="fa fa-caret-down"></i></button>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="col-xs-4 col-sm-8">
-                                                <p>
-                                                    Sprint FanZone Access-Sundat
-                                                </p>
-                                                <br>
-                                                <a href="#" class="link-blue">WHAT IS THIS?</a>
-                                            </div>
-                                            <div class="col-xs-2 col-sm-2">
-                                                <p>$90.00/Guest</p>
-                                            </div>
+                                                <div class="col-xs-5 col-sm-5">
+                                                    <p>
+                                                        Sprint FanZone Access-Sundat
+                                                    </p>
+                                                    <a href="#" class="link-blue price-guest">WHAT IS THIS?</a>
 
+                                                </div>
+                                                <div class="col-xs-2 col-sm-2">
+                                                    <p class="price-guest">$90.00/Guest</p>
+                                                </div>
+
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-xs-2 col-sm-2">
+                                                    <div class="spinner">
+                                                        <input type="number" name="amount" max="10" min="1" value="1" class="amount" />
+                                                        <div class="upDown">
+                                                            <button role="button" class="up"><i class="fa fa-caret-up"></i></button>
+                                                            <button role="button" class="down"><i class="fa fa-caret-down"></i></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-4 col-sm-5">
+                                                    <p>
+                                                        Sprint FanZone Access-Sundat
+                                                    </p>
+                                                    <a href="#" class="link-blue price-guest">WHAT IS THIS?</a>
+                                                </div>
+                                                <div class="col-xs-2 col-sm-2">
+                                                    <p class="price-guest">$90.00/Guest</p>
+                                                </div>
+
+                                            </div>
                                         </div>
+                                        <section class="updateOrders">
+                                            <button class="btn btn-blue btn-lg pull-right updateOrder">PROCEED TO NEXT STEP</button>
+                                        </section>
 
                                     </div>
                                 </div>
                             </div>
-                            <div class="panel">
+                            <div id="reviewPackage" class="panel">
                                 <div class="panel-heading collapsed" role="tab" id="faq3" data-toggle="collapse" data-parent="#accordion-general" href="#collapseFaq3" aria-expanded="false" aria-controls="collapseSports">
                                     <h4 class="panel-title">
                                             <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-general" href="#collapseFaq3" aria-expanded="false" aria-controls="collapseSports">
@@ -735,15 +749,151 @@
                                 </div>
                                 <div id="collapseFaq3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq3">
                                     <div class="panel-body">
-                                        <p>
-                                            Content 3
-                                        </p>
+                                        <section class="reservation-detail">
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-12">
+                                                    <h4>
+                                                  Reservation Detail
+                                              </h4>
+                                                </div>
+                                            </div>
+                                        </section>
+                                        <section class="hotel-name">
+                                            <div class="row">
+                                                <div class="col-xs-6 col-sm-6">
+                                                    <p>
+                                                        Hotel Name
+                                                    </p>
+                                                </div>
+                                                <div class="col-xs-6 col-sm-6">
+                                                    <p>
+                                                        Orlando Airport MArriot Lakeside
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </section>
+                                        <section class="check-section">
+                                            <div class="row check-in">
+                                                <div class=" col-xs-6 col-sm-6">
+                                                    <p>
+                                                        Check-in Date
+                                                    </p>
+                                                </div>
+                                                <div class="col-xs-6 col-sm-6">
+                                                    <p>
+                                                        02/20/2016
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="row check-out">
+                                                <div class=" col-xs-6 col-sm-6">
+                                                    <p>
+                                                        Check-Out Date
+                                                    </p>
+                                                </div>
+                                                <div class="col-xs-6 col-sm-6">
+                                                    <p>
+                                                        02/23/2016
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                        </section>
+                                        <section class="rooms-guest-section">
+                                            <div class="row roms">
+                                                <div class=" col-xs-6 col-sm-6">
+                                                    <p>
+                                                        Total # of Romms
+                                                    </p>
+                                                </div>
+                                                <div class="col-xs-6 col-sm-6">
+                                                    <p>
+                                                        1
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="row guests">
+                                                <div class=" col-xs-6 col-sm-6">
+                                                    <p>
+                                                        Total # of Guests
+                                                    </p>
+                                                </div>
+                                                <div class="col-xs-6 col-sm-6">
+                                                    <p>
+                                                        2
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </section>
+                                        <section class="aditional-nights">
+                                            <div class="row nights">
+                                                <div class="col-xs-6 col-sm-6">
+                                                    <p>
+                                                        Aditional nights?
+                                                    </p>
+                                                </div>
+                                                <div class="col-xs-6 col-sm-6">
+                                                    <p>
+                                                        No
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </section>
+                                        <section class="base-package-price">
+                                            <div class="row base-price">
+                                                <div class="col-xs-6 col-sm-6">
+                                                    <p>
+                                                        Base Package Pricne
+                                                    </p>
+                                                </div>
+                                                <div class="col-xs-6 col-sm-6">
+                                                    <p>
+                                                        No
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </section>
+                                        <section class="options-upgrades">
+                                            <h4>
+                                                  Options & Upgrades
+                                              </h4>
+                                            <p>
+                                                Ticket upgrade
+                                            </p>
+                                            <div class="row ticket-upgrade">
+                                                <div class="col-xs-6 col-sm-6">
+                                                    <p>
+                                                        None
+                                                    </p>
+                                                </div>
+                                                <div class="col-xs-6 col-sm-6">
+                                                    <p>
+                                                        $0.00
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="row hospitality-upgrade">
+                                                <p>
+                                                    Ticket upgrade
+                                                </p>
+                                                <div class="col-xs-6 col-sm-6">
+                                                    <p>
+                                                        None
+                                                    </p>
+                                                </div>
+                                                <div class="col-xs-6 col-sm-6">
+                                                    <p>
+                                                        $0.00
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </section>
+
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="prime-sport-main-wrapper">
-
                             <div class="row">
                                 <section class="totalsGlobal">
                                     <div class="col-xs-4 col-xs-4">
