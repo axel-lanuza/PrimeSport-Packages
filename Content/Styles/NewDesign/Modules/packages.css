@@ -696,8 +696,12 @@
 #pagePackages #optionsUpgrades .options-upgrades{
     
 }
-#pagePackages #reviewPackage h4 {
-    margin: 1rem 0;
+#pagePackages #reviewPackage .col-xs-6.col-sm-6 p.righty{
+    float: right;
+}
+
+#pagePackages #reviewPackage #checkoutPackages{
+    width: 50%;
 }
 
 
