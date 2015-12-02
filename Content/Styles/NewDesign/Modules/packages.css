@@ -206,75 +206,77 @@
   /*
         
             Styles for new ddr
-        */
+    */    
   
-  .quantity {
+  .spinner {
       position: relative;
-      vertical-align: middle;
+      overflow: hidden;
+      width: 80px;
   }
   
-  input[type=number]::-webkit-inner-spin-button,
-  input[type=number]::-webkit-outer-spin-button {
+  .spinner input[type=number]::-webkit-inner-spin-button,
+  .spinner input[type=number]::-webkit-outer-spin-button {
       -webkit-appearance: none;
       margin: 0;
   }
   
-  input[type=number] {
+  .spinner input[type=number] {
       -moz-appearance: textfield;
   }
   
-  .quantity input {
-      width: 42px;
-      height: 25px;
-      line-height: 1.65;
+  .spinner label {
       float: left;
-      display: block;
-      padding: 0;
+      width: 40px;
+      height: 20px;
+      padding: 4px;
+  }
+  
+  .spinner input.amount {
+      float: left;
+      width: 7em;
+      margin-bottom: 1em;
+      width: 50px;
+      height: 24px;
+      padding: 1px 0 0 5px;
       margin: 0;
-      padding-left: 1rem;
-      border: 0.0999999rem solid #AAA;
-      border-radius: 5px;
+      font-size: 11px;
+      font-weight: bold;
+      border: solid 1px #CCCCCC;
   }
   
-  .quantity input:focus {
-      outline: 0;
+  .spinner .upDown {
+      position: absolute;
+      top: 0;
+      right: 21px;
+      width: 28px;
+      border-top: solid 1px #CCCCCC;
+      border-right: solid 1px #CCCCCC;
+      border-bottom: solid 1px #CCCCCC;
   }
   
-  .quantity-nav {
-      float: left;
-      position: relative;
-      height: 19px;
-      top: -26px;
-      left: 46px;
-  }
-  
-  .quantity-button {
-      position: relative;
-      cursor: pointer;
-      border-left: 1px solid #eee;
-      width: 20px;
-      height: 10px;
+  .spinner .button,
+  button,
+  input[type="submit"],
+  input[type="reset"],
+  input[type="button"] {
+      text-decoration: none;
+      font-size: 11px;
       text-align: center;
-      color: #333;
-      font-size: 13px;
-      line-height: 1.7;
-      -webkit-transform: translateX(-100%);
-      transform: translateX(-100%);
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      -o-user-select: none;
-      user-select: none;
+      color: #000000;
+      cursor: pointer;
   }
   
-  .quantity-button.quantity-up {
-      position: absolute;
-      top: -2px;
+  .spinner input.up {
+      float: left;
+      width: 28px;
+      height: 12px;
+      padding: 0;
   }
   
-  .quantity-button.quantity-down {
-      position: absolute;
-      bottom: 1px;
+  .spinner input.down {
+      float: left;
+      width: 28px;
+      height: 12px;
   }
   
   #pagePackages section {

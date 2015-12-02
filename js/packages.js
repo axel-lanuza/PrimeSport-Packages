@@ -9,40 +9,32 @@
                 interval: 4000
             });
 
-            jQuery('<div class="quantity-nav"><div class="quantity-button quantity-up"><i class="fa fa-caret-up"></i></div><div class="quantity-button quantity-down"><i class="fa fa-caret-down"></i></div></div>').insertAfter('.quantity input');
-            jQuery('.quantity').each(function () {
-                var spinner = jQuery(this),
-                    input = spinner.find('input[type="number"]'),
-                    btnUp = spinner.find('.quantity-up'),
-                    btnDown = spinner.find('.quantity-down'),
-                    min = input.attr('min'),
-                    max = input.attr('max');
-
-                btnUp.click(function () {
-                    var oldValue = parseFloat(input.val());
-                    if (oldValue >= max) {
-                        var newVal = oldValue;
+            $(".spinner").find("input[type='button'].up").each(function () {
+                $(this).bind("click", function (e) {
+                    var value = parseInt($(this).parent().parent().find(".amount").val(), 10);
+                    var maximo = parseInt($(this).parent().parent().find(".amount").attr("max"), 10);
+                    value = isNaN(value) ? 0 : value;
+                    if (value == maximo) {
+                        value = maximo;
                     } else {
-                        var newVal = oldValue + 1;
+                        value++;
                     }
-                    spinner.find("input").val(newVal);
-                    spinner.find("input").trigger("change");
-                });
+                    $(this).parent().parent().find(".amount").val(value);
+                })
 
-                btnDown.click(function () {
-                    var oldValue = parseFloat(input.val());
-                    if (oldValue <= min) {
-                        var newVal = oldValue;
+            });
+
+            $(".spinner").find("input[type='button'].down").each(function () {
+                $(this).bind("click", function (e) {
+                    var value = parseInt($(this).parent().parent().find(".amount").val(), 10);
+                    value = isNaN(value) ? 0 : value;
+                    if (value == 1) {
+                        value = 1;
                     } else {
-                        var newVal = oldValue - 1;
+                        value--;
                     }
-                    spinner.find("input").val(newVal);
-                    spinner.find("input").trigger("change");
+                    $(this).parent().parent().find(".amount").val(value);
                 });
-
-                /*input.click(function () {
-                    $(this).css("height", "60px");
-                });*/
             });
 
             if (window.innerWidth < 768) {
