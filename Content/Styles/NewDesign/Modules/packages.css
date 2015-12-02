@@ -206,12 +206,18 @@
   /*
         
             Styles for new ddr
-    */    
+    */
   
   .spinner {
       position: relative;
       overflow: hidden;
-      width: 80px;
+      width: 70px;
+      height: 27px;
+  }
+  
+  .spinner input[type=number] {
+      height: 3.6rem;
+      font-family: "StagSans-Bold";
   }
   
   .spinner input[type=number]::-webkit-inner-spin-button,
@@ -233,49 +239,46 @@
   
   .spinner input.amount {
       float: left;
-      width: 7em;
       margin-bottom: 1em;
-      width: 50px;
-      height: 24px;
+      width: 40px;
+      height: 27px;
       padding: 1px 0 0 5px;
       margin: 0;
       font-size: 11px;
       font-weight: bold;
-      border: solid 1px #CCCCCC;
+      border: solid 1px #AAA;
+      border-radius: 5px;
   }
   
   .spinner .upDown {
       position: absolute;
-      top: 0;
-      right: 21px;
+      top: -2px;
+      right: 25px;
       width: 28px;
-      border-top: solid 1px #CCCCCC;
-      border-right: solid 1px #CCCCCC;
-      border-bottom: solid 1px #CCCCCC;
   }
   
   .spinner .button,
   button,
   input[type="submit"],
   input[type="reset"],
-  input[type="button"] {
+  div[role="button"] {
       text-decoration: none;
-      font-size: 11px;
       text-align: center;
       color: #000000;
       cursor: pointer;
   }
   
-  .spinner input.up {
-      float: left;
-      width: 28px;
-      height: 12px;
-      padding: 0;
+  .spinner div {
+      font-size: 1.4rem;
   }
   
-  .spinner input.down {
-      float: left;
-      width: 28px;
+  .spinner div.up {
+      width: 30px;
+      height: 12px;
+  }
+  
+  .spinner div.down {
+      width: 30px;
       height: 12px;
   }
   
@@ -489,25 +492,24 @@
   }
   
   #pagePackages .guestPerRoom .cellGuest {
-      display: inline-block;
-  }
-  
-  #pagePackages .guestPerRoom .cellGuest {
-      position: relative;
+      display: table;
   }
   
   #pagePackages .guestPerRoom .cellGuest p {
       vertical-align: middle;
   }
   
-  #pagePackages .guestPerRoom .cellGuest .quantity {
-      /* position: absolute; */
-      /* top: -11px; */
-      /* right: 0; */
-      float: right;
-      margin-top: -28px;
-      left: 45px;
+  #pagePackages .guestPerRoom .cellGuest p,
+  #pagePackages .guestPerRoom .cellGuest div {
+      display: table-cell;
+      float: left;
   }
+
+#pagePackages .guestPerRoom .cellGuest p {
+    margin-top: 0.5rem;
+    margin-right: 2rem;
+}
+
   /* Additional nights */
   
   #pagePackages input[type="radio"] {
@@ -632,8 +634,9 @@
       float: right;
   }
   
-  #pagePackages .totalsGlobal .last {
-      color: #024b78;
+  #pagePackages .totalsGlobal .prices.subtotal {
+      color: #FFF;
+      background: #024b78;
   }
   
   #pagePackages .totalsGlobal .prices {

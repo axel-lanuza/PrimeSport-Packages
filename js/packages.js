@@ -9,7 +9,7 @@
                 interval: 4000
             });
 
-            $(".spinner").find("input[type='button'].up").each(function () {
+            $(".spinner").find("div[role='button'].up").each(function () {
                 $(this).bind("click", function (e) {
                     var value = parseInt($(this).parent().parent().find(".amount").val(), 10);
                     var maximo = parseInt($(this).parent().parent().find(".amount").attr("max"), 10);
@@ -24,7 +24,7 @@
 
             });
 
-            $(".spinner").find("input[type='button'].down").each(function () {
+            $(".spinner").find("div[role='button'].down").each(function () {
                 $(this).bind("click", function (e) {
                     var value = parseInt($(this).parent().parent().find(".amount").val(), 10);
                     value = isNaN(value) ? 0 : value;
