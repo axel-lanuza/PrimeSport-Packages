@@ -101,7 +101,7 @@
 
     <div id="pagePackages" class="container-fuid main-container">
         <div class="row">
-            <div class="container">
+            <div id="paddTop" class="container">
                 <div class="row visible-xs">
                     <div class="col-xs-12 col-sm-12 packageDetail">
 
@@ -465,8 +465,8 @@
                                                             <div class="spinner">
                                                                 <input type="number" name="amount" max="10" min="1" value="1" class="amount" />
                                                                 <div class="upDown">
-                                                                    <div role="button" class="up"><i class="fa fa-caret-up"></i></div>
-                                                                    <div role="button" class="down"><i class="fa fa-caret-down"></i></div>
+                                                                    <button role="button" class="up"><i class="fa fa-caret-up"></i></button>
+                                                                    <button role="button" class="down"><i class="fa fa-caret-down"></i></button>
                                                                 </div>
                                                             </div>
 
@@ -477,7 +477,6 @@
                                                 </div>
                                                 <div class="col-xs-12 col-sm-3">
                                                     <section class="totalGues">
-
                                                         <p> Total Guests: <span>2</span></p>
                                                     </section>
                                                 </div>
@@ -503,8 +502,8 @@
                                                         <div class="spinner">
                                                             <input type="number" name="amount" max="10" min="1" value="1" class="amount" />
                                                             <div class="upDown">
-                                                                <div role="button" class="up"><i class="fa fa-caret-up"></i></div>
-                                                                <div role="button" class="down"><i class="fa fa-caret-down"></i></div>
+                                                                <button role="button" class="up"><i class="fa fa-caret-up"></i></button>
+                                                                <button role="button" class="down"><i class="fa fa-caret-down"></i></button>
                                                             </div>
                                                         </div>
 
@@ -516,8 +515,8 @@
                                                         <div class="spinner">
                                                             <input type="number" name="amount" max="10" min="1" value="1" class="amount" />
                                                             <div class="upDown">
-                                                                <div role="button" class="up"><i class="fa fa-caret-up"></i></div>
-                                                                <div role="button" class="down"><i class="fa fa-caret-down"></i></div>
+                                                                <button role="button" class="up"><i class="fa fa-caret-up"></i></button>
+                                                                <button role="button" class="down"><i class="fa fa-caret-down"></i></button>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -537,8 +536,8 @@
                                                         <div class="spinner">
                                                             <input type="number" name="amount" max="10" min="1" value="1" class="amount" />
                                                             <div class="upDown">
-                                                                <div role="button" class="up"><i class="fa fa-caret-up"></i></div>
-                                                                <div role="button" class="down"><i class="fa fa-caret-down"></i></div>
+                                                                <button role="button" class="up"><i class="fa fa-caret-up"></i></button>
+                                                                <button role="button" class="down"><i class="fa fa-caret-down"></i></button>
                                                             </div>
                                                         </div>
 
@@ -550,8 +549,8 @@
                                                         <div class="spinner">
                                                             <input type="number" name="amount" max="10" min="1" value="1" class="amount" />
                                                             <div class="upDown">
-                                                                <div role="button" class="up"><i class="fa fa-caret-up"></i></div>
-                                                                <div role="button" class="down"><i class="fa fa-caret-down"></i></div>
+                                                                <button role="button" class="up"><i class="fa fa-caret-up"></i></button>
+                                                                <button role="button" class="down"><i class="fa fa-caret-down"></i></button>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -588,8 +587,8 @@
                                                     <div class="spinner">
                                                         <input type="number" name="amount" max="10" min="1" value="1" class="amount" />
                                                         <div class="upDown">
-                                                            <div role="button" class="up"><i class="fa fa-caret-up"></i></div>
-                                                            <div role="button" class="down"><i class="fa fa-caret-down"></i></div>
+                                                            <button role="button" class="up"><i class="fa fa-caret-up"></i></button>
+                                                            <button role="button" class="down"><i class="fa fa-caret-down"></i></button>
                                                         </div>
                                                     </div>
                                                     Nights
@@ -611,8 +610,8 @@
                                                     <div class="spinner">
                                                         <input type="number" name="amount" max="10" min="1" value="1" class="amount" />
                                                         <div class="upDown">
-                                                            <div role="button" class="up"><i class="fa fa-caret-up"></i></div>
-                                                            <div role="button" class="down"><i class="fa fa-caret-down"></i></div>
+                                                            <button role="button" class="up"><i class="fa fa-caret-up"></i></button>
+                                                            <button role="button" class="down"><i class="fa fa-caret-down"></i></button>
                                                         </div>
                                                     </div>
                                                     Nights
@@ -640,9 +639,88 @@
                                 </div>
                                 <div id="collapseFaq2" class="panel-colapse collapse" role="tabpanel" aria-labelledby="faq2">
                                     <div class="panel-body">
-                                        <p>
-                                            Content 2
-                                        </p>
+                                        <div class="row ticketUpgrade">
+                                            <div class="col-xs-6 col-sm-6">
+                                                <p>
+                                                    Ticket Upgrade
+                                                </p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <a class="link-blue" href="#">SEE SEATING CHART</a>
+                                            </div>
+                                        </div>
+                                        <div class="row ticketUpgrade">
+                                            <div class="col-xs-12 col-sm-12">
+                                                <input data-brackets-id="3195" type="radio" id="radio08" name="radio">
+                                                <label data-brackets-id="3196" for="radio08"><span data-brackets-id="3197"></span>(Turn 1/Turn 4 Lower(Cup)) (108-112,180-184 Rows 1-10)</label>
+                                                <br> No Tickets Upgrade
+                                            </div>
+                                            <div class="col-xs-12 col-sm-12">
+                                                <input data-brackets-id="3195" type="radio" id="radio09" name="radio">
+                                                <label data-brackets-id="3196" for="radio09"><span data-brackets-id="3197"></span>(Turn 1/Turn 4 Lower(Cup)) (108-112,180-184 Rows 1-10)</label>
+                                                <br> $25.00/Guest
+                                            </div>
+                                            <div class="col-xs-12 col-sm-12">
+                                                <input data-brackets-id="3195" type="radio" id="radio10" name="radio">
+                                                <label data-brackets-id="3196" for="radio10"><span data-brackets-id="3197"></span>(Turn 1/Turn 4 Lower(Cup)) (108-112,180-184 Rows 1-10)</label>
+                                                <br> $40.00/Guest
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row packageOptions">
+                                            <div class="col-xs-6 col-sm-6">
+                                                <p>
+                                                    Package Options
+                                                </p>
+                                            </div>
+
+                                        </div>
+                                        <div class="row packageOptions">
+                                            <div class="col-xs-2 col-sm-2">
+                                                <div class="spinner">
+                                                    <input type="number" name="amount" max="10" min="1" value="1" class="amount" />
+                                                    <div class="upDown">
+                                                        <button role="button" class="up"><i class="fa fa-caret-up"></i></button>
+                                                        <button role="button" class="down"><i class="fa fa-caret-down"></i></button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-4 col-sm-8">
+                                                <p>
+                                                    Sprint FanZone Access-Sundat
+                                                </p>
+                                                <br>
+                                                <a href="#" class="link-blue">WHAT IS THIS?</a>
+                                            </div>
+                                            <div class="col-xs-2 col-sm-2">
+                                                <p>$90.00/Guest</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="row packageOptions">
+                                            <div class="col-xs-2 col-sm-2">
+                                                <div class="spinner">
+                                                    <input type="number" name="amount" max="10" min="1" value="1" class="amount" />
+                                                    <div class="upDown">
+                                                        <button role="button" class="up"><i class="fa fa-caret-up"></i></button>
+                                                        <button role="button" class="down"><i class="fa fa-caret-down"></i></button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-4 col-sm-8">
+                                                <p>
+                                                    Sprint FanZone Access-Sundat
+                                                </p>
+                                                <br>
+                                                <a href="#" class="link-blue">WHAT IS THIS?</a>
+                                            </div>
+                                            <div class="col-xs-2 col-sm-2">
+                                                <p>$90.00/Guest</p>
+                                            </div>
+
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>
@@ -667,9 +745,6 @@
                         <div class="prime-sport-main-wrapper">
 
                             <div class="row">
-                                <style>
-
-                                </style>
                                 <section class="totalsGlobal">
                                     <div class="col-xs-4 col-xs-4">
                                         <div class="prices basePackage">

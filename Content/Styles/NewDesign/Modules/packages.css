@@ -60,6 +60,16 @@
       -o-background-size: cover!important;
   }
   
+  #pagePackages #transact a.link-blue {
+      font-family: "StagSans-Bold";
+      font-size: 1.3rem;
+      color: #024b78;
+      text-decoration: underline;
+      float: right;
+  }
+  
+  #pagePackages #paddTop {}
+  
   #pagePackages .main-margin {
       padding-top: 4rem;
       height: 100%;
@@ -252,12 +262,11 @@
   
   .spinner .upDown {
       position: absolute;
-      top: -2px;
-      right: 25px;
-      width: 28px;
+      top: -3px;
+      right: 30px;
+      width: 16px;
   }
-  
-  .spinner .button,
+  /*.spinner .button,
   button,
   input[type="submit"],
   input[type="reset"],
@@ -266,20 +275,30 @@
       text-align: center;
       color: #000000;
       cursor: pointer;
-  }
+  }*/
   
-  .spinner div {
+  .spinner button.up {
+      position: absolute;
+      top: 2px;
+      width: 16px;
+      height: 16px;
+      background: transparent;
+      border: none;
       font-size: 1.4rem;
+      margin: 0;
+      padding: 0;
   }
   
-  .spinner div.up {
-      width: 30px;
-      height: 12px;
-  }
-  
-  .spinner div.down {
-      width: 30px;
-      height: 12px;
+  .spinner button.down {
+      position: absolute;
+      top: 15px;
+      width: 16px;
+      height: 16px;
+      background: transparent;
+      border: none;
+      font-size: 1.4rem;
+      margin: 0;
+      padding: 0;
   }
   
   #pagePackages section {
@@ -504,12 +523,11 @@
       display: table-cell;
       float: left;
   }
-
-#pagePackages .guestPerRoom .cellGuest p {
-    margin-top: 0.5rem;
-    margin-right: 2rem;
-}
-
+  
+  #pagePackages .guestPerRoom .cellGuest p {
+      margin-top: 0.5rem;
+      margin-right: 2rem;
+  }
   /* Additional nights */
   
   #pagePackages input[type="radio"] {
@@ -526,7 +544,7 @@
       display: inline-block;
       width: 19px;
       height: 19px;
-      margin: -1px 4px 0 0;
+      margin: -1px 10px 0 0;
       vertical-align: middle;
       cursor: pointer;
       -moz-border-radius: 50%;
