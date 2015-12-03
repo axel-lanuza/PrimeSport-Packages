@@ -266,7 +266,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="accordion hidden-sm hidden-md hidden-lg" id="accordionPackageDetails" role="tablist" aria-multiselectable="true">
+                                    <div class="accordion hidden-sm hidden-md hidden-lg" id="accordionPackageDetails" role="tablist" aria-multiselectable="false">
                                         <div class="panel">
                                             <div class="panel-heading" role="tab" id="packagaDetails" data-toggle="collapse" data-parent="#accordionPackageDetails" href="#packageDetails" aria-expanded="true" aria-controls="packageDetails">
                                                 <h4 class="panel-title">
@@ -374,9 +374,9 @@
                                             </div>
                                         </div>
                                         <div class="panel">
-                                            <div class="panel-heading collapsed" role="tab" id="airfareM" data-toggle="collapse" data-parent="#accordion-general" href="#airfaresM" aria-expanded="false" aria-controls="afm">
+                                            <div class="panel-heading collapsed" role="tab" id="airfareM" data-toggle="collapse" data-parent="#accordionPackageDetails" href="#airfaresM" aria-expanded="false" aria-controls="afm">
                                                 <h4 class="panel-title">
-                                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-general" href="#airfaresM" aria-expanded="false" aria-controls="airfareM">
+                                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordionPackageDetailsl" href="#airfaresM" aria-expanded="false" aria-controls="airfareM">
                                               Airfare
 
                                             </a>
@@ -1141,6 +1141,9 @@
     <script src="js/formValidation.js"></script>
     <script src="js/ddR.js"></script>
     <script src="js/packages.js"></script>
+    <script>
+        $('#accordionPackageDetails').collapse()
+    </script>
 
 </body>
 
