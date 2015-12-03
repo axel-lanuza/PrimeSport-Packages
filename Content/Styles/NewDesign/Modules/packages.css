@@ -492,21 +492,16 @@
       border-top: 1px solid #AAA;
   }
   
-  #pagePackages .guestPerRoom .vertical-line,
-  #pagePackages .guestPerRoom .vertical-line2 {
-      height: 6rem;
+  #pagePackages .guestPerRoom .vertical-line {
+      height: 12rem;
       width: 1px;
       background-color: #AAA;
       position: absolute;
-      top: 29px;
+      top: 28px;
       right: 27rem;
       left: 0;
       margin: auto;
       z-index: 0;
-  }
-  
-  #pagePackages .guestPerRoom .vertical-line2 {
-      top: 9rem;
   }
   
   #pagePackages .guestPerRoom .cellGuest {
@@ -612,12 +607,12 @@
       height: auto;
       float: left;
   }
-
-#pagePackages .additionalNightsBefore .spinner,
-#pagePackages .additionalNightsBeggining .spinner {
-    margin-top: -0.5rem;
-    float: left;
-}
+  
+  #pagePackages .additionalNightsBefore .spinner,
+  #pagePackages .additionalNightsBeggining .spinner {
+      margin-top: -0.5rem;
+      float: left;
+  }
   
   #pagePackages .additionalNightsBefore a,
   #pagePackages .additionalNightsBeggining a {
@@ -675,39 +670,73 @@
   section#transact {
       padding-left: 2rem;
   }
-
-
-
-/* Options & Upgrades */
-#pagePackages #optionsUpgrades .ticketUpgrade {
-    margin-bottom: 2rem;
-}
-
-#pagePackages #optionsUpgrades .price-guest {
-    float: left !important;
-    margin: 0;
-    font-family: 'StagSans-Book';
-}
-
-#pagePackages #optionsUpgrades .price-per-guest {
-    padding-left: 4rem;
-}
-
-#pagePackages #optionsUpgrades .options-upgrades{
-    
-}
-#pagePackages #reviewPackage .col-xs-6.col-sm-6 p.righty{
-    float: right;
-}
-
-#pagePackages #reviewPackage #checkoutPackages{
-    width: 50%;
-}
-
-
+  /* Options & Upgrades */
+  
+  #pagePackages #optionsUpgrades .ticketUpgrade {
+      margin-bottom: 2rem;
+  }
+  
+  #pagePackages #optionsUpgrades .price-guest {
+      float: left !important;
+      margin: 0;
+      font-family: 'StagSans-Book';
+  }
+  
+  #pagePackages #optionsUpgrades .price-per-guest {
+      padding-left: 4rem;
+  }
+  
+  #pagePackages #optionsUpgrades .options-upgrades {}
+  
+  #pagePackages p.righty {
+      float: right;
+  }
+  
+  #pagePackages .roomTypeSec.rounded-corners {
+      border: 1px solid #AAA;
+      border-radius: 5px;
+  }
+  
+  #pagePackages .blue-text {
+      color: #024b78;
+      font-family: "StagSans-Bold";
+      font-size: 1.3rem;
+      font-weight: 900;
+      letter-spacing: 0.1rem;
+  }
+  
+  #pagePackages #reviewPackage #checkoutPackages {
+      width: 50%;
+  }
   /* Media queries */
   
-  @media (max-width: 767px) {
+  @media (max-width: 1199px) {
+      #pagePackages .guestPerRoom .vertical-line {
+          top: 28px;
+      }
+      #pagePackages .roomTypeSec .room-row {
+          border-bottom: 1px solid #AAA;
+          height: 50px;
+      }
+      #pagePackages .roomTypeSec .room-row p,
+      #pagePackages .roomTypeSec .room-row span {
+          display: block;
+          vertical-align: middle;
+          padding: 0.4rem;
+      }
+      #pagePackages .roomTypeSec .room-row .righty.blue-text {
+          margin-top: 1rem
+      }
+      #pagePackages .guestPerRoom .cellGuest p,
+      #pagePackages .guestPerRoom .cellGuest .spinner {
+          display: inline-block
+      }
+  }
+  
+  @media (max-width: 768px) {
+      .tabs .nav-tabs {
+          margin-bottom: 34px;
+      }
       .page h1 {
           font-size: 4rem;
       }
@@ -743,35 +772,19 @@
       #pagePackages .selling-content .accordion {
           margin-top: -31px;
       }
-      #pagePackages .selling-content .accordion .panel {
-          margin-bottom: 0;
-      }
-      #pagePackages .selling-content .accordion .panel-heading {
-          background: none;
-          color: #222;
-          border-top: 0.0999999rem solid #222;
-          height: 60px;
-      }
-      #pagePackages .selling-content .accordion .panel-heading {
-          border-bottom: 0.0999999rem solid #222;
-      }
-      #pagePackages .selling-content .accordion .panel-heading h4 {
-          padding-top: 2rem;
-      }
       #pagePackages .selling-content .accordion .panel-heading h4 a:after {
           font-family: 'carets';
           content: "\e903";
           font-size: 2.5rem;
           font-weight: 100;
-          color: #222 !important;
       }
       #pagePackages #contract .col-xs-12.col-sm-12 {
-          padding-right: 0;
+          padding-right: 10px;
           padding-left: 15px;
       }
       #pagePackages .tabs {
           width: 100%;
-          /* height: 65px; */
+          height: auto;
           border: none;
           border-radius: 5px;
           margin-bottom: 30px;
@@ -792,6 +805,92 @@
       }
       #pagePackages #contract.active {
           display: block;
+      }
+      #pagePackages .roomTypeSec.rounded-corners {}
+      #pagePackages .roomTypeSec .room-row {
+          border-bottom: 1px solid #AAA;
+          height: 50px;
+      }
+      #pagePackages .roomTypeSec .room-row p,
+      #pagePackages .roomTypeSec .room-row span {
+          display: block;
+          vertical-align: middle;
+          padding: 0.4rem;
+      }
+      #pagePackages .roomTypeSec .room-row .righty.blue-text {
+          margin-top: 1rem
+      }
+      #pagePackages .totals .spinner.large {
+          width: 100% !important;
+          float: right;
+      }
+      #pagePackages .totals .spinner input.amount {
+          width: 100% !important;
+      }
+      #pagePackages .totals .spinner .upDown {
+          right: 5px;
+      }
+      #pagePackages .totals .col-lg-1,
+      .col-lg-10,
+      .col-lg-11,
+      .col-lg-12,
+      .col-lg-2,
+      .col-lg-3,
+      .col-lg-4,
+      .col-lg-5,
+      .col-lg-6,
+      .col-lg-7,
+      .col-lg-8,
+      .col-lg-9,
+      .col-md-1,
+      .col-md-10,
+      .col-md-11,
+      .col-md-12,
+      .col-md-2,
+      .col-md-3,
+      .col-md-4,
+      .col-md-5,
+      .col-md-6,
+      .col-md-7,
+      .col-md-8,
+      .col-md-9,
+      .col-sm-1,
+      .col-sm-10,
+      .col-sm-11,
+      .col-sm-12,
+      .col-sm-2,
+      .col-sm-3,
+      .col-sm-4,
+      .col-sm-5,
+      .col-sm-6,
+      .col-sm-7,
+      .col-sm-8,
+      .col-sm-9,
+      .col-xs-1,
+      .col-xs-10,
+      .col-xs-11,
+      .col-xs-12,
+      .col-xs-2,
+      .col-xs-3,
+      .col-xs-4,
+      .col-xs-5,
+      .col-xs-6,
+      .col-xs-7,
+      .col-xs-8,
+      .col-xs-9 {
+          padding-right: 11px;
+          padding-left: 15px;
+      }
+      #pagePackages #transact #accordion-general {
+          margin-top: -9px;
+      }
+      #pagePackages .totalGues {
+          width: 100%;
+          margin-left: 0;
+          border: none
+      }
+      #pagePackages .totalGues span {
+          display: inline-block;
       }
       #pagePackages #contract {
           display: none;

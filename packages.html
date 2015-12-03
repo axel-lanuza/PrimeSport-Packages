@@ -266,16 +266,16 @@
                                         </div>
                                     </div>
 
-                                    <div class="accordion hidden-sm hidden-md hidden-lg" id="accordionPackageDetails" role="tablist" aria-multiselectable="false">
-                                        <div class="panel">
-                                            <div class="panel-heading" role="tab" id="packagaDetails" data-toggle="collapse" data-parent="#accordionPackageDetails" href="#packageDetails" aria-expanded="true" aria-controls="packageDetails">
+                                    <div class="panel-group accordion hidden-sm hidden-md hidden-lg" id="accordion" role="tablist" aria-multiselectable="true">
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab" id="headingOne" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                                 <h4 class="panel-title">
-                                            <a role="button" data-toggle="collapse" data-parent="#accordionPackageDetails" data-toggle="collapse" data-parent="#accordionPackageDetails" href="#packageDetails" aria-expanded="true" aria-controls="packageDetails">
-                                                Pakckage Details
-                                            </a>
-                                        </h4>
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Pakckage Details
+        </a>
+      </h4>
                                             </div>
-                                            <div id="packageDetails" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="pd1">
+                                            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                                                 <div class="panel-body">
                                                     <div role="tabpanel" class="tab-pane active" id="general">
                                                         <p>Three (3) night deluxe accommodations at the Fremont Marriott Silicon Valley</p>
@@ -351,46 +351,40 @@
                                                         Final payment due no later than November 23, 2015
 
                                                     </div>
-
                                                 </div>
                                             </div>
-
                                         </div>
-                                        <div class="panel">
-                                            <div class="panel-heading collapsed" role="tab" id="vipHospitality" data-toggle="collapse" data-parent="#accordionPackageDetails" href="#vipHosp" aria-expanded="false" aria-controls="vipHosp">
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading collapsed" role="tab" id="headingTwo" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                                 <h4 class="panel-title">
-                                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-general" href="#vipHosp" aria-expanded="false" aria-controls="vipHosp">
-                                                Vip Hospitality
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Vip Hospitality
 
-                                            </a>
-                                        </h4>
+        </a>
+      </h4>
                                             </div>
-                                            <div id="vipHosp" class="panel-colapse collapse" role="tabpanel" aria-labelledby="pd2">
+                                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                                                 <div class="panel-body">
                                                     <p>
-                                                        Content 2
+                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo repellat ex, sunt illum omnis corrupti quibusdam nihil cupiditate unde nulla laborum quis placeat numquam voluptate, porro voluptatum, deserunt quod odio!
                                                     </p>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="panel">
-                                            <div class="panel-heading collapsed" role="tab" id="airfareM" data-toggle="collapse" data-parent="#accordionPackageDetails" href="#airfaresM" aria-expanded="false" aria-controls="afm">
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading collapsed" role="tab" id="headingThree" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                                 <h4 class="panel-title">
-                                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordionPackageDetailsl" href="#airfaresM" aria-expanded="false" aria-controls="airfareM">
-                                              Airfare
-
-                                            </a>
-                                        </h4>
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Airfare
+        </a>
+      </h4>
                                             </div>
-                                            <div id="airfaresM" class="panel-collapse collapse" role="tabpanel" aria-labelledby="pd3">
+                                            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                                                 <div class="panel-body">
-                                                    <p>
-                                                        Content 3
-                                                    </p>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit magnam veritatis, dolor maxime iste! Qui voluptate, ab quae aperiam, fugiat beatae voluptates distinctio laudantium voluptas animi consectetur magnam sed, non quos velit, odio atque? Illo dolores, officia. Maxime explicabo voluptates porro officiis dicta culpa eius fuga ipsam molestiae doloremque, unde ipsa velit reprehenderit et, ullam, placeat ut odit aperiam at!</p>
                                                 </div>
                                             </div>
                                         </div>
-
                                     </div>
                                 </div>
 
@@ -410,7 +404,58 @@
                                 </div>
                                 <div id="collapseFaq1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="faq1">
                                     <div class="panel-body">
-                                        <section class="roomTypeSec">
+                                      <!-- <div class="row">
+                                                <div class="col-xs-12 col-sm-3">Room Type:</div>
+                                            </div>-->
+                                        <section class="roomTypeSec rounded-corners hidden-md hidden-lg">
+                                            <div class="row room-row">
+                                                <div class="col-xs-6">
+                                                    <p class="tablePara">SINGLE</p>
+                                                    <br> <span class="smallest">1 guest per room</span>
+                                                </div>
+                                                <div class="col-xs-6">
+                                                    <p class="righty blue-text">
+                                                        $400.00 USD
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="row room-row">
+                                                <div class="col-xs-6">
+                                                    <p class="tablePara">DOUBLE</p>
+                                                    <br> <span class="smallest">2 guests per room</span>
+                                                </div>
+                                                <div class="col-xs-6">
+                                                     <p class="righty blue-text">
+                                                        $500.00 USD
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="row room-row">
+                                                <div class="col-xs-6">
+                                                    <p class="tablePara">TRIPLE</p>
+                                                    <br> <span class="smallest">3 guest per room</span>
+                                                </div>
+                                                <div class="col-xs-6">
+                                                     <p class="righty blue-text">
+                                                        $600.00 USD
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                            <div class="row room-row">
+                                                <div class="col-xs-6">
+                                                    <p class="tablePara">QUAD</p>
+                                                    <br> <span class="smallest">4 guest per room</span>
+                                                </div>
+                                                <div class="col-xs-6">
+                                                     <p class="righty blue-text">
+                                                        $400.00 USD
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </section>
+
+                                        <section class="roomTypeSec hidden-xs hidden-sm">
                                             <div class="row">
                                                 <div class="col-xs-12 col-sm-3">Room Type:</div>
                                             </div>
@@ -433,12 +478,9 @@
                                                         </tr>
                                                     </table>
                                                 </div>
-                                                <style>
-
-                                                </style>
                                             </div>
                                         </section>
-                                        <section class="priceGuest">
+                                        <section class="priceGuest hidden-xs hidden-sm">
                                             <div class="row">
                                                 <div class="col-xs-12 col-sm-12">
                                                     <table class="table table-responsive roomType">
@@ -462,7 +504,7 @@
                                                 <div class="col-xs-8 col-sm-3">
                                                     <section class="totalGuest">
                                                         <div class="col-xs-12 col-sm-4">
-                                                            <div class="spinner">
+                                                            <div class="spinner large">
                                                                 <input type="number" name="amount" max="10" min="1" value="1" class="amount" />
                                                                 <div class="upDown">
                                                                     <button role="button" class="up"><i class="fa fa-caret-up"></i></button>
@@ -485,18 +527,16 @@
                                         </section>
                                         <section class="guestPerRoom">
                                             <div class="row">
-                                                <div class="col-xs-4 col-sm-3">
+                                                <div class="col-xs-4 col-sm-4 col-md-4">
                                                     <p>Guests per room:</p>
                                                 </div>
                                             </div>
                                             <div class="row gprRow rowOne">
-                                                <div class="col-xs-4 col-sm-3 col-lg-4">
+                                                <div class="col-xs-2 col-sm-2 col-md-4 col-lg-4">
                                                     <p class="parBold">ROOM 1</p>
                                                 </div>
-                                                <div class="vertical-line hidden-xs"></div>
-                                                <div class="hidden-xs hidden-md hidden-lg col-sm-3">
-                                                </div>
-                                                <div class="col-xs-4 col-sm-3 col-lg-4">
+                                                <div class="vertical-line hidden-xs hidden-sm"></div>
+                                                <div class="col-xs-5 col-sm-5 col-md-4 col-lg-4">
                                                     <div class="cellGuest">
                                                         <p>Adults</p>
                                                         <div class="spinner">
@@ -509,7 +549,7 @@
 
                                                     </div>
                                                 </div>
-                                                <div class="col-xs-4 col-sm-3 col-lg-4">
+                                                <div class="col-xs-5 col-sm-5 col-md-4 col-lg-4">
                                                     <div class="cellGuest">
                                                         <p>Children</p>
                                                         <div class="spinner">
@@ -522,15 +562,12 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="row gprRow">
-
-                                                <div class="col-xs-4 col-sm-3 col-lg-4">
+                                            
+                                             <div class="row gprRow">
+                                                <div class="col-xs-2 col-sm-2 col-md-4 col-lg-4">
                                                     <p class="parBold">ROOM 1</p>
                                                 </div>
-                                                <div class="vertical-line2 hidden-xs"></div>
-                                                <div class="hidden-xs hidden-md hidden-lg col-sm-3">
-                                                </div>
-                                                <div class="col-xs-4 col-sm-3 col-lg-4">
+                                                <div class="col-xs-5 col-sm-5 col-md-4 col-lg-4">
                                                     <div class="cellGuest">
                                                         <p>Adults</p>
                                                         <div class="spinner">
@@ -543,7 +580,7 @@
 
                                                     </div>
                                                 </div>
-                                                <div class="col-xs-4 col-sm-3 col-lg-4">
+                                                <div class="col-xs-5 col-sm-5 col-md-4 col-lg-4">
                                                     <div class="cellGuest">
                                                         <p>Children</p>
                                                         <div class="spinner">
@@ -553,11 +590,10 @@
                                                                 <button role="button" class="down"><i class="fa fa-caret-down"></i></button>
                                                             </div>
                                                         </div>
-
                                                     </div>
                                                 </div>
                                             </div>
-                                        </section>
+                                      </section>
                                         <section class="additionalNights">
                                             <div class="row">
                                                 <div class="col-xs-12 col-sm-5">

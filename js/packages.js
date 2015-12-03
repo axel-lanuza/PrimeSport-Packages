@@ -6,7 +6,7 @@
                 $carouselMobile = $("#myCarouselMobile");
 
             $('#myCarousel').carousel({
-                interval: 4000
+                interval: 8000
             });
 
             $(".spinner").find("button.up").each(function () {
@@ -37,18 +37,30 @@
                 });
             });
 
+            if (window.innerWidth < 992) {
+                $("#paddTop").removeClass("container")
+                    .addClass("container-fluid");
+            } else {
+                $("#paddTop").removeClass("container-fluid")
+                    .addClass("container");
+            }
+
             if (window.innerWidth < 768) {
-                console.log("click");
+                console.log("resizing");
                 $contract.attr("role", "tabpanel")
                     .addClass("tab-panel active");
                 $transact.attr("role", "tabpanel")
                     .addClass("tab-panel")
                     .removeClass("bg-grey");
+                if ($transact.hasClass('active')) {
+                    $contract.toggleClass("active");
+                }
                 $carousel.remove();
                 $carouselMobile.append($carousel);
                 $('#myCarousel').carousel({
-                    interval: 6000
+                    interval: 9000
                 });
+
 
                 $("#myCarousel .carousel-inner").swipe({
                     //Generic swipe handler for all directions
@@ -68,6 +80,10 @@
                     .removeClass("tab-panel active");
                 $carousel.remove();
                 $("#carouselDesktop").append($carousel);
+                $contract.show();
+                $transact.show();
+
+
             }
         }
         resizeWindow();
