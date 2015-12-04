@@ -164,7 +164,8 @@
   }
   
   #pagePackages .accordion .panel-heading {
-      height: 40px;
+      height: 50px;
+      border-radius: 5px;
       background: -webkit-linear-gradient(3deg, #024b78 0%, rgba(2, 75, 120, 0.360784) 100%);
       background: -moz-linear-gradient(3deg, #024b78 0%, rgba(2, 75, 120, 0.360784) 100%);
       background: -o-linear-gradient(3deg, #024b78 0%, rgba(2, 75, 120, 0.360784) 100%);
@@ -173,7 +174,7 @@
       background-color: #222222;
       color: white;
       text-align: left;
-      padding: 0 12px 0 3%;
+      padding: 7px 12px 0 3%;
       text-transform: uppercase;
   }
   
@@ -187,7 +188,7 @@
   }
   
   #pagePackages .accordion .panel-heading a {
-      font-size: 1.2rem;
+      font-size: 1.5rem;
       margin-right: 0.5rem;
   }
   
@@ -200,7 +201,7 @@
   #pagePackages .accordion .panel-heading a:after {
       font-family: 'carets';
       content: "\e903";
-      font-size: 2.5rem;
+      font-size: 3.5rem;
       font-weight: 100;
       color: #FFF !important;
   }
@@ -208,7 +209,7 @@
   #pagePackages .accordion .panel-heading a:not(.collapsed):after {
       font-family: 'carets';
       content: "\e901" !important;
-      font-size: 2.5rem;
+      font-size: 3.5rem;
       font-weight: 100;
       color: #FFF !important;
   }
@@ -668,7 +669,11 @@
   }
   
   section#transact {
-      padding-left: 2rem;
+      padding-left: 4rem;
+  }
+  
+  section#contract {
+      padding-right: 4rem;
   }
   /* Options & Upgrades */
   
@@ -754,6 +759,12 @@
   }
   
   @media (max-width: 768px) {
+      #pagePackages #contract, #pagePackages #transact {
+          padding: 0 1rem 0 1rem; 
+      }
+      #pagePackages .accordion .panel-heading a:after {
+          right: -1rem;
+      }
       .tabs .nav-tabs {
           margin-bottom: 34px;
       }
@@ -790,12 +801,12 @@
           height: 50rem;
       }
       #pagePackages .selling-content .accordion {
-          margin-top: -31px;
+          margin-top: -22px;
       }
       #pagePackages .selling-content .accordion .panel-heading h4 a:after {
           font-family: 'carets';
           content: "\e903";
-          font-size: 2.5rem;
+          font-size: 3.5rem;
           font-weight: 100;
       }
       #pagePackages #contract .col-xs-12.col-sm-12 {
@@ -902,7 +913,7 @@
           padding-left: 15px;
       }
       #pagePackages #transact #accordion-general {
-          margin-top: -9px;
+          margin-top: 0px;
       }
       #pagePackages .guestPerRoom .cellGuest .spinner:nth-child(even) {
           margin-left: 2rem;
