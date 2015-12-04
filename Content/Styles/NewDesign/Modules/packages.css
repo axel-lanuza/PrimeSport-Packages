@@ -338,8 +338,8 @@
   }
   
   #pagePackages .updateOrder {
-      width: 230px;
-      height: 45px;
+      width: 200px;
+      height: 40px;
   }
   /*tables*/
   
@@ -705,8 +705,16 @@
       letter-spacing: 0.1rem;
   }
   
+  #pagePackages .checkout {
+      overflow: hidden;
+      height: 60px;
+      margin-top: 2rem;
+      text-align: center;
+      display: none;
+  }
+  
   #pagePackages #reviewPackage #checkoutPackages {
-      width: 50%;
+      width: 300px
   }
   /* Media queries */
   
@@ -729,7 +737,19 @@
       }
       #pagePackages .guestPerRoom .cellGuest p,
       #pagePackages .guestPerRoom .cellGuest .spinner {
-          display: inline-block
+          display: inline-block;
+      }
+      #pagePackages .guestPerRoom .cellGuest .spinner:nth-child(even) {
+          margin-left: -11px;
+      }
+  }
+  
+  @media (max-width: 1024px) {
+      #pagePackages .totalsGlobal p.pricePack {
+          font-size: 2.4rem;
+      }
+      #pagePackages .totalsGlobal .priceTag {
+          font-size: 1.4rem;
       }
   }
   
@@ -883,6 +903,9 @@
       }
       #pagePackages #transact #accordion-general {
           margin-top: -9px;
+      }
+      #pagePackages .guestPerRoom .cellGuest .spinner:nth-child(even) {
+          margin-left: 2rem;
       }
       #pagePackages .totalGues {
           width: 100%;
